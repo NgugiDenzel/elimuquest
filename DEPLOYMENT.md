@@ -1,6 +1,6 @@
 # ElimuQuest deployment handover
 
-**Status (2026-10-29):** Neon Free project `elimuquest-beta` is in AWS US East 2 (Ohio). Render Free service `elimuquest-api` was created in Ohio at `https://elimuquest-api.onrender.com`, but its first deployments failed because a dashboard command override did not execute through a shell. A Docker startup wrapper has been added locally and is awaiting deployment; health/readiness have not yet passed. No Cloudflare Pages site has been created.
+**Status (2026-10-29):** Neon Free project `elimuquest-beta` is in AWS US East 2 (Ohio), and Render Free service `elimuquest-api` is live in Ohio at `https://elimuquest-api.onrender.com`. `/health` and `/readiness` returned HTTP 200; all three Alembic revisions applied; synthetic registration/login, protected access, anonymous 401 behavior, CORS preflight, and login persistence after a service restart were verified. The database contains only the synthetic smoke account created for these checks; no real learner data was migrated or entered. No frontend has been deployed: the Cloudflare dashboard's Pages creation route fails to load its module scripts, and GitHub Pages is unavailable for this private repository on the current plan.
 **Target:** A synthetic-data technical preview using Cloudflare Pages, Render Free, and Neon Free.
 **Do not invite real learners:** The existing Phase Six beta gate is not ready for real student data.
 
@@ -53,7 +53,7 @@ Use the same region for Render and the Neon project where practical. Do not copy
 
 ### 3. Create the Cloudflare Pages frontend
 
-1. In [Cloudflare Pages](https://dash.cloudflare.com/), create a Pages project and connect the existing GitHub repository. Set production branch to `main`. The current authenticated account dashboard is returning 403/script errors; no Pages project has been created.
+1. In [Cloudflare Pages](https://dash.cloudflare.com/), create a Pages project and connect the existing GitHub repository. Set production branch to `main`. The current authenticated account dashboard's Pages creation route fails with module-script loading errors; no Pages project has been created yet.
 2. Configure the build:
 
    | Setting | Value |
@@ -69,7 +69,7 @@ Use the same region for Render and the Neon project where practical. Do not copy
 5. Redeploy after setting the API variable. Cloudflare's Git integration should deploy subsequent pushes to `main` automatically.
 6. Add the exact Pages origin (scheme and hostname, no path or trailing slash) to Render's `CORS_ORIGINS` and redeploy/restart the API if needed.
 
-**Alternative:** The existing GitHub Pages workflow is retained. It needs the repository Actions variable `EXPO_PUBLIC_API_URL`, Pages configured to use **GitHub Actions**, and uses the `/elimuquest` base path. Cloudflare Pages is the recommended path here because it avoids the GitHub project-site subpath.
+**Alternative:** The existing GitHub Pages workflow is retained. It needs the repository Actions variable `EXPO_PUBLIC_API_URL`, Pages configured to use **GitHub Actions**, and uses the `/elimuquest` base path. GitHub currently reports that Pages requires upgrading the plan or making this private repository public; do not make it public or incur a charge. Cloudflare Pages remains the preferred option because it avoids the GitHub project-site subpath.
 
 ## Verification checklist
 

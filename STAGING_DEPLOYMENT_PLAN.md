@@ -1,6 +1,6 @@
 # ElimuQuest Staging Deployment Plan
 
-**Status:** Planning only — no service, database, EAS project, or deployment was created.
+**Status:** This document remains a planning-only assessment of EAS Hosting. A separate Neon Free/Render Free preview has since been provisioned; see [DEPLOYMENT.md](./DEPLOYMENT.md) for its current status. No EAS project or deployment was created.
 **Assessment date:** 2026-10-29
 **Target:** A staging-only web preview using EAS Hosting, Render FastAPI, and PostgreSQL.
 **Release decision:** Do not invite real students or teachers until the blockers below are closed and the learner workflow is verified in staging.
