@@ -1,6 +1,6 @@
 # ElimuQuest deployment handover
 
-**Status:** Neon Free project `elimuquest-beta` and its default PostgreSQL branch have been created in AWS US East 2 (Ohio). Render GitHub authorization is approved, but Render account onboarding is blocked at its hCaptcha/email-confirmation step. No schema migrations have run, and no Render API or Cloudflare Pages site has been deployed.
+**Status (2026-10-29):** Neon Free project `elimuquest-beta` is in AWS US East 2 (Ohio). Render Free service `elimuquest-api` was created in Ohio at `https://elimuquest-api.onrender.com`, but its first deployments failed because a dashboard command override did not execute through a shell. A Docker startup wrapper has been added locally and is awaiting deployment; health/readiness have not yet passed. No Cloudflare Pages site has been created.
 **Target:** A synthetic-data technical preview using Cloudflare Pages, Render Free, and Neon Free.
 **Do not invite real learners:** The existing Phase Six beta gate is not ready for real student data.
 
@@ -11,7 +11,7 @@
 - The frontend reads `EXPO_PUBLIC_API_URL` at build time. Set it to the HTTPS API origin only, without `/api/v1` or a trailing slash. It is public client configuration, not a secret.
 - The FastAPI entry point is `app.main:app` and its readiness endpoint is `/readiness`.
 - `backend/pyproject.toml` includes FastAPI, Uvicorn, SQLAlchemy, Alembic, and psycopg 3. The models and migrations use SQLAlchemy types supported by PostgreSQL.
-- `backend/Dockerfile` binds Uvicorn to Render's `PORT` (with local fallback `8000`). A Render start-command override is required to apply Alembic migrations before starting the API.
+- `backend/Dockerfile` uses `backend/start.sh` to apply Alembic migrations and then bind Uvicorn to Render's `PORT` (with local fallback `8000`).
 - The database is configured with `DATABASE_URL`; production settings reject the default local SQLite URL and the development JWT secret.
 
 ## Configure the services
@@ -32,18 +32,11 @@ Use the same region for Render and the Neon project where practical. Do not copy
 
 ### 2. Create the Render API
 
-1. Complete Render account onboarding. GitHub OAuth approval for the repository integration has been granted; the current onboarding page requires the account email confirmation and hCaptcha check to complete.
-2. In [Render](https://dashboard.render.com/), create a **Web Service** from `NgugiDenzel/elimuquest`.
-3. Set **Root Directory** to `backend`, runtime to **Docker**, and Dockerfile path to `Dockerfile`. Choose **Free** only for this synthetic-data preview.
-4. Set the Docker command to run migrations and then Uvicorn on Render's assigned port:
-
-   ```sh
-   /bin/sh -c 'alembic upgrade head && exec uvicorn app.main:app --host 0.0.0.0 --port "${PORT:-8000}"'
-   ```
-
-   Keep this service to one instance while migrations are run at startup.
-5. Set the health-check path to `/readiness`.
-6. Add these environment variables in Render's service settings:
+1. In [Render](https://dashboard.render.com/), use the existing `elimuquest-api` Web Service from `NgugiDenzel/elimuquest`; do not create a duplicate service.
+2. Set **Root Directory** to `backend`, runtime to **Docker**, and Dockerfile path to `Dockerfile`. The service is on the **Free** plan; keep it limited to this synthetic-data preview.
+3. Leave **Docker Command** blank so Render uses the Dockerfile's `CMD ["sh", "start.sh"]`. Keep the service to one instance while migrations are run at startup.
+4. Set the health-check path to `/readiness`.
+5. Add these environment variables in Render's service settings:
 
    | Name | Value |
    |---|---|
@@ -56,7 +49,7 @@ Use the same region for Render and the Neon project where practical. Do not copy
    | `LOG_LEVEL` | `INFO` |
 
    Generate the JWT secret locally, then enter it directly in Render (for example, in PowerShell: `python -c "import secrets; print(secrets.token_urlsafe(48))"`). Never commit or share the generated value.
-7. Deploy and wait for the service to become healthy. Record the assigned HTTPS origin as `https://<service>.onrender.com`.
+6. Deploy and wait for the service to become healthy. The current service origin is `https://elimuquest-api.onrender.com`.
 
 ### 3. Create the Cloudflare Pages frontend
 

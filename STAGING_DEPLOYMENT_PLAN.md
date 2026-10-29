@@ -22,7 +22,7 @@
 - The Expo app uses SDK 58.0.21, Expo Router 58.0.28, React Native 0.88.1, and TypeScript. `app.json` does not set `web.output`; the currently successful export produced a single `dist/index.html` plus static assets. EAS Hosting supports this SPA output. Confirm direct routes and browser refresh on the staging URL before beta.
 - There is no `eas.json` or existing EAS project link. EAS project linking and choosing a preview subdomain are one-time setup steps; this plan does not perform them. EAS preview URLs are publicly reachable by URL; an alias is not access control.
 - `backend/pyproject.toml` requires Python 3.12 or later and includes FastAPI, Uvicorn, SQLAlchemy, Alembic, and `psycopg[binary]`.
-- The existing `backend/Dockerfile` uses Python 3.12, binds to Render's `PORT` (falling back to 8000 locally), and starts Uvicorn without applying migrations. Use Render's Docker runtime with the dashboard Docker Command override below to run Alembic before Uvicorn; keep the service at one instance while startup migrations are used.
+- The existing `backend/Dockerfile` uses Python 3.12 and runs `backend/start.sh`, which applies Alembic migrations before starting Uvicorn on Render's `PORT` (falling back to 8000). Leave Render's Docker Command override blank so the image default is used; keep the service at one instance while startup migrations are used.
 - The SQLAlchemy engine only adds SQLite-specific connection arguments for SQLite; `Uuid`, `JSON`, and the declared models are SQLAlchemy types. Alembic reads the same `DATABASE_URL`. The PostgreSQL URL must use the installed psycopg 3 dialect.
 - Migrations are:
   1. `b60788453753_initial_learning_platform_schema.py`
@@ -49,13 +49,7 @@ Create these only after reviewing the release blockers and deciding to proceed w
 1. Create a **Web Service** linked to the ElimuQuest repository and the intended staging branch.
 2. Set **Root Directory** to `backend`.
 3. Choose the **Docker** runtime. Set **Dockerfile Path** to `Dockerfile` and **Docker Context Directory** to `.` relative to the configured root directory. The Dockerfile installs `pyproject.toml` dependencies and copies the app and Alembic files from this directory.
-4. Override the Docker command in the service's **Docker Command** field with:
-
-   ```sh
-   /bin/sh -c 'alembic upgrade head && exec uvicorn app.main:app --host 0.0.0.0 --port "$PORT"'
-   ```
-
-   This replaces the Dockerfile's hardcoded-port `CMD`, runs schema migrations, then binds Uvicorn to Render's assigned port. Keep this first staging service at one instance; do not run simultaneous startup migrations on multiple replicas. For a scaled service, move migrations to a serialized release/pre-deploy step supported by the selected Render plan before scaling.
+4. Leave the service's **Docker Command** field blank so the Dockerfile's `CMD ["sh", "start.sh"]` runs migrations and starts Uvicorn on Render's assigned port. Keep this first staging service at one instance; do not run simultaneous startup migrations on multiple replicas. For a scaled service, move migrations to a serialized release/pre-deploy step supported by the selected Render plan before scaling.
 5. Set the health-check path to:
 
    ```text
