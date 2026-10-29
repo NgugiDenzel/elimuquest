@@ -22,7 +22,7 @@
 - The Expo app uses SDK 58.0.21, Expo Router 58.0.28, React Native 0.88.1, and TypeScript. `app.json` does not set `web.output`; the currently successful export produced a single `dist/index.html` plus static assets. EAS Hosting supports this SPA output. Confirm direct routes and browser refresh on the staging URL before beta.
 - There is no `eas.json` or existing EAS project link. EAS project linking and choosing a preview subdomain are one-time setup steps; this plan does not perform them. EAS preview URLs are publicly reachable by URL; an alias is not access control.
 - `backend/pyproject.toml` requires Python 3.12 or later and includes FastAPI, Uvicorn, SQLAlchemy, Alembic, and `psycopg[binary]`.
-- The existing `backend/Dockerfile` uses Python 3.12 but hardcodes port 8000 and starts Uvicorn without applying migrations. Use Render's Docker runtime with a dashboard Docker Command override below; do not deploy the existing image command unchanged.
+- The existing `backend/Dockerfile` uses Python 3.12, binds to Render's `PORT` (falling back to 8000 locally), and starts Uvicorn without applying migrations. Use Render's Docker runtime with the dashboard Docker Command override below to run Alembic before Uvicorn; keep the service at one instance while startup migrations are used.
 - The SQLAlchemy engine only adds SQLite-specific connection arguments for SQLite; `Uuid`, `JSON`, and the declared models are SQLAlchemy types. Alembic reads the same `DATABASE_URL`. The PostgreSQL URL must use the installed psycopg 3 dialect.
 - Migrations are:
   1. `b60788453753_initial_learning_platform_schema.py`
