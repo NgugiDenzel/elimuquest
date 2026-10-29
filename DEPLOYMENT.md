@@ -1,6 +1,6 @@
 # ElimuQuest deployment handover
 
-**Status:** Not deployed. No Cloudflare, Render, or Neon service was created from this checkout.
+**Status:** Neon Free project `elimuquest-beta` and its default PostgreSQL branch have been created in AWS US East 2 (Ohio). Render GitHub authorization is approved, but Render account onboarding is blocked at its hCaptcha/email-confirmation step. No schema migrations have run, and no Render API or Cloudflare Pages site has been deployed.
 **Target:** A synthetic-data technical preview using Cloudflare Pages, Render Free, and Neon Free.
 **Do not invite real learners:** The existing Phase Six beta gate is not ready for real student data.
 
@@ -18,10 +18,10 @@
 
 Use the same region for Render and the Neon project where practical. Do not copy the repository's SQLite database to a hosted service.
 
-### 1. Create a Neon database
+### 1. Neon database
 
-1. Sign in to [Neon](https://console.neon.tech/) and create a project on the **Free** plan.
-2. Keep the database private to the application connection. Copy its connection string from the Neon dashboard; do not put it in Git, a frontend variable, or chat.
+1. The `elimuquest-beta` project was created on the **Free** plan in AWS US East 2 (Ohio). Its default `production` branch is the target for this synthetic-data preview.
+2. Keep the database private to the application connection. Copy its connection string from the Neon dashboard only into Render's secret `DATABASE_URL`; do not put it in Git, a frontend variable, or chat.
 3. Configure Render's `DATABASE_URL` with that connection string using the SQLAlchemy psycopg driver prefix:
 
    ```text
@@ -32,17 +32,18 @@ Use the same region for Render and the Neon project where practical. Do not copy
 
 ### 2. Create the Render API
 
-1. In [Render](https://dashboard.render.com/), create a **Web Service** from `NgugiDenzel/elimuquest`.
-2. Set **Root Directory** to `backend`, runtime to **Docker**, and Dockerfile path to `Dockerfile`. Choose **Free** only for this synthetic-data preview.
-3. Set the Docker command to run migrations and then Uvicorn on Render's assigned port:
+1. Complete Render account onboarding. GitHub OAuth approval for the repository integration has been granted; the current onboarding page requires the account email confirmation and hCaptcha check to complete.
+2. In [Render](https://dashboard.render.com/), create a **Web Service** from `NgugiDenzel/elimuquest`.
+3. Set **Root Directory** to `backend`, runtime to **Docker**, and Dockerfile path to `Dockerfile`. Choose **Free** only for this synthetic-data preview.
+4. Set the Docker command to run migrations and then Uvicorn on Render's assigned port:
 
    ```sh
    /bin/sh -c 'alembic upgrade head && exec uvicorn app.main:app --host 0.0.0.0 --port "${PORT:-8000}"'
    ```
 
    Keep this service to one instance while migrations are run at startup.
-4. Set the health-check path to `/readiness`.
-5. Add these environment variables in Render's service settings:
+5. Set the health-check path to `/readiness`.
+6. Add these environment variables in Render's service settings:
 
    | Name | Value |
    |---|---|
@@ -55,11 +56,11 @@ Use the same region for Render and the Neon project where practical. Do not copy
    | `LOG_LEVEL` | `INFO` |
 
    Generate the JWT secret locally, then enter it directly in Render (for example, in PowerShell: `python -c "import secrets; print(secrets.token_urlsafe(48))"`). Never commit or share the generated value.
-6. Deploy and wait for the service to become healthy. Record the assigned HTTPS origin as `https://<service>.onrender.com`.
+7. Deploy and wait for the service to become healthy. Record the assigned HTTPS origin as `https://<service>.onrender.com`.
 
 ### 3. Create the Cloudflare Pages frontend
 
-1. In [Cloudflare Pages](https://dash.cloudflare.com/), create a Pages project and connect the existing GitHub repository. Set production branch to `main`.
+1. In [Cloudflare Pages](https://dash.cloudflare.com/), create a Pages project and connect the existing GitHub repository. Set production branch to `main`. The current authenticated account dashboard is returning 403/script errors; no Pages project has been created.
 2. Configure the build:
 
    | Setting | Value |
