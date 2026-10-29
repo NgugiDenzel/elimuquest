@@ -1,0 +1,234 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": true,
+  "is_demo": false,
+  "curriculum_system": "CBC_CBE",
+  "curriculum_level": "Grade 6",
+  "curriculum_version": "KICD-G6-VERSION-UNVERIFIED",
+  "subject_slug": "english-grade-6",
+  "topic_slug": "reading-and-vocabulary",
+  "topic_name": "Reading and Vocabulary",
+  "topic_source_reference": null,
+  "source_id": null,
+  "lessons": [
+    {
+      "slug": "grade-6-reading-main-ideas",
+      "content_version": 1,
+      "sort_order": 1,
+      "title": "Reading for main ideas",
+      "description": "Learn to identify the key message in a paragraph and support it with details.",
+      "content": "When we read, we do not only look at individual words. We also ask: What is the text mostly about? This is the main idea. Supporting details explain and strengthen the main idea.",
+      "learning_objectives": [
+        "Identify the main idea in a short paragraph.",
+        "Find details that support the main idea.",
+        "Differentiate between the main idea and a detail."
+      ],
+      "prerequisites": ["Reading short texts with understanding"],
+      "explanation_sections": [
+        {
+          "title": "How to find the main idea",
+          "body": "Read the paragraph carefully. Ask, 'What is the writer telling me most strongly?' The sentence that carries the general message is often the main idea. The other sentences may give examples, reasons, or extra facts."
+        },
+        {
+          "title": "Example",
+          "body": "A paragraph says: 'Many birds migrate because they need warmer weather and more food.' The main idea is that birds migrate for survival. The supporting details are the reasons: warmer weather and food."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "In the sentence 'The school garden helps learners study plant growth and care for the environment', what is the main idea?",
+          "solution": "The school garden is useful for learning and caring for the environment.",
+          "reasoning": "The sentence tells the overall point about the value of the garden, while the rest of the text would explain how it helps learners."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "What is a main idea in a paragraph?",
+          "question_type": "multiple_choice",
+          "options": [
+            "The smallest detail in the paragraph",
+            "The biggest idea the paragraph is about",
+            "A word that is repeated many times",
+            "The title only"
+          ],
+          "correct_answer": "The biggest idea the paragraph is about",
+          "explanation": "The main idea is the overall message of the paragraph, while details support it."
+        },
+        {
+          "prompt": "Which sentence best supports the main idea 'School libraries help learners read more'?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Books are useful for knowledge.",
+            "The library provides many books and quiet space for reading.",
+            "Reading is enjoyable.",
+            "A school has classrooms."
+          ],
+          "correct_answer": "The library provides many books and quiet space for reading.",
+          "explanation": "This sentence gives evidence that the library creates opportunities for reading.",
+          "difficulty": "intermediate"
+        },
+        {
+          "prompt": "A paragraph about the benefits of rain for crops is mainly about what?",
+          "question_type": "multiple_choice",
+          "options": [
+            "How to plant seeds",
+            "Why rain is important for crops",
+            "The types of crops in a market",
+            "How farmers travel to the farm"
+          ],
+          "correct_answer": "Why rain is important for crops",
+          "explanation": "The paragraph focuses on the central idea that rain supports crop growth.",
+          "difficulty": "intermediate"
+        }
+      ]
+    },
+    {
+      "slug": "grade-6-context-clues-vocabulary",
+      "content_version": 1,
+      "sort_order": 2,
+      "title": "Using context clues",
+      "description": "Use clues in a sentence to work out the meaning of unfamiliar words.",
+      "content": "Sometimes a word is unfamiliar, but the surrounding words can help us understand its meaning. We can use context clues, which are hints in the sentence or paragraph.",
+      "learning_objectives": [
+        "Use sentence clues to infer word meaning.",
+        "Identify examples and explanations around a new word.",
+        "Choose a sensible meaning for a difficult word."
+      ],
+      "prerequisites": ["Recognise common synonyms and antonyms"],
+      "explanation_sections": [
+        {
+          "title": "Context clues",
+          "body": "Look at the words before and after an unfamiliar word. If the sentence says, 'The tired traveller sat under a shady tree,' the word shady may mean cool or providing shade. The surrounding sentence makes the meaning clear."
+        },
+        {
+          "title": "Clue types",
+          "body": "Examples, definitions, and contrast words all help. For example, 'The room was silent, except for a tiny ticking sound.' Silent means very quiet."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "What does the word 'jubilant' mean in the sentence 'The children were jubilant when the rain finally came after a long dry spell'?",
+          "solution": "Jubilant means extremely happy or joyful.",
+          "reasoning": "The sentence gives a clear clue: the rain came after a long dry spell, so the children were pleased and excited."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "In the sentence 'The river was shallow, so the children could easily wade across', what does shallow mean?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Very deep",
+            "Not very deep",
+            "Dry and dusty",
+            "Unclear"
+          ],
+          "correct_answer": "Not very deep",
+          "explanation": "The sentence explains that children could walk across it, which suggests the water is not deep."
+        },
+        {
+          "prompt": "Which word best matches the clues in 'The old man was cautious; he checked both sides before crossing the road'?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Careful",
+            "Fast",
+            "Sleepy",
+            "Noisy"
+          ],
+          "correct_answer": "Careful",
+          "explanation": "The clue 'checked both sides before crossing' shows that he was careful and alert.",
+          "difficulty": "intermediate"
+        },
+        {
+          "prompt": "If a text says 'The puppy was timid and hid behind the chair', what is the meaning of timid?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Brave",
+            "Shy and fearful",
+            "Very playful",
+            "Hungry"
+          ],
+          "correct_answer": "Shy and fearful",
+          "explanation": "The way the puppy hides indicates that it is shy and afraid.",
+          "difficulty": "intermediate"
+        }
+      ]
+    },
+    {
+      "slug": "grade-6-punctuation-and-sentence-types",
+      "content_version": 1,
+      "sort_order": 3,
+      "title": "Punctuation and sentence types",
+      "description": "Use punctuation correctly and recognise the difference between statements, questions, and commands.",
+      "content": "Punctuation helps us read and write clearly. Full stops, question marks, commas, and exclamation marks guide meaning and expression.",
+      "learning_objectives": [
+        "Use capital letters and punctuation correctly.",
+        "Identify statement, question, command, and exclamation sentences.",
+        "Punctuate a simple sentence accurately."
+      ],
+      "prerequisites": ["Sentence building and basic writing"],
+      "explanation_sections": [
+        {
+          "title": "Sentence types",
+          "body": "A statement gives information: 'The learners are writing their project.' A question asks for information: 'When will the class visit the museum?' A command tells someone to do something: 'Listen carefully.' An exclamation shows strong feeling: 'What a great idea!'"
+        },
+        {
+          "title": "Punctuation rules",
+          "body": "Use a full stop at the end of a statement or command. Use a question mark for a question. Use an exclamation mark for strong feelings or commands with excitement. Use commas to separate items in a list."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "Rewrite the sentence with correct punctuation: 'please bring your notebook and ruler to class'",
+          "solution": "Please bring your notebook and ruler to class.",
+          "reasoning": "This is a polite command, so it begins with a capital letter and ends with a full stop."
+        }
+      ],
+      "source_reference": "Purdue OWL at Purdue University, Punctuation, section Punctuation, https://owl.purdue.edu/owl/general_writing/punctuation/index.html; accessed 2026-10-29. Original explanations; no text reproduced.",
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "Which sentence is a question?",
+          "question_type": "multiple_choice",
+          "options": [
+            "The pupils are ready for the lesson.",
+            "Why are the pupils ready for the lesson?",
+            "Listen carefully to the instructions.",
+            "What a lively class!"
+          ],
+          "correct_answer": "Why are the pupils ready for the lesson?",
+          "explanation": "A question asks for information and ends with a question mark."
+        },
+        {
+          "prompt": "Which punctuation mark is best for the sentence 'What a wonderful performance!'?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Period",
+            "Question mark",
+            "Exclamation mark",
+            "Comma"
+          ],
+          "correct_answer": "Exclamation mark",
+          "explanation": "The sentence expresses strong emotion, so an exclamation mark is suitable.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Choose the sentence that correctly uses a comma after an introductory phrase.",
+          "question_type": "multiple_choice",
+          "options": [
+            "After the lesson, we will visit the library.",
+            "After the lesson we, will visit the library.",
+            "After, the lesson we will visit the library.",
+            "After the lesson we will, visit the library."
+          ],
+          "correct_answer": "After the lesson, we will visit the library.",
+          "explanation": "A comma separates the introductory phrase 'After the lesson' from the main clause.",
+          "difficulty": "intermediate"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": true,
+  "is_demo": false,
+  "curriculum_system": "CBC_CBE",
+  "curriculum_level": "Grade 9",
+  "curriculum_version": "KICD-G9-2024-07",
+  "subject_slug": "english-grade-9",
+  "topic_slug": "grammar-voice-and-reported-speech",
+  "topic_name": "Voice and Reported Speech",
+  "topic_source_reference": null,
+  "source_id": null,
+  "lessons": [
+    {
+      "slug": "grade-9-english-active-and-passive-voice",
+      "content_version": 1,
+      "sort_order": 1,
+      "title": "Active and passive voice",
+      "description": "Recognise active and passive constructions and preserve meaning when changing voice.",
+      "content": "In the active voice, the subject performs the action: “The team planted trees.” In the passive voice, the receiver of the action becomes the subject: “Trees were planted by the team.” The passive form uses a suitable form of be with a past participle, such as was planted or are made. Use it when the receiver or result is more important than the doer.",
+      "learning_objectives": [
+        "Identify the doer and receiver of an action in a sentence.",
+        "Distinguish active voice from passive voice.",
+        "Change a simple active sentence to passive voice while keeping its tense and meaning."
+      ],
+      "prerequisites": [
+        "Identify subjects and objects in simple sentences.",
+        "Recognise common past participles."
+      ],
+      "explanation_sections": [
+        {
+          "title": "How the two voices differ",
+          "body": "The active sentence usually follows doer + verb + receiver: “The learners cleaned the room.” In the passive version, the receiver leads: “The room was cleaned by the learners.” The words by the learners may be left out when the doer is unknown or not important."
+        },
+        {
+          "title": "Keep tense and agreement",
+          "body": "When changing voice, keep the original tense. “The class collects bottles” becomes “Bottles are collected by the class”; “The class collected bottles” becomes “Bottles were collected by the class.” The passive verb must agree with its new subject, and the past participle follows the form of be."
+        },
+        {
+          "title": "Quick recap",
+          "body": "In the active voice, the subject does the action; in the passive voice, the subject receives it. When changing voice, keep the tense and make the verb agree with the new subject."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "Change “The caretaker locked the gate” to passive voice.",
+          "solution": "The gate was locked by the caretaker.",
+          "reasoning": "The gate receives the action, so it becomes the subject. Locked is the past participle, and was keeps the past tense."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "Which sentence is in the passive voice?",
+          "question_type": "multiple_choice",
+          "options": [
+            "The pupils watered the seedlings.",
+            "The seedlings were watered by the pupils.",
+            "The pupils are watering the seedlings.",
+            "The pupils will water the seedlings."
+          ],
+          "correct_answer": "The seedlings were watered by the pupils.",
+          "explanation": "The receiver, the seedlings, is the subject, followed by were and the past participle watered.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Choose the correct passive form of “The chef prepares the meal.”",
+          "question_type": "multiple_choice",
+          "options": [
+            "The meal is prepared by the chef.",
+            "The meal was prepare by the chef.",
+            "The chef is prepared by the meal.",
+            "The meal prepares the chef."
+          ],
+          "correct_answer": "The meal is prepared by the chef.",
+          "explanation": "The meal receives the action, and the present-tense passive uses is with the past participle prepared.",
+          "difficulty": "intermediate"
+        },
+        {
+          "prompt": "Why might a writer use “The broken window was repaired yesterday” instead of naming who repaired it?",
+          "question_type": "multiple_choice",
+          "options": [
+            "The person who repaired it may be unknown or unimportant.",
+            "Passive sentences never use verbs.",
+            "The writer wants to change the past into the future.",
+            "A window can perform the action of repairing."
+          ],
+          "correct_answer": "The person who repaired it may be unknown or unimportant.",
+          "explanation": "The passive voice can focus on the receiver or result when the doer does not need to be identified.",
+          "difficulty": "intermediate"
+        }
+      ]
+    },
+    {
+      "slug": "grade-9-english-direct-and-reported-speech",
+      "content_version": 1,
+      "sort_order": 2,
+      "title": "Direct and reported speech",
+      "description": "Report what someone said by adjusting pronouns, tense and time expressions where needed.",
+      "content": "Direct speech gives a speaker’s exact words in quotation marks: “I am ready,” said Ali. Reported speech tells what the speaker said without quoting the exact words: Ali said that he was ready. When the reporting verb is in the past, pronouns and verb tenses often shift to match the reporting situation.",
+      "learning_objectives": [
+        "Distinguish direct speech from reported speech.",
+        "Change pronouns and verb tense appropriately when reporting a statement.",
+        "Use reporting verbs and punctuation correctly in simple examples."
+      ],
+      "prerequisites": [
+        "Recognise pronouns and present and past verb forms."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Reporting a statement",
+          "body": "In direct speech, quotation marks enclose the speaker’s words. In reported speech, quotation marks are not used; a reporting verb such as said or explained introduces the message. If the speaker says “I”, the pronoun may change to he or she according to who spoke."
+        },
+        {
+          "title": "Adjust tense and time carefully",
+          "body": "With a past reporting verb, present simple often changes to past simple: “I need help” becomes She said that she needed help. Present progressive often changes to past progressive. Time words may also change when the reporting happens later: today can become that day. Make these changes only when the reporting context requires them."
+        },
+        {
+          "title": "Quick recap",
+          "body": "Direct speech gives a speaker?s exact words; reported speech conveys the message without quoting it. Adjust pronouns and, where the context requires, tense and time expressions."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "Report the statement: “We are practising for the concert,” the learners said.",
+          "solution": "The learners said that they were practising for the concert.",
+          "reasoning": "We changes to they because the learners are being discussed, and are practising shifts to were practising after the past reporting verb said."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "Choose the correct reported form of: “I enjoy reading,” Mary said.",
+          "question_type": "multiple_choice",
+          "options": [
+            "Mary said that she enjoyed reading.",
+            "Mary said, “she enjoyed reading.”",
+            "Mary says that I enjoyed reading.",
+            "Mary said that he enjoy reading."
+          ],
+          "correct_answer": "Mary said that she enjoyed reading.",
+          "explanation": "I changes to she because Mary is being discussed, and enjoy changes to enjoyed after the past reporting verb said.",
+          "difficulty": "intermediate"
+        },
+        {
+          "prompt": "Which feature belongs to direct speech?",
+          "question_type": "multiple_choice",
+          "options": [
+            "The speaker’s exact words are enclosed in quotation marks.",
+            "The speaker’s words are always changed to the past tense.",
+            "The sentence must begin with the word that.",
+            "The speaker is never identified."
+          ],
+          "correct_answer": "The speaker’s exact words are enclosed in quotation marks.",
+          "explanation": "Quotation marks show the exact words spoken in direct speech.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Choose the correct reported form of: “I will visit you tomorrow,” Peter said to Amina.",
+          "question_type": "multiple_choice",
+          "options": [
+            "Peter told Amina that he would visit her the next day.",
+            "Peter told Amina that I will visit you tomorrow.",
+            "Peter told Amina that she would visit him yesterday.",
+            "Peter said Amina would visit him the next day."
+          ],
+          "correct_answer": "Peter told Amina that he would visit her the next day.",
+          "explanation": "I refers to Peter and you refers to Amina; will commonly shifts to would and tomorrow to the next day in this later report.",
+          "difficulty": "intermediate"
+        }
+      ]
+    }
+  ]
+}

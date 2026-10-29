@@ -1,0 +1,175 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": true,
+  "is_demo": false,
+  "curriculum_system": "8_4_4",
+  "curriculum_level": "Form 4",
+  "curriculum_version": "KICD-844-VERSION-UNVERIFIED",
+  "subject_slug": "kiswahili-form-4",
+  "topic_slug": "ufahamu-na-ufupisho",
+  "topic_name": "Ufahamu na Ufupisho",
+  "topic_source_reference": null,
+  "source_id": null,
+  "lessons": [
+    {
+      "slug": "form-4-kiswahili-kutoa-hitimisho-kutokana-na-ufahamu",
+      "content_version": 1,
+      "sort_order": 1,
+      "title": "Kutoa hitimisho kutokana na ufahamu",
+      "description": "Tumia vidokezo vya kifungu na mantiki kufasiri maana iliyodokezwa bila kubuni taarifa.",
+      "content": "Msomaji anaweza kupata maana ambayo haijasemwa moja kwa moja kwa kuunganisha vidokezo vya kifungu na maarifa yanayofaa. Hitimisho zuri huzingatia matendo, uchaguzi wa maneno, mazingira na matokeo yaliyoelezwa. Ni lazima lifuate ushahidi wa kifungu badala ya maoni yasiyothibitishwa.",
+      "learning_objectives": [
+        "Kutofautisha taarifa iliyo wazi na maana iliyodokezwa.",
+        "Kutoa hitimisho linaloungwa mkono na kidokezo maalumu cha kifungu.",
+        "Kurekebisha tafsiri inapokinzana na ushahidi mpya."
+      ],
+      "prerequisites": [
+        "Kubainisha wazo kuu na maelezo yanayoliunga mkono katika aya."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Unganisha kidokezo na maana",
+          "body": "Tambua maelezo yaliyoandikwa, jiulize yanadokeza nini, kisha hakikisha jibu lako linaafikiana na sehemu nyingine ya kifungu. Kwa mfano, mtu akifunika vyombo na kuvipeleka ndani mawingu mazito yanapotanda, huenda anajiandaa kwa mvua."
+        },
+        {
+          "title": "Thibitisha kwa ushahidi",
+          "body": "Taja hitimisho lako pamoja na kidokezo kilichokupa msingi wa kufikiri hivyo. Epuka kudai kuwa jambo limehakikishwa ikiwa kifungu kinatoa uwezekano tu; vidokezo vingine vinaweza kubadilisha tafsiri."
+        },
+        {
+          "title": "Quick recap",
+          "body": "Hitimisho zuri huunganisha kidokezo cha kifungu na mantiki; litaje ushahidi na ulirekebishe ikiwa maelezo mapya yanabadilisha maana."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "Kifungu kinasema: 'Neema aliweka vitabu vyake kwenye mfuko usioingiza maji kabla ya kuondoka, huku radi ikisikika.' Ni hitimisho gani linalofaa kuhusu hatua ya Neema?",
+          "solution": "Neema anajitayarisha kulinda vitabu vyake kutokana na mvua.",
+          "reasoning": "Mfuko usioingiza maji pamoja na radi inayosikika vinaunga mkono hitimisho hilo, ingawa kifungu hakisemi moja kwa moja kwamba mvua itanyesha."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "Hitimisho linalotokana na ufahamu hujengwa kwa njia gani?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Kuunganisha vidokezo vya kifungu na mantiki",
+            "Kubuni tukio lisilotajwa",
+            "Kunakili kichwa pekee",
+            "Kupuuza maelezo ya mwandishi"
+          ],
+          "correct_answer": "Kuunganisha vidokezo vya kifungu na mantiki",
+          "explanation": "Hitimisho hutokana na ushahidi wa kifungu pamoja na fikra zinazofaa, si kubahatisha bila msingi.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Kifungu kinasema, 'Juma alifunga madirisha yote na kuhamisha karatasi kutoka karibu na dirisha.' Ni hitimisho gani linaungwa mkono zaidi?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Juma anajaribu kulinda karatasi dhidi ya upepo au mvua.",
+            "Juma ameuza nyumba yake.",
+            "Karatasi hizo zimeandikwa kwa lugha moja tu.",
+            "Juma anapanga kuondoka nchini."
+          ],
+          "correct_answer": "Juma anajaribu kulinda karatasi dhidi ya upepo au mvua.",
+          "explanation": "Kufunga madirisha na kuhamisha karatasi karibu nayo kunaunga mkono wazo la kuzilinda dhidi ya hali ya hewa.",
+          "difficulty": "intermediate"
+        },
+        {
+          "prompt": "Ushahidi mpya unapopingana na hitimisho lako la awali, unapaswa kufanya nini?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Kupitia upya hitimisho kwa kuzingatia ushahidi wote.",
+            "Kushikilia hitimisho la kwanza bila kujali.",
+            "Kufuta ushahidi mpya.",
+            "Kubadilisha kifungu kwa maoni yako."
+          ],
+          "correct_answer": "Kupitia upya hitimisho kwa kuzingatia ushahidi wote.",
+          "explanation": "Msomaji makini huboresha tafsiri ili iendane na ushahidi wote uliopo.",
+          "difficulty": "advanced"
+        }
+      ]
+    },
+    {
+      "slug": "form-4-kiswahili-kuandika-ufupisho",
+      "content_version": 1,
+      "sort_order": 2,
+      "title": "Kuandika ufupisho wenye uwiano",
+      "description": "Chagua hoja kuu, ziunganishe kwa maneno yako na uhifadhi maana ya kifungu kwa ufupi.",
+      "content": "Ufupisho huwasilisha wazo kuu na hoja muhimu za kifungu kwa maneno machache kuliko chanzo. Hauchanganyi maoni ya mwandishi na ya msomaji, wala kuongeza habari zisizomo kwenye kifungu. Hatua muhimu ni kutambua lengo na hoja kuu, kuondoa mifano inayojirudia, kuandika upya kwa lugha yako na kukagua usahihi wa maana.",
+      "learning_objectives": [
+        "Kutambua wazo kuu na hoja muhimu katika kifungu.",
+        "Kufupisha mawazo kwa lugha yako bila kupotosha maana.",
+        "Kuondoa urudiaji na maelezo yasiyo ya lazima."
+      ],
+      "prerequisites": [
+        "Kutambua mada na sentensi zinazounga mkono wazo kuu."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Chagua hoja muhimu",
+          "body": "Jiulize kifungu kizima kinahusu nini na ni hoja zipi zinazohitajika ili kuelewa ujumbe wake. Mifano mingi inayothibitisha hoja ileile inaweza kuachwa isipokuwa mfano huo uwe kiini cha ujumbe."
+        },
+        {
+          "title": "Andika kwa usahihi",
+          "body": "Unganisha hoja kwa mtiririko mzuri na tumia maneno yako. Hifadhi masharti au tahadhari muhimu za mwandishi. Linganisha ufupisho na kifungu ili kuhakikisha haujaacha hoja kuu wala kuongeza dai lisilothibitishwa."
+        },
+        {
+          "title": "Quick recap",
+          "body": "Ufupisho huhifadhi wazo kuu na hoja muhimu kwa maneno yako, huku ukiondoa marudio na kuepuka kupotosha maana."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "Fupisha habari hii kwa sentensi moja: 'Kijiji kilianzisha bustani ya miche ya miti. Wakazi huotesha miche ya kivuli na kuigawa kwa familia. Mpango huo unalenga kuongeza miti karibu na nyumba.'",
+          "solution": "Kijiji huotesha na kugawa miche ya miti kwa familia ili kuongeza miti ya kivuli karibu na nyumba.",
+          "reasoning": "Sentensi inahifadhi shughuli kuu, wahusika na lengo huku ikiondoa marudio na maelezo yasiyohitajika."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "Ni jambo gani lazima lihifadhiwe katika ufupisho mzuri?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Wazo kuu na hoja muhimu",
+            "Kila mfano mdogo na kila kivumishi",
+            "Maoni binafsi ya msomaji",
+            "Sentensi ya mwisho pekee"
+          ],
+          "correct_answer": "Wazo kuu na hoja muhimu",
+          "explanation": "Ufupisho hupunguza urefu lakini lazima uhifadhi ujumbe na hoja za msingi.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Ufupisho una mifano minne inayorudia hoja moja. Ni uhariri upi unaofaa zaidi?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Kuondoa mifano isiyo ya lazima na kubakiza hoja yenyewe.",
+            "Kuongeza mifano mingine miwili.",
+            "Kuandika maoni binafsi badala ya hoja kuu.",
+            "Kunakili kifungu chote."
+          ],
+          "correct_answer": "Kuondoa mifano isiyo ya lazima na kubakiza hoja yenyewe.",
+          "explanation": "Kuondoa marudio hufanya ufupisho uwe mfupi bila kupoteza wazo linaloelezwa.",
+          "difficulty": "intermediate"
+        },
+        {
+          "prompt": "Kwa nini ni muhimu kulinganisha ufupisho na kifungu cha awali?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Kuhakikisha maana muhimu imehifadhiwa bila kupotoshwa.",
+            "Kuhakikisha ufupisho unakuwa mrefu kuliko kifungu.",
+            "Kuongeza mambo yaliyokumbukwa kutoka sehemu nyingine.",
+            "Kuthibitisha kuwa kila neno limekopiwa."
+          ],
+          "correct_answer": "Kuhakikisha maana muhimu imehifadhiwa bila kupotoshwa.",
+          "explanation": "Ulinganisho husaidia kubaini hoja iliyoachwa au maana iliyobadilishwa kimakosa.",
+          "difficulty": "advanced"
+        }
+      ]
+    }
+  ]
+}

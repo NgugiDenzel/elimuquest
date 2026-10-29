@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": false,
+  "is_demo": false,
+  "curriculum_system": "8_4_4",
+  "curriculum_level": "Form 4",
+  "curriculum_version": "KICD-844-VERSION-UNVERIFIED",
+  "subject_slug": "mathematics-form-4",
+  "topic_slug": "matrices-and-transformations",
+  "topic_name": "Matrices and Transformations",
+  "topic_source_reference": "ElimuQuest Mathematics Curriculum Draft v1, PDF p. 16",
+  "source_id": "KICD-844",
+  "lessons": [
+    {
+      "slug": "form-4-matrices-and-transformations",
+      "content_version": 1,
+      "sort_order": 1,
+      "title": "Matrices and Transformations",
+      "description": "Matrices and Transformations",
+      "content": "",
+      "learning_objectives": [],
+      "prerequisites": [],
+      "explanation_sections": [
+        {
+          "title": "Matrices and Transformations",
+          "body": "Transformations include translation, reflection, rotation and enlargement. Translation by vector (a,b)\nmaps (x,y) to (x+a,y+b). A matrix maps a point vector to a new point. For a 2 × 2 matrix [[a,b],[c,d]],\ndeterminant = ad − bc; the absolute determinant is the area scale factor."
+        }
+      ],
+      "worked_examples": [],
+      "source_reference": "ElimuQuest Mathematics Curriculum Draft v1, PDF p. 16",
+      "author": "ElimuQuest",
+      "questions": [
+        {
+          "prompt": "Translate P(3,−2) by vector (4,5).",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "(7,3).",
+          "explanation": ""
+        },
+        {
+          "prompt": "Reflect A(5,3) in the x-axis.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "(5,−3).",
+          "explanation": ""
+        },
+        {
+          "prompt": "Reflect B(−2,6) in the y-axis.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "(2,6).",
+          "explanation": ""
+        },
+        {
+          "prompt": "Find the image of (2,3) under [[0,−1],[1,0]].",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "(−3,2).",
+          "explanation": ""
+        },
+        {
+          "prompt": "Find determinant of [[3,2],[4,5]].",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "7.",
+          "explanation": ""
+        },
+        {
+          "prompt": "A transformation matrix has determinant −3. State area scale factor and orientation effect.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "Area factor 3; orientation reverses.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Why may the order of a reflection and rotation matter?",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "Matrix multiplication is generally not commutative.",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}

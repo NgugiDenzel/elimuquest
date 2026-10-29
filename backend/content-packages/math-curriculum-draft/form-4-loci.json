@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": false,
+  "is_demo": false,
+  "curriculum_system": "8_4_4",
+  "curriculum_level": "Form 4",
+  "curriculum_version": "KICD-844-VERSION-UNVERIFIED",
+  "subject_slug": "mathematics-form-4",
+  "topic_slug": "loci",
+  "topic_name": "Loci",
+  "topic_source_reference": "ElimuQuest Mathematics Curriculum Draft v1, PDF p. 17",
+  "source_id": "KICD-844",
+  "lessons": [
+    {
+      "slug": "form-4-loci",
+      "content_version": 1,
+      "sort_order": 3,
+      "title": "Loci",
+      "description": "Loci",
+      "content": "",
+      "learning_objectives": [],
+      "prerequisites": [],
+      "explanation_sections": [
+        {
+          "title": "Loci",
+          "body": "A locus is a path or region satisfying a condition. Points a fixed distance from a point form a circle;\npoints equidistant from two fixed points lie on the perpendicular bisector; points equidistant from two\nintersecting lines lie on angle bisectors."
+        }
+      ],
+      "worked_examples": [],
+      "source_reference": "ElimuQuest Mathematics Curriculum Draft v1, PDF p. 17",
+      "author": "ElimuQuest",
+      "questions": [
+        {
+          "prompt": "Describe the locus of points 4 cm from fixed point O.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "Circle centred at O, radius 4 cm.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Describe the locus equidistant from two fixed points A and B.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "Perpendicular bisector of AB.",
+          "explanation": ""
+        },
+        {
+          "prompt": "A point must be equidistant from two intersecting roads. Which locus is needed?",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "Angle bisectors.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Describe the region less than 3 cm from a fixed point.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "Interior of a circle of radius 3 cm, excluding boundary.",
+          "explanation": ""
+        },
+        {
+          "prompt": "How can two intersecting loci identify a point?",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "The point must satisfy both conditions.",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": true,
+  "is_demo": false,
+  "curriculum_system": "CBC_CBE",
+  "curriculum_level": "Grade 6",
+  "curriculum_version": "KICD-G6-VERSION-UNVERIFIED",
+  "subject_slug": "science-technology-grade-6",
+  "topic_slug": "plants-and-habitats",
+  "topic_name": "Plants and Habitats",
+  "topic_source_reference": null,
+  "source_id": null,
+  "lessons": [
+    {
+      "slug": "grade-6-plant-parts-and-functions",
+      "content_version": 1,
+      "sort_order": 1,
+      "title": "Plant parts and their functions",
+      "description": "Identify the main parts of a plant and explain how each part helps the plant survive.",
+      "content": "Plants are living things. A typical flowering plant has roots, stems, and leaves; its reproductive parts include flowers and fruits. The parts work together to help the plant grow and reproduce.",
+      "learning_objectives": [
+        "Name the main parts of a plant.",
+        "Explain the function of roots, stem, leaves, and flowers.",
+        "Describe how plant parts support survival."
+      ],
+      "prerequisites": ["Basic observation of living things"],
+      "explanation_sections": [
+        {
+          "title": "Main plant parts",
+          "body": "Roots anchor a plant and absorb water and minerals from the soil. The stem supports the plant and transports water and sugars. Leaves use light energy to make sugars from water and carbon dioxide. Flowers are reproductive parts; fruits contain seeds."
+        },
+        {
+          "title": "Why it matters",
+          "body": "Without roots, a plant cannot absorb water. Without leaves, it cannot make food. Each part works together so that the plant remains healthy and can continue growing."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "Why are leaves important for a plant?",
+          "solution": "Leaves make food for the plant by using sunlight, water, and carbon dioxide.",
+          "reasoning": "Photosynthesis happens in the leaves, and the food made there helps the plant to grow and stay healthy."
+        }
+      ],
+      "source_reference": "OpenStax Biology 2e, section 30.1 The Plant Body, section 30.2 Stems, and section 30.3 Roots, https://openstax.org/books/biology-2e/pages/30-1-the-plant-body, https://openstax.org/books/biology-2e/pages/30-2-stems, and https://openstax.org/books/biology-2e/pages/30-3-roots; accessed 2026-10-29. Original explanations; no text reproduced.",
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "Which plant part absorbs water and minerals from the soil?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Flower",
+            "Root",
+            "Leaf",
+            "Stem"
+          ],
+          "correct_answer": "Root",
+          "explanation": "Roots absorb water and minerals and anchor the plant in the soil."
+        },
+        {
+          "prompt": "What is the main job of the leaves?",
+          "question_type": "multiple_choice",
+          "options": [
+            "To make food for the plant",
+            "To store seeds",
+            "To hold the plant in the soil",
+            "To catch sunlight only"
+          ],
+          "correct_answer": "To make food for the plant",
+          "explanation": "Leaves use sunlight and water to make food through photosynthesis.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Why is the stem important?",
+          "question_type": "multiple_choice",
+          "options": [
+            "It absorbs minerals from the soil",
+            "It supports the plant and transports water",
+            "It makes seeds",
+            "It stores fruit"
+          ],
+          "correct_answer": "It supports the plant and transports water",
+          "explanation": "The stem gives support and keeps water moving through the plant.",
+          "difficulty": "intermediate"
+        }
+      ]
+    },
+    {
+      "slug": "grade-6-food-chains-and-ecosystems",
+      "content_version": 1,
+      "sort_order": 2,
+      "title": "Food chains and ecosystems",
+      "description": "Trace how energy moves from producers to consumers in a simple food chain.",
+      "content": "In an ecosystem, living things depend on one another for food and energy. A food chain shows the direction in which energy moves from one organism to another.",
+      "learning_objectives": [
+        "Identify producers, consumers, and decomposers.",
+        "Construct a simple food chain.",
+        "Explain how living things depend on one another."
+      ],
+      "prerequisites": ["Basic knowledge of plants and animals"],
+      "explanation_sections": [
+        {
+          "title": "Producers and consumers",
+          "body": "Plants are producers because they make their own food using sunlight. Animals are consumers because they eat plants or other animals. Decomposers break down dead material and return nutrients to the soil."
+        },
+        {
+          "title": "Simple food chain",
+          "body": "Grass → grasshopper → frog → snake → eagle. Energy begins with the grass, which makes food using sunlight. The insect, frog, snake, and eagle each get energy by eating the organism before them."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "In the food chain maize → goat → lion, which organism is the producer?",
+          "solution": "Maize is the producer.",
+          "reasoning": "Producers are plants that make their own food using sunlight."
+        }
+      ],
+      "source_reference": "OpenStax Biology 2e, section 46.1 Ecology of Ecosystems, https://openstax.org/books/biology-2e/pages/46-1-ecology-of-ecosystems; accessed 2026-10-29. Original explanations; no text reproduced.",
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "Which organism is a producer in a food chain?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Lion",
+            "Grass",
+            "Frog",
+            "Hawk"
+          ],
+          "correct_answer": "Grass",
+          "explanation": "Producers are usually green plants that make their own food using sunlight."
+        },
+        {
+          "prompt": "Which of these is a correct food chain?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Eagle → grass → goat",
+            "Grass → goat → lion",
+            "Lion → grass → goat",
+            "Goat → lion → grass"
+          ],
+          "correct_answer": "Grass → goat → lion",
+          "explanation": "Energy moves from producer to herbivore to predator in a food chain.",
+          "difficulty": "intermediate"
+        },
+        {
+          "prompt": "What is the role of decomposers in an ecosystem?",
+          "question_type": "multiple_choice",
+          "options": [
+            "They eat other animals.",
+            "They make food from sunlight.",
+            "They break down dead matter and return nutrients to the soil.",
+            "They are always predators."
+          ],
+          "correct_answer": "They break down dead matter and return nutrients to the soil.",
+          "explanation": "Decomposers recycle nutrients so plants can grow again.",
+          "difficulty": "intermediate"
+        }
+      ]
+    },
+    {
+      "slug": "grade-6-habitats-and-adaptations",
+      "content_version": 1,
+      "sort_order": 3,
+      "title": "Habitats and adaptation",
+      "description": "Explore how plants and animals are adapted to live in different habitats.",
+      "content": "A habitat is a place where an organism lives. Different habitats have different conditions, so living things have special features that help them survive there.",
+      "learning_objectives": [
+        "Define habitat and adaptation.",
+        "Identify features that help organisms survive.",
+        "Describe differences between habitats such as desert, pond, and forest."
+      ],
+      "prerequisites": ["Knowledge of common local plants and animals"],
+      "explanation_sections": [
+        {
+          "title": "Adaptation",
+          "body": "An adaptation is a feature that helps an organism survive in its habitat. Fish have gills that take up oxygen from water and fins that help them move. Some plants in dry areas have deep roots that reach water farther below the surface."
+        },
+        {
+          "title": "Different habitats",
+          "body": "A pond has water, aquatic plants, and animals adapted to live in or near water. A forest has many trees and shaded places. A desert is dry, so organisms there need features that help them find or conserve water."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "Why does a fish have fins and gills?",
+          "solution": "Fins help it move in water and gills help it breathe.",
+          "reasoning": "These features are adaptations that fit a fish to life in water."
+        }
+      ],
+      "source_reference": "OpenStax Biology 2e, section 30.3 Roots and section 46.1 Ecology of Ecosystems, https://openstax.org/books/biology-2e/pages/30-3-roots and https://openstax.org/books/biology-2e/pages/46-1-ecology-of-ecosystems; accessed 2026-10-29. Original explanations; no text reproduced.",
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "What is a habitat?",
+          "question_type": "multiple_choice",
+          "options": [
+            "A type of food chain",
+            "The place where an organism lives",
+            "A body part used for breathing",
+            "A type of plant"
+          ],
+          "correct_answer": "The place where an organism lives",
+          "explanation": "A habitat is the natural place where a plant or animal lives and meets its needs."
+        },
+        {
+          "prompt": "Why are fish adapted to live in water?",
+          "question_type": "multiple_choice",
+          "options": [
+            "They have stems to stand upright.",
+            "They have gills and fins to breathe and move in water.",
+            "They live only in forests.",
+            "They make their own food in the soil."
+          ],
+          "correct_answer": "They have gills and fins to breathe and move in water.",
+          "explanation": "Fins help fish move, and gills help them get oxygen from water.",
+          "difficulty": "intermediate"
+        },
+        {
+          "prompt": "Which root feature can help a plant survive where water is deep in the soil?",
+          "question_type": "multiple_choice",
+          "options": [
+            "A deep root system that reaches water below the surface",
+            "Roots that remain only on the soil surface",
+            "A long tail for swimming",
+            "Dark colours to attract sunlight"
+          ],
+          "correct_answer": "A deep root system that reaches water below the surface",
+          "explanation": "Some plants in dry areas develop deep roots that can reach water farther below the soil surface.",
+          "difficulty": "intermediate"
+        }
+      ]
+    }
+  ]
+}

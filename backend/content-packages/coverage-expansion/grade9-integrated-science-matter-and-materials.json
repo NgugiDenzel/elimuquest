@@ -1,0 +1,173 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": true,
+  "is_demo": false,
+  "curriculum_system": "CBC_CBE",
+  "curriculum_level": "Grade 9",
+  "curriculum_version": "KICD-G9-2024-07",
+  "subject_slug": "integrated-science-grade-9",
+  "topic_slug": "matter-and-materials",
+  "topic_name": "Matter and Materials",
+  "topic_source_reference": null,
+  "source_id": null,
+  "lessons": [
+    {
+      "slug": "grade-9-integrated-science-particle-model-of-matter",
+      "content_version": 1,
+      "sort_order": 1,
+      "title": "Hali za maada na mfano wa chembe",
+      "description": "Linganisha mpangilio na mwendo wa chembe katika yabisi, vimiminika na gesi.",
+      "content": "Maada inajumuisha vitu vyenye uzito na vinavyokalia nafasi. Mfano wa chembe husaidia kueleza tofauti za yabisi, vimiminika na gesi: chembe hupangwa na kusogea kwa namna tofauti katika kila hali. Mabadiliko ya hali hutokea bila kubadilisha aina ya dutu katika mabadiliko ya kawaida ya kimwili.",
+      "learning_objectives": [
+        "Kueleza mpangilio na mwendo wa chembe katika hali tatu za maada.",
+        "Kutumia mfano wa chembe kueleza kuyeyuka au mvuke kuganda kuwa kimiminika."
+      ],
+      "prerequisites": [
+        "Kutambua yabisi, vimiminika na gesi katika mifano ya kila siku."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Yabisi, vimiminika na gesi",
+          "body": "Katika yabisi, chembe ziko karibu na hushikilia nafasi zao za wastani, ingawa hutetemeka. Katika kimiminika, chembe ziko karibu lakini zinaweza kupishana, hivyo kimiminika hutiririka na kuchukua umbo la chombo. Katika gesi, chembe zimetengana zaidi na husogea kwa uhuru katika nafasi iliyopo."
+        },
+        {
+          "title": "Mabadiliko ya hali",
+          "body": "Yabisi inapopashwa joto vya kutosha inaweza kuyeyuka na kuwa kimiminika; kimiminika kinapopoteza joto kinaweza kuganda na kuwa yabisi. Katika mabadiliko haya ya hali, chembe hazibadiliki kuwa dutu tofauti: mpangilio na mwendo wake hubadilika."
+        },
+        {
+          "title": "Quick recap",
+          "body": "Hali za maada hutofautiana kwa mpangilio na mwendo wa chembe; kupasha au kupoza hubadili hali bila kuunda dutu mpya."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "Mchemraba wa barafu unaachwa ndani ya chumba chenye joto na kuwa maji. Eleza mabadiliko hayo kwa kutumia mfano wa chembe.",
+          "solution": "Barafu imeyeyuka na kuwa kimiminika. Chembe hupata nishati na kusogea zaidi kiasi cha kupishana, huku zikiwa karibu.",
+          "reasoning": "Katika yabisi chembe hutetemeka karibu na nafasi zake; zinapopata joto, mwendo huongezeka na mpangilio huruhusu dutu kutiririka."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "Ni maelezo yapi yanafaa zaidi kwa chembe katika gesi?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Zimetengana zaidi na husogea kwa uhuru.",
+            "Zimefungwa katika mpangilio thabiti na hazitetemeki.",
+            "Ziko karibu na zinaweza kupishana tu.",
+            "Hazina mwendo katika hali yoyote."
+          ],
+          "correct_answer": "Zimetengana zaidi na husogea kwa uhuru.",
+          "explanation": "Chembe za gesi hutengana zaidi kuliko katika yabisi au kimiminika na husogea katika nafasi iliyopo.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Ni nini hutokea kwa maji yanapoganda kuwa barafu?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Chembe hupangwa zaidi na dutu hubadilika kutoka kimiminika kuwa yabisi.",
+            "Maji hubadilika kuwa gesi bila kupashwa joto.",
+            "Chembe za maji hutoweka kabisa.",
+            "Maji hubadilika kuwa dutu mpya kwa kila kuganda."
+          ],
+          "correct_answer": "Chembe hupangwa zaidi na dutu hubadilika kutoka kimiminika kuwa yabisi.",
+          "explanation": "Kuganda ni mabadiliko ya hali: chembe hupoteza mwendo wa kutosha wa kupishana na hupangwa kama yabisi.",
+          "difficulty": "intermediate"
+        },
+        {
+          "prompt": "Kwa nini gesi inaweza kujaza chombo kikubwa kuliko kiasi chake cha awali?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Chembe zake huenea na kusogea katika nafasi ya chombo.",
+            "Chembe zake huongezeka kwa idadi zikiwa ndani ya chombo.",
+            "Gesi hubadilika kuwa yabisi mara moja.",
+            "Chombo huvuta chembe zote ndani ya kuta zake."
+          ],
+          "correct_answer": "Chembe zake huenea na kusogea katika nafasi ya chombo.",
+          "explanation": "Chembe za gesi zina mwendo wa uhuru na huenea katika nafasi inayopatikana.",
+          "difficulty": "intermediate"
+        }
+      ]
+    },
+    {
+      "slug": "grade-9-integrated-science-kutenganisha-mchanganyiko",
+      "content_version": 1,
+      "sort_order": 2,
+      "title": "Kutenganisha mchanganyiko kwa sifa za vitu",
+      "description": "Chagua njia rahisi ya kutenganisha mchanganyiko kulingana na sifa za viambato.",
+      "content": "Mchanganyiko una vitu viwili au zaidi vilivyochanganyika bila kuunda lazima dutu moja mpya. Njia za kawaida za kutenganisha hutegemea tofauti za sifa za viambato, kama ukubwa wa chembe, uwezo wa kuyeyuka, au kuvutwa na sumaku. Kuchagua njia hutegemea kile kinachohitajika kurejeshwa.",
+      "learning_objectives": [
+        "Kulinganisha uchujaji, uvukizaji na utenganishaji kwa sumaku.",
+        "Kuchagua mpangilio wa hatua unaofaa kwa mfano wa mchanganyiko."
+      ],
+      "prerequisites": [
+        "Kutofautisha yabisi na vimiminika na kueleza maana ya mchanganyiko."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Chuja kulingana na ukubwa wa chembe",
+          "body": "Uchujaji hutenganisha yabisi isiyoyeyuka na kimiminika. Kimiminika hupita kwenye kichujio huku chembe za yabisi zikibaki. Kwa mfano, mchanga unaweza kutenganishwa na maji kwa kuchuja, lakini chumvi iliyoyeyuka itapita pamoja na maji."
+        },
+        {
+          "title": "Tumia sifa nyingine za viambato",
+          "body": "Sumaku inaweza kuvuta baadhi ya metali kama chuma kutoka kwa viambato visivyovutwa nayo. Uvukizaji unaweza kutumika kupata yabisi iliyoyeyuka katika kimiminika, kwa kuwa kimiminika huvukiza na yabisi hubaki. Fikiria usalama na lengo la jaribio kabla ya kutumia joto."
+        },
+        {
+          "title": "Quick recap",
+          "body": "Chagua njia ya kutenganisha kulingana na tofauti za sifa za viambato, kama kuvutwa na sumaku, kuyeyuka au ukubwa wa chembe."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "Mchanganyiko una mchanga na chumvi iliyoyeyuka ndani ya maji. Eleza hatua zinazoweza kutumika kupata mchanga na chumvi.",
+          "solution": "Chuja mchanganyiko ili mchanga ubaki kwenye kichujio. Kisha vukiza maji kutoka kwenye kimiminika kilichochujwa ili chumvi ibaki.",
+          "reasoning": "Mchanga haujayeyuka na hutenganishwa kwa uchujaji. Chumvi iliyoyeyuka hupita na maji, kwa hiyo uchujaji pekee hauiondoi; uvukizaji hutenganisha chumvi na maji."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "Ni njia ipi inafaa kutenganisha mchanga usioyeyuka na maji?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Uchujaji",
+            "Kutumia sumaku pekee",
+            "Kugandisha mchanganyiko wote",
+            "Kuongeza mchanga zaidi"
+          ],
+          "correct_answer": "Uchujaji",
+          "explanation": "Mchanga usioyeyuka huzuiwa na kichujio huku maji yakipita.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Mtu anataka kutenganisha vipande vya chuma na mchanga mkavu. Ni njia ipi inatumia tofauti ya sifa zao?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Kupitisha sumaku karibu na mchanganyiko.",
+            "Kuchuja mchanganyiko kwa kitambaa chenye matundu.",
+            "Kuongeza maji na kuacha vitu vyote vikayeyuka.",
+            "Kumimina mchanga kwenye chombo kingine bila kuchagua."
+          ],
+          "correct_answer": "Kupitisha sumaku karibu na mchanganyiko.",
+          "explanation": "Chuma huvutwa na sumaku ilhali mchanga hauvutwi kwa njia hiyo.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Kwa nini uchujaji pekee hauwezi kutenganisha chumvi iliyoyeyuka na maji?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Chumvi iliyoyeyuka hupita kwenye kichujio pamoja na maji.",
+            "Kichujio hugeuza chumvi kuwa gesi.",
+            "Maji yote hubaki juu ya kichujio kila wakati.",
+            "Chumvi huvutwa na kichujio kama sumaku."
+          ],
+          "correct_answer": "Chumvi iliyoyeyuka hupita kwenye kichujio pamoja na maji.",
+          "explanation": "Chembe za dutu iliyoyeyuka hupita na kimiminika; uvukizaji unaweza kutumika kupata chumvi iliyobaki.",
+          "difficulty": "intermediate"
+        }
+      ]
+    }
+  ]
+}

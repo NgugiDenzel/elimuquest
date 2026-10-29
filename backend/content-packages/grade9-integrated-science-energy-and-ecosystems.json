@@ -1,0 +1,167 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": true,
+  "is_demo": false,
+  "curriculum_system": "CBC_CBE",
+  "curriculum_level": "Grade 9",
+  "curriculum_version": "KICD-G9-2024-07",
+  "subject_slug": "integrated-science-grade-9",
+  "topic_slug": "energy-and-ecosystems",
+  "topic_name": "Energy and Ecosystems",
+  "topic_source_reference": null,
+  "source_id": null,
+  "lessons": [
+    {
+      "slug": "grade-9-integrated-science-energy-transformations",
+      "content_version": 1,
+      "sort_order": 1,
+      "title": "Energy transformations in everyday devices",
+      "description": "Trace useful and wasted energy as it changes form in common devices.",
+      "content": "Energy can be transferred or changed from one form to another. A device does not create energy: it changes energy supplied to it. Some energy often spreads to the surroundings as heat or sound.",
+      "learning_objectives": [
+        "Name common forms of energy.",
+        "Describe an energy transformation in a device.",
+        "Distinguish useful output from energy dissipated to the surroundings."
+      ],
+      "prerequisites": [
+        "Recognise that energy is needed for changes and activity."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Energy stores and transfers",
+          "body": "Examples of energy forms include chemical, electrical, thermal, light, sound and movement energy. When a torch is switched on, chemical energy in its cell is transferred electrically to the bulb, where some becomes light and some thermal energy."
+        },
+        {
+          "title": "Useful and dissipated energy",
+          "body": "For a lamp, light is the useful output. Heating of the lamp and nearby air is an additional output. Energy is not destroyed; it becomes spread in forms that may be less useful for the task."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "Describe the main energy changes in an electric kettle.",
+          "solution": "Electrical energy is transferred mainly into thermal energy in the heating element and water; some also heats the kettle and surrounding air.",
+          "reasoning": "The intended output is hot water. Heating the kettle body and room is not the main useful purpose, but the energy still exists."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "Which energy change is the main purpose of an electric kettle?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Electrical energy to thermal energy in the water",
+            "Thermal energy to chemical energy in the socket",
+            "Sound energy to electrical energy in the water",
+            "Light energy to movement energy in the kettle"
+          ],
+          "correct_answer": "Electrical energy to thermal energy in the water",
+          "explanation": "The kettle uses electrical energy to heat water.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "A torch cell supplies chemical energy. What is a useful output when the torch is on?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Light energy",
+            "The mass of the torch",
+            "The colour of the switch",
+            "The length of the handle"
+          ],
+          "correct_answer": "Light energy",
+          "explanation": "The torch is designed to provide light; heating is also an output but is not its main purpose.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Why is it inaccurate to say that energy disappears when a device becomes warm?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Energy has been transferred into thermal energy and spread to the surroundings.",
+            "Warmth destroys energy.",
+            "The device changes energy into matter.",
+            "Only cold objects contain energy."
+          ],
+          "correct_answer": "Energy has been transferred into thermal energy and spread to the surroundings.",
+          "explanation": "Energy is conserved during transfers; it can become less useful by spreading as thermal energy.",
+          "difficulty": "intermediate"
+        }
+      ]
+    },
+    {
+      "slug": "grade-9-integrated-science-ecosystem-interactions",
+      "content_version": 1,
+      "sort_order": 2,
+      "title": "Interactions in an ecosystem",
+      "description": "Explain how living things and non-living conditions interact in a local ecosystem.",
+      "content": "An ecosystem includes living organisms and the non-living conditions around them. Organisms interact with one another and with water, air, soil, light and temperature.",
+      "learning_objectives": [
+        "Distinguish biotic and abiotic components.",
+        "Describe a simple feeding relationship.",
+        "Predict one possible effect of a change in an ecosystem."
+      ],
+      "prerequisites": [
+        "Identify common plants and animals in a local habitat."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Living and non-living components",
+          "body": "Plants, animals, fungi and bacteria are biotic components. Sunlight, water, soil and temperature are abiotic components. Both influence which organisms can survive in a place."
+        },
+        {
+          "title": "Feeding relationships",
+          "body": "A food chain represents one route by which food and energy pass between organisms. An arrow points from the organism being eaten to the organism that obtains food. Real ecosystems often have many connected feeding routes."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "In grass → grasshopper → frog, what may happen to frogs if grasshoppers become scarce?",
+          "solution": "Frogs may have less food and their numbers could decrease, depending on other food sources and conditions.",
+          "reasoning": "The chain shows a feeding link, but a prediction should allow for other prey and environmental factors."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "Which is an abiotic component of a pond ecosystem?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Water",
+            "Frog",
+            "Algae",
+            "Bacterium"
+          ],
+          "correct_answer": "Water",
+          "explanation": "Water is non-living; the other options are living organisms.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "In maize → mouse → owl, what does the arrow from mouse to owl show?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Energy and food pass from the mouse to the owl.",
+            "The owl gives sunlight to the mouse.",
+            "The mouse changes into an owl.",
+            "The owl is a producer."
+          ],
+          "correct_answer": "Energy and food pass from the mouse to the owl.",
+          "explanation": "Food-chain arrows point from the food organism to the consumer.",
+          "difficulty": "intermediate"
+        },
+        {
+          "prompt": "Which statement about a change in a food chain is most careful?",
+          "question_type": "multiple_choice",
+          "options": [
+            "A change in one population can affect organisms linked to it.",
+            "Every organism disappears immediately.",
+            "Only plants are ever affected.",
+            "Food chains never change."
+          ],
+          "correct_answer": "A change in one population can affect organisms linked to it.",
+          "explanation": "Feeding relationships connect populations, but the result depends on the wider ecosystem.",
+          "difficulty": "intermediate"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": false,
+  "is_demo": false,
+  "curriculum_system": "CBC_CBE",
+  "curriculum_level": "Grade 9",
+  "curriculum_version": "KICD-G9-2024-07",
+  "subject_slug": "mathematics-grade-9",
+  "topic_slug": "trigonometry",
+  "topic_name": "Trigonometry",
+  "topic_source_reference": "ElimuQuest Mathematics Curriculum Draft v1, PDF pp. 14-15",
+  "source_id": "KICD-G9-DESIGNS",
+  "lessons": [
+    {
+      "slug": "grade-9-trigonometry",
+      "content_version": 1,
+      "sort_order": 16,
+      "title": "Trigonometry",
+      "description": "Trigonometry",
+      "content": "",
+      "learning_objectives": [],
+      "prerequisites": [],
+      "explanation_sections": [
+        {
+          "title": "Trigonometry",
+          "body": "In a right-angled triangle, sin θ = opposite/hypotenuse, cos θ = adjacent/hypotenuse, tan θ =\nopposite/adjacent."
+        }
+      ],
+      "worked_examples": [],
+      "source_reference": "ElimuQuest Mathematics Curriculum Draft v1, PDF pp. 14-15",
+      "author": "ElimuQuest",
+      "questions": [
+        {
+          "prompt": "Opposite side is 6 cm and hypotenuse 10 cm. Find sin θ.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "0.6.",
+          "explanation": ""
+        },
+        {
+          "prompt": "If tan θ = 3/4, state the opposite-to-adjacent ratio.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "3:4.",
+          "explanation": ""
+        },
+        {
+          "prompt": "A 5 m ladder rests against a wall with its foot 3 m from the wall. How high does it reach?",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "4 m.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Find the acute angle θ if sin θ = 0.5.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "30°.",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}

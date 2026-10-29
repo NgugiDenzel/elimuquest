@@ -1,0 +1,195 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": true,
+  "is_demo": false,
+  "curriculum_system": "8_4_4",
+  "curriculum_level": "Form 4",
+  "curriculum_version": "KICD-844-VERSION-UNVERIFIED",
+  "subject_slug": "chemistry-form-4",
+  "topic_slug": "moles-and-reaction-quantities",
+  "topic_name": "Moles and Reaction Quantities",
+  "topic_source_reference": null,
+  "source_id": null,
+  "lessons": [
+    {
+      "slug": "form-4-chemistry-mole-and-particles",
+      "content_version": 1,
+      "sort_order": 1,
+      "title": "The mole and number of particles",
+      "description": "Connect amount of substance in moles with the number of particles.",
+      "content": "The mole is a counting unit for a very large number of particles. One mole contains approximately 6.02 × 10²³ specified particles. The relationship is number of particles = amount in moles × Avogadro constant.",
+      "learning_objectives": [
+        "Explain why chemists use the mole as a counting unit.",
+        "Calculate particle number from amount in moles."
+      ],
+      "prerequisites": [
+        "Use standard form and multiply simple numbers."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Counting chemical particles",
+          "body": "Atoms and molecules are too small to count one at a time in laboratory samples. The mole groups particles into a fixed count. State whether the particles are atoms, molecules, ions or another specified entity."
+        },
+        {
+          "title": "Using the relationship",
+          "body": "N = n × Nₐ, where N is particle number, n is amount in moles and Nₐ ≈ 6.02 × 10²³ mol⁻¹. Recap: multiply moles by the Avogadro constant; keep track of what particles are being counted."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "How many molecules are in 2 mol of a molecular substance?",
+          "solution": "1.204 × 10²⁴ molecules.",
+          "reasoning": "N = 2 × 6.02 × 10²³ = 12.04 × 10²³ = 1.204 × 10²⁴ molecules."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "Approximately how many particles are in 1 mol?",
+          "question_type": "multiple_choice",
+          "options": ["6.02 × 10²³", "6.02 × 10²", "1.00 × 10²³", "6.02 × 10⁻²³"],
+          "correct_answer": "6.02 × 10²³",
+          "explanation": "One mole contains approximately Avogadro's number of specified particles.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "How many atoms are in 0.5 mol of atoms? Use Nₐ = 6.02 × 10²³ mol⁻¹.",
+          "question_type": "multiple_choice",
+          "options": ["3.01 × 10²³", "6.02 × 10²³", "1.204 × 10²⁴", "0.5 × 10²³"],
+          "correct_answer": "3.01 × 10²³",
+          "explanation": "N = 0.5 × 6.02 × 10²³ = 3.01 × 10²³ atoms.",
+          "difficulty": "intermediate"
+        },
+        {
+          "prompt": "In the relationship N = nNₐ, what does n represent?",
+          "question_type": "multiple_choice",
+          "options": ["Amount of substance in moles", "Number of neutrons", "Mass number", "Volume in litres"],
+          "correct_answer": "Amount of substance in moles",
+          "explanation": "The symbol n represents amount of substance, measured in moles.",
+          "difficulty": "foundational"
+        }
+      ]
+    },
+    {
+      "slug": "form-4-chemistry-molar-mass-and-amount",
+      "content_version": 1,
+      "sort_order": 2,
+      "title": "Molar mass and amount of substance",
+      "description": "Calculate molar mass from a formula and use it to find amount in moles.",
+      "content": "Molar mass is the mass of one mole of a substance, expressed in g mol⁻¹. Add the relative atomic masses for every atom shown in the formula. Amount in moles is found from n = m ÷ M.",
+      "learning_objectives": [
+        "Calculate molar mass from a chemical formula.",
+        "Find amount in moles from sample mass and molar mass."
+      ],
+      "prerequisites": [
+        "Read subscripts in chemical formulae and perform arithmetic."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Adding formula masses",
+          "body": "For water, H₂O, use two hydrogen atoms and one oxygen atom: Mᵣ = (2 × 1) + 16 = 18. The molar mass has the same numerical value in g mol⁻¹."
+        },
+        {
+          "title": "Mass-to-moles calculation",
+          "body": "Use n = m/M, where m is mass in grams and M is molar mass in g mol⁻¹. The units cancel to give moles. Recap: calculate M carefully before dividing the sample mass."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "Find the amount of substance in 9 g of water. Use H=1 and O=16.",
+          "solution": "0.5 mol",
+          "reasoning": "M(H₂O) = 18 g mol⁻¹, so n = 9 g ÷ 18 g mol⁻¹ = 0.5 mol."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "What is the molar mass of carbon dioxide, CO₂? Use C=12 and O=16.",
+          "question_type": "multiple_choice",
+          "options": ["44 g mol⁻¹", "28 g mol⁻¹", "32 g mol⁻¹", "48 g mol⁻¹"],
+          "correct_answer": "44 g mol⁻¹",
+          "explanation": "M(CO₂) = 12 + (2 × 16) = 44 g mol⁻¹.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "How many moles are in 10 g of a substance with molar mass 20 g mol⁻¹?",
+          "question_type": "multiple_choice",
+          "options": ["0.5 mol", "2 mol", "10 mol", "200 mol"],
+          "correct_answer": "0.5 mol",
+          "explanation": "n = m/M = 10 ÷ 20 = 0.5 mol.",
+          "difficulty": "intermediate"
+        },
+        {
+          "prompt": "What is the correct unit for molar mass?",
+          "question_type": "multiple_choice",
+          "options": ["g mol⁻¹", "mol g⁻¹", "g cm⁻³", "mol dm⁻³"],
+          "correct_answer": "g mol⁻¹",
+          "explanation": "Molar mass expresses grams of substance per mole.",
+          "difficulty": "foundational"
+        }
+      ]
+    },
+    {
+      "slug": "form-4-chemistry-concentration-of-solutions",
+      "content_version": 1,
+      "sort_order": 3,
+      "title": "Concentration of solutions",
+      "description": "Calculate concentration in mol dm⁻³ using amount and solution volume.",
+      "content": "Concentration describes the amount of dissolved substance in a given volume of solution. In molar concentration, c = n/V when volume V is measured in dm³. Convert cm³ to dm³ by dividing by 1000.",
+      "learning_objectives": [
+        "Use c = n/V with consistent volume units.",
+        "Convert solution volume between cm³ and dm³."
+      ],
+      "prerequisites": [
+        "Calculate amount in moles."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Concentration relationship",
+          "body": "Concentration c is amount n divided by solution volume V. If n is in moles and V in dm³, c is in mol dm⁻³. A larger amount in the same volume gives a higher concentration."
+        },
+        {
+          "title": "Volume conversion",
+          "body": "There are 1000 cm³ in 1 dm³. Convert before substituting: 250 cm³ = 0.250 dm³. Recap: write the volume in dm³ first, then divide moles by volume."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "Find the concentration of 0.10 mol dissolved to make 0.50 dm³ of solution.",
+          "solution": "0.20 mol dm⁻³",
+          "reasoning": "c = n/V = 0.10 ÷ 0.50 = 0.20 mol dm⁻³."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "Convert 300 cm³ to dm³.",
+          "question_type": "multiple_choice",
+          "options": ["0.300 dm³", "3.00 dm³", "30 dm³", "0.003 dm³"],
+          "correct_answer": "0.300 dm³",
+          "explanation": "300 ÷ 1000 = 0.300 dm³.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "What is the concentration of 0.20 mol in 0.40 dm³?",
+          "question_type": "multiple_choice",
+          "options": ["0.50 mol dm⁻³", "2.0 mol dm⁻³", "0.08 mol dm⁻³", "5.0 mol dm⁻³"],
+          "correct_answer": "0.50 mol dm⁻³",
+          "explanation": "c = 0.20 ÷ 0.40 = 0.50 mol dm⁻³.",
+          "difficulty": "intermediate"
+        },
+        {
+          "prompt": "A solution contains 0.05 mol in 250 cm³. What is its concentration?",
+          "question_type": "multiple_choice",
+          "options": ["0.20 mol dm⁻³", "0.0125 mol dm⁻³", "5.0 mol dm⁻³", "2.0 mol dm⁻³"],
+          "correct_answer": "0.20 mol dm⁻³",
+          "explanation": "250 cm³ = 0.250 dm³; c = 0.05 ÷ 0.250 = 0.20 mol dm⁻³.",
+          "difficulty": "intermediate"
+        }
+      ]
+    }
+  ]
+}

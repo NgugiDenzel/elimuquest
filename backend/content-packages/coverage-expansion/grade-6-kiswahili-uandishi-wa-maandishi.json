@@ -1,0 +1,175 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": true,
+  "is_demo": false,
+  "curriculum_system": "CBC_CBE",
+  "curriculum_level": "Grade 6",
+  "curriculum_version": "KICD-G6-VERSION-UNVERIFIED",
+  "subject_slug": "kiswahili-grade-6",
+  "topic_slug": "uandishi-wa-maandishi",
+  "topic_name": "Uandishi wa Maandishi",
+  "topic_source_reference": null,
+  "source_id": null,
+  "lessons": [
+    {
+      "slug": "grade-6-kiswahili-kuandika-barua-ya-kirafiki",
+      "content_version": 1,
+      "sort_order": 1,
+      "title": "Kuandika barua ya kirafiki",
+      "description": "Panga sehemu za barua ya kirafiki na utumie lugha inayomfaa mpokeaji.",
+      "content": "Barua ya kirafiki huandikwa ili kuwasiliana na mtu unayemfahamu, kama rafiki au jamaa. Barua iliyo wazi huwa na mahali na tarehe, salamu, ujumbe wenye mpangilio na hitimisho la kirafiki. Kabla ya kuandika, fikiria unayemwandikia na jambo kuu unalotaka kumweleza.",
+      "learning_objectives": [
+        "Kutambua sehemu kuu za barua ya kirafiki.",
+        "Kupanga ujumbe wa barua katika aya fupi zinazoeleweka.",
+        "Kuchagua salamu na hitimisho linalomfaa mpokeaji."
+      ],
+      "prerequisites": [
+        "Kuandika sentensi kamili zenye alama za uakifishaji."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Mpangilio wa barua",
+          "body": "Mwandishi huweka mahali na tarehe juu, kisha salamu. Sehemu kuu hutaja sababu ya kuandika na kufafanua habari muhimu. Hitimisho linaweza kutoa salamu za mwisho, kisha jina la mwandishi huwekwa chini."
+        },
+        {
+          "title": "Lugha inayomfaa rafiki",
+          "body": "Barua ya kirafiki hutumia lugha yenye heshima na ukaribu. Ujumbe ufafanue wazo moja kwa wakati na usirudie habari bila sababu. Hata mtu unayemfahamu vizuri anastahili salamu na maneno ya adabu."
+        },
+        {
+          "title": "Quick recap",
+          "body": "Panga barua kwa salamu, ujumbe na hitimisho. Tumia lugha ya kirafiki inayofaa mpokeaji na uwasilishe habari kwa uwazi."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "Andika mpangilio wa sehemu za barua ya kirafiki kwa rafiki yako kuhusu ziara ya shule.",
+          "solution": "Mahali na tarehe; salamu kwa rafiki; aya inayoeleza ziara na jambo ulilojifunza; maneno ya kuhitimisha; jina lako.",
+          "reasoning": "Mpangilio huu humsaidia mpokeaji kujua barua imetoka lini, inamwandikia nani na ujumbe wake ni upi."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "Ni sehemu ipi kwa kawaida huwekwa karibu na mwanzo wa barua ya kirafiki, baada ya mahali na tarehe?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Salamu kwa mpokeaji.",
+            "Jina la mhariri wa kitabu.",
+            "Orodha ya maswali ya mtihani.",
+            "Hitimisho la mwisho."
+          ],
+          "correct_answer": "Salamu kwa mpokeaji.",
+          "explanation": "Baada ya mahali na tarehe, salamu humwonyesha mwandishi anamwandikia nani kabla ya ujumbe mkuu.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Unamwandikia rafiki kuhusu safari ya shule. Ni maelezo yapi yanafaa zaidi katika sehemu kuu ya barua?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Habari za safari na jambo ulilojifunza.",
+            "Maelekezo ya kutengeneza meza.",
+            "Orodha ya majina ya watu usiowajua.",
+            "Maneno yasiyohusiana na safari."
+          ],
+          "correct_answer": "Habari za safari na jambo ulilojifunza.",
+          "explanation": "Habari hizo zinahusiana na kusudi la barua na zinampa rafiki ujumbe ulio wazi.",
+          "difficulty": "intermediate"
+        },
+        {
+          "prompt": "Ni chaguo gani linafaa zaidi kama hitimisho la barua ya kirafiki?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Wako rafiki, Asha",
+            "Mara moja nenda chumbani!",
+            "Mada ya somo ni nomino.",
+            "Hesabu jumla ya vitu vyote."
+          ],
+          "correct_answer": "Wako rafiki, Asha",
+          "explanation": "Maneno haya ni hitimisho la kirafiki na yanafuatwa na jina la mwandishi.",
+          "difficulty": "foundational"
+        }
+      ]
+    },
+    {
+      "slug": "grade-6-kiswahili-kuandika-maelezo-ya-tukio",
+      "content_version": 1,
+      "sort_order": 2,
+      "title": "Kuandika maelezo ya tukio",
+      "description": "Eleza tukio kwa mpangilio wa wakati ukitumia maelezo yanayosaidia msomaji kulielewa.",
+      "content": "Maelezo ya tukio husimulia jambo lililotokea kwa njia inayoeleweka. Mwandishi huchagua habari muhimu kuhusu nani, wapi, lini na kilichotokea, kisha hupanga matukio kwa wakati. Viashiria kama kwanza, baadaye na mwishowe humsaidia msomaji kufuatilia simulizi.",
+      "learning_objectives": [
+        "Kutambua taarifa muhimu zinazohitajika kueleza tukio.",
+        "Kupanga matukio kwa mfuatano wa wakati.",
+        "Kutumia viashiria vya wakati kuunganisha maelezo ya tukio."
+      ],
+      "prerequisites": [
+        "Kuandika aya fupi yenye sentensi zinazohusiana."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Kuchagua maelezo muhimu",
+          "body": "Msomaji anahitaji kuelewa tukio lilitokea wapi, nani alihusika na nini kilitokea. Chagua maelezo yanayosaidia kueleza tukio, si kila jambo lisilohusiana uliloliona siku hiyo."
+        },
+        {
+          "title": "Kupanga na kuunganisha",
+          "body": "Anza na mazingira au hatua ya kwanza, eleza yaliyofuata, kisha malizia kwa matokeo au hisia zako. Viashiria kama kwanza, baadaye, wakati huo na mwishowe huonyesha uhusiano wa wakati. Kila sentensi inapaswa kuongeza jambo linalohusiana na tukio."
+        },
+        {
+          "title": "Quick recap",
+          "body": "Chagua maelezo muhimu ya tukio na yapange kwa mfuatano unaoeleweka. Viunganishi husaidia kuunganisha mawazo bila kupoteza lengo la maelezo."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "Panga vidokezo hivi kuwa simulizi fupi: darasani; kengele ililia; wanafunzi walitoka kwa utaratibu; mwalimu aliwakumbusha kubeba vitabu.",
+          "solution": "Kengele ilipolia darasani, mwalimu aliwakumbusha wanafunzi kubeba vitabu. Baadaye wanafunzi walitoka kwa utaratibu.",
+          "reasoning": "Kengele ndiyo iliyoanzisha tukio. Kumbusho la mwalimu linafuata, na kutoka kwa wanafunzi kunamalizia mfuatano."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "Unapoandika kuhusu mashindano ya michezo shuleni, ni taarifa ipi husaidia zaidi kumwelewesha msomaji tukio?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Mahali na jambo lililotokea.",
+            "Rangi ya kalamu uliyonunua wiki iliyopita.",
+            "Jina la mji usiohusika na tukio.",
+            "Orodha ya vyakula usivyokula."
+          ],
+          "correct_answer": "Mahali na jambo lililotokea.",
+          "explanation": "Mahali na tukio lenyewe ni maelezo yanayohitajika ili msomaji ajue kilichotokea na wapi.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Ni neno gani linafaa kuonyesha hatua iliyotokea mwishoni mwa simulizi?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Mwanzoni",
+            "Kwanza",
+            "Hatimaye",
+            "Kabla"
+          ],
+          "correct_answer": "Hatimaye",
+          "explanation": "Hatimaye huonyesha hatua ya mwisho au matokeo ya mfuatano wa matukio.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Ni sentensi ipi inafaa zaidi katika maelezo kuhusu siku ya kupanda miti shuleni?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Wanafunzi walipanda miche uwanjani na kuimwagilia.",
+            "Nina viatu viwili vya rangi tofauti.",
+            "Duka lilifungwa mwezi uliopita.",
+            "Samaki huogelea majini."
+          ],
+          "correct_answer": "Wanafunzi walipanda miche uwanjani na kuimwagilia.",
+          "explanation": "Sentensi hii inahusiana moja kwa moja na tukio la kupanda miti na inatoa maelezo yanayofaa.",
+          "difficulty": "intermediate"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": true,
+  "is_demo": false,
+  "curriculum_system": "CBC_CBE",
+  "curriculum_level": "Grade 9",
+  "curriculum_version": "KICD-G9-2024-07",
+  "subject_slug": "integrated-science-grade-9",
+  "topic_slug": "human-body-and-health",
+  "topic_name": "Human Body and Health",
+  "topic_source_reference": null,
+  "source_id": null,
+  "lessons": [
+    {
+      "slug": "grade-9-integrated-science-digestion-and-nutrients",
+      "content_version": 1,
+      "sort_order": 1,
+      "title": "Mmeng'enyo wa chakula na virutubisho",
+      "description": "Fuatilia jinsi chakula kinavyovunjwavunjwa na virutubisho kufyonzwa mwilini.",
+      "content": "Mmeng'enyo wa chakula huvunja chakula kuwa molekuli ndogo zinazoweza kufyonzwa na kutumiwa na mwili. Mchakato huu huhusisha kuvunjwa kwa chakula kimwili na kikemikali katika sehemu mbalimbali za mfumo wa mmeng'enyo. Virutubisho vina majukumu tofauti katika mwili na hupatikana katika vyakula mbalimbali.",
+      "learning_objectives": [
+        "Kueleza kwa nini chakula humeng'enywa kabla ya virutubisho kufyonzwa.",
+        "Kuhusisha baadhi ya virutubisho na majukumu yake ya jumla mwilini."
+      ],
+      "prerequisites": [
+        "Kutambua kuwa chakula hutoa vitu vinavyohitajika kwa ukuaji na shughuli za mwili."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Kuvunja chakula na kufyonza",
+          "body": "Kutafuna huvunja chakula vipande vidogo na kukichanganya na mate. Katika njia ya chakula, mmeng'enyo wa kikemikali huvunja baadhi ya molekuli kubwa kuwa ndogo. Virutubisho vilivyomeng'enywa hufyonzwa hasa kupitia ukuta wa utumbo mwembamba na kuingia kwenye damu."
+        },
+        {
+          "title": "Majukumu ya virutubisho",
+          "body": "Wanga ni chanzo cha nishati kwa mwili. Protini hutumika katika ukuaji na ukarabati wa tishu, na mafuta yanaweza kutoa nishati na kusaidia kuhifadhi nishati. Vitamini na madini huhitajika kwa kazi mbalimbali za mwili; maji pia ni muhimu katika michakato ya mwili. Lishe bora hutegemea mlo wenye aina mbalimbali za vyakula."
+        },
+        {
+          "title": "Quick recap",
+          "body": "Mmeng?enyo huvunja chakula ili virutubisho vifyonzwe; virutubisho tofauti hutoa nishati au kusaidia ukuaji na kazi za mwili."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "Mwanafunzi anakula chakula chenye wanga, kisha molekuli ndogo zilizotokana nao hufyonzwa kwenye utumbo. Eleza kwa nini hatua ya mmeng'enyo ilihitajika.",
+          "solution": "Mmeng'enyo huvunja molekuli kubwa za chakula kuwa molekuli ndogo zinazoweza kufyonzwa kupitia ukuta wa utumbo na kutumiwa na mwili.",
+          "reasoning": "Chakula hakiingii mwilini kama kilivyo; kuvunjwa kwake huwezesha virutubisho kupita kwenye ukuta wa utumbo."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "Ni kazi gani kuu ya mmeng'enyo wa chakula?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Kuvunja chakula kuwa molekuli ndogo zinazoweza kufyonzwa.",
+            "Kubadilisha chakula chote kuwa hewa.",
+            "Kusafirisha mifupa hadi kwenye misuli.",
+            "Kuzuia virutubisho kuingia mwilini."
+          ],
+          "correct_answer": "Kuvunja chakula kuwa molekuli ndogo zinazoweza kufyonzwa.",
+          "explanation": "Mmeng'enyo hufanya virutubisho vipatikane katika maumbo madogo yanayoweza kufyonzwa na kutumiwa.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Ni kirutubisho kipi kinachohusishwa hasa na ukuaji na ukarabati wa tishu?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Protini",
+            "Wanga",
+            "Maji pekee",
+            "Chumvi ya mezani pekee"
+          ],
+          "correct_answer": "Protini",
+          "explanation": "Protini hutumika katika ukuaji na ukarabati wa tishu za mwili.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Ni sehemu ipi ya njia ya chakula inayohusishwa hasa na kufyonzwa kwa virutubisho vilivyomeng'enywa?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Utumbo mwembamba",
+            "Meno pekee",
+            "Mrija wa hewa",
+            "Ngozi ya mkono"
+          ],
+          "correct_answer": "Utumbo mwembamba",
+          "explanation": "Virutubisho vilivyomeng'enywa hufyonzwa hasa kupitia ukuta wa utumbo mwembamba na kuingia kwenye damu.",
+          "difficulty": "intermediate"
+        }
+      ]
+    },
+    {
+      "slug": "grade-9-integrated-science-kupumua-na-ubadilishanaji-wa-gesi",
+      "content_version": 1,
+      "sort_order": 2,
+      "title": "Kupumua na ubadilishanaji wa gesi",
+      "description": "Fafanua njia ya hewa na ubadilishanaji wa oksijeni na kaboni dioksidi kwenye mapafu.",
+      "content": "Kupumua kwa hewa huingiza hewa yenye oksijeni kwenye mapafu na kutoa hewa yenye kaboni dioksidi. Katika mapafu, ubadilishanaji wa gesi hutokea kati ya hewa kwenye vifuko vidogo vya hewa na damu. Huu ni tofauti na upumuaji wa seli, ambao ni mchakato wa seli kutumia oksijeni kutoa nishati kutoka kwa virutubisho.",
+      "learning_objectives": [
+        "Kufuatilia njia ya hewa inapoingia na kutoka kwenye mapafu.",
+        "Kutofautisha kupumua kwa hewa na upumuaji wa seli."
+      ],
+      "prerequisites": [
+        "Kutambua mapafu kama sehemu ya mfumo wa upumuaji."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Njia ya hewa na ubadilishanaji wa gesi",
+          "body": "Hewa huingia kupitia pua au mdomo, hupita kwenye njia ya hewa na kufika kwenye mapafu. Ndani ya mapafu kuna vifuko vidogo vya hewa vilivyo karibu na mishipa midogo ya damu. Oksijeni husambaa kutoka hewani kwenye vifuko hivyo hadi kwenye damu, na kaboni dioksidi husambaa kutoka kwenye damu kwenda hewani ili kutolewa nje."
+        },
+        {
+          "title": "Kupumua kwa hewa si sawa na upumuaji wa seli",
+          "body": "Kupumua kwa hewa ni kuingiza na kutoa hewa kwenye mapafu. Upumuaji wa seli ni mchakato wa kikemikali ndani ya seli unaotumia oksijeni kutoa nishati kutoka kwa virutubisho na kutoa kaboni dioksidi na maji. Michakato hii inahusiana kwa sababu kupumua huleta oksijeni inayohitajika na seli na kusaidia kuondoa kaboni dioksidi."
+        },
+        {
+          "title": "Quick recap",
+          "body": "Kupumua kwa hewa huingiza na kutoa hewa na kuwezesha ubadilishanaji wa gesi; upumuaji wa seli hutumia oksijeni kutoa nishati."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "Eleza kwa nini damu inayopita karibu na vifuko vya hewa vya mapafu hupokea oksijeni.",
+          "solution": "Oksijeni husambaa kutoka kwenye hewa iliyo ndani ya vifuko vya mapafu hadi kwenye damu iliyo kwenye mishipa midogo iliyo karibu.",
+          "reasoning": "Vifuko vya hewa na mishipa ya damu viko karibu, hivyo gesi zinaweza kusambaa kati ya hewa na damu."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "Ni gesi ipi husambaa kutoka kwenye vifuko vya hewa vya mapafu kwenda kwenye damu?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Oksijeni",
+            "Kaboni dioksidi",
+            "Mvuke wa maji pekee",
+            "Nitrojeni yote iliyomo hewani"
+          ],
+          "correct_answer": "Oksijeni",
+          "explanation": "Oksijeni husambaa kutoka hewani kwenye vifuko vya mapafu hadi kwenye damu.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Ni kauli ipi inayotofautisha vizuri kupumua kwa hewa na upumuaji wa seli?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Kupumua kwa hewa huingiza na kutoa hewa; upumuaji wa seli ni mchakato wa seli kutoa nishati.",
+            "Michakato yote miwili hutokea kwenye meno pekee.",
+            "Upumuaji wa seli ni kuingiza hewa kupitia pua tu.",
+            "Kupumua kwa hewa hutengeneza virutubisho ndani ya damu."
+          ],
+          "correct_answer": "Kupumua kwa hewa huingiza na kutoa hewa; upumuaji wa seli ni mchakato wa seli kutoa nishati.",
+          "explanation": "Kupumua kwa hewa ni uingizaji na utoaji wa hewa, ilhali upumuaji wa seli hutumia oksijeni kutoa nishati ndani ya seli.",
+          "difficulty": "intermediate"
+        },
+        {
+          "prompt": "Ni mwelekeo upi unaoeleza ubadilishanaji wa kaboni dioksidi kwenye mapafu?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Kutoka kwenye damu kwenda kwenye hewa ya vifuko vya mapafu.",
+            "Kutoka kwenye vifuko vya mapafu kwenda kwenye mifupa.",
+            "Kutoka kwenye damu kwenda kwenye chakula tumboni.",
+            "Kutoka kwenye hewa ya vifuko kwenda kwenye damu pekee."
+          ],
+          "correct_answer": "Kutoka kwenye damu kwenda kwenye hewa ya vifuko vya mapafu.",
+          "explanation": "Kaboni dioksidi husambaa kutoka kwenye damu hadi kwenye hewa ya vifuko vya mapafu na hutolewa nje wakati wa kutoa pumzi.",
+          "difficulty": "intermediate"
+        }
+      ]
+    }
+  ]
+}

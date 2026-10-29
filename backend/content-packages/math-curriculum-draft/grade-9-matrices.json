@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": false,
+  "is_demo": false,
+  "curriculum_system": "CBC_CBE",
+  "curriculum_level": "Grade 9",
+  "curriculum_version": "KICD-G9-2024-07",
+  "subject_slug": "mathematics-grade-9",
+  "topic_slug": "matrices",
+  "topic_name": "Matrices",
+  "topic_source_reference": "ElimuQuest Mathematics Curriculum Draft v1, PDF pp. 10-11",
+  "source_id": "KICD-G9-DESIGNS",
+  "lessons": [
+    {
+      "slug": "grade-9-matrices",
+      "content_version": 1,
+      "sort_order": 5,
+      "title": "Matrices",
+      "description": "Matrices",
+      "content": "",
+      "learning_objectives": [],
+      "prerequisites": [],
+      "explanation_sections": [
+        {
+          "title": "Matrices",
+          "body": "A matrix is a rectangular arrangement of numbers in rows and columns. Matrices of the same order can\nbe added by combining corresponding entries. For a 2 × 2 matrix [[a,b],[c,d]], the determinant is ad −\nbc."
+        }
+      ],
+      "worked_examples": [],
+      "source_reference": "ElimuQuest Mathematics Curriculum Draft v1, PDF pp. 10-11",
+      "author": "ElimuQuest",
+      "questions": [
+        {
+          "prompt": "State the order of the matrix with rows (2,1,5) and (3,4,6).",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "2 × 3.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Add [[2,3],[4,1]] and [[5,1],[2,7]].",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "[[7,4],[6,8]].",
+          "explanation": ""
+        },
+        {
+          "prompt": "Find the determinant of [[4,2],[3,5]].",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "14.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Find AB for A = [[1,2],[3,4]] and B = [[2,0],[1,5]].",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "[[4,10],[10,20]].",
+          "explanation": ""
+        },
+        {
+          "prompt": "Explain why a matrix with determinant zero has no ordinary inverse.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "The inverse formula requires division by the determinant.",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}

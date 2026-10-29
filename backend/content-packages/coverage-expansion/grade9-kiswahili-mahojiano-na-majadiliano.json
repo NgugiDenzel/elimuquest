@@ -1,0 +1,173 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": true,
+  "is_demo": false,
+  "curriculum_system": "CBC_CBE",
+  "curriculum_level": "Grade 9",
+  "curriculum_version": "KICD-G9-2024-07",
+  "subject_slug": "kiswahili-grade-9",
+  "topic_slug": "mahojiano-na-majadiliano",
+  "topic_name": "Mahojiano na Majadiliano",
+  "topic_source_reference": null,
+  "source_id": null,
+  "lessons": [
+    {
+      "slug": "grade-9-kiswahili-kuandaa-mahojiano",
+      "content_version": 1,
+      "sort_order": 1,
+      "title": "Kuandaa na kuendesha mahojiano",
+      "description": "Tengeneza maswali yenye lengo na ufuatilie majibu kwa makini.",
+      "content": "Mahojiano ni mazungumzo yenye lengo la kupata taarifa kutoka kwa mtu. Mhoji hujiandaa kwa kutambua mada, kupanga maswali na kumruhusu mhojiwa ajibu. Usikilizaji makini husaidia kuuliza maswali ya ufuatiliaji yanayohusiana na jibu.",
+      "learning_objectives": [
+        "Kuandika maswali yaliyo wazi na yanayohusiana na lengo la mahojiano.",
+        "Kueleza namna ya kusikiliza na kurekodi majibu kwa heshima."
+      ],
+      "prerequisites": [
+        "Kuunda maswali kwa kutumia viulizi vya Kiswahili."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Jiandae kwa lengo na maswali",
+          "body": "Lengo huelekeza mahojiano. Maswali yaliyo wazi kama 'Ni hatua zipi ulizochukua?' humruhusu mhojiwa kueleza zaidi kuliko swali la ndiyo au hapana. Panga maswali kutoka utangulizi hadi maelezo maalumu, lakini uwe tayari kufuatilia jibu muhimu."
+        },
+        {
+          "title": "Sikiliza na heshimu mhojiwa",
+          "body": "Mhoji anapaswa kusikiliza bila kumkatiza, kuomba ufafanuzi inapohitajika na kuandika hoja kwa usahihi. Tumia lugha ya heshima, usipotoshe jibu na usiweke maneno ya mhojiwa kwenye nukuu bila kuyaandika kama alivyosema."
+        },
+        {
+          "title": "Quick recap",
+          "body": "Jiandae kwa lengo na maswali yanayofaa, sikiliza bila kukatiza, uliza ufafanuzi inapohitajika na rekodi majibu kwa uaminifu."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "Lengo ni kujua jinsi mkulima anavyohifadhi maji wakati wa kiangazi. Andika swali moja la wazi linalofaa.",
+          "solution": "Ni njia zipi unazotumia kuhifadhi maji wakati wa kiangazi?",
+          "reasoning": "Swali linauliza kuhusu njia, linahusiana moja kwa moja na lengo, na linamruhusu mhojiwa kutoa maelezo."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "Ni swali lipi linafaa zaidi kwa mahojiano kuhusu shughuli za klabu ya shule?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Klabu yenu imefanya shughuli zipi mwaka huu?",
+            "Unapenda rangi gani zaidi?",
+            "Kwa nini kila klabu ni bora kuliko nyingine?",
+            "Je, shule ina madirisha mangapi?"
+          ],
+          "correct_answer": "Klabu yenu imefanya shughuli zipi mwaka huu?",
+          "explanation": "Swali hili liko wazi na linahusiana na mada ya shughuli za klabu.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Mhojiwa anatoa jibu ambalo haliko wazi. Mhoji anapaswa kufanya nini?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Kuuliza swali la ufafanuzi kwa heshima.",
+            "Kumkatiza na kubuni jibu lake.",
+            "Kubadilisha mada bila kusikiliza.",
+            "Kuandika jibu tofauti na alilotoa."
+          ],
+          "correct_answer": "Kuuliza swali la ufafanuzi kwa heshima.",
+          "explanation": "Swali la ufuatiliaji husaidia kupata maana iliyo wazi huku likiheshimu mhojiwa.",
+          "difficulty": "intermediate"
+        },
+        {
+          "prompt": "Ni njia ipi husaidia kuhifadhi usahihi wa taarifa za mahojiano?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Kuandika hoja kwa uaminifu na kutofautisha nukuu na muhtasari.",
+            "Kuongeza maelezo ya kuvutia ambayo hayakutajwa.",
+            "Kukumbuka maoni ya mhoji badala ya majibu.",
+            "Kuacha kuandika majibu yote."
+          ],
+          "correct_answer": "Kuandika hoja kwa uaminifu na kutofautisha nukuu na muhtasari.",
+          "explanation": "Kurekodi kwa usahihi na kuweka wazi aina ya taarifa huzuia kupotosha maneno ya mhojiwa.",
+          "difficulty": "intermediate"
+        }
+      ]
+    },
+    {
+      "slug": "grade-9-kiswahili-hoja-katika-mjadala",
+      "content_version": 1,
+      "sort_order": 2,
+      "title": "Kujenga hoja katika mjadala",
+      "description": "Toa madai yanayoeleweka, sababu na mifano huku ukisikiliza mitazamo tofauti.",
+      "content": "Mjadala ni mazungumzo ambapo washiriki huchunguza mitazamo kuhusu suala fulani. Hoja yenye nguvu huwasilisha dai, sababu inayolieleza na mfano unaofaa. Washiriki wanapaswa kujibu mawazo badala ya kushambulia watu.",
+      "learning_objectives": [
+        "Kutofautisha dai, sababu na mfano katika hoja.",
+        "Kujibu hoja ya mwingine kwa lugha ya staha na ushahidi."
+      ],
+      "prerequisites": [
+        "Kueleza maoni kwa sentensi kamili na kusikiliza zamu za wengine."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Muundo wa hoja",
+          "body": "Dai hutaja msimamo, sababu huonyesha kwa nini msimamo huo unashikiliwa, na mfano huufanya ueleweke. Kwa mfano: 'Shule ipande miti zaidi (dai), kwa sababu kivuli kinaweza kuboresha matumizi ya ua (sababu), kama vile eneo la kusomea nje (mfano).' Mfano unapaswa kuhusiana na sababu."
+        },
+        {
+          "title": "Kusikiliza na kujibu kwa heshima",
+          "body": "Sikiliza hoja nzima kabla ya kujibu. Unaweza kukubali sehemu fulani, kuuliza ufafanuzi au kutoa sababu tofauti. Tumia maneno yanayolenga wazo, kama 'Ninaelewa hoja hiyo; hata hivyo...', na epuka kumdhalilisha mzungumzaji."
+        },
+        {
+          "title": "Quick recap",
+          "body": "Jenga dai kwa sababu na mfano, sikiliza hoja pinzani, kisha jibu wazo kwa staha badala ya kumshambulia mzungumzaji."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "Dai ni 'Wanafunzi washiriki katika kupanga shughuli za klabu.' Ongeza sababu na mfano unaounga mkono dai hilo.",
+          "solution": "Sababu: Ushiriki huwasaidia kupanga shughuli zinazolingana na mahitaji yao. Mfano: Wanafunzi wanaweza kupendekeza muda unaofaa kwa mikutano.",
+          "reasoning": "Sababu inaeleza manufaa ya dai, na mfano unaonyesha namna ushiriki unavyoweza kutekelezwa."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "Katika hoja 'Tupange vitabu vya maktaba kwa mada kwa sababu itakuwa rahisi kuvipata', ni sehemu ipi inayotoa sababu?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Kwa sababu itakuwa rahisi kuvipata.",
+            "Tupange vitabu.",
+            "Maktaba ina milango miwili.",
+            "Vitabu ni vya rangi tofauti."
+          ],
+          "correct_answer": "Kwa sababu itakuwa rahisi kuvipata.",
+          "explanation": "Kifungu hicho kinaeleza kwa nini dai la kupanga vitabu linatolewa.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Mshiriki wa mjadala hakubaliani na wazo lako. Ni jibu lipi linafaa zaidi?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Kueleza sababu yako kwa staha na kujibu wazo alilotoa.",
+            "Kumkatiza na kumdhihaki.",
+            "Kusema kuwa hana haki ya kuzungumza.",
+            "Kubadilisha hoja yake kabla ya kujibu."
+          ],
+          "correct_answer": "Kueleza sababu yako kwa staha na kujibu wazo alilotoa.",
+          "explanation": "Mjadala wenye heshima huzingatia hoja na hutumia sababu badala ya mashambulizi ya kibinafsi.",
+          "difficulty": "intermediate"
+        },
+        {
+          "prompt": "Ni mfano upi unaounga mkono dai 'Kusoma pamoja kunaweza kuimarisha uelewa'?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Washiriki wanaweza kuulizana maswali kuhusu kifungu.",
+            "Vitabu vingine vina jalada la bluu.",
+            "Kengele ya shule hupigwa asubuhi.",
+            "Baadhi ya madarasa yana madirisha."
+          ],
+          "correct_answer": "Washiriki wanaweza kuulizana maswali kuhusu kifungu.",
+          "explanation": "Kuulizana maswali ni mfano unaohusiana moja kwa moja na namna kusoma pamoja kunavyoweza kusaidia uelewa.",
+          "difficulty": "intermediate"
+        }
+      ]
+    }
+  ]
+}

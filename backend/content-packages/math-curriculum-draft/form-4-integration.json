@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": false,
+  "is_demo": false,
+  "curriculum_system": "8_4_4",
+  "curriculum_level": "Form 4",
+  "curriculum_version": "KICD-844-VERSION-UNVERIFIED",
+  "subject_slug": "mathematics-form-4",
+  "topic_slug": "integration",
+  "topic_name": "Integration",
+  "topic_source_reference": "ElimuQuest Mathematics Curriculum Draft v1, PDF pp. 19-20",
+  "source_id": "KICD-844",
+  "lessons": [
+    {
+      "slug": "form-4-integration",
+      "content_version": 1,
+      "sort_order": 10,
+      "title": "Integration",
+      "description": "Integration",
+      "content": "",
+      "learning_objectives": [],
+      "prerequisites": [],
+      "explanation_sections": [
+        {
+          "title": "Integration",
+          "body": "Integration reverses differentiation for many polynomial functions and can calculate areas. For n ≠ −1,\n∫xⁿ dx = xⁿ⁺¹/(n+1) + C. Example: ∫(6x² + 4x)dx = 2x³ + 2x² + C."
+        }
+      ],
+      "worked_examples": [],
+      "source_reference": "ElimuQuest Mathematics Curriculum Draft v1, PDF pp. 19-20",
+      "author": "ElimuQuest",
+      "questions": [
+        {
+          "prompt": "Integrate 4x³ with respect to x.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "x⁴ + C.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Integrate 6x + 5.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "3x² + 5x + C.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Find ∫(3x² − 2x + 4) dx.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "x³ − x² + 4x + C.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Find the curve with gradient 6x + 2 that passes through (1,5).",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "y = 3x² + 2x.",
+          "explanation": ""
+        },
+        {
+          "prompt": "What does the constant C represent?",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "An arbitrary constant because constants differentiate to zero.",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}

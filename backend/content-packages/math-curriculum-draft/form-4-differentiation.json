@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": false,
+  "is_demo": false,
+  "curriculum_system": "8_4_4",
+  "curriculum_level": "Form 4",
+  "curriculum_version": "KICD-844-VERSION-UNVERIFIED",
+  "subject_slug": "mathematics-form-4",
+  "topic_slug": "differentiation",
+  "topic_name": "Differentiation",
+  "topic_source_reference": "ElimuQuest Mathematics Curriculum Draft v1, PDF p. 19",
+  "source_id": "KICD-844",
+  "lessons": [
+    {
+      "slug": "form-4-differentiation",
+      "content_version": 1,
+      "sort_order": 8,
+      "title": "Differentiation",
+      "description": "Differentiation",
+      "content": "",
+      "learning_objectives": [],
+      "prerequisites": [],
+      "explanation_sections": [
+        {
+          "title": "Differentiation",
+          "body": "Differentiation finds gradients and rates of change. For a power function, d(xⁿ)/dx = nxⁿ⁻¹. Differentiate\neach term of a polynomial separately. Example: y = 3x² + 4x − 7 gives dy/dx = 6x + 4."
+        }
+      ],
+      "worked_examples": [],
+      "source_reference": "ElimuQuest Mathematics Curriculum Draft v1, PDF p. 19",
+      "author": "ElimuQuest",
+      "questions": [
+        {
+          "prompt": "Differentiate y = 5x³.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "15x².",
+          "explanation": ""
+        },
+        {
+          "prompt": "Differentiate y = 4x² − 7x + 9.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "8x − 7.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Find gradient of y = 2x² + 3x − 1 at x = 2.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "11.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Find x where gradient of y = x² − 6x + 5 is zero.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "x = 3.",
+          "explanation": ""
+        },
+        {
+          "prompt": "What may a zero gradient indicate?",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "A stationary point.",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}

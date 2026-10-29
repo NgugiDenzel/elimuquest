@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": false,
+  "is_demo": false,
+  "curriculum_system": "CBC_CBE",
+  "curriculum_level": "Grade 6",
+  "curriculum_version": "KICD-G6-VERSION-UNVERIFIED",
+  "subject_slug": "mathematics-grade-6",
+  "topic_slug": "data-handling",
+  "topic_name": "Data Handling",
+  "topic_source_reference": "ElimuQuest Mathematics Curriculum Draft v1, PDF pp. 7-8",
+  "source_id": "KICD-G6-DESIGNS",
+  "lessons": [
+    {
+      "slug": "grade-6-data-handling",
+      "content_version": 1,
+      "sort_order": 8,
+      "title": "Data Handling",
+      "description": "Data Handling",
+      "content": "",
+      "learning_objectives": [],
+      "prerequisites": [],
+      "explanation_sections": [
+        {
+          "title": "Data Handling",
+          "body": "Data handling involves collecting, organising, displaying and interpreting information. Common displays\ninclude frequency tables, bar graphs, pictographs and line graphs."
+        }
+      ],
+      "worked_examples": [],
+      "source_reference": "ElimuQuest Mathematics Curriculum Draft v1, PDF pp. 7-8",
+      "author": "ElimuQuest",
+      "questions": [
+        {
+          "prompt": "Six learners read 2, 4, 3, 5, 4 and 6 books. Find the total.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "24.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Find the mean number of books.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "4.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Find the mode.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "4.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Arrange the values in ascending order and find the median.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "2, 3, 4, 4, 5, 6; median 4.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Give one reason to use a bar graph to present the results.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "It makes comparisons easy.",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}

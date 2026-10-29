@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": false,
+  "is_demo": false,
+  "curriculum_system": "CBC_CBE",
+  "curriculum_level": "Grade 9",
+  "curriculum_version": "KICD-G9-2024-07",
+  "subject_slug": "mathematics-grade-9",
+  "topic_slug": "mass-volume-weight-and-density",
+  "topic_name": "Mass, Volume, Weight and Density",
+  "topic_source_reference": "ElimuQuest Mathematics Curriculum Draft v1, PDF p. 12",
+  "source_id": "KICD-G9-DESIGNS",
+  "lessons": [
+    {
+      "slug": "grade-9-mass-volume-weight-and-density",
+      "content_version": 1,
+      "sort_order": 9,
+      "title": "Mass, Volume, Weight and Density",
+      "description": "Mass, Volume, Weight and Density",
+      "content": "",
+      "learning_objectives": [],
+      "prerequisites": [],
+      "explanation_sections": [
+        {
+          "title": "Mass, Volume, Weight and Density",
+          "body": "Density = mass ÷ volume; mass = density × volume; volume = mass ÷ density. Mass is the amount of\nmatter; weight is the gravitational force on an object."
+        }
+      ],
+      "worked_examples": [],
+      "source_reference": "ElimuQuest Mathematics Curriculum Draft v1, PDF p. 12",
+      "author": "ElimuQuest",
+      "questions": [
+        {
+          "prompt": "A block has mass 600 g and volume 200 cm³. Find density.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "3 g/cm³.",
+          "explanation": ""
+        },
+        {
+          "prompt": "A substance has density 2.5 g/cm³ and volume 80 cm³. Find mass.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "200 g.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Convert 3.2 kg to grams.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "3,200 g.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Explain the difference between mass and weight.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "Mass is measured in kilograms; weight is a force measured in newtons.",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}

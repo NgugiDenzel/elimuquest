@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": false,
+  "is_demo": false,
+  "curriculum_system": "8_4_4",
+  "curriculum_level": "Form 4",
+  "curriculum_version": "KICD-844-VERSION-UNVERIFIED",
+  "subject_slug": "mathematics-form-4",
+  "topic_slug": "longitudes-and-latitudes",
+  "topic_name": "Longitudes and Latitudes",
+  "topic_source_reference": "ElimuQuest Mathematics Curriculum Draft v1, PDF p. 18",
+  "source_id": "KICD-844",
+  "lessons": [
+    {
+      "slug": "form-4-longitudes-and-latitudes",
+      "content_version": 1,
+      "sort_order": 6,
+      "title": "Longitudes and Latitudes",
+      "description": "Longitudes and Latitudes",
+      "content": "",
+      "learning_objectives": [],
+      "prerequisites": [],
+      "explanation_sections": [
+        {
+          "title": "Longitudes and Latitudes",
+          "body": "Latitude measures angular distance north or south of the Equator; longitude measures east or west of\nthe Prime Meridian. Approximately 1° latitude = 111 km. At latitude φ, one degree of longitude is\napproximately 111 cos φ km."
+        }
+      ],
+      "worked_examples": [],
+      "source_reference": "ElimuQuest Mathematics Curriculum Draft v1, PDF p. 18",
+      "author": "ElimuQuest",
+      "questions": [
+        {
+          "prompt": "Two places on the same meridian are at 10°N and 25°N. Estimate distance.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "1,665 km.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Two places on the Equator are at 20°E and 50°E. Estimate distance.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "3,330 km.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Why is a degree of longitude shorter near the poles?",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "Meridians converge at the poles.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Explain coordinates 15°S, 30°E.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "15° south of Equator and 30° east of Prime Meridian.",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}

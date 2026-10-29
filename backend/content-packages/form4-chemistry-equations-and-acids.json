@@ -1,0 +1,167 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": true,
+  "is_demo": false,
+  "curriculum_system": "8_4_4",
+  "curriculum_level": "Form 4",
+  "curriculum_version": "KICD-844-VERSION-UNVERIFIED",
+  "subject_slug": "chemistry-form-4",
+  "topic_slug": "equations-and-acids",
+  "topic_name": "Chemical Equations and Acids",
+  "topic_source_reference": null,
+  "source_id": null,
+  "lessons": [
+    {
+      "slug": "form-4-chemistry-balancing-equations",
+      "content_version": 1,
+      "sort_order": 1,
+      "title": "Balancing chemical equations",
+      "description": "Use conservation of atoms to balance a chemical equation with whole-number coefficients.",
+      "content": "A chemical equation represents reactants changing into products. In a closed chemical reaction, atoms are rearranged but not created or destroyed. Therefore each element must have the same number of atoms on both sides.",
+      "learning_objectives": [
+        "Count atoms represented by a chemical formula.",
+        "Balance a simple equation using coefficients.",
+        "Explain why subscripts in a formula must not be changed while balancing."
+      ],
+      "prerequisites": [
+        "Read element symbols and simple chemical formulae."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Count before changing coefficients",
+          "body": "For H2 + O2 → H2O, the left has two hydrogen atoms and two oxygen atoms; the right has two hydrogen atoms and one oxygen atom. Put coefficient 2 before H2O to balance oxygen, then coefficient 2 before H2 to balance hydrogen: 2H2 + O2 → 2H2O."
+        },
+        {
+          "title": "Coefficients, not subscripts",
+          "body": "A coefficient multiplies every atom in a formula. Changing the subscript changes the identity of the substance. Check each element after balancing and reduce coefficients to the smallest whole-number ratio."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "Balance N2 + H2 → NH3.",
+          "solution": "N2 + 3H2 → 2NH3.",
+          "reasoning": "Two nitrogen atoms require 2NH3. That product contains six hydrogen atoms, so 3H2 supplies six hydrogen atoms."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "Why must the number of each type of atom be equal on both sides of a balanced chemical equation?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Atoms are rearranged, not created or destroyed in the reaction.",
+            "Products always contain fewer atoms.",
+            "The coefficients remove atoms.",
+            "Every reaction uses the same formula."
+          ],
+          "correct_answer": "Atoms are rearranged, not created or destroyed in the reaction.",
+          "explanation": "Balancing expresses conservation of atoms in a chemical reaction.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Which is the balanced equation for H2 + Cl2 → HCl?",
+          "question_type": "multiple_choice",
+          "options": [
+            "H2 + Cl2 → 2HCl",
+            "H2 + Cl2 → HCl",
+            "2H2 + Cl2 → HCl",
+            "H2 + 2Cl2 → HCl"
+          ],
+          "correct_answer": "H2 + Cl2 → 2HCl",
+          "explanation": "The product coefficient 2 gives two hydrogen and two chlorine atoms, matching the reactants.",
+          "difficulty": "intermediate"
+        },
+        {
+          "prompt": "When balancing an equation, which change is permitted?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Change a coefficient before a formula.",
+            "Change H2O into H2O2 to fix the count.",
+            "Remove an element symbol.",
+            "Change a reactant into a different substance."
+          ],
+          "correct_answer": "Change a coefficient before a formula.",
+          "explanation": "Coefficients change the relative number of molecules without changing each substance's formula.",
+          "difficulty": "foundational"
+        }
+      ]
+    },
+    {
+      "slug": "form-4-chemistry-acids-and-neutralisation",
+      "content_version": 1,
+      "sort_order": 2,
+      "title": "Acids, alkalis and neutralisation",
+      "description": "Compare acidic and alkaline solutions and describe a neutralisation reaction.",
+      "content": "In aqueous solution, acids provide hydrogen ions and alkalis provide hydroxide ions. When an acid reacts with an alkali, hydrogen and hydroxide ions form water; the remaining ions form a salt.",
+      "learning_objectives": [
+        "Describe a simple acid–alkali neutralisation.",
+        "Use an indicator result to classify a solution as acidic, neutral or alkaline.",
+        "Identify salt and water as products of neutralisation."
+      ],
+      "prerequisites": [
+        "Recognise common element symbols and simple formulae."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Using indicators",
+          "body": "Indicators change colour depending on the solution. A universal indicator gives a range of colours: red/orange indicates acidic conditions, green is around neutral, and blue/purple indicates alkaline conditions. The colour should be compared with the indicator chart."
+        },
+        {
+          "title": "Neutralisation",
+          "body": "A general word equation is acid + alkali → salt + water. For example, hydrochloric acid + sodium hydroxide → sodium chloride + water. Neutralisation does not mean that every mixture has exactly pH 7; the final pH depends on amounts and concentrations."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "Name the salt formed when hydrochloric acid reacts with potassium hydroxide.",
+          "solution": "Potassium chloride.",
+          "reasoning": "The metal in the alkali supplies potassium, and the acid supplies the chloride part of the salt; water is also formed."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "Which products are formed in a typical acid–alkali neutralisation?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Salt and water",
+            "Hydrogen and oxygen only",
+            "A metal and an acid",
+            "Carbon and water only"
+          ],
+          "correct_answer": "Salt and water",
+          "explanation": "Acid + alkali produces salt and water in a neutralisation reaction.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "A universal indicator turns green in a solution. What is the best interpretation?",
+          "question_type": "multiple_choice",
+          "options": [
+            "The solution is approximately neutral.",
+            "The solution is strongly acidic.",
+            "The solution must be a metal.",
+            "The solution contains no water."
+          ],
+          "correct_answer": "The solution is approximately neutral.",
+          "explanation": "Green on the universal indicator scale is associated with a pH near neutral.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Which salt forms when nitric acid reacts with sodium hydroxide?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Sodium nitrate",
+            "Sodium chloride",
+            "Potassium nitrate",
+            "Hydrogen chloride"
+          ],
+          "correct_answer": "Sodium nitrate",
+          "explanation": "Nitric acid forms nitrate salts, and sodium hydroxide supplies sodium ions.",
+          "difficulty": "intermediate"
+        }
+      ]
+    }
+  ]
+}

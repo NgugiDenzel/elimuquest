@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": false,
+  "is_demo": false,
+  "curriculum_system": "CBC_CBE",
+  "curriculum_level": "Grade 9",
+  "curriculum_version": "KICD-G9-2024-07",
+  "subject_slug": "mathematics-grade-9",
+  "topic_slug": "probability",
+  "topic_name": "Probability",
+  "topic_source_reference": "ElimuQuest Mathematics Curriculum Draft v1, PDF p. 15",
+  "source_id": "KICD-G9-DESIGNS",
+  "lessons": [
+    {
+      "slug": "grade-9-probability",
+      "content_version": 1,
+      "sort_order": 18,
+      "title": "Probability",
+      "description": "Probability",
+      "content": "",
+      "learning_objectives": [],
+      "prerequisites": [],
+      "explanation_sections": [
+        {
+          "title": "Probability",
+          "body": "For equally likely outcomes, P(E) = favourable outcomes ÷ total outcomes. Probability lies between 0\nand 1."
+        }
+      ],
+      "worked_examples": [],
+      "source_reference": "ElimuQuest Mathematics Curriculum Draft v1, PDF p. 15",
+      "author": "ElimuQuest",
+      "questions": [
+        {
+          "prompt": "A fair coin is tossed once. Find probability of heads.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "1/2.",
+          "explanation": ""
+        },
+        {
+          "prompt": "A fair die is rolled. Find probability of a number greater than 4.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "1/3.",
+          "explanation": ""
+        },
+        {
+          "prompt": "A bag has 3 red, 5 blue and 2 green balls. Find probability of blue.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "1/2.",
+          "explanation": ""
+        },
+        {
+          "prompt": "For the same bag, find probability of not selecting red.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "7/10.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Why is the probability of an impossible event zero?",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "It has no favourable outcomes.",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": true,
+  "is_demo": false,
+  "curriculum_system": "8_4_4",
+  "curriculum_level": "Form 4",
+  "curriculum_version": "KICD-844-VERSION-UNVERIFIED",
+  "subject_slug": "kiswahili-form-4",
+  "topic_slug": "uandishi-na-nyakati",
+  "topic_name": "Uandishi na Nyakati za Vitenzi",
+  "topic_source_reference": null,
+  "source_id": null,
+  "lessons": [
+    {
+      "slug": "form-4-kiswahili-barua-rasmi",
+      "content_version": 1,
+      "sort_order": 1,
+      "title": "Kuandika barua rasmi",
+      "description": "Panga barua rasmi kwa madhumuni, mpokeaji na lugha inayofaa.",
+      "content": "Barua rasmi huandikwa kwa madhumuni maalumu kwa mtu au taasisi. Huwa na anwani na tarehe, salamu, utangulizi unaoeleza sababu ya kuandika, maelezo yaliyopangwa, hitimisho na jina la mwandishi.",
+      "learning_objectives": [
+        "Kutambua sehemu kuu za barua rasmi.",
+        "Kupanga maelezo kwa mtiririko unaoeleweka.",
+        "Kutumia lugha ya heshima na iliyo wazi."
+      ],
+      "prerequisites": [
+        "Kuandika aya zenye sentensi kamili."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Madhumuni na mpokeaji",
+          "body": "Kabla ya kuandika, bainisha unayemwandikia na lengo la barua. Tumia lugha inayofaa kwa mpokeaji. Eleza ombi au taarifa kwa uwazi na utoe maelezo yanayohitajika tu."
+        },
+        {
+          "title": "Mpangilio",
+          "body": "Anwani ya mwandishi na tarehe huwekwa juu. Salamu hufuatiwa na utangulizi, kiini cha ujumbe na hitimisho. Salamu ya mwisho na sahihi hutegemea mpokeaji na utaratibu unaotumiwa."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "Boresha ombi 'Nitumie ratiba haraka' liwe sentensi ya heshima katika barua kwa mkuu wa shule.",
+          "solution": "Naomba unipatie ratiba ya sasa ya masomo itakapowezekana.",
+          "reasoning": "Sentensi inaomba jambo maalumu kwa lugha ya heshima na haitumii amri isiyofaa."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "Ni sehemu gani hueleza wazi sababu ya kuandika barua rasmi?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Utangulizi",
+            "Anwani pekee",
+            "Namba ya ukurasa",
+            "Rangi ya karatasi"
+          ],
+          "correct_answer": "Utangulizi",
+          "explanation": "Utangulizi hutaja kusudi la barua na kumwelekeza msomaji.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Ni sentensi ipi inayofaa zaidi katika ombi rasmi?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Naomba unielekeze kuhusu tarehe ya mkutano.",
+            "Niambie tarehe sasa.",
+            "Nataka kujua kitu fulani.",
+            "Wewe leta tarehe."
+          ],
+          "correct_answer": "Naomba unielekeze kuhusu tarehe ya mkutano.",
+          "explanation": "Sentensi hii ni ya heshima na inaeleza ombi kwa uwazi.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Kwa nini maelezo ya barua rasmi yapangwe kwa aya?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Ili kila wazo lieleweke na ujumbe ufuatane vizuri.",
+            "Ili kuficha kusudi la barua.",
+            "Ili kuongeza maneno yasiyohitajika.",
+            "Ili kuondoa salamu."
+          ],
+          "correct_answer": "Ili kila wazo lieleweke na ujumbe ufuatane vizuri.",
+          "explanation": "Aya zilizopangwa husaidia msomaji kufuatilia mawazo na madhumuni.",
+          "difficulty": "intermediate"
+        }
+      ]
+    },
+    {
+      "slug": "form-4-kiswahili-nyakati-za-vitenzi",
+      "content_version": 1,
+      "sort_order": 2,
+      "title": "Nyakati za vitenzi",
+      "description": "Tumia viambishi vya wakati kuonyesha tendo lililotokea, linalotokea au litakalotokea.",
+      "content": "Kitenzi cha Kiswahili kinaweza kutumia kiambishi kuonyesha wakati na kiima. Katika mifano ya kawaida, -na- huonyesha wakati wa sasa, -li- wakati uliopita, na -ta- wakati ujao. Muktadha na upatanisho wa kiima ni muhimu.",
+      "learning_objectives": [
+        "Kutambua viambishi vya sasa, uliopita na ujao katika mifano rahisi.",
+        "Kubadili kitenzi rahisi kutoka wakati mmoja hadi mwingine.",
+        "Kudumisha upatanisho wa kiima na kitenzi."
+      ],
+      "prerequisites": [
+        "Kutambua kiima na kitenzi katika sentensi."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Viambishi vya wakati",
+          "body": "Katika 'ninasoma', kiambishi -na- kinaonyesha tendo la sasa. 'Nilisoma' linaonyesha tendo lililopita na 'nitasoma' linaonyesha tendo litakalofanyika. Viambishi vya kiima hubadilika kulingana na anayefanya tendo."
+        },
+        {
+          "title": "Tumia muktadha",
+          "body": "Maneno ya wakati kama jana, sasa na kesho husaidia kubainisha wakati. Hakikisha kitenzi kinakubaliana na kiima: 'mimi nitasoma' lakini 'wao watasoma'."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "Badili 'Asha anaimba sasa' iwe sentensi ya wakati ujao kwa kutumia 'kesho'.",
+          "solution": "Asha ataimba kesho.",
+          "reasoning": "Kiima Asha ni nafsi ya tatu umoja; kiambishi cha wakati ujao ni -ta- katika kitenzi ataimba."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "Katika 'Wanafunzi walisoma jana', ni sehemu ipi inayoonyesha wakati uliopita?",
+          "question_type": "multiple_choice",
+          "options": [
+            "-li-",
+            "-na-",
+            "-ta-",
+            "-ki-"
+          ],
+          "correct_answer": "-li-",
+          "explanation": "Kiambishi -li- kinaonyesha wakati uliopita katika mfano huu.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Chagua sentensi inayotumia kiambishi cha wakati ujao na kiima cha wingi kwa upatanisho.",
+          "question_type": "multiple_choice",
+          "options": [
+            "Wao watasafiri kesho.",
+            "Wao atasafiri kesho.",
+            "Wao nilisafiri kesho.",
+            "Wao anasafiri jana."
+          ],
+          "correct_answer": "Wao watasafiri kesho.",
+          "explanation": "Kiima cha wingi wao kinaambatana na wa- katika watasafiri, na kesho huonyesha wakati ujao.",
+          "difficulty": "intermediate"
+        },
+        {
+          "prompt": "Badili 'Mimi ninapika sasa' ili kuonyesha tendo la jana.",
+          "question_type": "multiple_choice",
+          "options": [
+            "Mimi nilipika jana.",
+            "Mimi nitapika jana.",
+            "Mimi anapika jana.",
+            "Mimi wanapika jana."
+          ],
+          "correct_answer": "Mimi nilipika jana.",
+          "explanation": "Kiambishi ni- kinaonyesha kiima mimi na -li- huonyesha wakati uliopita.",
+          "difficulty": "intermediate"
+        }
+      ]
+    }
+  ]
+}

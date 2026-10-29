@@ -1,0 +1,275 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": false,
+  "is_demo": false,
+  "curriculum_system": "CBC_CBE",
+  "curriculum_level": "Grade 6",
+  "curriculum_version": "KICD-G6-VERSION-UNVERIFIED",
+  "subject_slug": "mathematics-grade-6",
+  "topic_slug": "whole-numbers-pupils-book",
+  "topic_name": "Whole Numbers",
+  "topic_source_reference": "Grade 6 Mathematics Pupil’s Book (KICD CBC), revised 2024, Strand 1: Numbers, Sub-strand 1.1: Whole Numbers, PDF pp. 1-6",
+  "source_id": "KICD-G6-DESIGNS",
+  "lessons": [
+    {
+      "slug": "grade-6-whole-numbers-place-value-pupil-book",
+      "content_version": 1,
+      "sort_order": 101,
+      "title": "Step 1: Place value and total value",
+      "description": "Strand 1: Numbers · Sub-strand 1.1: Whole Numbers",
+      "content": "",
+      "learning_objectives": [],
+      "prerequisites": [],
+      "explanation_sections": [
+        {
+          "title": "Step 1: Place value and total value",
+          "body": "Key inquiry question: How do we read and write numbers in symbols and in words?\n\nLet’s begin!\nWanjiku’s school is holding a harambee to buy new desks. At the end of the day, the head teacher announces, “We have collected Ksh 48,250!” Wanjiku writes the amount on the board in digits. Her friend Kiprop reads it out in words: “forty-eight thousand, two hundred and fifty shillings.” Who is correct? Both of them! Numbers can be written in symbols (digits such as 4, 8, 2, 5 and 0) and in words.\n\nIn this sub-strand you will learn to read, write, compare and round big numbers. You will also meet squares and square roots. Let’s go!\n\nYou already know that a digit has a different value depending on where it sits in a number. Let’s look at the number 3,456,789.\n\n[DIAGRAM: A place value chart with seven columns labelled Millions, Hundred thousands, Ten thousands, Thousands, Hundreds, Tens, Ones. The digits 3, 4, 5, 6, 7, 8, 9 sit in the columns. Show the commas separating the groups of three digits.]\n\nThe place value of a digit is the name of the place where the digit sits. In 3,456,789, the place value of 5 is ten thousands.\nThe total value of a digit is the digit multiplied by the value of its place. The total value of 5 is 5 × 10,000 = 50,000.\n\nMillions | Hundred thousands | Ten thousands | Thousands | Hundreds | Tens | Ones\n3 | 4 | 5 | 6 | 7 | 8 | 9\n3,000,000 | 400,000 | 50,000 | 6,000 | 700 | 80 | 9\n\nWorked example 1. In the number 6,507,284, find the place value and the total value of (a) 5 and (b) 7.\nStep 1: Write the digits in their places: 6 millions, 5 hundred thousands, 0 ten thousands, 7 thousands, 2 hundreds, 8 tens, 4 ones.\nStep 2 (a): The digit 5 is in the hundred thousands place. Total value = 5 × 100,000 = 500,000.\nStep 3 (b): The digit 7 is in the thousands place. Total value = 7 × 1,000 = 7,000.\nNotice that the 0 in the ten thousands place has a total value of 0 × 10,000 = 0. Zero holds the place so that the other digits stay in the right positions."
+        }
+      ],
+      "worked_examples": [],
+      "source_reference": "Grade 6 Mathematics Pupil’s Book (KICD CBC, revised 2024), Strand 1: Numbers, Sub-strand 1.1: Whole Numbers, pp. 1, 4, 6. Referenced answer key absent from excerpt; keys calculated independently.",
+      "author": "ElimuQuest",
+      "questions": [
+        {
+          "prompt": "3. In the number 5,672,314, write the place value and total value of (a) 6.",
+          "question_type": "multiple_choice",
+          "options": [
+            "Hundred thousands; 600,000",
+            "Ten thousands; 60,000",
+            "Thousands; 6,000",
+            "Hundred thousands; 60,000"
+          ],
+          "correct_answer": "Hundred thousands; 600,000",
+          "explanation": "The place value of a digit is the name of the place where the digit sits. The total value of a digit is the digit multiplied by the value of its place."
+        },
+        {
+          "prompt": "3. In the number 5,672,314, write the place value and total value of (b) 2.",
+          "question_type": "multiple_choice",
+          "options": [
+            "Hundreds; 200",
+            "Thousands; 2,000",
+            "Ten thousands; 20,000",
+            "Hundred thousands; 200,000"
+          ],
+          "correct_answer": "Thousands; 2,000",
+          "explanation": "The place value of a digit is the name of the place where the digit sits. The total value of a digit is the digit multiplied by the value of its place."
+        }
+      ]
+    },
+    {
+      "slug": "grade-6-whole-numbers-reading-writing-pupil-book",
+      "content_version": 1,
+      "sort_order": 102,
+      "title": "Step 2: Reading and writing numbers in words",
+      "description": "Strand 1: Numbers · Sub-strand 1.1: Whole Numbers",
+      "content": "",
+      "learning_objectives": [],
+      "prerequisites": [],
+      "explanation_sections": [
+        {
+          "title": "Step 2: Reading and writing numbers in words",
+          "body": "We use commas to group digits in threes, starting from the right. This makes big numbers easier to read.\n\nNumbers up to 100,000 can be read and written in words like this:\n1. Split the number at the comma. The part on the left is the thousands.\n2. Say the thousands part, then say the word thousand.\n3. Say the last three digits as hundreds, tens and ones.\n\nFor 45,208: the thousands part is 45 and the rest is 208. So we write forty-five thousand, two hundred and eight.\nWatch out for zeros! In 70,060, there are no hundreds, so we do not say “hundred”. We write seventy thousand and sixty.\nTo go from words to symbols, write the thousands part first, then the last three digits. “Thirty-two thousand, six hundred and nine” is 32,000 + 609 = 32,609. Also remember that 100,000 is one hundred thousand."
+        }
+      ],
+      "worked_examples": [],
+      "source_reference": "Grade 6 Mathematics Pupil’s Book (KICD CBC, revised 2024), Strand 1: Numbers, Sub-strand 1.1: Whole Numbers, pp. 2, 5, 6. Referenced answer key absent from excerpt; keys calculated independently.",
+      "author": "ElimuQuest",
+      "questions": [
+        {
+          "prompt": "1. Write in words: (a) 23,450.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "twenty-three thousand, four hundred and fifty",
+          "explanation": ""
+        },
+        {
+          "prompt": "1. Write in words: (b) 60,008.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "sixty thousand and eight",
+          "explanation": ""
+        },
+        {
+          "prompt": "2. Write in symbols: (a) sixty-eight thousand and five.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "68,005",
+          "explanation": ""
+        },
+        {
+          "prompt": "2. Write in symbols: (b) ninety thousand, four hundred and twelve.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "90,412",
+          "explanation": ""
+        },
+        {
+          "prompt": "8. Challenge. Use the digits 7, 0, 3, 9 and 5, each only once. (c) Write your answer to (a) in words.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "ninety-seven thousand, five hundred and thirty",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "slug": "grade-6-whole-numbers-ordering-pupil-book",
+      "content_version": 1,
+      "sort_order": 103,
+      "title": "Step 3: Ordering numbers",
+      "description": "Strand 1: Numbers · Sub-strand 1.1: Whole Numbers",
+      "content": "",
+      "learning_objectives": [],
+      "prerequisites": [],
+      "explanation_sections": [
+        {
+          "title": "Step 3: Ordering numbers",
+          "body": "To compare two numbers, follow these steps:\n1. Count the digits. The number with more digits is greater.\n2. If they have the same number of digits, compare digit by digit from the left. The first digits that differ decide which number is greater.\n\nCompare 38,540 and 38,450. Both have 5 digits. The first two digits (3 and 8) are the same. In the hundreds place, 5 is greater than 4. So 38,540 > 38,450.\nThe symbols > (greater than) and < (less than) always point their small end at the smaller number. Think of an open mouth that wants to eat the bigger number!\nPutting numbers in order from the smallest to the greatest is called ascending order.\nPutting them from the greatest to the smallest is called descending order.\n\n[DIAGRAM: A number line from 0 to 100,000 with the numbers 9,999; 38,450; 38,540 and 83,045 marked on it, showing them in ascending order from left to right.]\nAscending order of 9,999; 38,450; 38,540; 83,045 is exactly the order they are written here. Number 9,999 has only 4 digits, so it is the smallest."
+        }
+      ],
+      "worked_examples": [],
+      "source_reference": "Grade 6 Mathematics Pupil’s Book (KICD CBC, revised 2024), Strand 1: Numbers, Sub-strand 1.1: Whole Numbers, pp. 2, 5, 6. Referenced answer key absent from excerpt; keys calculated independently.",
+      "author": "ElimuQuest",
+      "questions": [
+        {
+          "prompt": "4. Four traders in Kisumu earned Ksh 45,609, Ksh 45,096, Ksh 4,999 and Ksh 54,069 in a month. Write the amounts in ascending order.",
+          "question_type": "multiple_choice",
+          "options": [
+            "Ksh 4,999; Ksh 45,096; Ksh 45,609; Ksh 54,069",
+            "Ksh 4,999; Ksh 45,609; Ksh 45,096; Ksh 54,069",
+            "Ksh 54,069; Ksh 45,609; Ksh 45,096; Ksh 4,999",
+            "Ksh 45,096; Ksh 4,999; Ksh 45,609; Ksh 54,069"
+          ],
+          "correct_answer": "Ksh 4,999; Ksh 45,096; Ksh 45,609; Ksh 54,069",
+          "explanation": "Putting numbers in order from the smallest to the greatest is called ascending order."
+        },
+        {
+          "prompt": "8. Challenge. Use the digits 7, 0, 3, 9 and 5, each only once. (a) Make the greatest 5-digit number.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "97,530",
+          "explanation": ""
+        },
+        {
+          "prompt": "8. Challenge. Use the digits 7, 0, 3, 9 and 5, each only once. (b) Make the smallest 5-digit number.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "30,579",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "slug": "grade-6-whole-numbers-rounding-pupil-book",
+      "content_version": 1,
+      "sort_order": 104,
+      "title": "Step 4: Rounding off to the nearest thousand",
+      "description": "Strand 1: Numbers · Sub-strand 1.1: Whole Numbers",
+      "content": "",
+      "learning_objectives": [],
+      "prerequisites": [],
+      "explanation_sections": [
+        {
+          "title": "Step 4: Rounding off to the nearest thousand",
+          "body": "We round off a number when we do not need the exact amount. For example, a newspaper may say “about 48,000 people watched the match.” Follow these steps to round off to the nearest thousand:\n1. Find the digit in the thousands place.\n2. Look at the digit just to its right, the hundreds digit.\n3. If the hundreds digit is 0, 1, 2, 3 or 4, the thousands digit stays the same.\n4. If the hundreds digit is 5, 6, 7, 8 or 9, add 1 to the thousands digit.\n5. Replace the hundreds, tens and ones digits with zeros.\n\n[DIAGRAM: A number line from 47,000 to 48,000 with 47,500 marked in the middle. The number 47,382 is marked closer to 47,000, with an arrow showing it rounds down.]\nFor example, 47,382 has hundreds digit 3, so it rounds to 47,000.\n\nKey word\nRound off: to change a number to a nearby number that is easier to use.\n\nWorked example 2. Round off to the nearest thousand: (a) 83,672 (b) 60,499 (c) 95,500.\n(a) The thousands digit is 3. The hundreds digit is 6, which is 5 or more. Add 1 to 3 to get 4. Replace the last three digits with zeros: 84,000.\n(b) The thousands digit is 0. The hundreds digit is 4, which is less than 5. The 0 stays. Replace the last three digits with zeros: 60,000.\n(c) The thousands digit is 5. The hundreds digit is 5, so add 1 to 5 to get 6. Replace the last three digits with zeros: 96,000."
+        }
+      ],
+      "worked_examples": [],
+      "source_reference": "Grade 6 Mathematics Pupil’s Book (KICD CBC, revised 2024), Strand 1: Numbers, Sub-strand 1.1: Whole Numbers, pp. 3, 4, 6. Referenced answer key absent from excerpt; keys calculated independently.",
+      "author": "ElimuQuest",
+      "questions": [
+        {
+          "prompt": "5. Round off to the nearest thousand: (a) 34,499.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "34,000",
+          "explanation": ""
+        },
+        {
+          "prompt": "5. Round off to the nearest thousand: (b) 78,500.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "79,000",
+          "explanation": ""
+        },
+        {
+          "prompt": "5. Round off to the nearest thousand: (c) 96,720.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "97,000",
+          "explanation": ""
+        },
+        {
+          "prompt": "5. Round off to the nearest thousand: (d) 99,501.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "100,000",
+          "explanation": ""
+        },
+        {
+          "prompt": "8. Challenge. Use the digits 7, 0, 3, 9 and 5, each only once. (d) Round your answer to (b) to the nearest thousand.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "31,000",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "slug": "grade-6-whole-numbers-squares-roots-pupil-book",
+      "content_version": 1,
+      "sort_order": 105,
+      "title": "Step 5: Squares and square roots",
+      "description": "Strand 1: Numbers · Sub-strand 1.1: Whole Numbers",
+      "content": "",
+      "learning_objectives": [],
+      "prerequisites": [],
+      "explanation_sections": [
+        {
+          "title": "Step 5: Squares and square roots",
+          "body": "The square of a number is the number multiplied by itself. The square of 6 is 6 × 6 = 36. We write this as 6² = 36.\n\n[DIAGRAM: A 6 by 6 grid of small squares, shaded to show that 6 rows of 6 squares make 36 squares.]\n\nNumbers like 1, 4, 9, 16, 25, 36, 49, 64, 81 and 100 are called perfect squares, because they are the squares of whole numbers.\nThe square root of a number is the number that, when multiplied by itself, gives the first number. Finding a square root is the opposite of finding a square. Since 7 × 7 = 49, the square root of 49 is 7. We write this as √49 = 7.\nTo find a square root, try numbers and check by multiplying. A clue helps: a number that ends in 5 has a square root that ends in 5.\n\nKey words\nDigit: one of the symbols 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 used to write numbers.\nPlace value: the position of a digit in a number, such as tens or thousands.\nTotal value: the value of a digit in its place, found by digit × value of the place.\nAscending order: from the smallest to the greatest.\nDescending order: from the greatest to the smallest.\nRound off: to change a number to a nearby number that is easier to use.\nSquare of a number: the number multiplied by itself.\nPerfect square: the square of a whole number, such as 49.\nSquare root: the number that, multiplied by itself, gives a given number.\n\nWorked example 3. Work out (a) 15² (b) √144 (c) √1,600.\n(a) 15² = 15 × 15. First, 15 × 10 = 150. Next, 15 × 5 = 75. Add them: 150 + 75 = 225.\n(b) We need a number that multiplies by itself to give 144. Try 11: 11 × 11 = 121, which is too small. Try 12: 12 × 12 = 144. So √144 = 12.\n(c) We need a number that multiplies by itself to give 1,600. Notice that 4 × 4 = 16. So try 40: 40 × 40 = 1,600. So √1,600 = 40.\n\nLet’s do it: Number builders and square tiles\nWork in groups of four.\nYou need: ten small pieces of paper or bottle tops with the digits 0 to 9 written on them, squared paper, a pencil and a pair of scissors.\n\nPart A: Number builders\n1. Each pupil picks five digit cards without looking.\n2. Use your five cards to make the greatest 5-digit number you can. Then make the smallest 5-digit number. Remember that a number cannot start with 0!\n3. Read both numbers aloud to your group, then write them in words in your exercise book.\n4. Put everyone’s greatest numbers in ascending order. Use the symbols < and > to compare two of them.\n5. Round each number to the nearest thousand. Check each other’s answers.\n\nPart B: Square tiles\n1. On squared paper, draw and cut out squares that measure 1 by 1, 2 by 2, 3 by 3, and so on up to 10 by 10 small squares.\n2. Count how many small squares are in each cut-out. Write your results in a table with the headings Side and Number of small squares.\n3. What do you notice about the numbers in the second column? What are they called?\n4. Choose one number in your table. What is its square root? Explain to your group how the cut-out shows this.\n\nTalk about this: Where in your home or school do you see big numbers, such as prices, distances or the number of pupils?\n\nRemember\nThe place value of a digit is its position. The total value is digit × value of the place.\nGroup big numbers in threes with commas to make them easy to read.\nTo compare numbers, count the digits first. Then compare from the left.\nTo round off to the nearest thousand, look at the hundreds digit. If it is 0 to 4, the thousands digit stays. If it is 5 to 9, add 1.\nThe square of a number is the number times itself. The square root undoes the square.\n\nPractice questions\nThe answers will be given in the answer key at the end of Strand 1."
+        }
+      ],
+      "worked_examples": [],
+      "source_reference": "Grade 6 Mathematics Pupil’s Book (KICD CBC, revised 2024), Strand 1: Numbers, Sub-strand 1.1: Whole Numbers, pp. 3-6. Referenced answer key absent from excerpt; keys calculated independently.",
+      "author": "ElimuQuest",
+      "questions": [
+        {
+          "prompt": "6. Work out: (a) 9².",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "81",
+          "explanation": ""
+        },
+        {
+          "prompt": "6. Work out: (b) 25².",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "625",
+          "explanation": ""
+        },
+        {
+          "prompt": "6. Work out: (c) √169.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "13",
+          "explanation": ""
+        },
+        {
+          "prompt": "6. Work out: (d) √3,600.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "60",
+          "explanation": ""
+        },
+        {
+          "prompt": "7. A school hall floor is covered with 1,225 square tiles. There are the same number of tiles in each row and in each column. How many tiles are in one row? (Hint: 30 × 30 = 900 and 40 × 40 = 1,600. The number of tiles in a row ends in 5.)",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "35",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}

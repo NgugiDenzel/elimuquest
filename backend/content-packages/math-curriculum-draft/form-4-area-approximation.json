@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": false,
+  "is_demo": false,
+  "curriculum_system": "8_4_4",
+  "curriculum_level": "Form 4",
+  "curriculum_version": "KICD-844-VERSION-UNVERIFIED",
+  "subject_slug": "mathematics-form-4",
+  "topic_slug": "area-approximation",
+  "topic_name": "Area Approximation",
+  "topic_source_reference": "ElimuQuest Mathematics Curriculum Draft v1, PDF p. 19",
+  "source_id": "KICD-844",
+  "lessons": [
+    {
+      "slug": "form-4-area-approximation",
+      "content_version": 1,
+      "sort_order": 9,
+      "title": "Area Approximation",
+      "description": "Area Approximation",
+      "content": "",
+      "learning_objectives": [],
+      "prerequisites": [],
+      "explanation_sections": [
+        {
+          "title": "Area Approximation",
+          "body": "Area approximation estimates the area under a curve or of an irregular shape. Methods include\ncounting squares, using ordinates and using trapezia. Trapezium area = ½(a+b)h."
+        }
+      ],
+      "worked_examples": [],
+      "source_reference": "ElimuQuest Mathematics Curriculum Draft v1, PDF p. 19",
+      "author": "ElimuQuest",
+      "questions": [
+        {
+          "prompt": "Find area of a trapezium with parallel sides 8 cm and 14 cm, height 5 cm.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "55 cm².",
+          "explanation": ""
+        },
+        {
+          "prompt": "Find area when parallel sides are 3 cm and 7 cm, height 4 cm.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "20 cm².",
+          "explanation": ""
+        },
+        {
+          "prompt": "Why can narrower trapezia improve an estimate under a smooth curve?",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "Narrower strips usually follow the curve more closely.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Describe how ordinates can be used to estimate area under a curve.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "Measure ordinates at selected points and add estimated strip areas.",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}

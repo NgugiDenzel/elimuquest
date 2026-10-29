@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": false,
+  "is_demo": false,
+  "curriculum_system": "CBC_CBE",
+  "curriculum_level": "Grade 9",
+  "curriculum_version": "KICD-G9-2024-07",
+  "subject_slug": "mathematics-grade-9",
+  "topic_slug": "time-distance-and-speed",
+  "topic_name": "Time, Distance and Speed",
+  "topic_source_reference": "ElimuQuest Mathematics Curriculum Draft v1, PDF pp. 12-13",
+  "source_id": "KICD-G9-DESIGNS",
+  "lessons": [
+    {
+      "slug": "grade-9-time-distance-and-speed",
+      "content_version": 1,
+      "sort_order": 10,
+      "title": "Time, Distance and Speed",
+      "description": "Time, Distance and Speed",
+      "content": "",
+      "learning_objectives": [],
+      "prerequisites": [],
+      "explanation_sections": [
+        {
+          "title": "Time, Distance and Speed",
+          "body": "Speed = distance ÷ time; distance = speed × time; time = distance ÷ speed."
+        }
+      ],
+      "worked_examples": [],
+      "source_reference": "ElimuQuest Mathematics Curriculum Draft v1, PDF pp. 12-13",
+      "author": "ElimuQuest",
+      "questions": [
+        {
+          "prompt": "A vehicle travels 240 km in 4 hours. Find average speed.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "60 km/h.",
+          "explanation": ""
+        },
+        {
+          "prompt": "How far does a cyclist travel at 15 km/h in 2.5 hours?",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "37.5 km.",
+          "explanation": ""
+        },
+        {
+          "prompt": "A bus travels 150 km at 50 km/h. Find journey time.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "3 hours.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Convert 72 km/h to m/s.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "20 m/s.",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}

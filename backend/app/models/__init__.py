@@ -1,0 +1,31 @@
+from app.models.entities import (
+    Achievement,
+    AnswerAttempt,
+    Base,
+    DailyActivity,
+    Lesson,
+    LessonProgress,
+    LessonQuestion,
+    LessonSession,
+    Subject,
+    Topic,
+    User,
+    UserAchievement,
+    XpTransaction,
+)
+
+__all__ = [
+    "Achievement",
+    "AnswerAttempt",
+    "Base",
+    "DailyActivity",
+    "Lesson",
+    "LessonProgress",
+    "LessonQuestion",
+    "LessonSession",
+    "Subject",
+    "Topic",
+    "User",
+    "UserAchievement",
+    "XpTransaction",
+]

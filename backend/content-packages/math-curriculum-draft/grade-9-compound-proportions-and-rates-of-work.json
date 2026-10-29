@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": false,
+  "is_demo": false,
+  "curriculum_system": "CBC_CBE",
+  "curriculum_level": "Grade 9",
+  "curriculum_version": "KICD-G9-2024-07",
+  "subject_slug": "mathematics-grade-9",
+  "topic_slug": "compound-proportions-and-rates-of-work",
+  "topic_name": "Compound Proportions and Rates of Work",
+  "topic_source_reference": "ElimuQuest Mathematics Curriculum Draft v1, PDF p. 10",
+  "source_id": "KICD-G9-DESIGNS",
+  "lessons": [
+    {
+      "slug": "grade-9-compound-proportions-and-rates-of-work",
+      "content_version": 1,
+      "sort_order": 4,
+      "title": "Compound Proportions and Rates of Work",
+      "description": "Compound Proportions and Rates of Work",
+      "content": "",
+      "learning_objectives": [],
+      "prerequisites": [],
+      "explanation_sections": [
+        {
+          "title": "Compound Proportions and Rates of Work",
+          "body": "A rate of work describes how much work is completed per unit of time. If 4 equally productive workers\nfinish a job in 12 days, the work equals 48 worker-days, so 6 workers would need 8 days."
+        }
+      ],
+      "worked_examples": [],
+      "source_reference": "ElimuQuest Mathematics Curriculum Draft v1, PDF p. 10",
+      "author": "ElimuQuest",
+      "questions": [
+        {
+          "prompt": "If 5 notebooks cost KSh 400, find the cost of 8 at the same unit price.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "KSh 640.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Six workers complete a job in 15 days. How long would 10 equally productive workers take?",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "9 days.",
+          "explanation": ""
+        },
+        {
+          "prompt": "A car travels 180 km in 3 hours at constant speed. How far in 5 hours?",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "300 km.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Four identical taps fill a tank in 6 hours. How long would 8 taps take?",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "3 hours.",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}

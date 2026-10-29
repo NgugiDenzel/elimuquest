@@ -1,0 +1,175 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": true,
+  "is_demo": false,
+  "curriculum_system": "8_4_4",
+  "curriculum_level": "Form 4",
+  "curriculum_version": "KICD-844-VERSION-UNVERIFIED",
+  "subject_slug": "english-form-4",
+  "topic_slug": "comprehension-and-summary",
+  "topic_name": "Comprehension and Summary",
+  "topic_source_reference": null,
+  "source_id": null,
+  "lessons": [
+    {
+      "slug": "form-4-english-inference-and-evidence",
+      "content_version": 1,
+      "sort_order": 1,
+      "title": "Making inferences from a passage",
+      "description": "Combine textual clues with what is already known to make careful, evidence-based inferences.",
+      "content": "An inference is a reasonable conclusion that a writer implies without stating directly. Readers use clues such as a character's actions, word choice, setting and consequences, together with relevant background knowledge. An inference must fit the passage; it is not permission to invent details.",
+      "learning_objectives": [
+        "Distinguish a directly stated fact from an inference.",
+        "Support an inference with a precise clue from a passage.",
+        "Revise an inference when new evidence does not support it."
+      ],
+      "prerequisites": [
+        "Identify the main idea and supporting details in a paragraph."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Move from clue to conclusion",
+          "body": "Notice a detail, ask what it suggests, and check that the conclusion is consistent with the rest of the text. For example, a character who repeatedly checks the sky and covers a basket may expect rain, even if the writer never says so."
+        },
+        {
+          "title": "Keep evidence in view",
+          "body": "A strong response states the inference and names the clue that supports it. Avoid treating a guess as fact or relying on a single ambiguous detail when other evidence points elsewhere."
+        },
+        {
+          "title": "Quick recap",
+          "body": "An inference is a reasoned conclusion, not a guess: connect a textual clue to what it suggests, and revise the conclusion when the evidence changes."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "A passage says, 'Nali tucked the seedlings under a woven cover and hurried indoors as the first heavy drops struck the roof.' What can a reader infer about Nali's immediate concern?",
+          "solution": "Nali is trying to protect the seedlings from the rain.",
+          "reasoning": "The action of covering the seedlings immediately before heavy rain provides direct evidence for that inference."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "Which statement best describes an inference?",
+          "question_type": "multiple_choice",
+          "options": [
+            "A conclusion drawn from clues and relevant knowledge",
+            "A sentence copied without interpretation",
+            "A detail that the passage explicitly lists",
+            "A prediction unrelated to the passage"
+          ],
+          "correct_answer": "A conclusion drawn from clues and relevant knowledge",
+          "explanation": "An inference combines evidence in the text with reasoning to reach a conclusion that is not stated directly.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "The passage says, 'Musa folded the unused chairs and swept the hall after the guests left.' Which inference is best supported?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Musa helped restore the hall after an event.",
+            "Musa dislikes every guest.",
+            "The event lasted exactly one hour.",
+            "The hall will be closed permanently."
+          ],
+          "correct_answer": "Musa helped restore the hall after an event.",
+          "explanation": "Folding chairs and sweeping after guests leave support the conclusion that Musa helped tidy the hall.",
+          "difficulty": "intermediate"
+        },
+        {
+          "prompt": "A reader first infers that a character is angry, but later learns the character was protecting a friend. What should the reader do?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Reconsider the inference using the new evidence.",
+            "Keep the first inference even if it no longer fits.",
+            "Ignore all later details.",
+            "Replace the passage with a personal opinion."
+          ],
+          "correct_answer": "Reconsider the inference using the new evidence.",
+          "explanation": "Careful readers adjust interpretations when additional evidence changes what the clues support.",
+          "difficulty": "advanced"
+        }
+      ]
+    },
+    {
+      "slug": "form-4-english-concise-summary",
+      "content_version": 1,
+      "sort_order": 2,
+      "title": "Writing a concise summary",
+      "description": "Select essential ideas, paraphrase them accurately and keep a summary focused and brief.",
+      "content": "A summary presents the central idea and the most important supporting points in a shorter form. It preserves the source's meaning without adding opinion, examples that are not essential, or copied stretches of wording. A useful process is to identify the purpose, group related points, draft in your own words and check accuracy.",
+      "learning_objectives": [
+        "Identify a passage's central idea and essential supporting points.",
+        "Paraphrase key information without changing its meaning.",
+        "Edit a summary to remove repetition and unnecessary detail."
+      ],
+      "prerequisites": [
+        "Recognise topic sentences and supporting details."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Select what matters",
+          "body": "Ask what the whole passage is mainly explaining and which details are needed to understand that idea. Names, repeated examples and decorative descriptions can often be left out unless they are central to the writer's purpose."
+        },
+        {
+          "title": "Write and verify",
+          "body": "Combine related points in a logical order using your own wording. Keep the original viewpoint and important qualifications. Compare the summary with the passage to check that no key point has been omitted or distorted."
+        },
+        {
+          "title": "Quick recap",
+          "body": "A concise summary keeps the central idea and essential support, uses your own words, and leaves out repetition without changing the source meaning."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "Summarise this information in one sentence: 'The school began collecting rainwater in two tanks. The water is used to clean classrooms and water the vegetable garden. The project reduces demand on the town supply during dry weeks.'",
+          "solution": "The school collects rainwater for cleaning and gardening, helping reduce its use of the town supply during dry periods.",
+          "reasoning": "The sentence retains the collection method, the main uses and the stated benefit while omitting the non-essential number of tanks."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "What should a summary mainly preserve?",
+          "question_type": "multiple_choice",
+          "options": [
+            "The central idea and essential supporting points",
+            "Every example and descriptive phrase",
+            "The reader's personal reaction",
+            "Only the first sentence of the passage"
+          ],
+          "correct_answer": "The central idea and essential supporting points",
+          "explanation": "A summary condenses the source but must retain its main message and necessary support.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "A summary repeats three examples after already stating the general point they illustrate. What is the best revision?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Remove the repeated examples if they are not essential.",
+            "Add two more examples.",
+            "Replace the central idea with an opinion.",
+            "Copy the entire passage."
+          ],
+          "correct_answer": "Remove the repeated examples if they are not essential.",
+          "explanation": "Removing details that add no necessary meaning makes the summary concise without losing its main point.",
+          "difficulty": "intermediate"
+        },
+        {
+          "prompt": "Why should a writer compare a finished summary with the original passage?",
+          "question_type": "multiple_choice",
+          "options": [
+            "To check that the key meaning is accurate and complete.",
+            "To make the summary longer than the source.",
+            "To insert new facts from memory.",
+            "To ensure every original phrase is copied."
+          ],
+          "correct_answer": "To check that the key meaning is accurate and complete.",
+          "explanation": "Reviewing against the source catches missing key ideas and unintended changes in meaning.",
+          "difficulty": "advanced"
+        }
+      ]
+    }
+  ]
+}

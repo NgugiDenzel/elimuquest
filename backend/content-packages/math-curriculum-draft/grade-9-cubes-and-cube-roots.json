@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": false,
+  "is_demo": false,
+  "curriculum_system": "CBC_CBE",
+  "curriculum_level": "Grade 9",
+  "curriculum_version": "KICD-G9-2024-07",
+  "subject_slug": "mathematics-grade-9",
+  "topic_slug": "cubes-and-cube-roots",
+  "topic_name": "Cubes and Cube Roots",
+  "topic_source_reference": "ElimuQuest Mathematics Curriculum Draft v1, PDF p. 9",
+  "source_id": "KICD-G9-DESIGNS",
+  "lessons": [
+    {
+      "slug": "grade-9-cubes-and-cube-roots",
+      "content_version": 1,
+      "sort_order": 2,
+      "title": "Cubes and Cube Roots",
+      "description": "Cubes and Cube Roots",
+      "content": "",
+      "learning_objectives": [],
+      "prerequisites": [],
+      "explanation_sections": [
+        {
+          "title": "Cubes and Cube Roots",
+          "body": "The cube of a number is the number multiplied by itself three times. For example, 4³ = 64. The cube\nroot reverses this operation: ∛64 = 4."
+        }
+      ],
+      "worked_examples": [],
+      "source_reference": "ElimuQuest Mathematics Curriculum Draft v1, PDF p. 9",
+      "author": "ElimuQuest",
+      "questions": [
+        {
+          "prompt": "Find 5³.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "125.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Find (−3)³.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "−27.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Evaluate ∛216.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "6.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Evaluate ∛(−343).",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "−7.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Is 500 a perfect cube? Explain.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "No; it lies between 7³ = 343 and 8³ = 512.",
+          "explanation": ""
+        },
+        {
+          "prompt": "A cubical box has volume 729 cm³. Find one edge length.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "9 cm.",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}

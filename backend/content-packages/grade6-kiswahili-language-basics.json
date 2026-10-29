@@ -1,0 +1,167 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": true,
+  "is_demo": false,
+  "curriculum_system": "CBC_CBE",
+  "curriculum_level": "Grade 6",
+  "curriculum_version": "KICD-G6-VERSION-UNVERIFIED",
+  "subject_slug": "kiswahili-grade-6",
+  "topic_slug": "msingi-wa-lugha",
+  "topic_name": "Msingi wa Lugha",
+  "topic_source_reference": null,
+  "source_id": null,
+  "lessons": [
+    {
+      "slug": "grade-6-kiswahili-nomino-na-vivumishi",
+      "content_version": 1,
+      "sort_order": 1,
+      "title": "Nomino na vivumishi",
+      "description": "Tambua nomino na vivumishi katika sentensi rahisi.",
+      "content": "Nomino ni neno linalotaja mtu, mnyama, mahali au kitu. Kivumishi ni neno linaloeleza zaidi kuhusu nomino, kwa mfano rangi, ukubwa au sifa.",
+      "learning_objectives": [
+        "Kueleza maana ya nomino na kivumishi.",
+        "Kutambua nomino katika sentensi.",
+        "Kutumia kivumishi kueleza nomino."
+      ],
+      "prerequisites": [
+        "Kusoma sentensi fupi za Kiswahili."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Nomino",
+          "body": "Katika sentensi 'Mkulima analima shamba', maneno mkulima na shamba yanataja mtu na mahali pa kazi. Hivyo ni nomino. Nomino pia inaweza kutaja mnyama au kitu, kama mbuzi na kikapu."
+        },
+        {
+          "title": "Vivumishi",
+          "body": "Kivumishi huongeza maelezo kuhusu nomino. Katika 'Mkulima mchapakazi analima shamba kubwa', mchapakazi hueleza mkulima na kubwa hueleza shamba. Kivumishi hulingana na nomino yake katika matumizi ya Kiswahili."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "Tambua nomino na kivumishi katika 'Mtoto mchangamfu anasoma kitabu kipya.'",
+          "solution": "Nomino: mtoto, kitabu. Vivumishi: mchangamfu, kipya.",
+          "reasoning": "Mtoto na kitabu ni majina ya mtu na kitu. Mchangamfu na kipya vinaeleza sifa za nomino hizo."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "Katika sentensi 'Mkulima analima shamba', ni neno gani ni nomino?",
+          "question_type": "multiple_choice",
+          "options": [
+            "analima",
+            "mkulima",
+            "kwa",
+            "sana"
+          ],
+          "correct_answer": "mkulima",
+          "explanation": "Mkulima ni jina la mtu anayefanya kazi ya kulima.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Katika 'kikapu kikubwa', neno 'kikubwa' linafanya kazi gani?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Kitenzi",
+            "Kivumishi",
+            "Kiwakilishi",
+            "Kiunganishi"
+          ],
+          "correct_answer": "Kivumishi",
+          "explanation": "Kikubwa kinaeleza ukubwa wa nomino kikapu.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Chagua sentensi yenye kivumishi kinachoeleza nomino.",
+          "question_type": "multiple_choice",
+          "options": [
+            "Mti mrefu umeanguka.",
+            "Mti umeanguka jana.",
+            "Jana mvua ilinyesha.",
+            "Wao wanaimba."
+          ],
+          "correct_answer": "Mti mrefu umeanguka.",
+          "explanation": "Mrefu inaeleza sifa ya nomino mti.",
+          "difficulty": "intermediate"
+        }
+      ]
+    },
+    {
+      "slug": "grade-6-kiswahili-vitenzi-na-sentensi",
+      "content_version": 1,
+      "sort_order": 2,
+      "title": "Vitenzi na sentensi kamili",
+      "description": "Tumia kitenzi na mpangilio wa maneno kuunda sentensi inayoeleweka.",
+      "content": "Kitenzi huonyesha tendo au hali. Sentensi kamili huwasilisha wazo linaloeleweka; mara nyingi hutaja anayefanya tendo na tendo lenyewe.",
+      "learning_objectives": [
+        "Kutambua kitenzi katika sentensi.",
+        "Kutofautisha sentensi na kundi la maneno lisilokamilika.",
+        "Kuandika sentensi fupi yenye maana."
+      ],
+      "prerequisites": [
+        "Kutambua nomino katika sentensi rahisi."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Kitenzi",
+          "body": "Katika 'Asha anapika wali', anapika ndicho kitenzi kwa sababu kinaonyesha tendo. Vitenzi vingine ni kama anakimbia, wanasoma na alilala."
+        },
+        {
+          "title": "Sentensi yenye maana",
+          "body": "Maneno yanahitaji kupangwa ili ujumbe uwe wazi. 'Wanafunzi wanasoma vitabu' ni sentensi kamili. 'Wanasoma wanafunzi vitabu' inaweza kueleweka, lakini mpangilio wa kawaida wa somo, kitenzi na yambwa husaidia msomaji."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "Boresha kundi la maneno 'shuleni wanafunzi' liwe sentensi kamili.",
+          "solution": "Wanafunzi wanasoma shuleni.",
+          "reasoning": "Sentensi sasa ina wanafunzi wanaofanya tendo la kusoma na inaeleza mahali."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "Katika 'Watoto wanacheza nje', kitenzi ni kipi?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Watoto",
+            "wanacheza",
+            "nje",
+            "na"
+          ],
+          "correct_answer": "wanacheza",
+          "explanation": "Wanacheza linaonyesha tendo linalofanywa na watoto.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Ni kundi gani la maneno linalotoa ujumbe kamili?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Baada ya shule",
+            "Mwalimu anaandika ubaoni.",
+            "Kwa sababu ya",
+            "Vitabu vya darasa"
+          ],
+          "correct_answer": "Mwalimu anaandika ubaoni.",
+          "explanation": "Linaeleza mtu anayefanya tendo na tendo lenyewe.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Ni sentensi ipi inayolingana na wingi wa 'mwanafunzi'?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Wanafunzi anasoma.",
+            "Wanafunzi wanasoma.",
+            "Mwanafunzi wanasoma.",
+            "Wanafunzi ninasoma."
+          ],
+          "correct_answer": "Wanafunzi wanasoma.",
+          "explanation": "Kiima cha wingi wanafunzi kinaambatana hapa na kitenzi wanasoma.",
+          "difficulty": "intermediate"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": false,
+  "is_demo": false,
+  "curriculum_system": "CBC_CBE",
+  "curriculum_level": "Grade 6",
+  "curriculum_version": "KICD-G6-VERSION-UNVERIFIED",
+  "subject_slug": "mathematics-grade-6",
+  "topic_slug": "whole-numbers",
+  "topic_name": "Whole Numbers",
+  "topic_source_reference": "ElimuQuest Mathematics Curriculum Draft v1, PDF p. 4",
+  "source_id": "KICD-G6-DESIGNS",
+  "lessons": [
+    {
+      "slug": "grade-6-whole-numbers",
+      "content_version": 1,
+      "sort_order": 1,
+      "title": "Whole Numbers",
+      "description": "Whole Numbers",
+      "content": "",
+      "learning_objectives": [],
+      "prerequisites": [],
+      "explanation_sections": [
+        {
+          "title": "Whole Numbers",
+          "body": "1.1 Place value and total value\nA digit's place value depends on its position. In 583,241, the 5 represents 500,000, the 8 represents\n80,000, the 3 represents 3,000, the 2 represents 200, the 4 represents 40 and the 1 represents 1.\nExpanded form: 500,000 + 80,000 + 3,000 + 200 + 40 + 1.\n\n1.2 Ordering and rounding\nTo round, inspect the digit immediately to the right of the place requested. If it is 5 or more, increase\nthe rounding digit by one; otherwise leave it unchanged."
+        }
+      ],
+      "worked_examples": [],
+      "source_reference": "ElimuQuest Mathematics Curriculum Draft v1, PDF p. 4",
+      "author": "ElimuQuest",
+      "questions": [
+        {
+          "prompt": "State the place value of 7 in 472,615.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "Ten-thousands.",
+          "explanation": ""
+        },
+        {
+          "prompt": "What is the total value of 9 in 693,204?",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "90,000.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Write 805,037 in expanded form.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "800,000 + 5,000 + 30 + 7.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Write in figures: six hundred and forty-two thousand, three hundred and nineteen.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "642,319.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Arrange 504,320, 540,230, 504,302 and 540,203 in ascending order.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "504,302; 504,320; 540,203; 540,230.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Round 385,672 to the nearest thousand.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "386,000.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Round 764,951 to the nearest ten thousand.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "760,000.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Which is greater: 698,450 or 698,405?",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "698,450.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Estimate 482,671 to the nearest ten thousand.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "480,000.",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}

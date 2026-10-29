@@ -1,0 +1,173 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": true,
+  "is_demo": false,
+  "curriculum_system": "CBC_CBE",
+  "curriculum_level": "Grade 9",
+  "curriculum_version": "KICD-G9-2024-07",
+  "subject_slug": "integrated-science-grade-9",
+  "topic_slug": "forces-and-motion",
+  "topic_name": "Forces and Motion",
+  "topic_source_reference": null,
+  "source_id": null,
+  "lessons": [
+    {
+      "slug": "grade-9-integrated-science-calculating-speed",
+      "content_version": 1,
+      "sort_order": 1,
+      "title": "Kuhesabu kasi ya wastani",
+      "description": "Tumia umbali na muda kupata kasi ya wastani ya mwendo.",
+      "content": "Kasi ya wastani inaeleza umbali unaosafiriwa kwa kila kipimo cha muda. Hupatikana kwa kugawa umbali uliosafiriwa kwa muda uliotumika. Vipimo vya umbali na muda vinapaswa kuandikwa pamoja na jibu ili maana ya hesabu iwe wazi.",
+      "learning_objectives": [
+        "Kutumia uhusiano kasi ya wastani = umbali ÷ muda.",
+        "Kuchagua na kuandika kipimo kinachofaa cha kasi."
+      ],
+      "prerequisites": [
+        "Kugawa namba nzima na kutambua vipimo vya umbali na muda."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Uhusiano wa kasi, umbali na muda",
+          "body": "Kwa mwendo unaochunguzwa, kasi ya wastani = umbali wote ÷ muda wote. Ikiwa umbali uko katika mita na muda katika sekunde, kipimo ni mita kwa sekunde (m/s). Ikiwa umbali uko katika kilomita na muda katika saa, kipimo ni kilomita kwa saa (km/h)."
+        },
+        {
+          "title": "Kagua vipimo na maana",
+          "body": "Andika kwanza thamani na vipimo vyake, kisha gawa umbali kwa muda. Kasi ya wastani inaweza kuficha mabadiliko ya kasi katika safari; haimaanishi kuwa kitu kilisafiri kwa kasi hiyo kila wakati. Jibu la mwisho linapaswa kuwa na kipimo kinacholingana na vipimo vilivyotumika."
+        },
+        {
+          "title": "Quick recap",
+          "body": "Kokotoa kasi ya wastani kwa kugawa umbali wote kwa muda wote, na uandike kitengo kinacholingana na vipimo."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "Mwanafunzi anatembea mita 240 kwa sekunde 120. Kokotoa kasi yake ya wastani.",
+          "solution": "240 m ÷ 120 s = 2 m/s.",
+          "reasoning": "Gawanya umbali kwa muda. Kwa kuwa mita zimegawanywa kwa sekunde, jibu huandikwa mita kwa sekunde."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "Baiskeli inasafiri mita 150 kwa sekunde 30. Kasi ya wastani ni ipi?",
+          "question_type": "multiple_choice",
+          "options": [
+            "5 m/s",
+            "0.2 m/s",
+            "120 m/s",
+            "4,500 m/s"
+          ],
+          "correct_answer": "5 m/s",
+          "explanation": "Kasi = umbali ÷ muda = 150 m ÷ 30 s = 5 m/s.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Mtembea kwa miguu alisafiri kilomita 12 kwa saa 3. Kasi yake ya wastani ni ipi?",
+          "question_type": "multiple_choice",
+          "options": [
+            "4 km/h",
+            "36 km/h",
+            "9 km/h",
+            "0.25 km/h"
+          ],
+          "correct_answer": "4 km/h",
+          "explanation": "Gawanya kilomita 12 kwa saa 3: 12 ÷ 3 = 4 km/h.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Kwa nini ni muhimu kuandika kitengo baada ya kuhesabu kasi?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Kitengo kinaonyesha uhusiano wa kipimo cha umbali na muda.",
+            "Kitengo hubadilisha umbali kuwa nguvu.",
+            "Bila kitengo, kasi huwa sifuri.",
+            "Kitengo kinaonyesha mwelekeo wa mwendo pekee."
+          ],
+          "correct_answer": "Kitengo kinaonyesha uhusiano wa kipimo cha umbali na muda.",
+          "explanation": "Kasi huonyesha umbali kwa kila muda, kwa mfano mita kwa sekunde; kitengo hufanya jibu lieleweke.",
+          "difficulty": "intermediate"
+        }
+      ]
+    },
+    {
+      "slug": "grade-9-integrated-science-balanced-and-unbalanced-forces",
+      "content_version": 1,
+      "sort_order": 2,
+      "title": "Nguvu sawia na zisizo sawia",
+      "description": "Eleza jinsi nguvu zinavyoweza kubadili au kutobadili mwendo wa kitu.",
+      "content": "Nguvu ni msukumo au mvutano unaoweza kuathiri mwendo au umbo la kitu. Nguvu zinapokuwa sawia, nguvu halisi huwa sifuri na mwendo wa kitu haubadiliki. Nguvu zisizo sawia zinaweza kubadili kasi au mwelekeo wa mwendo.",
+      "learning_objectives": [
+        "Kutofautisha nguvu sawia na nguvu zisizo sawia.",
+        "Kutabiri mabadiliko ya mwendo kutokana na nguvu halisi."
+      ],
+      "prerequisites": [
+        "Kutambua msukumo na mvutano kama mifano ya nguvu."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Nguvu halisi",
+          "body": "Nguvu halisi ni matokeo ya kujumlisha nguvu kwa kuzingatia mielekeo yake. Nguvu mbili zenye ukubwa sawa zinazosukuma pande tofauti zinaweza kusawazishana. Nguvu zenye ukubwa tofauti au mwelekeo mmoja zinaweza kutoa nguvu halisi isiyo sifuri."
+        },
+        {
+          "title": "Athari kwa mwendo",
+          "body": "Nguvu halisi isiyo sifuri inaweza kusababisha kasi ya kitu au mwelekeo wake kubadilika. Ikiwa nguvu halisi ni sifuri, kitu kilichosimama hubaki kimesimama na kitu kinachotembea huendelea kwa kasi na mwelekeo uleule, isipokuwa nguvu halisi ibadilike. Msuguano unaweza kuwa mojawapo ya nguvu zinazopinga mwendo."
+        },
+        {
+          "title": "Quick recap",
+          "body": "Nguvu sawia zina nguvu halisi ya sifuri; nguvu zisizosawiana zinaweza kubadili kasi au mwelekeo wa mwendo."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "Wanafunzi wawili wanavuta kamba upande tofauti: mmoja kwa nguvu ya newton 40 na mwingine kwa newton 25. Pata ukubwa na mwelekeo wa nguvu halisi.",
+          "solution": "Nguvu halisi ni newton 15 kuelekea upande wa mvutano wa newton 40.",
+          "reasoning": "Nguvu zinavutana katika mielekeo tofauti, kwa hiyo toa ndogo kutoka kubwa: 40 N − 25 N = 15 N kuelekea nguvu kubwa."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "Nguvu mbili za newton 10 kila moja zinavuta kitu katika mielekeo tofauti. Nguvu halisi ni ipi?",
+          "question_type": "multiple_choice",
+          "options": [
+            "0 N",
+            "10 N kuelekea nguvu ya kwanza",
+            "20 N",
+            "100 N"
+          ],
+          "correct_answer": "0 N",
+          "explanation": "Nguvu zina ukubwa sawa na mielekeo tofauti, kwa hiyo zinasawazishana.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Ni hali ipi inayoonyesha nguvu halisi isiyo sifuri?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Msukumo wa 18 N upande wa mashariki na nguvu ya 10 N upande wa magharibi.",
+            "Msukumo wa 12 N upande wa kushoto na nguvu ya 12 N upande wa kulia.",
+            "Kitu kimesimama bila nguvu nyingine kuonyeshwa.",
+            "Nguvu mbili za 5 N zikitenda katika mielekeo tofauti."
+          ],
+          "correct_answer": "Msukumo wa 18 N upande wa mashariki na nguvu ya 10 N upande wa magharibi.",
+          "explanation": "Nguvu za mielekeo tofauti zenye ukubwa usio sawa huacha nguvu halisi ya 8 N upande wa mashariki.",
+          "difficulty": "intermediate"
+        },
+        {
+          "prompt": "Ni kauli ipi inaeleza vizuri kitu kinachotembea huku nguvu halisi ikiwa sifuri?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Kinaweza kuendelea kwa kasi na mwelekeo uleule.",
+            "Lazima kisimame mara moja.",
+            "Lazima kiongeze kasi kila sekunde.",
+            "Lazima kigeuze mwelekeo bila sababu."
+          ],
+          "correct_answer": "Kinaweza kuendelea kwa kasi na mwelekeo uleule.",
+          "explanation": "Nguvu halisi sifuri humaanisha mwendo haubadiliki; kitu kinachosogea kinaweza kuendelea kwa kasi na mwelekeo uleule.",
+          "difficulty": "intermediate"
+        }
+      ]
+    }
+  ]
+}

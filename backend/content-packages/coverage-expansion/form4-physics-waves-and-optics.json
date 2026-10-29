@@ -1,0 +1,200 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": true,
+  "is_demo": false,
+  "curriculum_system": "8_4_4",
+  "curriculum_level": "Form 4",
+  "curriculum_version": "KICD-844-VERSION-UNVERIFIED",
+  "subject_slug": "physics-form-4",
+  "topic_slug": "waves-and-optics",
+  "topic_name": "Waves and Optics",
+  "topic_source_reference": null,
+  "source_id": null,
+  "lessons": [
+    {
+      "slug": "form-4-physics-wave-properties",
+      "content_version": 1,
+      "sort_order": 1,
+      "title": "Wave properties and wave speed",
+      "description": "Relate frequency, wavelength, period and speed in a travelling wave.",
+      "content": "A wave transfers energy from place to place without requiring an overall transfer of the medium. Frequency is the number of complete cycles per second, wavelength is the distance between corresponding points, and period is the time for one cycle.",
+      "learning_objectives": [
+        "Define frequency, wavelength and period.",
+        "Use v = fλ to calculate wave speed."
+      ],
+      "prerequisites": [
+        "Use seconds, metres and simple formula substitution."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Describing a wave",
+          "body": "Frequency f is measured in hertz (Hz), wavelength λ in metres, and period T in seconds. Frequency and period are related by f = 1/T. A crest-to-crest distance is one wavelength for a transverse wave."
+        },
+        {
+          "title": "Wave speed",
+          "body": "Wave speed v = fλ. Check units: Hz is s⁻¹, multiplied by metres gives m s⁻¹. Recap: convert units first and use one wavelength for each complete cycle."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "A wave has frequency 5 Hz and wavelength 2 m. Find its speed.",
+          "solution": "10 m s⁻¹",
+          "reasoning": "v = fλ = 5 × 2 = 10 m s⁻¹."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "A wave completes 12 cycles in 3 seconds. What is its frequency?",
+          "question_type": "multiple_choice",
+          "options": ["4 Hz", "36 Hz", "0.25 Hz", "9 Hz"],
+          "correct_answer": "4 Hz",
+          "explanation": "Frequency = cycles ÷ time = 12 ÷ 3 = 4 Hz.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "What is the period of a 2 Hz wave?",
+          "question_type": "multiple_choice",
+          "options": ["0.5 s", "2 s", "4 s", "1 s"],
+          "correct_answer": "0.5 s",
+          "explanation": "T = 1/f = 1/2 = 0.5 s.",
+          "difficulty": "intermediate"
+        },
+        {
+          "prompt": "A wave travels at 18 m s⁻¹ and has frequency 6 Hz. What is its wavelength?",
+          "question_type": "multiple_choice",
+          "options": ["3 m", "108 m", "12 m", "0.33 m"],
+          "correct_answer": "3 m",
+          "explanation": "λ = v/f = 18 ÷ 6 = 3 m.",
+          "difficulty": "intermediate"
+        }
+      ]
+    },
+    {
+      "slug": "form-4-physics-reflection-and-plane-mirrors",
+      "content_version": 1,
+      "sort_order": 2,
+      "title": "Reflection and plane mirrors",
+      "description": "Apply the law of reflection and describe images in a plane mirror.",
+      "content": "Reflection occurs when light reaches a boundary and returns into the original medium. The angle of incidence and angle of reflection are measured from the normal, an imaginary line perpendicular to the surface.",
+      "learning_objectives": [
+        "Apply the law of reflection to a ray diagram.",
+        "Describe the main properties of an image in a plane mirror."
+      ],
+      "prerequisites": [
+        "Measure angles and identify a perpendicular line."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Law of reflection",
+          "body": "For a plane reflecting surface, the angle of incidence equals the angle of reflection. Both angles are measured between the ray and the normal, not between the ray and the mirror surface."
+        },
+        {
+          "title": "Plane-mirror image",
+          "body": "A plane-mirror image is virtual, upright and the same size as the object; it appears the same perpendicular distance behind the mirror as the object is in front. Recap: draw the normal first, then measure both ray angles from it."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "A light ray strikes a mirror at 35° to the normal. Find its angle of reflection.",
+          "solution": "35°",
+          "reasoning": "The law of reflection states that angle of incidence equals angle of reflection."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "From which line are the angles of incidence and reflection measured?",
+          "question_type": "multiple_choice",
+          "options": ["The normal", "The mirror surface", "The reflected ray only", "The horizon"],
+          "correct_answer": "The normal",
+          "explanation": "Both angles are measured from the normal perpendicular to the surface.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "The angle of incidence is 48°. What is the angle of reflection?",
+          "question_type": "multiple_choice",
+          "options": ["48°", "42°", "96°", "24°"],
+          "correct_answer": "48°",
+          "explanation": "Angle of incidence equals angle of reflection.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Which description fits an image in a plane mirror?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Virtual, upright and the same size as the object",
+            "Real, inverted and always smaller",
+            "Virtual and always magnified",
+            "Real and located on the mirror surface"
+          ],
+          "correct_answer": "Virtual, upright and the same size as the object",
+          "explanation": "A plane mirror forms a virtual upright image with the same size as the object.",
+          "difficulty": "intermediate"
+        }
+      ]
+    },
+    {
+      "slug": "form-4-physics-refraction-and-lenses",
+      "content_version": 1,
+      "sort_order": 3,
+      "title": "Refraction and converging lenses",
+      "description": "Explain refraction and use a converging lens to form a simple ray diagram.",
+      "content": "Refraction is a change in direction when light crosses a boundary where its speed changes. A converging lens bends parallel rays towards a principal focus. The image formed depends on the object's distance from the lens.",
+      "learning_objectives": [
+        "Describe why light refracts at a boundary.",
+        "Identify the principal focus of a converging lens and draw principal rays."
+      ],
+      "prerequisites": [
+        "Understand that light travels in straight lines in a uniform medium."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Changing speed at a boundary",
+          "body": "Light changes speed as it enters a different transparent medium. If it crosses at an angle, the change in speed changes its direction. A ray entering a more optically dense medium bends towards the normal; leaving it bends away from the normal."
+        },
+        {
+          "title": "Converging lens",
+          "body": "A converging lens brings rays parallel to its principal axis together at the principal focus. In a ray diagram, a ray parallel to the axis passes through the focus after refraction. Recap: show the lens centre, principal axis, focal point and direction arrows clearly."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "What happens to a ray travelling from air into glass at an angle to the normal?",
+          "solution": "It slows down and bends towards the normal.",
+          "reasoning": "The ray changes speed on entering the optically denser glass; an oblique ray bends towards the normal."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "What causes refraction when light crosses between transparent media?",
+          "question_type": "multiple_choice",
+          "options": ["A change in light speed", "A change in light colour only", "A loss of all energy", "The surface becoming a mirror"],
+          "correct_answer": "A change in light speed",
+          "explanation": "The change in speed at the boundary changes the direction of an oblique ray.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Where do rays parallel to the principal axis meet after passing through a converging lens?",
+          "question_type": "multiple_choice",
+          "options": ["At the principal focus", "At the centre of the lens only", "At the object", "At the normal"],
+          "correct_answer": "At the principal focus",
+          "explanation": "A converging lens brings rays parallel to its axis to the principal focus.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "A ray enters glass from air obliquely. In the simple ray model, which way does it bend?",
+          "question_type": "multiple_choice",
+          "options": ["Towards the normal", "Away from the normal", "Along the boundary", "It reverses direction"],
+          "correct_answer": "Towards the normal",
+          "explanation": "Light slows as it enters glass from air and an oblique ray bends towards the normal.",
+          "difficulty": "intermediate"
+        }
+      ]
+    }
+  ]
+}

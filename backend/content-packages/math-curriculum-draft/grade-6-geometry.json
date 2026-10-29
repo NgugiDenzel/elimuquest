@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": false,
+  "is_demo": false,
+  "curriculum_system": "CBC_CBE",
+  "curriculum_level": "Grade 6",
+  "curriculum_version": "KICD-G6-VERSION-UNVERIFIED",
+  "subject_slug": "mathematics-grade-6",
+  "topic_slug": "geometry",
+  "topic_name": "Geometry",
+  "topic_source_reference": "ElimuQuest Mathematics Curriculum Draft v1, PDF p. 7",
+  "source_id": "KICD-G6-DESIGNS",
+  "lessons": [
+    {
+      "slug": "grade-6-geometry",
+      "content_version": 1,
+      "sort_order": 7,
+      "title": "Geometry",
+      "description": "Geometry",
+      "content": "",
+      "learning_objectives": [],
+      "prerequisites": [],
+      "explanation_sections": [
+        {
+          "title": "Geometry",
+          "body": "A right angle is 90°, a straight angle is 180°, and angles around a point total 360°. The interior angles of\na triangle total 180°."
+        }
+      ],
+      "worked_examples": [],
+      "source_reference": "ElimuQuest Mathematics Curriculum Draft v1, PDF p. 7",
+      "author": "ElimuQuest",
+      "questions": [
+        {
+          "prompt": "Two angles on a straight line are x° and 65°. Find x.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "115°.",
+          "explanation": ""
+        },
+        {
+          "prompt": "A triangle has angles 45° and 75°. Find its third angle.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "60°.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Find the missing angle around a point if the other angles are 90°, 120° and 80°.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "70°.",
+          "explanation": ""
+        },
+        {
+          "prompt": "State two properties of a rectangle.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "Opposite sides equal and parallel; all angles are 90°.",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}

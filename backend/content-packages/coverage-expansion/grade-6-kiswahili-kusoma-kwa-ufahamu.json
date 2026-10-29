@@ -1,0 +1,175 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": true,
+  "is_demo": false,
+  "curriculum_system": "CBC_CBE",
+  "curriculum_level": "Grade 6",
+  "curriculum_version": "KICD-G6-VERSION-UNVERIFIED",
+  "subject_slug": "kiswahili-grade-6",
+  "topic_slug": "kusoma-kwa-ufahamu",
+  "topic_name": "Kusoma kwa Ufahamu",
+  "topic_source_reference": null,
+  "source_id": null,
+  "lessons": [
+    {
+      "slug": "grade-6-kiswahili-kutambua-wazo-kuu",
+      "content_version": 1,
+      "sort_order": 1,
+      "title": "Kutambua wazo kuu",
+      "description": "Tambua ujumbe mkuu wa aya na uutofautishe na maelezo yanayounga mkono.",
+      "content": "Wazo kuu ni ujumbe muhimu zaidi ambao mwandishi anataka msomaji aelewe kuhusu mada. Maelezo yanayounga mkono hutoa sababu, mifano au ushahidi unaoeleza wazo hilo. Kusoma sentensi zote na kujiuliza, “Aya hii inahusu nini hasa?” husaidia kulipata wazo kuu.",
+      "learning_objectives": [
+        "Kueleza maana ya wazo kuu katika aya.",
+        "Kutofautisha wazo kuu na maelezo yanayounga mkono.",
+        "Kuchagua kichwa kinachowakilisha ujumbe mkuu wa aya."
+      ],
+      "prerequisites": [
+        "Kusoma aya fupi na kuelewa sentensi zake."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Mada na wazo kuu",
+          "body": "Mada ni kitu au jambo linalozungumziwa; wazo kuu hueleza jambo muhimu kuhusu mada hiyo. Kwa mfano, mada inaweza kuwa usafi wa mazingira, na wazo kuu likawa kwamba kuweka taka kwenye mapipa husaidia kudumisha usafi."
+        },
+        {
+          "title": "Kutumia maelezo kama vidokezo",
+          "body": "Tafuta sentensi au maelezo yanayojirudia katika ujumbe, kisha uone yanavyohusiana. Katika aya inayotaja kufagia darasa, kufunika mapipa na kuosha mikono, wazo kuu linaweza kuwa kuwaweka watu na mazingira katika hali ya usafi. Usichague mfano mmoja mdogo kuwa wazo kuu la aya nzima."
+        },
+        {
+          "title": "Quick recap",
+          "body": "Tambua mada, kisha eleza jambo muhimu linalosemwa kuihusu. Tumia maelezo yanayounga mkono wazo kuu na uchague kichwa kinachowakilisha ujumbe huo."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "Soma: “Miti hutoa kivuli wakati wa jua kali. Mizizi yake husaidia kuzuia udongo kusombwa na maji. Pia, baadhi ya miti hutupatia matunda.” Taja wazo kuu.",
+          "solution": "Miti ina manufaa mbalimbali kwa watu na mazingira.",
+          "reasoning": "Kivuli, kusaidia udongo na kutoa matunda ni maelezo tofauti yanayounga mkono wazo pana kuhusu manufaa ya miti."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "Soma: “Kila asubuhi, wanafunzi humwagilia bustani. Huondoa magugu na kutengeneza udongo. Kwa kufanya hivyo, mimea hukua vizuri.” Ni wazo gani kuu linaloungwa mkono?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Wanafunzi hupenda kucheza asubuhi.",
+            "Kutunza bustani husaidia mimea kukua vizuri.",
+            "Magugu ni mimea inayotoa matunda.",
+            "Udongo hauhitaji maji."
+          ],
+          "correct_answer": "Kutunza bustani husaidia mimea kukua vizuri.",
+          "explanation": "Kumwagilia, kuondoa magugu na kutengeneza udongo ni njia za kutunza bustani na kusaidia mimea.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Katika aya kuhusu manufaa ya kusoma, ni kipi kinaweza kuwa wazo kuu badala ya maelezo madogo?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Kitabu kimoja kina kurasa 24.",
+            "Kusoma kunaweza kuongeza maarifa na msamiati.",
+            "Jana Amina alikaa karibu na dirisha.",
+            "Kalamu ya mwandishi ilikuwa ya bluu."
+          ],
+          "correct_answer": "Kusoma kunaweza kuongeza maarifa na msamiati.",
+          "explanation": "Hili ni wazo pana kuhusu manufaa ya kusoma, ilhali chaguo nyingine ni maelezo yasiyowakilisha ujumbe mkuu.",
+          "difficulty": "intermediate"
+        },
+        {
+          "prompt": "Ni swali gani linafaa kujiuliza unapotafuta wazo kuu la aya?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Ni neno gani refu zaidi katika aya?",
+            "Aya hii inajaribu kunieleza jambo gani muhimu?",
+            "Ni sentensi ipi ina alama nyingi za uakifishaji?",
+            "Mwandishi aliandika aya hiyo saa ngapi?"
+          ],
+          "correct_answer": "Aya hii inajaribu kunieleza jambo gani muhimu?",
+          "explanation": "Swali hili huelekeza msomaji kwenye ujumbe unaounganisha maelezo yote.",
+          "difficulty": "foundational"
+        }
+      ]
+    },
+    {
+      "slug": "grade-6-kiswahili-kufuatilia-mfuatano-wa-tukio",
+      "content_version": 1,
+      "sort_order": 2,
+      "title": "Kufuatilia mfuatano wa tukio",
+      "description": "Tumia viashiria vya wakati kupanga hatua na matukio kwa mpangilio sahihi.",
+      "content": "Mfuatano wa matukio huonyesha lililotokea kwanza, lililofuata na la mwisho. Maneno kama kwanza, baadaye, kisha na hatimaye hutoa vidokezo vya mpangilio. Kuelewa mfuatano husaidia msomaji kueleza jinsi tukio lilivyotokea bila kuchanganya hatua.",
+      "learning_objectives": [
+        "Kutambua viashiria vya wakati katika kifungu.",
+        "Kupanga hatua za tukio kulingana na maelezo ya kifungu.",
+        "Kueleza kwa nini mpangilio wa matukio ni muhimu kwa ufahamu."
+      ],
+      "prerequisites": [
+        "Kusoma sentensi fupi zinazohusu tukio."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Viashiria vya mpangilio",
+          "body": "Maneno ya wakati husaidia kuona uhusiano wa hatua. Kwa mfano, “Kwanza aliosha mikono, kisha akakata tunda, na mwishowe akalitumikia” hutaja hatua tatu katika mpangilio wake. Wakati mwingine kifungu hakitumii viashiria hivyo wazi, kwa hiyo msomaji hutumia mantiki ya tukio."
+        },
+        {
+          "title": "Kukagua mpangilio",
+          "body": "Jiulize ni hatua gani inayowezesha inayofuata. Katika kupanda mche, kwa kawaida shimo huchimbwa kabla ya mche kuwekwa ndani yake na udongo kurudishwa. Kupanga upya hatua kunaweza kufanya maelezo yasieleweke au yasiwezekane."
+        },
+        {
+          "title": "Quick recap",
+          "body": "Tumia viashiria vya wakati na matendo ya wahusika kupanga matukio. Kagua kuwa mfuatano unaonyesha kilichotokea kwanza, baadaye na mwisho."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "Panga hatua hizi za kuandaa chai: (a) mimina chai kikombeni, (b) chemsha maji, (c) weka majani ya chai kwenye maji. Tumia mpangilio unaoeleweka.",
+          "solution": "Kwanza chemsha maji (b), kisha weka majani ya chai kwenye maji (c), halafu mimina chai kikombeni (a).",
+          "reasoning": "Maji yanahitaji kuwa moto kabla ya majani ya chai kuongezwa, na chai humiminwa baada ya kuandaliwa."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "“Kwanza Neema alifungua kitabu. Kisha alisoma maagizo. Hatimaye akaanza kujibu.” Neema alifanya nini baada ya kusoma maagizo?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Alifungua kitabu.",
+            "Alianza kujibu.",
+            "Alifunga kitabu na kuondoka.",
+            "Aliandika maagizo mapya."
+          ],
+          "correct_answer": "Alianza kujibu.",
+          "explanation": "Neno “hatimaye” linaonyesha hatua iliyofuata baada ya kusoma maagizo.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Ni mpangilio upi unaofaa zaidi kwa kupanda mbegu kwenye chombo?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Mwagilia mbegu, jaza udongo, kisha weka mbegu.",
+            "Jaza udongo, weka mbegu, kisha funika kidogo na umwagilie.",
+            "Weka mbegu, ondoa udongo wote, kisha jaza maji.",
+            "Funika chombo tupu, weka mbegu, kisha mwage udongo."
+          ],
+          "correct_answer": "Jaza udongo, weka mbegu, kisha funika kidogo na umwagilie.",
+          "explanation": "Udongo huwekwa kwanza, mbegu huwekwa ndani yake, halafu hufunikwa na kumwagiwa maji.",
+          "difficulty": "intermediate"
+        },
+        {
+          "prompt": "Katika kifungu cha tukio, maneno “baadaye” na “mwishowe” husaidia msomaji kufanya nini?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Kutambua mpangilio wa matukio.",
+            "Kutafuta maana ya kila nomino.",
+            "Kujua umri wa wahusika.",
+            "Kuhesabu idadi ya aya."
+          ],
+          "correct_answer": "Kutambua mpangilio wa matukio.",
+          "explanation": "Maneno hayo ni viashiria vya wakati vinavyoonyesha tukio lililotokea baada ya jingine na hatua ya mwisho.",
+          "difficulty": "foundational"
+        }
+      ]
+    }
+  ]
+}

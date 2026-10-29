@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": false,
+  "is_demo": false,
+  "curriculum_system": "8_4_4",
+  "curriculum_level": "Form 4",
+  "curriculum_version": "KICD-844-VERSION-UNVERIFIED",
+  "subject_slug": "mathematics-form-4",
+  "topic_slug": "trigonometry-iii",
+  "topic_name": "Trigonometry III",
+  "topic_source_reference": "ElimuQuest Mathematics Curriculum Draft v1, PDF p. 17",
+  "source_id": "KICD-844",
+  "lessons": [
+    {
+      "slug": "form-4-trigonometry-iii",
+      "content_version": 1,
+      "sort_order": 4,
+      "title": "Trigonometry III",
+      "description": "Trigonometry III",
+      "content": "",
+      "learning_objectives": [],
+      "prerequisites": [],
+      "explanation_sections": [
+        {
+          "title": "Trigonometry III",
+          "body": "The identity sin²θ + cos²θ = 1 is useful for finding trigonometric ratios. The periods of sin x and cos x\nare 360°; the period of tan x is 180°. For y = a sin x, amplitude is |a|."
+        }
+      ],
+      "worked_examples": [],
+      "source_reference": "ElimuQuest Mathematics Curriculum Draft v1, PDF p. 17",
+      "author": "ElimuQuest",
+      "questions": [
+        {
+          "prompt": "If sin θ = 3/5 and θ is acute, find cos θ.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "4/5.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Verify sin²θ + cos²θ = 1 for sin θ = 3/5 and cos θ = 4/5.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "9/25 + 16/25 = 1.",
+          "explanation": ""
+        },
+        {
+          "prompt": "State period of y = tan x.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "180°.",
+          "explanation": ""
+        },
+        {
+          "prompt": "State amplitude of y = 3 sin x.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "3.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Solve sin x = 1/2 for 0° ≤ x ≤ 360°.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "30°, 150°.",
+          "explanation": ""
+        },
+        {
+          "prompt": "List key points for y = cos x from 0° to 360°.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "(0°,1), (90°,0), (180°,−1), (270°,0), (360°,1).",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}

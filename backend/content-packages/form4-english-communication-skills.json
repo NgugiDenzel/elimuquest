@@ -1,0 +1,167 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": true,
+  "is_demo": false,
+  "curriculum_system": "8_4_4",
+  "curriculum_level": "Form 4",
+  "curriculum_version": "KICD-844-VERSION-UNVERIFIED",
+  "subject_slug": "english-form-4",
+  "topic_slug": "communication-and-argument",
+  "topic_name": "Communication and Argument",
+  "topic_source_reference": null,
+  "source_id": null,
+  "lessons": [
+    {
+      "slug": "form-4-english-evaluating-an-argument",
+      "content_version": 1,
+      "sort_order": 1,
+      "title": "Evaluating an argument",
+      "description": "Separate a writer's claim from reasons and evidence, then judge whether the support is relevant.",
+      "content": "An argument presents a claim and supports it with reasons and evidence. A claim is the position being defended. Evidence may include examples, observations or reliable data. A strong argument connects relevant evidence to its claim and acknowledges important limits.",
+      "learning_objectives": [
+        "Identify a claim, reason and supporting evidence.",
+        "Assess whether evidence is relevant to a claim.",
+        "Recognise an unsupported generalisation."
+      ],
+      "prerequisites": [
+        "Read informational paragraphs and identify their main ideas."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Trace the reasoning",
+          "body": "Ask what the writer wants readers to accept, why they should accept it, and what proof is offered. A statement that merely repeats the claim is not independent evidence."
+        },
+        {
+          "title": "Check the strength",
+          "body": "Relevant evidence addresses the claim. One personal example can illustrate a point but may not prove a rule for everyone. Look for fair treatment of counterarguments and avoid confusing correlation with cause."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "Claim: 'The school should provide shaded study areas.' Evidence: 'Learners report that the open courtyard is too hot at midday.' What is the link?",
+          "solution": "The report gives a reason to consider shade because it identifies discomfort in the current study area.",
+          "reasoning": "The evidence relates to comfort but a careful argument would also consider cost, safety and how many learners are affected."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "Which part of an argument states the position the writer wants readers to accept?",
+          "question_type": "multiple_choice",
+          "options": [
+            "The claim",
+            "The page number",
+            "The heading only",
+            "The counterexample"
+          ],
+          "correct_answer": "The claim",
+          "explanation": "The claim is the position supported by the argument's reasons and evidence.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "A writer claims that a new library schedule improves access. Which evidence is most relevant?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Records show more learners borrowed books during the new opening hours.",
+            "The library walls were painted last year.",
+            "One learner likes the colour of the library sign.",
+            "The writer's favourite subject is English."
+          ],
+          "correct_answer": "Records show more learners borrowed books during the new opening hours.",
+          "explanation": "Borrowing records during the new hours directly relate to access.",
+          "difficulty": "intermediate"
+        },
+        {
+          "prompt": "Why might one person's experience be insufficient to prove that a rule works for everyone?",
+          "question_type": "multiple_choice",
+          "options": [
+            "One example may not represent all people or situations.",
+            "Personal experiences can never be useful.",
+            "Rules cannot be evaluated.",
+            "A claim needs no evidence."
+          ],
+          "correct_answer": "One example may not represent all people or situations.",
+          "explanation": "An example can illustrate an idea, but broader claims need evidence that is representative and relevant.",
+          "difficulty": "advanced"
+        }
+      ]
+    },
+    {
+      "slug": "form-4-english-formal-register",
+      "content_version": 1,
+      "sort_order": 2,
+      "title": "Formal register in writing",
+      "description": "Choose language and organisation suitable for a formal letter or report.",
+      "content": "Register is the level and style of language chosen for a purpose and audience. Formal writing uses respectful wording, complete sentences and a clear structure. It avoids slang and unexplained abbreviations.",
+      "learning_objectives": [
+        "Identify features of formal register.",
+        "Organise a formal request with a clear purpose.",
+        "Edit informal wording for a formal audience."
+      ],
+      "prerequisites": [
+        "Write grammatically complete sentences."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Audience and purpose",
+          "body": "Before writing, identify the reader and what you want them to understand or do. A formal request should state its purpose early, use courteous language and include relevant facts."
+        },
+        {
+          "title": "Edit for clarity",
+          "body": "Replace slang with precise words, check subject–verb agreement, and divide long paragraphs. Use a suitable greeting and closing for the recipient and context."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "Revise 'Hey, send me the timetable quick' for a formal email to a school office.",
+          "solution": "Dear Sir or Madam, could you please send me the current timetable when convenient? Thank you.",
+          "reasoning": "The revision uses a respectful greeting, a clear request and a courteous closing."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "Which sentence uses a suitable formal register for a letter to a school office?",
+          "question_type": "multiple_choice",
+          "options": [
+            "I would be grateful if you could provide the meeting date.",
+            "Tell me the date now.",
+            "Yo, when is that thing?",
+            "Gimme the date, please."
+          ],
+          "correct_answer": "I would be grateful if you could provide the meeting date.",
+          "explanation": "It is courteous, precise and appropriate for a formal request.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "What should a formal request usually make clear near the beginning?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Its purpose",
+            "The writer's unrelated hobbies",
+            "A joke",
+            "An unexplained abbreviation"
+          ],
+          "correct_answer": "Its purpose",
+          "explanation": "Stating the purpose early helps the recipient understand the request.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Choose the sentence with correct subject–verb agreement.",
+          "question_type": "multiple_choice",
+          "options": [
+            "The list of participants is attached.",
+            "The list of participants are attached.",
+            "The list of participants be attached.",
+            "The list of participants were attach."
+          ],
+          "correct_answer": "The list of participants is attached.",
+          "explanation": "The subject is the singular noun list, so the verb is is.",
+          "difficulty": "intermediate"
+        }
+      ]
+    }
+  ]
+}

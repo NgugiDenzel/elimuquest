@@ -1,0 +1,173 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": true,
+  "is_demo": false,
+  "curriculum_system": "CBC_CBE",
+  "curriculum_level": "Grade 9",
+  "curriculum_version": "KICD-G9-2024-07",
+  "subject_slug": "kiswahili-grade-9",
+  "topic_slug": "sarufi-katika-matumizi",
+  "topic_name": "Sarufi katika Matumizi",
+  "topic_source_reference": null,
+  "source_id": null,
+  "lessons": [
+    {
+      "slug": "grade-9-kiswahili-upatanisho-wa-kisarufi",
+      "content_version": 1,
+      "sort_order": 1,
+      "title": "Upatanisho wa kisarufi katika sentensi",
+      "description": "Tumia upatanisho unaofaa kati ya nomino na maneno yanayoihusu.",
+      "content": "Katika Kiswahili, maneno yanayohusiana katika sentensi hufuata upatanisho wa kisarufi. Viambishi vya upatanisho hutegemea ngeli ya nomino na nafasi yake katika sentensi. Kusoma sentensi nzima husaidia kubaini umbo linalofaa.",
+      "learning_objectives": [
+        "Kutambua nomino na maneno yanayopaswa kuafikiana nayo katika sentensi.",
+        "Kuchagua kiambishi cha upatanisho kinacholingana na nomino husika."
+      ],
+      "prerequisites": [
+        "Kutambua nomino na kitenzi katika sentensi rahisi."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Nomino huongoza upatanisho",
+          "body": "Nomino huathiri maumbo ya maneno yanayoirejelea. Kwa mfano, katika 'mtoto huyu anasoma', umoja wa mtoto unaonekana katika 'huyu' na 'anasoma'. Katika wingi, 'watoto hawa wanasoma' hutumia maumbo yanayoafikiana na nomino ya wingi."
+        },
+        {
+          "title": "Kagua sentensi nzima",
+          "body": "Unapohariri sentensi, tambua kwanza nomino inayozungumziwa, kisha hakikisha kiwakilishi na kitenzi vinaafikiana nayo. Usichague kiambishi kwa kuangalia neno lililo karibu pekee; tambua nomino ambayo kitenzi kinaihusu."
+        },
+        {
+          "title": "Quick recap",
+          "body": "Tambua nomino inayorejelewa na hakikisha viwakilishi na vitenzi vinaafikiana nayo katika umoja au wingi na ngeli husika."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "Kamilisha sentensi: 'Miti mirefu ___ kivuli.' Chagua kitenzi kinachofaa kati ya 'unatoa' na 'inatoa'.",
+          "solution": "Miti mirefu inatoa kivuli.",
+          "reasoning": "Miti ni nomino ya wingi inayotumia upatanisho wa ngeli ya M-/MI-; katika sentensi hii kitenzi kinaanza kwa kiambishi 'i-'."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "Ni sentensi ipi inayotumia upatanisho unaofaa?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Vitabu hivi vimepangwa mezani.",
+            "Vitabu hiki kimepangwa mezani.",
+            "Kitabu hivi vimepangwa mezani.",
+            "Vitabu huyu amepangwa mezani."
+          ],
+          "correct_answer": "Vitabu hivi vimepangwa mezani.",
+          "explanation": "Vitabu ni wingi wa kitabu, kwa hiyo kiwakilishi 'hivi' na kitenzi 'vimepangwa' vinaafikiana na nomino hiyo.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Chagua neno linalokamilisha upatanisho: 'Mwalimu pamoja na wanafunzi ___ ukumbini.'",
+          "question_type": "multiple_choice",
+          "options": [
+            "wameingia",
+            "umeingia",
+            "limeingia",
+            "imeingia"
+          ],
+          "correct_answer": "wameingia",
+          "explanation": "Kundi la watu linarejelewa kwa upatanisho wa wingi wa watu, unaoonyeshwa na 'wa-'.",
+          "difficulty": "intermediate"
+        },
+        {
+          "prompt": "Katika sentensi 'Maua haya yamenukia vizuri', ni neno lipi linaonyesha upatanisho na nomino 'maua'?",
+          "question_type": "multiple_choice",
+          "options": [
+            "haya",
+            "vizuri",
+            "katika",
+            "jana"
+          ],
+          "correct_answer": "haya",
+          "explanation": "'Haya' ni kiwakilishi kinachoafikiana na nomino ya wingi 'maua'.",
+          "difficulty": "foundational"
+        }
+      ]
+    },
+    {
+      "slug": "grade-9-kiswahili-viambishi-vya-wakati",
+      "content_version": 1,
+      "sort_order": 2,
+      "title": "Viambishi vya wakati na maana ya kitenzi",
+      "description": "Chunguza jinsi viambishi vya wakati hubadilisha maana ya vitenzi.",
+      "content": "Kitenzi cha Kiswahili kinaweza kuwa na viambishi vinavyoonyesha mtendaji, wakati na tendo. Viambishi vya wakati kama -na-, -li- na -ta- husaidia kueleza tendo linaloendelea au la kawaida sasa, lililopita, au linalotarajiwa baadaye. Muktadha husaidia kuchagua umbo linalofaa.",
+      "learning_objectives": [
+        "Kutambua viambishi vya wakati katika vitenzi vya kawaida.",
+        "Kutumia muktadha wa sentensi kuchagua wakati unaofaa."
+      ],
+      "prerequisites": [
+        "Kutambua kiima na kitenzi katika sentensi."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Viambishi huonyesha wakati",
+          "body": "Katika mifano rahisi, 'anasoma' huonyesha tendo linalofanyika sasa au la kawaida, 'alisoma' huonyesha tendo lililopita, na 'atasoma' huonyesha tendo la baadaye. Kiambishi cha mtendaji hubaki muhimu: 'ni-na-soma', 'ni-li-soma' na 'ni-ta-soma' hurejelea nafsi ya kwanza umoja."
+        },
+        {
+          "title": "Tumia viashiria vya muktadha",
+          "body": "Maneno kama 'jana', 'sasa' na 'kesho' hutoa dalili kuhusu wakati. Linganisha dalili hizo na kiambishi cha kitenzi, kisha hakikisha maana ya sentensi inalingana. Baadhi ya sentensi hutegemea muktadha mpana, kwa hiyo usitegemee neno moja pekee."
+        },
+        {
+          "title": "Quick recap",
+          "body": "Tumia viambishi -na-, -li- na -ta- pamoja na viashiria vya wakati ili kuchagua kitenzi kinacholingana na muktadha."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "Badili 'Asha anapika chakula' ili lionyeshe kuwa tendo lilifanyika jana.",
+          "solution": "Asha alipika chakula jana.",
+          "reasoning": "Kiambishi -li- huonyesha wakati uliopita katika mfano huu; 'jana' kinathibitisha muktadha wa wakati uliopita."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "Ni kitenzi kipi kinachoonyesha tendo la baadaye katika sentensi 'Kesho ___ barua'?",
+          "question_type": "multiple_choice",
+          "options": [
+            "nitaandika",
+            "niliandika",
+            "ninaandika",
+            "nimeandika"
+          ],
+          "correct_answer": "nitaandika",
+          "explanation": "Kiambishi -ta- huonyesha wakati ujao, unaolingana na kiashiria 'kesho'.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Katika 'Tulitembelea maktaba wiki iliyopita', ni kiambishi kipi cha kitenzi kinachoonyesha wakati uliopita?",
+          "question_type": "multiple_choice",
+          "options": [
+            "-li-",
+            "-na-",
+            "-ta-",
+            "-ki-"
+          ],
+          "correct_answer": "-li-",
+          "explanation": "Kitenzi 'tulitembelea' kina kiambishi -li- cha wakati uliopita; 'wiki iliyopita' huunga mkono maana hiyo.",
+          "difficulty": "intermediate"
+        },
+        {
+          "prompt": "Ni sentensi ipi inayolingana na kiashiria cha wakati 'sasa'?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Wanafunzi wanafanya jaribio sasa.",
+            "Wanafunzi walifanya jaribio kesho.",
+            "Wanafunzi watafanya jaribio jana.",
+            "Wanafunzi alifanya jaribio sasa."
+          ],
+          "correct_answer": "Wanafunzi wanafanya jaribio sasa.",
+          "explanation": "Kitenzi 'wanafanya' kinaonyesha tendo linalofanyika sasa na kinaafikiana na wingi wa wanafunzi.",
+          "difficulty": "intermediate"
+        }
+      ]
+    }
+  ]
+}

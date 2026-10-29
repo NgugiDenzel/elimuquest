@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": false,
+  "is_demo": false,
+  "curriculum_system": "CBC_CBE",
+  "curriculum_level": "Grade 9",
+  "curriculum_version": "KICD-G9-2024-07",
+  "subject_slug": "mathematics-grade-9",
+  "topic_slug": "linear-inequalities",
+  "topic_name": "Linear Inequalities",
+  "topic_source_reference": "ElimuQuest Mathematics Curriculum Draft v1, PDF p. 11",
+  "source_id": "KICD-G9-DESIGNS",
+  "lessons": [
+    {
+      "slug": "grade-9-linear-inequalities",
+      "content_version": 1,
+      "sort_order": 7,
+      "title": "Linear Inequalities",
+      "description": "Linear Inequalities",
+      "content": "",
+      "learning_objectives": [],
+      "prerequisites": [],
+      "explanation_sections": [
+        {
+          "title": "Linear Inequalities",
+          "body": "A linear inequality compares expressions. Solve it like an equation, except that when multiplying or\ndividing by a negative number, reverse the inequality sign."
+        }
+      ],
+      "worked_examples": [],
+      "source_reference": "ElimuQuest Mathematics Curriculum Draft v1, PDF p. 11",
+      "author": "ElimuQuest",
+      "questions": [
+        {
+          "prompt": "Solve 3x + 4 ≤ 19.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "x ≤ 5.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Solve 5x − 7 > 18.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "x > 5.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Solve −2x < 10.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "x > −5.",
+          "explanation": ""
+        },
+        {
+          "prompt": "List integer solutions of 2 < x ≤ 6.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "3, 4, 5, 6.",
+          "explanation": ""
+        },
+        {
+          "prompt": "A learner needs at least 70 marks and already has 42. Write and solve an inequality for additional marks x.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "42 + x ≥ 70; x ≥ 28.",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": false,
+  "is_demo": false,
+  "curriculum_system": "CBC_CBE",
+  "curriculum_level": "Grade 9",
+  "curriculum_version": "KICD-G9-2024-07",
+  "subject_slug": "mathematics-grade-9",
+  "topic_slug": "money",
+  "topic_name": "Money",
+  "topic_source_reference": "ElimuQuest Mathematics Curriculum Draft v1, PDF p. 13",
+  "source_id": "KICD-G9-DESIGNS",
+  "lessons": [
+    {
+      "slug": "grade-9-money",
+      "content_version": 1,
+      "sort_order": 11,
+      "title": "Money",
+      "description": "Money",
+      "content": "",
+      "learning_objectives": [],
+      "prerequisites": [],
+      "explanation_sections": [
+        {
+          "title": "Money",
+          "body": "Financial calculations may include prices, budgets, discounts, profit and loss. The exact subtopic\nsequence should be checked against the complete revised Grade 9 design."
+        }
+      ],
+      "worked_examples": [],
+      "source_reference": "ElimuQuest Mathematics Curriculum Draft v1, PDF p. 13",
+      "author": "ElimuQuest",
+      "questions": [
+        {
+          "prompt": "An item costs a shop KSh 1,200 and is sold for KSh 1,500. Find profit.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "KSh 300.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Calculate the percentage profit.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "25%.",
+          "explanation": ""
+        },
+        {
+          "prompt": "A phone costs KSh 20,000 and is discounted by 10%. Find the sale price.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "KSh 18,000.",
+          "explanation": ""
+        },
+        {
+          "prompt": "A learner saves KSh 500 weekly for 12 weeks. Find total savings.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "KSh 6,000.",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}

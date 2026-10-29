@@ -1,0 +1,150 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": true,
+  "is_demo": false,
+  "curriculum_system": "CBC_CBE",
+  "curriculum_level": "Grade 6",
+  "curriculum_version": "KICD-G6-VERSION-UNVERIFIED",
+  "subject_slug": "english-grade-6",
+  "topic_slug": "editing-and-functional-writing",
+  "topic_name": "Editing and Functional Writing",
+  "topic_source_reference": null,
+  "source_id": null,
+  "lessons": [
+    {
+      "slug": "grade-6-english-proofreading",
+      "content_version": 1,
+      "sort_order": 1,
+      "title": "Proofreading for clear meaning",
+      "description": "Reread writing to find spelling, punctuation and sentence errors.",
+      "content": "Proofreading is a final check for errors that can make writing difficult to understand. Check one kind of error at a time: sentence beginnings and full stops, spelling of familiar words, and whether each sentence is complete.",
+      "learning_objectives": [
+        "Identify common punctuation and spelling errors.",
+        "Use a simple proofreading routine to improve a short paragraph."
+      ],
+      "prerequisites": [
+        "Recognise capital letters and full stops."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Check sentence boundaries",
+          "body": "Begin a sentence with a capital letter and use an appropriate ending mark. A full stop usually ends a statement. A question mark ends a direct question. Read the paragraph slowly to notice where one idea ends."
+        },
+        {
+          "title": "Check words and meaning",
+          "body": "Look for common spelling patterns and reread each sentence to make sure it says what you intend. Ask someone to read it if a sentence is unclear. Recap: check punctuation, spelling and meaning in separate passes."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "Correct: 'on monday we visited the library'",
+          "solution": "On Monday, we visited the library.",
+          "reasoning": "The sentence begins with a capital, the day name is capitalised, and the statement ends with a full stop."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "Which correction makes 'where is my book.' correct?",
+          "question_type": "multiple_choice",
+          "options": ["Where is my book?", "where is my book!", "Where is my book.", "Where Is my book,"],
+          "correct_answer": "Where is my book?",
+          "explanation": "A direct question begins with a capital and ends with a question mark.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "What is proofreading mainly for?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Finding errors and improving clarity in a final draft.",
+            "Adding unrelated ideas.",
+            "Changing every sentence into a question.",
+            "Removing all paragraph breaks."
+          ],
+          "correct_answer": "Finding errors and improving clarity in a final draft.",
+          "explanation": "Proofreading checks writing for errors that interfere with clear reading.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Which check helps a writer find a missing full stop?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Read each sentence and notice where its idea ends.",
+            "Count the colours on the page.",
+            "Read only the title.",
+            "Replace all nouns with numbers."
+          ],
+          "correct_answer": "Read each sentence and notice where its idea ends.",
+          "explanation": "Reading sentence by sentence helps identify missing sentence-ending punctuation.",
+          "difficulty": "intermediate"
+        }
+      ]
+    },
+    {
+      "slug": "grade-6-english-writing-clear-instructions",
+      "content_version": 1,
+      "sort_order": 2,
+      "title": "Writing clear instructions",
+      "description": "Arrange steps in order and use precise action words for a familiar task.",
+      "content": "Instructions explain how to complete a task. They should name the task, put steps in a sensible order and use clear action words. Time-order words such as 'first', 'next' and 'finally' guide the reader.",
+      "learning_objectives": [
+        "Sequence a set of steps in a logical order.",
+        "Use action verbs and time-order words in instructions."
+      ],
+      "prerequisites": [
+        "Write short command sentences."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Order the steps",
+          "body": "Think about what must happen before the next action. For washing hands, wet hands before applying soap, and rinse after rubbing. Steps in the wrong order may make a task harder or less effective."
+        },
+        {
+          "title": "Make actions clear",
+          "body": "Begin each step with an action verb such as 'place', 'mix' or 'rinse'. Add time-order words when they help. Recap: keep steps ordered, use precise verbs and include only actions needed for the task."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "Put these actions into a sensible order: dry hands; wet hands; rinse soap; rub with soap.",
+          "solution": "Wet hands; rub with soap; rinse soap; dry hands.",
+          "reasoning": "The order follows the task from beginning to completion."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "Which word best signals the last step in a set of instructions?",
+          "question_type": "multiple_choice",
+          "options": ["Finally", "Before", "Unless", "Although"],
+          "correct_answer": "Finally",
+          "explanation": "'Finally' tells the reader that the last step is coming.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Which instruction is clearest?",
+          "question_type": "multiple_choice",
+          "options": ["Pour the clean water into the cup.", "Do the thing there.", "It is nice now.", "Water, cup, maybe."],
+          "correct_answer": "Pour the clean water into the cup.",
+          "explanation": "It names a specific action and the object it acts on.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Why should steps appear in a sensible order?",
+          "question_type": "multiple_choice",
+          "options": [
+            "So the reader can complete the task correctly.",
+            "So the task has no beginning.",
+            "So the reader must guess every action.",
+            "So the title replaces the steps."
+          ],
+          "correct_answer": "So the reader can complete the task correctly.",
+          "explanation": "A logical sequence makes the instructions practical to follow.",
+          "difficulty": "intermediate"
+        }
+      ]
+    }
+  ]
+}

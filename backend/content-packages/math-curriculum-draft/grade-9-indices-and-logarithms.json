@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": false,
+  "is_demo": false,
+  "curriculum_system": "CBC_CBE",
+  "curriculum_level": "Grade 9",
+  "curriculum_version": "KICD-G9-2024-07",
+  "subject_slug": "mathematics-grade-9",
+  "topic_slug": "indices-and-logarithms",
+  "topic_name": "Indices and Logarithms",
+  "topic_source_reference": "ElimuQuest Mathematics Curriculum Draft v1, PDF p. 10",
+  "source_id": "KICD-G9-DESIGNS",
+  "lessons": [
+    {
+      "slug": "grade-9-indices-and-logarithms",
+      "content_version": 1,
+      "sort_order": 3,
+      "title": "Indices and Logarithms",
+      "description": "Indices and Logarithms",
+      "content": "",
+      "learning_objectives": [],
+      "prerequisites": [],
+      "explanation_sections": [
+        {
+          "title": "Indices and Logarithms",
+          "body": "Laws of indices include aᵐ × aⁿ = aᵐ⁺ⁿ, aᵐ ÷ aⁿ = aᵐ⁻ⁿ, (aᵐ)ⁿ = aᵐⁿ and a⁰ = 1 for non-zero a. A\nlogarithm asks what power a base must be raised to. For example, log₁₀ 1000 = 3."
+        }
+      ],
+      "worked_examples": [],
+      "source_reference": "ElimuQuest Mathematics Curriculum Draft v1, PDF p. 10",
+      "author": "ElimuQuest",
+      "questions": [
+        {
+          "prompt": "Simplify 3⁴ × 3².",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "729.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Simplify 5⁷ ÷ 5³.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "625.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Evaluate (2³)².",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "64.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Evaluate 7⁰ + 2³.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "9.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Find x if 2ˣ = 32.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "5.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Evaluate log₁₀ 100.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "2.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Evaluate log₂ 16.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "4.",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}

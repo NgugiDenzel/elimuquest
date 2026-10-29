@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": false,
+  "is_demo": false,
+  "curriculum_system": "CBC_CBE",
+  "curriculum_level": "Grade 9",
+  "curriculum_version": "KICD-G9-2024-07",
+  "subject_slug": "mathematics-grade-9",
+  "topic_slug": "data-interpretation-grouped-data",
+  "topic_name": "Data Interpretation — Grouped Data",
+  "topic_source_reference": "ElimuQuest Mathematics Curriculum Draft v1, PDF p. 15",
+  "source_id": "KICD-G9-DESIGNS",
+  "lessons": [
+    {
+      "slug": "grade-9-data-interpretation-grouped-data",
+      "content_version": 1,
+      "sort_order": 17,
+      "title": "Data Interpretation — Grouped Data",
+      "description": "Data Interpretation — Grouped Data",
+      "content": "",
+      "learning_objectives": [],
+      "prerequisites": [],
+      "explanation_sections": [
+        {
+          "title": "Data Interpretation — Grouped Data",
+          "body": "For grouped data, use class midpoints to estimate the mean: estimated mean = Σfx/Σf, where f is\nfrequency and x is class midpoint.\nMarks\nFrequency\n0–9\n2\n10–19\n5\n20–29\n7\n30–39\n6"
+        }
+      ],
+      "worked_examples": [],
+      "source_reference": "ElimuQuest Mathematics Curriculum Draft v1, PDF p. 15",
+      "author": "ElimuQuest",
+      "questions": [
+        {
+          "prompt": "How many learners are represented?",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "20.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Which class interval has the highest frequency?",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "20–29.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Find the midpoint of interval 20–29.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "24.5.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Calculate estimated mean using class midpoints.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "23.0.",
+          "explanation": ""
+        },
+        {
+          "prompt": "State one limitation of the estimated mean.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "Exact individual scores are unknown.",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}

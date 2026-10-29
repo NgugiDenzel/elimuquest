@@ -1,0 +1,205 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": true,
+  "is_demo": false,
+  "curriculum_system": "8_4_4",
+  "curriculum_level": "Form 4",
+  "curriculum_version": "KICD-844-VERSION-UNVERIFIED",
+  "subject_slug": "physics-form-4",
+  "topic_slug": "thermal-physics-and-pressure",
+  "topic_name": "Thermal Physics and Pressure",
+  "topic_source_reference": null,
+  "source_id": null,
+  "lessons": [
+    {
+      "slug": "form-4-physics-thermal-expansion",
+      "content_version": 1,
+      "sort_order": 1,
+      "title": "Thermal expansion",
+      "description": "Explain expansion when substances are heated and apply it to everyday design.",
+      "content": "Heating most substances increases the average kinetic energy of their particles. The particles move or vibrate more and their average separation may increase, so the substance expands. Cooling generally produces contraction.",
+      "learning_objectives": [
+        "Explain thermal expansion using a particle model.",
+        "Relate expansion gaps to safe engineering design."
+      ],
+      "prerequisites": [
+        "Describe matter as particles in motion."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Particle explanation",
+          "body": "When heated, particles gain kinetic energy. In a solid they vibrate more about fixed positions; their average separation increases slightly and the solid expands. Expansion is usually greatest in gases and least in solids for comparable heating."
+        },
+        {
+          "title": "Practical allowance",
+          "body": "Bridges and long rails need room for expansion as temperature changes. Without a suitable gap or joint, expansion can create large forces and cause bending. Recap: heating usually causes expansion, so designs must allow for temperature changes."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "Why are expansion joints included in a long bridge?",
+          "solution": "They provide space for the bridge materials to expand in warm conditions.",
+          "reasoning": "A temperature rise can increase material dimensions; a joint reduces stress from the expansion."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "What usually happens to the average separation of particles in a solid when it is heated?",
+          "question_type": "multiple_choice",
+          "options": ["It increases slightly", "It becomes exactly zero", "It always decreases", "The particles disappear"],
+          "correct_answer": "It increases slightly",
+          "explanation": "Greater vibration generally increases the average separation, producing expansion.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Why might a bridge need an expansion joint?",
+          "question_type": "multiple_choice",
+          "options": [
+            "To allow dimensions to change with temperature",
+            "To stop all heat transfer",
+            "To increase the bridge's mass",
+            "To prevent gravity acting"
+          ],
+          "correct_answer": "To allow dimensions to change with temperature",
+          "explanation": "The joint allows thermal expansion and reduces stress in the structure.",
+          "difficulty": "intermediate"
+        },
+        {
+          "prompt": "What is the usual effect of cooling a substance after it has expanded?",
+          "question_type": "multiple_choice",
+          "options": ["Contraction", "Further expansion", "Instant melting", "No change in any substance"],
+          "correct_answer": "Contraction",
+          "explanation": "Cooling generally reduces particle motion and causes contraction.",
+          "difficulty": "foundational"
+        }
+      ]
+    },
+    {
+      "slug": "form-4-physics-heat-capacity-and-energy",
+      "content_version": 1,
+      "sort_order": 2,
+      "title": "Heating and specific heat capacity",
+      "description": "Use Q = mcΔT to relate thermal energy, mass and temperature change.",
+      "content": "Specific heat capacity describes the energy needed to raise the temperature of one kilogram of a substance by one kelvin or one degree Celsius. For a temperature change without a change of state, thermal energy transferred is Q = mcΔT.",
+      "learning_objectives": [
+        "Interpret specific heat capacity and its units.",
+        "Calculate thermal energy using Q = mcΔT."
+      ],
+      "prerequisites": [
+        "Substitute values into a formula and calculate a temperature difference."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Meaning of specific heat capacity",
+          "body": "A material with a larger specific heat capacity needs more energy for the same mass and temperature rise. The unit is J kg⁻¹ °C⁻¹ (equivalently J kg⁻¹ K⁻¹ for a temperature difference)."
+        },
+        {
+          "title": "Energy calculation",
+          "body": "Q = mcΔT, where m is in kilograms, c is specific heat capacity and ΔT is the temperature change. This relation applies when the substance is not changing state. Recap: convert mass to kilograms and subtract initial temperature from final temperature."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "A 2 kg sample has c = 500 J kg⁻¹ °C⁻¹ and warms by 3°C. Find Q.",
+          "solution": "3000 J",
+          "reasoning": "Q = mcΔT = 2 × 500 × 3 = 3000 J."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "How much energy raises 1 kg by 1°C if its specific heat capacity is 4200 J kg⁻¹ °C⁻¹?",
+          "question_type": "multiple_choice",
+          "options": ["4200 J", "420 J", "42 J", "8400 J"],
+          "correct_answer": "4200 J",
+          "explanation": "Specific heat capacity is the energy per kilogram per degree of temperature rise.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Find Q for m = 0.5 kg, c = 400 J kg⁻¹ °C⁻¹ and ΔT = 10°C.",
+          "question_type": "multiple_choice",
+          "options": ["2000 J", "200 J", "8000 J", "20 J"],
+          "correct_answer": "2000 J",
+          "explanation": "Q = 0.5 × 400 × 10 = 2000 J.",
+          "difficulty": "intermediate"
+        },
+        {
+          "prompt": "Which mass unit should be used with c in J kg⁻¹ °C⁻¹?",
+          "question_type": "multiple_choice",
+          "options": ["Kilograms", "Grams without conversion", "Litres", "Cubic centimetres"],
+          "correct_answer": "Kilograms",
+          "explanation": "The kilogram in the unit of c requires mass to be expressed in kilograms.",
+          "difficulty": "foundational"
+        }
+      ]
+    },
+    {
+      "slug": "form-4-physics-pressure-in-solids-and-liquids",
+      "content_version": 1,
+      "sort_order": 3,
+      "title": "Pressure in solids and liquids",
+      "description": "Calculate pressure from force and area and explain pressure changes with depth in a liquid.",
+      "content": "Pressure is force per unit area. For a force perpendicular to a surface, p = F/A. In a stationary liquid, pressure increases with depth because more liquid lies above a deeper point.",
+      "learning_objectives": [
+        "Calculate pressure using p = F/A.",
+        "Explain qualitatively why liquid pressure increases with depth."
+      ],
+      "prerequisites": [
+        "Use newtons and square metres."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Force and contact area",
+          "body": "The same force acting over a smaller area produces greater pressure. Pressure is measured in pascals (Pa), where 1 Pa = 1 N m⁻². Use the area actually in contact with the surface."
+        },
+        {
+          "title": "Liquid pressure",
+          "body": "At greater depth, a point supports the weight of a taller column of liquid, so the pressure is greater. At the same depth in the same stationary liquid, pressure is the same in all directions. Recap: pressure depends on force and area for solids, and increases with depth in a liquid."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "A force of 60 N acts on an area of 0.20 m². Find the pressure.",
+          "solution": "300 Pa",
+          "reasoning": "p = F/A = 60 ÷ 0.20 = 300 N m⁻² = 300 Pa."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "What is the pressure when 100 N acts over 2 m²?",
+          "question_type": "multiple_choice",
+          "options": ["50 Pa", "200 Pa", "102 Pa", "0.02 Pa"],
+          "correct_answer": "50 Pa",
+          "explanation": "p = F/A = 100 ÷ 2 = 50 Pa.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Why is liquid pressure greater at a deeper point?",
+          "question_type": "multiple_choice",
+          "options": [
+            "A taller column of liquid is above the point",
+            "The liquid has no weight at the surface",
+            "Gravity stops acting at the bottom",
+            "The container changes the liquid's mass"
+          ],
+          "correct_answer": "A taller column of liquid is above the point",
+          "explanation": "The weight of the liquid above produces greater pressure at greater depth.",
+          "difficulty": "intermediate"
+        },
+        {
+          "prompt": "What happens to pressure if the same force acts on a smaller area?",
+          "question_type": "multiple_choice",
+          "options": ["It increases", "It decreases", "It becomes zero", "It stays the same in all cases"],
+          "correct_answer": "It increases",
+          "explanation": "Since p = F/A, reducing area while keeping force fixed increases pressure.",
+          "difficulty": "foundational"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": true,
+  "curriculum_system": "CBC_CBE",
+  "curriculum_level": "Grade 9",
+  "curriculum_version": "KICD-G9-2024-07",
+  "subject_slug": "integrated-science-grade-9",
+  "topic_slug": "schema-fixture",
+  "topic_name": "Schema fixture (not curriculum content)",
+  "topic_source_reference": "FIXTURE ONLY — replace with an inspected design PDF and page/section.",
+  "source_id": "KICD-G9-DESIGNS",
+  "lessons": [
+    {
+      "slug": "schema-fixture-lesson",
+      "content_version": 1,
+      "title": "Schema fixture (not a learner lesson)",
+      "description": "Importer example only; this is not curriculum-mapped content.",
+      "content": "Replace this fixture with original, subject-reviewed content before review.",
+      "learning_objectives": [
+        "Illustrate the required objective field; this is not an official outcome."
+      ],
+      "prerequisites": [],
+      "explanation_sections": [
+        {
+          "title": "Fixture section",
+          "body": "Placeholder text only. Do not treat this as verified learning content."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "Fixture prompt",
+          "solution": "Fixture solution",
+          "reasoning": "Fixture reasoning"
+        }
+      ],
+      "source_reference": "FIXTURE ONLY — add the actual design title and page/section.",
+      "author": "content-author@example.test",
+      "questions": [
+        {
+          "prompt": "Fixture question?",
+          "question_type": "multiple_choice",
+          "options": ["Option A", "Option B"],
+          "correct_answer": "Option A",
+          "explanation": "Fixture explanation only.",
+          "difficulty": "foundational"
+        }
+      ]
+    }
+  ]
+}

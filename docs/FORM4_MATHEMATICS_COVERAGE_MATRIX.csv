@@ -1,0 +1,12 @@
+topic,slug,source_file,source_page_ref,lesson_status,coverage_status,answer_status,publication_status,notes
+Matrices and Transformations,form-4-matrices-and-transformations,"MATHS FORM 4 NOTES.pdf","PDF p. 16","draft","explicitly_present_in_source","requires_human_review","unpublished_draft","User-supplied notes; objective list is present on PDF page 2 and the package title maps to the manuscript page reference"
+Statistics II,form-4-statistics-ii,"MATHS FORM 4 NOTES.pdf","PDF pp. 16-17","draft","explicitly_present_in_source","requires_human_review","unpublished_draft","Draft package created from the manuscript page range; not official KICD syllabus mapping"
+Loci,form-4-loci,"MATHS FORM 4 NOTES.pdf","PDF p. 17","draft","explicitly_present_in_source","requires_human_review","unpublished_draft","Package matches the manuscript title and page reference"
+Trigonometry III,form-4-trigonometry-iii,"MATHS FORM 4 NOTES.pdf","PDF p. 17","draft","explicitly_present_in_source","requires_human_review","unpublished_draft","Package matches the manuscript page reference"
+Three-Dimensional Geometry,form-4-three-dimensional-geometry,"MATHS FORM 4 NOTES.pdf","PDF pp. 17-18","draft","explicitly_present_in_source","requires_human_review","unpublished_draft","Package matches the manuscript page reference"
+Longitudes and Latitudes,form-4-longitudes-and-latitudes,"MATHS FORM 4 NOTES.pdf","PDF p. 18","draft","explicitly_present_in_source","requires_human_review","unpublished_draft","Package matches the manuscript page reference"
+Linear Programming,form-4-linear-programming,"MATHS FORM 4 NOTES.pdf","PDF p. 18","draft","explicitly_present_in_source","requires_human_review","unpublished_draft","Package matches the manuscript page reference"
+Differentiation,form-4-differentiation,"MATHS FORM 4 NOTES.pdf","PDF p. 19","draft","explicitly_present_in_source","requires_human_review","unpublished_draft","Package matches the manuscript page reference"
+Area Approximation,form-4-area-approximation,"MATHS FORM 4 NOTES.pdf","PDF p. 19","draft","explicitly_present_in_source","requires_human_review","unpublished_draft","Package matches the manuscript page reference"
+Integration,form-4-integration,"MATHS FORM 4 NOTES.pdf","PDF pp. 19-20","draft","explicitly_present_in_source","requires_human_review","unpublished_draft","Package matches the manuscript page reference"
+TOTAL,ALL_FORM4_PACKAGES,NA,NA,"draft","10_topics_present","50_questions","unpublished_draft","Current live repository baseline; no official KICD-edition verification completed"

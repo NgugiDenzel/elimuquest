@@ -1,0 +1,173 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": true,
+  "is_demo": false,
+  "curriculum_system": "CBC_CBE",
+  "curriculum_level": "Grade 9",
+  "curriculum_version": "KICD-G9-2024-07",
+  "subject_slug": "kiswahili-grade-9",
+  "topic_slug": "fasihi-simulizi",
+  "topic_name": "Fasihi Simulizi",
+  "topic_source_reference": null,
+  "source_id": null,
+  "lessons": [
+    {
+      "slug": "grade-9-kiswahili-methali-na-maana",
+      "content_version": 1,
+      "sort_order": 1,
+      "title": "Methali na matumizi yake",
+      "description": "Fasiri methali kwa kuzingatia ujumbe na hali inayohusika.",
+      "content": "Methali ni kauli fupi za kimapokeo zinazobeba hekima au mafunzo. Maana yake mara nyingi si ya moja kwa moja, hivyo msikilizaji au msomaji hutumia muktadha kufahamu ujumbe. Methali moja inaweza kutumika katika hali mbalimbali zinazohusiana.",
+      "learning_objectives": [
+        "Kueleza ujumbe wa methali kwa maneno yake mwenyewe.",
+        "Kuchagua hali inayofaa kuonyesha matumizi ya methali."
+      ],
+      "prerequisites": [
+        "Kuelewa maana ya sentensi na kutambua ujumbe wake."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Maana ya moja kwa moja na ya ndani",
+          "body": "Maneno ya methali yanaweza kutaja vitu halisi, lakini ujumbe wake huwa mpana zaidi. Kwa mfano, 'Haraka haraka haina baraka' huonya kuwa pupa inaweza kuleta makosa au matokeo yasiyoridhisha; haimaanishi kuwa kila kazi inapaswa kufanywa polepole."
+        },
+        {
+          "title": "Ujumbe hutegemea muktadha",
+          "body": "Ili kuchagua methali inayofaa, linganisha ujumbe wake na hali inayozungumziwa. Eleza uhusiano huo kwa sentensi moja. Usihusishe methali na hali kwa sababu tu zina neno moja linalofanana."
+        },
+        {
+          "title": "Quick recap",
+          "body": "Tambua ujumbe wa methali unaozidi maana ya maneno yake, kisha uutafsiri kulingana na hali na ueleze kwa nini unafaa."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "Mwanafunzi alikagua kazi yake kabla ya kuiwasilisha na hivyo akarekebisha makosa kadhaa. Ni ujumbe gani wa methali 'Subira huvuta heri' unaoweza kuhusishwa na hali hii?",
+          "solution": "Kuchukua muda wa kutafakari na kukagua kunaweza kusaidia kupata matokeo bora.",
+          "reasoning": "Mwanafunzi hakufanya haraka; alitumia subira kukagua kazi. Methali inahusishwa na faida ya kutokuwa na pupa katika hali hiyo."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "Mtu anataka kufanikiwa katika kazi ya muda mrefu na anafanya juhudi kidogo kidogo kila siku. Ni methali ipi inayofaa zaidi?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Haba na haba hujaza kibaba.",
+            "Asiyesikia la mkuu huvunjika guu.",
+            "Maji yakimwagika hayazoleki.",
+            "Penye nia pana njia."
+          ],
+          "correct_answer": "Haba na haba hujaza kibaba.",
+          "explanation": "Methali hii inaonyesha kuwa juhudi ndogo zinazoendelea zinaweza kukusanyika na kuleta mafanikio.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Mtu alipuuza ushauri wa tahadhari na baadaye akapata tatizo aliloonywa. Ni methali ipi inaeleza hali hiyo?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Asiyesikia la mkuu huvunjika guu.",
+            "Umoja ni nguvu, utengano ni udhaifu.",
+            "Akiba haiozi.",
+            "Paka akiondoka panya hutawala."
+          ],
+          "correct_answer": "Asiyesikia la mkuu huvunjika guu.",
+          "explanation": "Methali hii huonya kuhusu matokeo ya kupuuza ushauri unaofaa.",
+          "difficulty": "intermediate"
+        },
+        {
+          "prompt": "Kwa nini ni muhimu kuzingatia muktadha unapofasiri methali?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Muktadha husaidia kubaini ujumbe unaofaa kwa hali inayozungumziwa.",
+            "Methali zote zina maana moja ya moja kwa moja.",
+            "Muktadha hubadilisha methali kuwa wimbo.",
+            "Methali haiwezi kutumiwa katika mazungumzo."
+          ],
+          "correct_answer": "Muktadha husaidia kubaini ujumbe unaofaa kwa hali inayozungumziwa.",
+          "explanation": "Ujumbe wa methali hulinganishwa na hali halisi; kuangalia muktadha huzuia tafsiri isiyofaa.",
+          "difficulty": "intermediate"
+        }
+      ]
+    },
+    {
+      "slug": "grade-9-kiswahili-hadithi-za-jadi",
+      "content_version": 1,
+      "sort_order": 2,
+      "title": "Muundo na ujumbe katika hadithi za jadi",
+      "description": "Chunguza wahusika, matukio na mafunzo katika simulizi za jadi.",
+      "content": "Hadithi za jadi husimuliwa na kusambazwa katika jamii kwa njia ya mdomo, ingawa zinaweza pia kuandikwa. Msikilizaji hufuata wahusika, mahali, tatizo na matukio yanayoelekea kwenye suluhisho. Ujumbe wa hadithi huchunguzwa kwa kutumia ushahidi wa matendo na matokeo.",
+      "learning_objectives": [
+        "Kutambua sehemu kuu za muundo wa hadithi ya jadi.",
+        "Kueleza mafunzo yanayoungwa mkono na matukio ya hadithi."
+      ],
+      "prerequisites": [
+        "Kufuatilia mpangilio wa matukio katika simulizi fupi."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Wahusika na mfululizo wa matukio",
+          "body": "Hadithi inaweza kuanza kwa kutambulisha wahusika na mazingira, kisha kuleta tatizo au lengo. Matukio yanayofuata huonyesha jinsi wahusika wanavyokabiliana na hali hiyo, na mwisho huonyesha matokeo. Si kila hadithi hufuata mpangilio uleule, kwa hiyo sikiliza dalili za simulizi lenyewe."
+        },
+        {
+          "title": "Kutambua ujumbe",
+          "body": "Mafunzo huweza kuonekana katika uamuzi wa mhusika na matokeo yake. Badala ya kubuni somo, taja kitendo kilichotokea na ueleze kinavyoonyesha ujumbe. Hadithi pia inaweza kuwa na ujumbe zaidi ya mmoja."
+        },
+        {
+          "title": "Quick recap",
+          "body": "Fuatilia wahusika, tatizo na matukio ya hadithi; eleza ujumbe kwa kutegemea maamuzi ya wahusika na matokeo yake."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "Katika simulizi, kobe na sungura walikubali kushindana. Sungura alisimama kupumzika, naye kobe akaendelea hadi mwisho. Ni somo gani linaloungwa mkono na matukio hayo?",
+          "solution": "Kuendelea kwa bidii kunaweza kusaidia kufikia lengo, hata kama mtu mwingine ana kasi zaidi.",
+          "reasoning": "Kobe aliendelea na akafika mwisho huku sungura akisita. Jibu linahusisha matendo na matokeo bila kudai kuwa kasi haina faida katika kila hali."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "Ni sehemu ipi kwa kawaida huanzisha wahusika au mazingira ya simulizi?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Utangulizi",
+            "Suluhisho",
+            "Matokeo ya mwisho",
+            "Mwitikio wa hadhira"
+          ],
+          "correct_answer": "Utangulizi",
+          "explanation": "Utangulizi mara nyingi huweka msingi kwa kumtambulisha msikilizaji kwa wahusika au mazingira.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Msikilizaji anapohitimisha mafunzo ya hadithi, anapaswa kutegemea nini zaidi?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Matendo ya wahusika na matokeo yake.",
+            "Jina refu zaidi la mhusika.",
+            "Maoni yasiyohusiana na hadithi.",
+            "Idadi ya maneno katika kichwa pekee."
+          ],
+          "correct_answer": "Matendo ya wahusika na matokeo yake.",
+          "explanation": "Matendo na matokeo yake hutoa ushahidi wa ujumbe unaoweza kutolewa kutokana na hadithi.",
+          "difficulty": "intermediate"
+        },
+        {
+          "prompt": "Katika simulizi, watoto walishirikiana kusafisha kisima, na jamii ikapata maji safi tena. Ni ujumbe upi unaoungwa mkono zaidi?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Ushirikiano unaweza kusaidia jamii kutatua tatizo la pamoja.",
+            "Kila tatizo hutatuliwa na mtu mmoja pekee.",
+            "Visima vyote hukauka wakati wa usiku.",
+            "Watoto hawapaswi kufanya kazi pamoja."
+          ],
+          "correct_answer": "Ushirikiano unaweza kusaidia jamii kutatua tatizo la pamoja.",
+          "explanation": "Wahusika walifanya kazi pamoja na simulizi linaonyesha matokeo ya juhudi hiyo ya pamoja.",
+          "difficulty": "intermediate"
+        }
+      ]
+    }
+  ]
+}

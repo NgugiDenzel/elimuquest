@@ -1,0 +1,225 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": true,
+  "is_demo": false,
+  "curriculum_system": "CBC_CBE",
+  "curriculum_level": "Grade 6",
+  "curriculum_version": "KICD-G6-VERSION-UNVERIFIED",
+  "subject_slug": "english-grade-6",
+  "topic_slug": "planning-and-paragraphs",
+  "topic_name": "Planning and Paragraphs",
+  "topic_source_reference": null,
+  "source_id": null,
+  "lessons": [
+    {
+      "slug": "grade-6-english-topic-sentences",
+      "content_version": 1,
+      "sort_order": 1,
+      "title": "Writing a clear topic sentence",
+      "description": "Introduce one main idea so a reader can predict what the paragraph explains.",
+      "content": "A paragraph develops one main idea. A topic sentence tells the reader that idea, while the other sentences explain it with details or examples. A focused topic sentence is neither too broad nor a list of unrelated points.",
+      "learning_objectives": [
+        "Identify the main idea of a short paragraph.",
+        "Write a focused topic sentence for a familiar subject."
+      ],
+      "prerequisites": [
+        "Write complete sentences and identify a paragraph topic."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Main idea and supporting details",
+          "body": "Read all the details and ask what they have in common. A paragraph about saving water might mention closing taps, reporting leaks and reusing clean water for plants. These details support the main idea that small actions conserve water."
+        },
+        {
+          "title": "Make the sentence focused",
+          "body": "A useful topic sentence names the subject and says something about it. 'School gardens help learners' is focused; 'Gardens' is too broad. Recap: choose one main idea, state it clearly, and make sure each supporting sentence belongs to it."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "Details: learners borrow storybooks, practise reading and discuss new words. Write a topic sentence.",
+          "solution": "The school library helps learners develop reading skills.",
+          "reasoning": "The sentence groups borrowing, reading practice and vocabulary discussion under one central benefit."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "Which sentence best introduces a paragraph about keeping a classroom tidy?",
+          "question_type": "multiple_choice",
+          "options": [
+            "A tidy classroom makes it easier to learn.",
+            "Classrooms have walls.",
+            "My shoes are brown.",
+            "Yesterday was Tuesday."
+          ],
+          "correct_answer": "A tidy classroom makes it easier to learn.",
+          "explanation": "It states a central idea that relevant details can support.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "A paragraph explains how a school garden supports learning. Which detail fits best?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Learners observe how plants grow.",
+            "The football has a blue stripe.",
+            "A bus stopped near the market.",
+            "The classroom door is open."
+          ],
+          "correct_answer": "Learners observe how plants grow.",
+          "explanation": "Observing plant growth directly supports learning through a school garden.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "What should a writer check after choosing a topic sentence?",
+          "question_type": "multiple_choice",
+          "options": [
+            "That each supporting detail relates to its main idea.",
+            "That the paragraph changes topic in every sentence.",
+            "That every sentence is a question.",
+            "That the details are placed in alphabetical order."
+          ],
+          "correct_answer": "That each supporting detail relates to its main idea.",
+          "explanation": "Relevant details keep a paragraph focused and coherent.",
+          "difficulty": "intermediate"
+        }
+      ]
+    },
+    {
+      "slug": "grade-6-english-supporting-details",
+      "content_version": 1,
+      "sort_order": 2,
+      "title": "Choosing supporting details",
+      "description": "Select facts, reasons and examples that explain a paragraph's main idea.",
+      "content": "Supporting details make a main idea clearer. A writer can use a reason, a fact from a text, or a specific example. Each detail should answer a reader's question about the topic sentence rather than introducing a new subject.",
+      "learning_objectives": [
+        "Distinguish a relevant detail from an unrelated one.",
+        "Add an example that explains a main idea."
+      ],
+      "prerequisites": [
+        "Identify a topic sentence."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Test relevance",
+          "body": "Ask, 'Does this detail explain or prove the main idea?' If the topic is safe walking to school, wearing a visible reflector is relevant; a favourite meal is not. A detail can be true and still be unrelated."
+        },
+        {
+          "title": "Use a specific example",
+          "body": "Specific details help readers picture an idea. Instead of 'exercise is useful', explain that walking, running or playing a game makes the body move. Recap: keep details true, clear and connected to the topic sentence."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "Topic sentence: 'Planning helps learners finish assignments.' Add one supporting detail.",
+          "solution": "A written plan can divide a large assignment into smaller tasks with dates for completing them.",
+          "reasoning": "The detail explains how planning supports timely completion."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "Topic: ways to keep drinking water clean. Which detail is relevant?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Store it in a clean, covered container.",
+            "The market sells ripe mangoes.",
+            "A bird has brown feathers.",
+            "The road is narrow."
+          ],
+          "correct_answer": "Store it in a clean, covered container.",
+          "explanation": "A clean covered container relates directly to protecting drinking water.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Why include an example in a paragraph?",
+          "question_type": "multiple_choice",
+          "options": [
+            "It makes an idea more specific and easier to understand.",
+            "It removes the paragraph's main idea.",
+            "It changes every fact into an opinion.",
+            "It makes the reader guess the topic."
+          ],
+          "correct_answer": "It makes an idea more specific and easier to understand.",
+          "explanation": "An example shows what a general idea can look like in practice.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "A paragraph is about saving electricity at home. Which sentence is least relevant?",
+          "question_type": "multiple_choice",
+          "options": [
+            "My cousin enjoys drawing pictures.",
+            "Switch off lights when leaving an empty room.",
+            "Use daylight when it is bright enough.",
+            "Unplug a charger when it is not being used."
+          ],
+          "correct_answer": "My cousin enjoys drawing pictures.",
+          "explanation": "The sentence about drawing does not explain saving electricity.",
+          "difficulty": "intermediate"
+        }
+      ]
+    },
+    {
+      "slug": "grade-6-english-connecting-ideas",
+      "content_version": 1,
+      "sort_order": 3,
+      "title": "Connecting ideas in a paragraph",
+      "description": "Use simple linking words to show addition, contrast and result.",
+      "content": "Linking words show how ideas relate. Words such as 'also' add information, 'but' signals contrast, and 'so' can introduce a result. Choose a link that matches the meaning rather than repeating one word in every sentence.",
+      "learning_objectives": [
+        "Recognise addition, contrast and result relationships.",
+        "Choose a linking word that fits two connected ideas."
+      ],
+      "prerequisites": [
+        "Read two related complete sentences."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Match word to relationship",
+          "body": "'Also' adds a similar point: 'The path is short. It is also safe.' 'But' signals a difference: 'The bag is small, but it holds many books.' 'So' can connect a cause and result."
+        },
+        {
+          "title": "Read the whole sentence",
+          "body": "Read both ideas and decide whether the second adds, differs or follows from the first. Recap: choose a linking word for meaning, then read the sentence aloud to check that it sounds logical."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "Complete: 'It rained heavily, ____ the match was postponed.'",
+          "solution": "so",
+          "reasoning": "The postponement is the result of the heavy rain."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "Choose a word that adds another similar point: 'We planted beans. We ____ planted spinach.'",
+          "question_type": "multiple_choice",
+          "options": ["also", "but", "because", "unless"],
+          "correct_answer": "also",
+          "explanation": "'Also' adds another action to the first sentence.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Complete the contrast: 'The walk was long, ____ the view was beautiful.'",
+          "question_type": "multiple_choice",
+          "options": ["but", "so", "also", "therefore"],
+          "correct_answer": "but",
+          "explanation": "'But' links two ideas that contrast.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Complete the result: 'Amina practised every day, ____ she became more confident.'",
+          "question_type": "multiple_choice",
+          "options": ["so", "although", "unless", "instead"],
+          "correct_answer": "so",
+          "explanation": "'So' introduces the result of practising every day.",
+          "difficulty": "intermediate"
+        }
+      ]
+    }
+  ]
+}

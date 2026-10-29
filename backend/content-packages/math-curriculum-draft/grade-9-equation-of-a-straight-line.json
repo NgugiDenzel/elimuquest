@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": false,
+  "is_demo": false,
+  "curriculum_system": "CBC_CBE",
+  "curriculum_level": "Grade 9",
+  "curriculum_version": "KICD-G9-2024-07",
+  "subject_slug": "mathematics-grade-9",
+  "topic_slug": "equation-of-a-straight-line",
+  "topic_name": "Equation of a Straight Line",
+  "topic_source_reference": "ElimuQuest Mathematics Curriculum Draft v1, PDF p. 11",
+  "source_id": "KICD-G9-DESIGNS",
+  "lessons": [
+    {
+      "slug": "grade-9-equation-of-a-straight-line",
+      "content_version": 1,
+      "sort_order": 6,
+      "title": "Equation of a Straight Line",
+      "description": "Equation of a Straight Line",
+      "content": "",
+      "learning_objectives": [],
+      "prerequisites": [],
+      "explanation_sections": [
+        {
+          "title": "Equation of a Straight Line",
+          "body": "A straight line can be represented by y = mx + c, where m is the gradient and c is the y-intercept.\nBetween two points, m = (y₂ − y₁)/(x₂ − x₁)."
+        }
+      ],
+      "worked_examples": [],
+      "source_reference": "ElimuQuest Mathematics Curriculum Draft v1, PDF p. 11",
+      "author": "ElimuQuest",
+      "questions": [
+        {
+          "prompt": "Find the gradient between (1,2) and (4,8).",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "2.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Identify the gradient and y-intercept of y = 3x − 5.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "Gradient 3; y-intercept −5.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Find the equation of a line with gradient 2 and y-intercept 4.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "y = 2x + 4.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Find the gradient through (−2,5) and (2,−3).",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "−2.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Find the x-intercept of y = 2x − 6.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "x = 3.",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}

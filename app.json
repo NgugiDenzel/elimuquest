@@ -2,10 +2,16 @@
   "expo": {
     "name": "elimuquest",
     "slug": "elimuquest",
+    "scheme": "elimuquest",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      "expo-font"
+    ],
     "ios": {
       "supportsTablet": true
     },

@@ -1,0 +1,167 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": true,
+  "is_demo": false,
+  "curriculum_system": "CBC_CBE",
+  "curriculum_level": "Grade 9",
+  "curriculum_version": "KICD-G9-2024-07",
+  "subject_slug": "kiswahili-grade-9",
+  "topic_slug": "kusoma-na-uandishi",
+  "topic_name": "Kusoma na Uandishi",
+  "topic_source_reference": null,
+  "source_id": null,
+  "lessons": [
+    {
+      "slug": "grade-9-kiswahili-kuelewa-kifungu",
+      "content_version": 1,
+      "sort_order": 1,
+      "title": "Kuelewa kifungu kwa kutumia ushahidi",
+      "description": "Jibu maswali ya ufahamu kwa kutofautisha taarifa wazi na hitimisho.",
+      "content": "Ufahamu wa kifungu huanza kwa kusoma kwa makini. Msomaji hutafuta wazo kuu, maelezo muhimu na uhusiano kati ya matukio. Jibu zuri hufuata ushahidi wa kifungu badala ya kubuni taarifa.",
+      "learning_objectives": [
+        "Kutambua wazo kuu la kifungu.",
+        "Kutaja maelezo yanayounga mkono jibu.",
+        "Kutofautisha taarifa iliyo wazi na hitimisho."
+      ],
+      "prerequisites": [
+        "Kusoma aya fupi na kutambua msamiati wa kawaida."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Soma kwa hatua",
+          "body": "Kwanza tambua mada. Kisha tafuta sentensi au maneno yanayojibu swali. Swali likikuuliza 'kwa nini', toa sababu iliyo kwenye kifungu; usitoe maoni yako kana kwamba ni ukweli wa mwandishi."
+        },
+        {
+          "title": "Hitimisho linaloungwa mkono",
+          "body": "Wakati mwingine jibu halijasemwa moja kwa moja. Unganisha dalili mbili au zaidi kutoka kifunguni, kisha toa hitimisho la kiasi. Epuka kuongeza mahali, muda au nia ambayo kifungu hakitaji."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "Kifungu kinasema: 'Amina alifunga kitabu, akaweka daftari kwenye begi na kuelekea darasani.' Ni hitimisho gani linaungwa mkono?",
+          "solution": "Amina alikuwa akijiandaa kwenda kwenye somo au shughuli ya darasani.",
+          "reasoning": "Kitabu, daftari na kuelekea darasani ni dalili za maandalizi. Kifungu hakisemi somo gani."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "Kifungu kinasema, 'Mawingu meusi yalifunika anga. Wakulima walikimbilia kuweka vifaa ndani.' Ni hitimisho gani linalofaa zaidi?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Huenda mvua ilikuwa karibu kunyesha.",
+            "Mvua ilikuwa imenyesha kwa siku saba.",
+            "Wakulima hawapendi jua.",
+            "Vifaa vilikuwa vimevunjika."
+          ],
+          "correct_answer": "Huenda mvua ilikuwa karibu kunyesha.",
+          "explanation": "Mawingu meusi na kuweka vifaa ndani ni dalili za mvua inayoweza kunyesha, lakini si uthibitisho wa muda au matokeo yake.",
+          "difficulty": "intermediate"
+        },
+        {
+          "prompt": "Unapojibu swali la ufahamu, ni njia ipi husaidia zaidi?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Kutegemea ushahidi kutoka kifunguni.",
+            "Kuongeza maelezo ya kubuni.",
+            "Kuchagua jibu refu zaidi kila mara.",
+            "Kupuuza maneno ya swali."
+          ],
+          "correct_answer": "Kutegemea ushahidi kutoka kifunguni.",
+          "explanation": "Majibu ya ufahamu yanapaswa kuungwa mkono na taarifa za kifungu.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Kifungu kinasema kuwa Juma aliwasili mapema na kupanga viti kabla ya wageni kufika. Ni tabia gani inaweza kukisiwa kutokana na dalili hizo?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Alikuwa amejitayarisha kuwakaribisha wageni.",
+            "Alikuwa mgeni wa kwanza mjini.",
+            "Aliishi karibu na wageni wote.",
+            "Hakupanga jambo lolote."
+          ],
+          "correct_answer": "Alikuwa amejitayarisha kuwakaribisha wageni.",
+          "explanation": "Kuwasili mapema na kupanga viti kunaunga mkono hitimisho la maandalizi ya kuwapokea wageni.",
+          "difficulty": "intermediate"
+        }
+      ]
+    },
+    {
+      "slug": "grade-9-kiswahili-kuandika-aya",
+      "content_version": 1,
+      "sort_order": 2,
+      "title": "Kuandika aya yenye mshikamano",
+      "description": "Panga sentensi zinazohusiana kuzunguka wazo moja kuu.",
+      "content": "Aya yenye mshikamano huendeleza wazo moja. Sentensi ya mada hutambulisha wazo hilo; sentensi zinazofuata hutoa sababu au mifano. Viunganishi husaidia kuonyesha uhusiano kati ya mawazo.",
+      "learning_objectives": [
+        "Kuandika sentensi ya mada iliyo wazi.",
+        "Kuchagua maelezo yanayounga mkono mada.",
+        "Kutumia viunganishi kulingana na maana."
+      ],
+      "prerequisites": [
+        "Kuandika sentensi kamili kwa Kiswahili."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Panga mawazo",
+          "body": "Kabla ya kuandika, sema wazo kuu kwa sentensi moja. Andika maelezo mawili au matatu yanayolieleza. Ondoa sentensi inayohusu mada tofauti."
+        },
+        {
+          "title": "Chagua kiunganishi",
+          "body": "Kwa sababu huonyesha sababu; hata hivyo huonyesha tofauti; kwa mfano hutanguliza mfano. Kiunganishi kisicholingana kinaweza kubadilisha maana ya sentensi."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "Panga mawazo haya kwa aya moja: 'Kusoma hupanua maarifa. Msomaji hujifunza maneno mapya. Kitabu kinaweza kuwa na kurasa nyingi. Kusoma pia husaidia kuelewa mitazamo tofauti.'",
+          "solution": "Wazo kuu: Kusoma hupanua maarifa. Maelezo: hujifunza maneno mapya na kuelewa mitazamo tofauti.",
+          "reasoning": "Maelezo mawili yanahusiana moja kwa moja na wazo kuu. Idadi ya kurasa si ushahidi wa faida hiyo."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "Ni sentensi ipi inayofaa zaidi kama sentensi ya mada kuhusu kutunza mazingira ya shule?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Kila mwanafunzi anaweza kusaidia kuweka mazingira ya shule safi.",
+            "Shule ina madarasa mengi.",
+            "Jana nilikula ndizi.",
+            "Michezo huchezwa uwanjani."
+          ],
+          "correct_answer": "Kila mwanafunzi anaweza kusaidia kuweka mazingira ya shule safi.",
+          "explanation": "Sentensi hii inatanguliza mada inayoweza kuendelezwa kwa vitendo na mifano.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Chagua kiunganishi kinachokamilisha maana: 'Mvua ilinyesha sana; _____, mechi ikaahirishwa.'",
+          "question_type": "multiple_choice",
+          "options": [
+            "kwa hiyo",
+            "ingawa",
+            "kabla",
+            "badala"
+          ],
+          "correct_answer": "kwa hiyo",
+          "explanation": "Kwa hiyo huonyesha matokeo ya mvua kubwa.",
+          "difficulty": "intermediate"
+        },
+        {
+          "prompt": "Ni maelezo gani yanaunga mkono wazo 'Ratiba humsaidia mwanafunzi kupanga muda'?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Inaonyesha kazi na muda uliotengwa kwa kila shughuli.",
+            "Inaweza kuchapishwa kwa rangi tofauti.",
+            "Madawati ya darasa yametengenezwa kwa mbao.",
+            "Wanafunzi wote hupenda mchezo mmoja."
+          ],
+          "correct_answer": "Inaonyesha kazi na muda uliotengwa kwa kila shughuli.",
+          "explanation": "Maelezo haya yanaonyesha moja kwa moja jinsi ratiba inavyopanga muda.",
+          "difficulty": "intermediate"
+        }
+      ]
+    }
+  ]
+}

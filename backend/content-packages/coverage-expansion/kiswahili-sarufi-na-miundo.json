@@ -1,0 +1,175 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": true,
+  "is_demo": false,
+  "curriculum_system": "8_4_4",
+  "curriculum_level": "Form 4",
+  "curriculum_version": "KICD-844-VERSION-UNVERIFIED",
+  "subject_slug": "kiswahili-form-4",
+  "topic_slug": "sarufi-na-miundo",
+  "topic_name": "Sarufi na Miundo ya Sentensi",
+  "topic_source_reference": null,
+  "source_id": null,
+  "lessons": [
+    {
+      "slug": "form-4-kiswahili-viambishi-vya-kauli",
+      "content_version": 1,
+      "sort_order": 1,
+      "title": "Kuchunguza viambishi vya kauli",
+      "description": "Chunguza jinsi viambishi vya vitenzi vinavyoweza kuonyesha uhusiano wa tendo na wahusika wake.",
+      "content": "Katika Kiswahili, viambishi mbalimbali huunda maumbo ya vitenzi na kuonyesha taarifa kuhusu mtenda, wakati au uhusiano wa tendo. Baadhi ya miisho ya vitenzi hubadilika kuunda kauli tofauti. Kwa mfano, katika muktadha ufaao, -wa huonyesha kauli ya kutendwa na -ana huweza kuonyesha tendo la kutendeana. Maana huthibitishwa kwa kuchunguza mzizi, kiambishi na sentensi nzima.",
+      "learning_objectives": [
+        "Kutambua kiambishi tamati katika mifano ya vitenzi.",
+        "Kufafanua tofauti ya kimaana kati ya kauli ya kutenda na kutendwa.",
+        "Kutumia kitenzi katika sentensi inayowiana na maana iliyokusudiwa."
+      ],
+      "prerequisites": [
+        "Kutambua kiima na kitenzi katika sentensi rahisi."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Kauli ya kutenda na kutendwa",
+          "body": "Katika 'Mkulima analima shamba', kiima ndicho mtenda. Katika 'Shamba linalimwa na mkulima', kiima shamba ndicho kinachotendewa, na umbo -limwa linaonyesha kauli ya kutendwa. Upatanisho wa kiima na kitenzi hubadilika kulingana na kiima kipya."
+        },
+        {
+          "title": "Kauli ya kutendeana",
+          "body": "Miisho kama -ana huonyesha tendo linalohusisha wahusika kutendeana, kama 'Watoto wanasaidiana.' Tumia muktadha kuamua kama maana hiyo inafaa; usibadilishe kiambishi bila kuangalia nani anatenda na tendo linamhusu nani."
+        },
+        {
+          "title": "Quick recap",
+          "body": "Viambishi vya kauli hubadilisha uhusiano wa tendo na wahusika; zingatia kiima, maana ya kitenzi na upatanisho katika sentensi."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "Badili 'Fundi anatengeneza kiti' kuwa kauli ya kutendwa, ukianzia na 'Kiti'.",
+          "solution": "Kiti kinatengenezwa na fundi.",
+          "reasoning": "Kiti kinakuwa kiima, kwa hiyo kitenzi kinapatana nacho kwa kiambishi ki- na umbo la kutendwa -wa."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "Ni sentensi ipi inayotumia kauli ya kutendwa?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Barua imeandikwa na Asha.",
+            "Asha ameandika barua.",
+            "Asha anaandika kwa makini.",
+            "Asha ataandika kesho."
+          ],
+          "correct_answer": "Barua imeandikwa na Asha.",
+          "explanation": "Barua ndiyo kiima kinachotendewa, na kitenzi imeandikwa kinaonyesha kauli ya kutendwa.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Katika sentensi 'Wakulima wanasaidiana wakati wa mavuno', kiambishi tamati -ana kinadokeza nini?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Wakulima wanatendeana kwa kusaidiana.",
+            "Mkulima mmoja anajisaidia pekee.",
+            "Tendo lilitokea zamani tu.",
+            "Hakuna anayefanya tendo."
+          ],
+          "correct_answer": "Wakulima wanatendeana kwa kusaidiana.",
+          "explanation": "Katika muktadha huu, -ana pamoja na wingi wa kiima huonyesha tendo la kusaidiana baina ya wakulima.",
+          "difficulty": "intermediate"
+        },
+        {
+          "prompt": "Chagua sentensi inayopatana kisarufi katika kauli ya kutendwa.",
+          "question_type": "multiple_choice",
+          "options": [
+            "Miti inapandwa na wanafunzi.",
+            "Miti wanapandwa na wanafunzi.",
+            "Miti linapandwa na wanafunzi.",
+            "Miti ulipandwa na wanafunzi."
+          ],
+          "correct_answer": "Miti inapandwa na wanafunzi.",
+          "explanation": "Kiima miti hupatana na kiambishi i- katika kitenzi inapandwa katika mfano huu.",
+          "difficulty": "advanced"
+        }
+      ]
+    },
+    {
+      "slug": "form-4-kiswahili-sentensi-tegemezi",
+      "content_version": 1,
+      "sort_order": 2,
+      "title": "Kuunganisha sentensi kwa kutumia vishazi",
+      "description": "Tambua vishazi huru na tegemezi na uunganishe mawazo kwa viunganishi vinavyoonyesha uhusiano sahihi.",
+      "content": "Kishazi huwa na kiima na prediketa. Kishazi huru huwasilisha wazo linaloweza kusimama lenyewe; kishazi tegemezi huhitaji wazo jingine ili maana ikamilike. Viunganishi kama kwa sababu, ingawa na wakati huonyesha uhusiano wa sababu, kinyume au wakati. Mpangilio na uakifishaji husaidia kufikisha uhusiano huo kwa uwazi.",
+      "learning_objectives": [
+        "Kutofautisha kishazi huru na kishazi tegemezi.",
+        "Kuchagua kiunganishi kinachoonyesha uhusiano wa maana unaokusudiwa.",
+        "Kuandika sentensi changamano yenye mpangilio na uakifishaji unaofaa."
+      ],
+      "prerequisites": [
+        "Kutambua kiima na kitenzi katika sentensi."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Aina za vishazi",
+          "body": "Katika 'Tulibaki ndani kwa sababu mvua ilinyesha', 'Tulibaki ndani' ni kishazi huru. 'Kwa sababu mvua ilinyesha' kinatoa sababu na hutegemea kishazi kikuu ili ujumbe ukamilike."
+        },
+        {
+          "title": "Chagua kiunganishi na mpangilio",
+          "body": "Kwa sababu huonyesha sababu, ingawa huonyesha kinyume, na wakati huonyesha muda. Kishazi tegemezi kikitangulia, koma inaweza kutenganisha kishazi hicho na kishazi kikuu: 'Ingawa njia ilikuwa ndefu, tulifika mapema.'"
+        },
+        {
+          "title": "Quick recap",
+          "body": "Kishazi huru hukamilisha wazo, ilhali tegemezi huonyesha uhusiano kama sababu au kinyume; chagua kiunganishi na uakifishaji unaofaa."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "Unganisha mawazo 'Timu ilikagua daraja' na 'maji ya mto yalikuwa yameongezeka' kwa kutumia 'kwa sababu' kuonyesha sababu.",
+          "solution": "Timu ilikagua daraja kwa sababu maji ya mto yalikuwa yameongezeka.",
+          "reasoning": "Kishazi cha pili kinaeleza sababu ya ukaguzi, nacho kinafuata kishazi kikuu bila koma ya mwanzo."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "Ni kundi lipi la maneno linaloweza kusimama kama kishazi huru?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Wanafunzi walipanda miti.",
+            "Ingawa njia ilikuwa ndefu",
+            "Kwa sababu mvua ilinyesha",
+            "Wakati kengele ililia"
+          ],
+          "correct_answer": "Wanafunzi walipanda miti.",
+          "explanation": "Kundi hili lina kiima na kitenzi na linaeleza wazo kamili linaloweza kusimama lenyewe.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Chagua kiunganishi kinachoonyesha kinyume: '_____ tulikuwa tumechoka, tuliendelea na safari.'",
+          "question_type": "multiple_choice",
+          "options": [
+            "Ingawa",
+            "Kwa sababu",
+            "Ili",
+            "Baada ya"
+          ],
+          "correct_answer": "Ingawa",
+          "explanation": "Ingawa huonyesha kinyume kati ya kuchoka na kuendelea na safari.",
+          "difficulty": "intermediate"
+        },
+        {
+          "prompt": "Ni sentensi ipi iliyowekewa koma ifaayo baada ya kishazi tegemezi cha mwanzo?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Mvua ilipokoma, mchezo uliendelea.",
+            "Mvua ilipokoma mchezo, uliendelea.",
+            "Mvua, ilipokoma mchezo uliendelea.",
+            "Mvua ilipokoma mchezo uliendelea,"
+          ],
+          "correct_answer": "Mvua ilipokoma, mchezo uliendelea.",
+          "explanation": "Koma hutenganisha kishazi tegemezi cha mwanzo na kishazi kikuu kinachofuata.",
+          "difficulty": "advanced"
+        }
+      ]
+    }
+  ]
+}

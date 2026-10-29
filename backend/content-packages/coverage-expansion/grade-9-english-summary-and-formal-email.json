@@ -1,0 +1,175 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": true,
+  "is_demo": false,
+  "curriculum_system": "CBC_CBE",
+  "curriculum_level": "Grade 9",
+  "curriculum_version": "KICD-G9-2024-07",
+  "subject_slug": "english-grade-9",
+  "topic_slug": "summary-and-formal-email",
+  "topic_name": "Summary and Formal Email",
+  "topic_source_reference": null,
+  "source_id": null,
+  "lessons": [
+    {
+      "slug": "grade-9-english-summarising-information",
+      "content_version": 1,
+      "sort_order": 1,
+      "title": "Summarising an informational text",
+      "description": "Condense a passage by selecting its essential ideas and expressing them accurately in your own words.",
+      "content": "A summary gives the essential ideas of a longer text in fewer words. To write one, identify the central point, select details needed to understand it, and leave out repetition, minor examples and personal opinions. A good summary is accurate, concise and written mainly in your own words.",
+      "learning_objectives": [
+        "Identify the central idea and essential supporting points in a passage.",
+        "Separate important information from examples and repetition.",
+        "Write a concise summary without adding personal opinions."
+      ],
+      "prerequisites": [
+        "Identify the main idea and supporting details in a passage."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Select essential information",
+          "body": "Read the whole passage before choosing details. Ask what the reader must know to understand the topic and the writer’s main point. Keep the central idea and only the most useful supporting facts; a vivid example may be left out if the main message remains clear without it."
+        },
+        {
+          "title": "Write concisely and accurately",
+          "body": "Combine related points in your own words and check that you have not changed the author’s meaning. Do not insert your agreement, disagreement or information from elsewhere. Compare the summary with the passage to make sure it is shorter and includes no unsupported claim."
+        },
+        {
+          "title": "Quick recap",
+          "body": "Identify the central points, then restate them briefly in your own words. Leave out minor details and repetition while preserving the original meaning."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "Summarise: “Rainwater harvesting collects water from roofs and stores it in tanks. Families can use the stored water for cleaning and gardening. A covered tank helps keep the water clean and reduces mosquito breeding.”",
+          "solution": "Rainwater harvesting stores roof water for household uses; covered tanks help keep it clean and discourage mosquitoes.",
+          "reasoning": "The summary combines the main method and its useful effect while omitting repeated wording and narrower examples."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "Which detail is most important to keep in a summary of a passage explaining how exercise benefits health?",
+          "question_type": "multiple_choice",
+          "options": [
+            "The passage’s central explanation of how regular exercise supports health.",
+            "The colour of the shoes worn by one person in an example.",
+            "A repeated sentence copied from the passage.",
+            "The summariser’s opinion about a favourite sport."
+          ],
+          "correct_answer": "The passage’s central explanation of how regular exercise supports health.",
+          "explanation": "A summary keeps central ideas and leaves out minor details, repetition and the writer’s own opinion.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Which practice makes a summary more reliable?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Check it against the passage to confirm that it preserves the meaning.",
+            "Add facts that sound interesting even if the passage does not mention them.",
+            "Copy every sentence without shortening the text.",
+            "Replace the author’s point with your personal view."
+          ],
+          "correct_answer": "Check it against the passage to confirm that it preserves the meaning.",
+          "explanation": "Comparing with the source helps ensure the summary is accurate and does not add unsupported information.",
+          "difficulty": "intermediate"
+        },
+        {
+          "prompt": "A passage gives one main reason for conserving water and then repeats it in several examples. What should the summary usually do?",
+          "question_type": "multiple_choice",
+          "options": [
+            "State the main reason concisely and omit repeated examples.",
+            "Include every example to make the summary longer.",
+            "Discuss a different topic the reader prefers.",
+            "Copy the final paragraph only, whether relevant or not."
+          ],
+          "correct_answer": "State the main reason concisely and omit repeated examples.",
+          "explanation": "A summary preserves essential information in fewer words and removes repetition.",
+          "difficulty": "intermediate"
+        }
+      ]
+    },
+    {
+      "slug": "grade-9-english-writing-a-formal-email",
+      "content_version": 1,
+      "sort_order": 2,
+      "title": "Writing a clear formal email",
+      "description": "Organise a formal email with a useful subject line, respectful greeting, clear purpose and courteous closing.",
+      "content": "A formal email communicates with someone in an official or respectful situation. Its subject line should identify the topic, the opening should address the reader appropriately, and the first few sentences should make the purpose clear. Use polite, direct language, organise any necessary details and close courteously.",
+      "learning_objectives": [
+        "Identify the key parts of a formal email.",
+        "Write a subject line and opening that make the purpose clear.",
+        "Use respectful language and an appropriate closing."
+      ],
+      "prerequisites": [
+        "Write complete sentences and identify the intended audience."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Make the purpose easy to find",
+          "body": "A specific subject line, such as “Request for a science club meeting room,” helps the reader understand the message before opening it. Begin with an appropriate greeting and state your purpose early. Put related details together instead of burying the request in unrelated information."
+        },
+        {
+          "title": "Use a professional tone",
+          "body": "Avoid slang, all-capital words and vague one-word requests. Explain what you need and, when useful, give a relevant date or reason. Close with a courteous phrase and your name so the reader knows who sent the message and how to respond."
+        },
+        {
+          "title": "Quick recap",
+          "body": "Give the email a clear subject and purpose, organize the message, and use a polite professional tone. Close appropriately and check that the details are accurate."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "Draft the opening and request of an email to a teacher asking to meet about a science project.",
+          "solution": "Subject: Meeting about my science project\nDear Ms Wanjiku,\nCould we please arrange a short meeting this week to discuss my science project? I am available after class on Wednesday or Thursday.\nKind regards,\nDaniel",
+          "reasoning": "The subject identifies the topic, the greeting is respectful, the request is stated clearly and the sender offers useful availability."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "Which subject line is most useful for a formal email asking to borrow the school hall for a debate?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Request to use the school hall for a debate",
+            "Hello",
+            "Important!!!",
+            "Please read this now"
+          ],
+          "correct_answer": "Request to use the school hall for a debate",
+          "explanation": "The subject line names the request and its purpose, helping the reader understand the email topic.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "What is the best way to make the purpose of a formal email clear?",
+          "question_type": "multiple_choice",
+          "options": [
+            "State the reason for writing near the beginning.",
+            "Hide the request in the final sentence.",
+            "Use slang so the email sounds friendly.",
+            "Leave out the subject line and greeting."
+          ],
+          "correct_answer": "State the reason for writing near the beginning.",
+          "explanation": "A clear early purpose helps the reader understand what is needed without searching through unrelated details.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Which closing is most appropriate for a formal email to a teacher?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Kind regards, followed by your name",
+            "Later!!!",
+            "See ya, maybe",
+            "Your pal forever"
+          ],
+          "correct_answer": "Kind regards, followed by your name",
+          "explanation": "This is a courteous, professional closing and identifies the sender.",
+          "difficulty": "intermediate"
+        }
+      ]
+    }
+  ]
+}

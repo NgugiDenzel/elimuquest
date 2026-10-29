@@ -1,0 +1,175 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": true,
+  "is_demo": false,
+  "curriculum_system": "8_4_4",
+  "curriculum_level": "Form 4",
+  "curriculum_version": "KICD-844-VERSION-UNVERIFIED",
+  "subject_slug": "english-form-4",
+  "topic_slug": "functional-communication",
+  "topic_name": "Functional Communication",
+  "topic_source_reference": null,
+  "source_id": null,
+  "lessons": [
+    {
+      "slug": "form-4-english-effective-meeting-contributions",
+      "content_version": 1,
+      "sort_order": 1,
+      "title": "Contributing effectively in a meeting",
+      "description": "Prepare a concise contribution, listen actively and respond constructively in a group discussion.",
+      "content": "A productive meeting depends on preparation, clear turn-taking and attention to the group's purpose. A speaker should make one relevant point at a time, support it with a reason or example, and allow others to contribute. Active listening includes checking understanding and responding to what was actually said rather than interrupting or repeating a prepared speech.",
+      "learning_objectives": [
+        "Prepare a relevant contribution for a stated meeting purpose.",
+        "Use respectful language to agree, disagree or request clarification.",
+        "Summarise a decision and identify an appropriate next action."
+      ],
+      "prerequisites": [
+        "Express an idea in a clear, complete sentence."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Make a focused contribution",
+          "body": "Relate each point to the agenda. State the idea clearly, give a short reason or example, then pause. Phrases such as 'I see the concern; could we also consider…?' allow disagreement without dismissing another speaker."
+        },
+        {
+          "title": "Listen and close the loop",
+          "body": "Avoid interrupting, note decisions and ask a brief clarifying question when needed. Before the meeting ends, restate the agreed action, who is responsible and any deadline so that the group shares the same understanding."
+        },
+        {
+          "title": "Quick recap",
+          "body": "Contribute relevant points respectfully, listen before responding, and confirm the decision, responsible person and deadline."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "The group is choosing a time for a clean-up. You cannot attend in the afternoon because of a transport constraint. Give a constructive contribution.",
+          "solution": "Could we schedule the clean-up in the morning? I may not have transport in the afternoon, and a morning session would allow me to take part.",
+          "reasoning": "The response links a practical constraint to a specific proposal and expresses it respectfully."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "Which contribution best supports a meeting's purpose?",
+          "question_type": "multiple_choice",
+          "options": [
+            "A concise point linked to the agenda and supported by a reason",
+            "A long story unrelated to the decision",
+            "Repeating another speaker without adding or clarifying anything",
+            "Interrupting so that no one else can speak"
+          ],
+          "correct_answer": "A concise point linked to the agenda and supported by a reason",
+          "explanation": "A focused, relevant contribution helps the group consider the matter it came to discuss.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Which phrase disagrees while keeping a respectful tone?",
+          "question_type": "multiple_choice",
+          "options": [
+            "I understand that view; could we also consider the cost?",
+            "That idea is foolish, so stop talking.",
+            "You never make a useful point.",
+            "I refuse to listen to any other view."
+          ],
+          "correct_answer": "I understand that view; could we also consider the cost?",
+          "explanation": "It acknowledges the other view and introduces a relevant concern without attacking the speaker.",
+          "difficulty": "intermediate"
+        },
+        {
+          "prompt": "What should a chairperson confirm before a meeting ends?",
+          "question_type": "multiple_choice",
+          "options": [
+            "The agreed action, responsible person and deadline",
+            "That every participant has spoken for the same length of time",
+            "That no one asks a clarifying question",
+            "That the original agenda is discarded"
+          ],
+          "correct_answer": "The agreed action, responsible person and deadline",
+          "explanation": "Confirming responsibilities and timing turns a decision into a clear next step.",
+          "difficulty": "advanced"
+        }
+      ]
+    },
+    {
+      "slug": "form-4-english-writing-a-clear-report",
+      "content_version": 1,
+      "sort_order": 2,
+      "title": "Writing a clear factual report",
+      "description": "Organise an account of an event or activity using accurate details, a clear sequence and a suitable register.",
+      "content": "A factual report records what happened or what was observed for a particular reader and purpose. It uses a clear title, an opening that identifies the event or subject, logically ordered details and a conclusion or recommendation where appropriate. Facts should be distinguished from opinions, and uncertain information should not be presented as confirmed.",
+      "learning_objectives": [
+        "Identify the audience and purpose of a report.",
+        "Arrange relevant factual details in a logical order.",
+        "Use precise language and distinguish observation from inference."
+      ],
+      "prerequisites": [
+        "Write paragraphs with a topic sentence and supporting details."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Plan the information",
+          "body": "Before drafting, note who will read the report and what they need to know. Gather relevant details such as what happened, where and when, who was involved and what outcome followed. Leave out unrelated anecdotes."
+        },
+        {
+          "title": "Write objectively",
+          "body": "Use neutral, precise wording and a sequence the reader can follow. Attribute information when its source matters. Separate an observed fact from a conclusion: 'three taps were leaking' is an observation; 'the pipes are poorly maintained' is an interpretation that may need further evidence."
+        },
+        {
+          "title": "Quick recap",
+          "body": "A useful report is organised for its reader, states relevant observations precisely, and distinguishes confirmed facts from interpretation."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "Turn these notes into a report sentence: 'Water-use check, Tuesday; team inspected six taps; three continued dripping after being closed.'",
+          "solution": "During Tuesday's water-use check, the team inspected six taps and found that three continued to drip after being closed.",
+          "reasoning": "The sentence preserves the date, activity, number inspected and observed result without adding an unsupported cause."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "What is a useful first step when planning a report?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Identify the reader and purpose.",
+            "Add a dramatic event that did not happen.",
+            "Write every detail in random order.",
+            "Choose a conclusion before gathering information."
+          ],
+          "correct_answer": "Identify the reader and purpose.",
+          "explanation": "The intended reader and purpose determine which information is relevant and how it should be presented.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Which sentence reports an observation rather than an unsupported conclusion?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Three taps continued dripping after they were closed.",
+            "The caretaker never checks the taps.",
+            "The entire plumbing system is useless.",
+            "Everyone ignores water conservation."
+          ],
+          "correct_answer": "Three taps continued dripping after they were closed.",
+          "explanation": "It records a specific, observable result without making a claim about motive or a broader pattern.",
+          "difficulty": "intermediate"
+        },
+        {
+          "prompt": "Why should a report avoid presenting uncertain information as confirmed?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Readers need to distinguish evidence from speculation.",
+            "Reports are more useful when they hide uncertainty.",
+            "An uncertain claim becomes a fact if repeated.",
+            "Conclusions do not need supporting details."
+          ],
+          "correct_answer": "Readers need to distinguish evidence from speculation.",
+          "explanation": "Accurately signalling what is known helps readers judge conclusions and decide what further checking is needed.",
+          "difficulty": "advanced"
+        }
+      ]
+    }
+  ]
+}

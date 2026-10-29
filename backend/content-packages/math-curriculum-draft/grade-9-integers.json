@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": false,
+  "is_demo": false,
+  "curriculum_system": "CBC_CBE",
+  "curriculum_level": "Grade 9",
+  "curriculum_version": "KICD-G9-2024-07",
+  "subject_slug": "mathematics-grade-9",
+  "topic_slug": "integers",
+  "topic_name": "Integers",
+  "topic_source_reference": "ElimuQuest Mathematics Curriculum Draft v1, PDF p. 9",
+  "source_id": "KICD-G9-DESIGNS",
+  "lessons": [
+    {
+      "slug": "grade-9-integers",
+      "content_version": 1,
+      "sort_order": 1,
+      "title": "Integers",
+      "description": "Integers",
+      "content": "",
+      "learning_objectives": [],
+      "prerequisites": [],
+      "explanation_sections": [
+        {
+          "title": "Integers",
+          "body": "Integers are positive whole numbers, negative whole numbers and zero. Adding a negative number\nmoves left on a number line; subtracting a number is equivalent to adding its opposite. Multiplying or\ndividing two numbers with the same sign gives a positive result; different signs give a negative result."
+        }
+      ],
+      "worked_examples": [],
+      "source_reference": "ElimuQuest Mathematics Curriculum Draft v1, PDF p. 9",
+      "author": "ElimuQuest",
+      "questions": [
+        {
+          "prompt": "Calculate −15 + 28.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "13.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Calculate −9 − 14.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "−23.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Calculate 18 − (−7).",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "25.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Calculate (−8) × (−6).",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "48.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Calculate (−72) ÷ 9.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "−8.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Evaluate 5 + 3 × (−4).",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "−7.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Temperature is −3°C, rises by 11°C, then falls by 6°C. Find the final temperature.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "2°C.",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": true,
+  "is_demo": false,
+  "curriculum_system": "CBC_CBE",
+  "curriculum_level": "Grade 9",
+  "curriculum_version": "KICD-G9-2024-07",
+  "subject_slug": "english-grade-9",
+  "topic_slug": "vocabulary-and-register",
+  "topic_name": "Vocabulary and Register",
+  "topic_source_reference": null,
+  "source_id": null,
+  "lessons": [
+    {
+      "slug": "grade-9-english-using-context-clues",
+      "content_version": 1,
+      "sort_order": 1,
+      "title": "Using context clues to understand vocabulary",
+      "description": "Use nearby words, examples and contrasts to work out a likely meaning for an unfamiliar word.",
+      "content": "Context clues are hints in the surrounding text that help a reader work out the likely meaning of an unfamiliar word. A sentence may give a definition, an example, a contrast or enough information about the situation. Check that the meaning you infer fits the whole sentence; then consult a dictionary if greater precision is needed.",
+      "learning_objectives": [
+        "Identify context clues around an unfamiliar word.",
+        "Infer a likely word meaning from examples, definitions or contrasts.",
+        "Check whether an inferred meaning fits the sentence and passage."
+      ],
+      "prerequisites": [
+        "Read a paragraph and identify the topic and key details."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Types of context clues",
+          "body": "A writer may explain a word directly, give examples, or contrast it with a familiar idea. In “Unlike the noisy market, the library was tranquil and quiet,” quiet helps show that tranquil means peaceful. Words such as unlike, for example and means can signal useful clues."
+        },
+        {
+          "title": "Test the inferred meaning",
+          "body": "An inferred meaning is a reasonable possibility, not always an exact dictionary definition. Replace the unfamiliar word with your proposed meaning and reread the sentence. If the sentence still makes sense and the clues support it, the inference is likely sound. Look up the word when the exact meaning matters."
+        },
+        {
+          "title": "Quick recap",
+          "body": "Use nearby definitions, examples, or contrasts to infer an unfamiliar word?s meaning. Check that the inferred meaning fits the sentence and surrounding passage."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "Infer the meaning of “arid” in: “The arid land received little rain, so few crops could grow there.”",
+          "solution": "Arid means very dry.",
+          "reasoning": "The sentence says the land received little rain and crops struggled to grow. These clues support the meaning very dry."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "What does “generous” most likely mean in: “Musa was generous; he shared his lunch with a classmate who had none”?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Willing to give or share.",
+            "Unable to speak clearly.",
+            "Always arriving late.",
+            "Afraid of eating."
+          ],
+          "correct_answer": "Willing to give or share.",
+          "explanation": "Sharing lunch with someone who has none is a clue that Musa is willing to give to others.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "In “The path was slippery; unlike the rough track, it was smooth and wet,” which clue best helps explain “slippery”?",
+          "question_type": "multiple_choice",
+          "options": [
+            "The path was smooth and wet.",
+            "The track was rough.",
+            "The path was outdoors.",
+            "The sentence has a comma."
+          ],
+          "correct_answer": "The path was smooth and wet.",
+          "explanation": "Smooth and wet describe conditions that can make a surface slippery.",
+          "difficulty": "intermediate"
+        },
+        {
+          "prompt": "After inferring the meaning of a new word from a sentence, what is a useful next step?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Replace it with the inferred meaning and check whether the sentence still makes sense.",
+            "Ignore the rest of the passage.",
+            "Assume the first guess is certainly correct.",
+            "Change the meaning of every nearby word."
+          ],
+          "correct_answer": "Replace it with the inferred meaning and check whether the sentence still makes sense.",
+          "explanation": "Rereading with the possible meaning helps test whether it fits the clues and the whole sentence.",
+          "difficulty": "foundational"
+        }
+      ]
+    },
+    {
+      "slug": "grade-9-english-formal-and-informal-register",
+      "content_version": 1,
+      "sort_order": 2,
+      "title": "Choosing a suitable register",
+      "description": "Adjust word choice and tone for the audience, purpose and situation.",
+      "content": "Register is the level of formality and style used for a particular audience and purpose. A message to a close friend may be conversational, while a request to a school principal usually needs polite, formal language. Good register is not about using the longest words; it is about communicating respectfully and clearly in the situation.",
+      "learning_objectives": [
+        "Explain how audience and purpose affect language choices.",
+        "Distinguish formal expressions from informal expressions.",
+        "Revise an informal message to suit a formal situation."
+      ],
+      "prerequisites": [
+        "Write clear sentences and identify the intended reader."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Consider audience and purpose",
+          "body": "Before writing, ask who will read the message and what response you need. A friendly chat with a classmate allows familiar expressions. A letter requesting permission from a principal should use a respectful greeting, a clear explanation and a courteous closing."
+        },
+        {
+          "title": "Make language appropriately formal",
+          "body": "Formal writing generally avoids slang, casual abbreviations and commands that may sound rude. Instead of “Hey, send me the form,” write “Dear Ms Njeri, could you please send me the form?” Formal language should still be direct and easy to understand; overly complicated wording can obscure the message."
+        },
+        {
+          "title": "Quick recap",
+          "body": "Choose language for the audience and purpose. A formal context calls for clear, respectful wording, while the level of formality should fit the situation."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "Revise “Hey, I need a new library card. Sort it out for me” for a polite request to a librarian.",
+          "solution": "Dear Librarian, could you please help me apply for a new library card? Thank you for your assistance.",
+          "reasoning": "The greeting, polite request and courteous closing suit a formal interaction while clearly stating what is needed."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "Which opening is most suitable for a formal email to a school principal whose name you know?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Dear Mr Otieno,",
+            "Yo, what's up?",
+            "Hey pal!",
+            "Hiya!!!"
+          ],
+          "correct_answer": "Dear Mr Otieno,",
+          "explanation": "This greeting is respectful and appropriate for a formal message to a principal.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "A learner is asking a teacher for an extension on an assignment. Which sentence best suits the situation?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Could I please have one extra day to complete the assignment?",
+            "Give me more time, okay?",
+            "I ain't finishing it today.",
+            "You better move the deadline."
+          ],
+          "correct_answer": "Could I please have one extra day to complete the assignment?",
+          "explanation": "The sentence makes a clear, polite request suited to a learner writing to a teacher.",
+          "difficulty": "intermediate"
+        },
+        {
+          "prompt": "What should guide a writer’s choice between formal and informal language?",
+          "question_type": "multiple_choice",
+          "options": [
+            "The audience, purpose and situation.",
+            "The number of letters in each word.",
+            "The writer’s favourite punctuation mark.",
+            "Whether the message can be made longer."
+          ],
+          "correct_answer": "The audience, purpose and situation.",
+          "explanation": "Register changes to suit who will read the message, why it is written and the circumstances.",
+          "difficulty": "foundational"
+        }
+      ]
+    }
+  ]
+}

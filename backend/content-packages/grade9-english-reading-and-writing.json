@@ -1,0 +1,167 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": true,
+  "is_demo": false,
+  "curriculum_system": "CBC_CBE",
+  "curriculum_level": "Grade 9",
+  "curriculum_version": "KICD-G9-2024-07",
+  "subject_slug": "english-grade-9",
+  "topic_slug": "reading-and-writing-skills",
+  "topic_name": "Reading and Writing Skills",
+  "topic_source_reference": null,
+  "source_id": null,
+  "lessons": [
+    {
+      "slug": "grade-9-english-inference-and-evidence",
+      "content_version": 1,
+      "sort_order": 1,
+      "title": "Making inferences from a text",
+      "description": "Combine details in a text with what you already know to draw a careful inference.",
+      "content": "An inference is a reasonable conclusion that is not stated word for word. A reader uses clues in the text and relevant prior knowledge. An inference must be supported by evidence, not by a guess.",
+      "learning_objectives": [
+        "Explain the difference between a stated fact and an inference.",
+        "Use textual clues to support an inference.",
+        "Avoid conclusions that go beyond available evidence."
+      ],
+      "prerequisites": [
+        "Identify key details in a short paragraph."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Clue plus reasoning",
+          "body": "Read the passage carefully, identify a clue, then explain how it supports your conclusion. If a passage says the ground is wet and learners carry umbrellas, rain is a reasonable inference. The passage does not prove exactly when the rain fell."
+        },
+        {
+          "title": "Check your inference",
+          "body": "Ask whether the text supports your idea and whether another explanation is possible. Strong readers separate what the author states directly from what the clues suggest."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "A story says that Nia packed a water bottle, a hat and a map before leaving for a long walk. What can you infer?",
+          "solution": "Nia is preparing for an outdoor walk or journey.",
+          "reasoning": "The map and walking supplies are clues. They support preparation for a journey but do not prove the exact destination."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "A passage says, 'The path was muddy, and Kamau wiped his shoes at the door.' Which inference is best supported?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Kamau probably walked on a wet path.",
+            "Kamau bought new shoes that morning.",
+            "The path is always muddy.",
+            "Kamau dislikes walking."
+          ],
+          "correct_answer": "Kamau probably walked on a wet path.",
+          "explanation": "Mud on the path and shoes is evidence of a recent walk on wet ground. The other claims are not supported.",
+          "difficulty": "intermediate"
+        },
+        {
+          "prompt": "What makes an inference different from a directly stated fact?",
+          "question_type": "multiple_choice",
+          "options": [
+            "An inference is a conclusion drawn from clues.",
+            "An inference is always a character's opinion.",
+            "A fact cannot be checked in a text.",
+            "A fact is based only on imagination."
+          ],
+          "correct_answer": "An inference is a conclusion drawn from clues.",
+          "explanation": "A direct fact is stated; an inference is reasoned from details and knowledge.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "A learner concludes that a character is tired because the text says the character yawned repeatedly and struggled to keep their eyes open. What is the strongest evidence?",
+          "question_type": "multiple_choice",
+          "options": [
+            "The character's repeated yawning and difficulty staying awake.",
+            "The character's name.",
+            "The story's title.",
+            "The colour of the room."
+          ],
+          "correct_answer": "The character's repeated yawning and difficulty staying awake.",
+          "explanation": "Those details directly support the inference that the character is tired.",
+          "difficulty": "intermediate"
+        }
+      ]
+    },
+    {
+      "slug": "grade-9-english-coherent-paragraphs",
+      "content_version": 1,
+      "sort_order": 2,
+      "title": "Writing a coherent paragraph",
+      "description": "Organise a paragraph around one main point and connect each detail to it.",
+      "content": "A clear paragraph develops one main point. A topic sentence introduces that point, supporting sentences explain it with reasons or examples, and a closing sentence can bring the idea together.",
+      "learning_objectives": [
+        "Write a topic sentence that states one main point.",
+        "Choose supporting details that relate to the main point.",
+        "Use linking words to show how ideas connect."
+      ],
+      "prerequisites": [
+        "Write complete sentences with correct punctuation."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Plan before writing",
+          "body": "Decide what the paragraph should explain. Write the main point in one sentence, then list two or three details that support it. Remove a detail that belongs to a different topic."
+        },
+        {
+          "title": "Use linking words",
+          "body": "Words such as because, for example, however and therefore show relationships between ideas. Choose a linking word that matches the relationship; do not add one just to make the paragraph sound longer."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "Make these ideas into a focused paragraph plan: 'A school garden is useful. Learners observe plant growth. They practise teamwork. A football match has two teams.'",
+          "solution": "Topic sentence: A school garden supports learning. Supporting details: learners observe plant growth and practise teamwork.",
+          "reasoning": "The football-match detail is about another subject, so it does not support the paragraph's main point."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "Which sentence best introduces a paragraph about the benefits of reading daily?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Reading every day can build knowledge and vocabulary.",
+            "My shoes are brown.",
+            "Some books have blue covers.",
+            "Yesterday was Tuesday."
+          ],
+          "correct_answer": "Reading every day can build knowledge and vocabulary.",
+          "explanation": "It states a central point that can be supported with relevant examples.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Which detail best supports the topic sentence 'Planning helps learners complete assignments on time'?",
+          "question_type": "multiple_choice",
+          "options": [
+            "A written plan divides a large task into smaller steps with due dates.",
+            "Some learners prefer blue pens.",
+            "The classroom has several windows.",
+            "A school bus uses fuel."
+          ],
+          "correct_answer": "A written plan divides a large task into smaller steps with due dates.",
+          "explanation": "The detail explains how planning can help finish work on schedule.",
+          "difficulty": "intermediate"
+        },
+        {
+          "prompt": "Which linking word best completes the sentence? 'The team practised regularly; _____, its performance improved.'",
+          "question_type": "multiple_choice",
+          "options": [
+            "therefore",
+            "although",
+            "unless",
+            "meanwhile"
+          ],
+          "correct_answer": "therefore",
+          "explanation": "Therefore introduces a result of the regular practice.",
+          "difficulty": "intermediate"
+        }
+      ]
+    }
+  ]
+}

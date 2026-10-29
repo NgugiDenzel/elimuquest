@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": false,
+  "is_demo": false,
+  "curriculum_system": "8_4_4",
+  "curriculum_level": "Form 4",
+  "curriculum_version": "KICD-844-VERSION-UNVERIFIED",
+  "subject_slug": "mathematics-form-4",
+  "topic_slug": "linear-programming",
+  "topic_name": "Linear Programming",
+  "topic_source_reference": "ElimuQuest Mathematics Curriculum Draft v1, PDF p. 18",
+  "source_id": "KICD-844",
+  "lessons": [
+    {
+      "slug": "form-4-linear-programming",
+      "content_version": 1,
+      "sort_order": 7,
+      "title": "Linear Programming",
+      "description": "Linear Programming",
+      "content": "",
+      "learning_objectives": [],
+      "prerequisites": [],
+      "explanation_sections": [
+        {
+          "title": "Linear Programming",
+          "body": "Linear programming optimises an objective function subject to constraints. Write inequalities, graph\nboundary lines, identify the feasible region, find corner points and evaluate the objective function at\neach corner.\nExample: maximise P = 3x + 2y subject to x ≥ 0, y ≥ 0, x + y ≤ 4 and x ≤ 2. Corner points are (0,0),\n(2,0), (2,2), (0,4); the maximum is 10 at (2,2)."
+        }
+      ],
+      "worked_examples": [],
+      "source_reference": "ElimuQuest Mathematics Curriculum Draft v1, PDF p. 18",
+      "author": "ElimuQuest",
+      "questions": [
+        {
+          "prompt": "Define the feasible region.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "All points satisfying every constraint.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Describe the region x ≥ 0, y ≥ 0, x + y ≤ 6.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "A triangle bounded by the axes and x + y = 6.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Maximise P = 2x + 3y subject to x + y ≤ 4, x ≥ 0, y ≥ 0.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "Maximum 12 at (0,4).",
+          "explanation": ""
+        },
+        {
+          "prompt": "Why are corner points important for a linear objective function over a bounded polygonal region?",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "An optimum occurs at at least one corner point.",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}

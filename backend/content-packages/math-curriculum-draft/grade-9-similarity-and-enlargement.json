@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": false,
+  "is_demo": false,
+  "curriculum_system": "CBC_CBE",
+  "curriculum_level": "Grade 9",
+  "curriculum_version": "KICD-G9-2024-07",
+  "subject_slug": "mathematics-grade-9",
+  "topic_slug": "similarity-and-enlargement",
+  "topic_name": "Similarity and Enlargement",
+  "topic_source_reference": "ElimuQuest Mathematics Curriculum Draft v1, PDF p. 14",
+  "source_id": "KICD-G9-DESIGNS",
+  "lessons": [
+    {
+      "slug": "grade-9-similarity-and-enlargement",
+      "content_version": 1,
+      "sort_order": 15,
+      "title": "Similarity and Enlargement",
+      "description": "Similarity and Enlargement",
+      "content": "",
+      "learning_objectives": [],
+      "prerequisites": [],
+      "explanation_sections": [
+        {
+          "title": "Similarity and Enlargement",
+          "body": "Similar shapes have equal corresponding angles and proportional corresponding sides. An enlargement\nchanges size by a scale factor. Lengths scale by k and areas by k²."
+        }
+      ],
+      "worked_examples": [],
+      "source_reference": "ElimuQuest Mathematics Curriculum Draft v1, PDF p. 14",
+      "author": "ElimuQuest",
+      "questions": [
+        {
+          "prompt": "Enlarge triangle sides 3 cm, 4 cm and 5 cm by scale factor 2.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "6 cm, 8 cm, 10 cm.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Similar rectangles have corresponding lengths 6 cm and 15 cm. Find scale factor from smaller to larger.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "2.5.",
+          "explanation": ""
+        },
+        {
+          "prompt": "A shape has area 12 cm². Find area after enlargement by scale factor 3.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "108 cm².",
+          "explanation": ""
+        },
+        {
+          "prompt": "Explain scale factors greater than 1 and between 0 and 1.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "Greater than 1 enlarges; between 0 and 1 reduces.",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}

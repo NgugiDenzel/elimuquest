@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": false,
+  "is_demo": false,
+  "curriculum_system": "CBC_CBE",
+  "curriculum_level": "Grade 9",
+  "curriculum_version": "KICD-G9-2024-07",
+  "subject_slug": "mathematics-grade-9",
+  "topic_slug": "area-and-volume",
+  "topic_name": "Area and Volume",
+  "topic_source_reference": "ElimuQuest Mathematics Curriculum Draft v1, PDF p. 12",
+  "source_id": "KICD-G9-DESIGNS",
+  "lessons": [
+    {
+      "slug": "grade-9-area-and-volume",
+      "content_version": 1,
+      "sort_order": 8,
+      "title": "Area and Volume",
+      "description": "Area and Volume",
+      "content": "",
+      "learning_objectives": [],
+      "prerequisites": [],
+      "explanation_sections": [
+        {
+          "title": "Area and Volume",
+          "body": "Rectangle area is lw, triangle area is ½bh, parallelogram area is bh, cuboid volume is lwh and cylinder\nvolume is πr²h."
+        }
+      ],
+      "worked_examples": [],
+      "source_reference": "ElimuQuest Mathematics Curriculum Draft v1, PDF p. 12",
+      "author": "ElimuQuest",
+      "questions": [
+        {
+          "prompt": "Find the area of a triangle with base 14 cm and height 9 cm.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "63 cm².",
+          "explanation": ""
+        },
+        {
+          "prompt": "A parallelogram has base 12 cm and height 7 cm. Find its area.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "84 cm².",
+          "explanation": ""
+        },
+        {
+          "prompt": "Find the volume of a cuboid measuring 8 cm × 5 cm × 4 cm.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "160 cm³.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Find the volume of a cylinder with radius 7 cm and height 10 cm, using π = 22/7.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "1,540 cm³.",
+          "explanation": ""
+        },
+        {
+          "prompt": "A tank is 2 m × 1.5 m × 1 m. Find its capacity in litres.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "3,000 litres.",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}

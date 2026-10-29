@@ -2,6 +2,12 @@
 
 # dependencies
 node_modules/
+*.egg-info/
+
+# Python-generated files
+__pycache__/
+.pytest_cache/
+.ruff_cache/
 
 # Expo
 .expo/
@@ -32,6 +38,21 @@ yarn-error.*
 
 # local env files
 .env*.local
+.env
+.env.*
+!.env.example
+backend/.env
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-wal
+*.db-shm
+backend/backups/
+*.log
+backend/__pycache__/
+backend/**/*.py[cod]
+backend/.ruff_cache/
 
 # typescript
 *.tsbuildinfo

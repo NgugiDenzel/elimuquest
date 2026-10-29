@@ -1,0 +1,175 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": true,
+  "is_demo": false,
+  "curriculum_system": "8_4_4",
+  "curriculum_level": "Form 4",
+  "curriculum_version": "KICD-844-VERSION-UNVERIFIED",
+  "subject_slug": "english-form-4",
+  "topic_slug": "grammar-and-sentence-control",
+  "topic_name": "Grammar and Sentence Control",
+  "topic_source_reference": null,
+  "source_id": null,
+  "lessons": [
+    {
+      "slug": "form-4-english-complex-sentence-clauses",
+      "content_version": 1,
+      "sort_order": 1,
+      "title": "Building sentences with clauses",
+      "description": "Use independent and dependent clauses to express relationships between ideas clearly.",
+      "content": "A clause contains a subject and a verb. An independent clause can stand as a sentence, while a dependent clause needs another clause to complete its meaning. Coordinating conjunctions can join ideas of equal importance; subordinating conjunctions show relationships such as cause, time or contrast. Punctuation helps readers follow those relationships.",
+      "learning_objectives": [
+        "Identify independent and dependent clauses.",
+        "Choose a conjunction that expresses the intended relationship.",
+        "Punctuate a sentence with an introductory dependent clause."
+      ],
+      "prerequisites": [
+        "Identify subjects and verbs in complete sentences."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Clause roles",
+          "body": "In 'The path was muddy because it had rained', 'The path was muddy' is independent. 'Because it had rained' is dependent: it gives a reason but cannot stand alone as a complete sentence in this context."
+        },
+        {
+          "title": "Join ideas accurately",
+          "body": "Choose a conjunction according to meaning. Use because for a reason, although for contrast, and when for time. When a dependent clause comes first, a comma usually separates it from the independent clause: 'Although it was late, we continued.'"
+        },
+        {
+          "title": "Quick recap",
+          "body": "Independent clauses express complete thoughts; dependent clauses add relationships such as cause or contrast. Choose conjunctions for meaning and punctuate clause order clearly."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "Join 'The team checked the bridge' and 'the river had risen' to show a reason, using because.",
+          "solution": "The team checked the bridge because the river had risen.",
+          "reasoning": "Because introduces the reason for checking. The main clause can stand independently, and the dependent reason follows it without an introductory comma."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "Which group of words is an independent clause?",
+          "question_type": "multiple_choice",
+          "options": [
+            "The pupils planted beans.",
+            "Although the soil was dry",
+            "When the bell rang",
+            "Because the road was blocked"
+          ],
+          "correct_answer": "The pupils planted beans.",
+          "explanation": "It has a subject and verb and expresses a complete thought on its own.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Choose the best conjunction to show contrast: '_____ the route was longer, the group arrived before noon.'",
+          "question_type": "multiple_choice",
+          "options": [
+            "Although",
+            "Because",
+            "Unless",
+            "So that"
+          ],
+          "correct_answer": "Although",
+          "explanation": "Although signals that arriving before noon contrasts with the longer route.",
+          "difficulty": "intermediate"
+        },
+        {
+          "prompt": "Which sentence is punctuated correctly when the dependent clause comes first?",
+          "question_type": "multiple_choice",
+          "options": [
+            "When the rain stopped, the match resumed.",
+            "When the rain stopped the match, resumed.",
+            "When, the rain stopped the match resumed.",
+            "When the rain stopped the match resumed,"
+          ],
+          "correct_answer": "When the rain stopped, the match resumed.",
+          "explanation": "The comma separates the introductory dependent clause from the independent clause.",
+          "difficulty": "advanced"
+        }
+      ]
+    },
+    {
+      "slug": "form-4-english-reported-speech",
+      "content_version": 1,
+      "sort_order": 2,
+      "title": "Reporting statements and questions",
+      "description": "Convert direct speech into reported speech while maintaining tense, pronouns and word order.",
+      "content": "Direct speech presents a speaker's exact words in quotation marks. Reported speech conveys the message without quoting it. When the reporting verb is in the past, the verb tense often shifts back, and pronouns or time expressions may change to fit the new speaker and context. Reported questions use statement word order rather than question inversion.",
+      "learning_objectives": [
+        "Distinguish direct speech from reported speech.",
+        "Adjust pronouns and verb forms when reporting a statement.",
+        "Report a question using an appropriate reporting structure and word order."
+      ],
+      "prerequisites": [
+        "Recognise verb tense, pronouns and quotation marks."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Report a statement",
+          "body": "A statement can be introduced with said that or told a listener that. If the reporting verb is past, 'I am ready' may become 'She said that she was ready.' Change pronouns to match who is speaking and who is reporting."
+        },
+        {
+          "title": "Report a question",
+          "body": "Use asked and retain the question word for a wh-question, but change to statement order: 'Where are you going?' becomes 'He asked where I was going.' For a yes-or-no question, use if or whether. Do not retain a question mark unless the whole sentence is itself a direct question."
+        },
+        {
+          "title": "Quick recap",
+          "body": "Reported speech carries a speaker?s meaning without quoting exact words; adjust pronouns and tense to context, and use statement word order in reported questions."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "Report the words: Kendi said, 'I will bring the map tomorrow.' Assume you are reporting the statement the following day.",
+          "solution": "Kendi said that she would bring the map the next day.",
+          "reasoning": "The first-person pronoun refers to Kendi, will commonly shifts to would after a past reporting verb, and tomorrow changes to the next day in the changed time context."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "Which sentence is reported speech?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Amina said that she needed more time.",
+            "Amina said, \"I need more time.\"",
+            "\"I need more time,\" Amina said.",
+            "Amina: \"I need more time.\""
+          ],
+          "correct_answer": "Amina said that she needed more time.",
+          "explanation": "Reported speech conveys Amina's message without reproducing her exact words in quotation marks.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Choose the correct report of: Tom asked, 'Where is the key?'",
+          "question_type": "multiple_choice",
+          "options": [
+            "Tom asked where the key was.",
+            "Tom asked where was the key.",
+            "Tom asked that where is the key.",
+            "Tom asked where the key?"
+          ],
+          "correct_answer": "Tom asked where the key was.",
+          "explanation": "A reported wh-question uses statement word order; the subject comes before the verb.",
+          "difficulty": "intermediate"
+        },
+        {
+          "prompt": "Which word can introduce a reported yes-or-no question?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Whether",
+            "Although",
+            "Because",
+            "Unless"
+          ],
+          "correct_answer": "Whether",
+          "explanation": "Whether (or if) introduces a reported question that can be answered yes or no.",
+          "difficulty": "advanced"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": true,
+  "is_demo": false,
+  "curriculum_system": "8_4_4",
+  "curriculum_level": "Form 4",
+  "curriculum_version": "KICD-844-VERSION-UNVERIFIED",
+  "subject_slug": "kiswahili-form-4",
+  "topic_slug": "fasihi-na-uchambuzi",
+  "topic_name": "Fasihi na Uchambuzi wa Matini",
+  "topic_source_reference": null,
+  "source_id": null,
+  "lessons": [
+    {
+      "slug": "form-4-kiswahili-mandhari-na-dhamira",
+      "content_version": 1,
+      "sort_order": 1,
+      "title": "Kuchunguza mandhari na dhamira katika fasihi",
+      "description": "Eleza jinsi mazingira ya kazi ya fasihi yanavyosaidia kujenga dhamira kwa kutumia ushahidi wa matini.",
+      "content": "Mandhari hujumuisha mahali na wakati ambapo matukio ya kazi ya fasihi hutokea, pamoja na hali ya kijamii inayojitokeza. Dhamira ni wazo kuu au suala linalochunguzwa na kazi. Mandhari yanaweza kusaidia kuendeleza dhamira, lakini hayafanani nayo. Uchambuzi bora hutaja dai, ushahidi mahususi kutoka matini na uhusiano wa ushahidi huo na dai.",
+      "learning_objectives": [
+        "Kutofautisha mandhari na dhamira.",
+        "Kutambua maelezo ya mazingira yanayoathiri matukio au wahusika.",
+        "Kuthibitisha tafsiri ya dhamira kwa ushahidi wa matini."
+      ],
+      "prerequisites": [
+        "Kufuatilia matukio na wahusika katika hadithi fupi."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Tambua mazingira ya kazi",
+          "body": "Tafuta dalili za mahali, wakati na hali za jamii. Mazingira yanaweza kuzuia au kuwezesha wahusika kutenda, na mabadiliko yake yanaweza kuathiri mwelekeo wa matukio."
+        },
+        {
+          "title": "Tengeneza dai linaloungwa mkono",
+          "body": "Dhamira si mada ya neno moja tu; ni wazo ambalo kazi inachunguza kuhusu mada hiyo. Tumia matendo, mazungumzo au matokeo ya wahusika kama ushahidi, kisha eleza jinsi ushahidi unavyounga mkono tafsiri yako. Usidai kuwa kila kazi ina ujumbe mmoja pekee."
+        },
+        {
+          "title": "Quick recap",
+          "body": "Mandhari huweka matukio katika mazingira; dhamira ni wazo linalochunguzwa. Thibitisha tafsiri yako kwa matendo au maelezo ya matini."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "Katika hadithi, familia kadhaa zinakutana kila jioni kwenye kisima cha kijiji na kupanga zamu za kuchota maji wakati wa kiangazi. Toa tafsiri moja inayowezekana ya dhamira na ushahidi wake.",
+          "solution": "Dhamira inayowezekana ni ushirikiano wakati wa uhaba. Ushahidi ni kwamba familia hukutana na kupanga zamu badala ya kila moja kujitafutia maji kivyake.",
+          "reasoning": "Tafsiri inaunganisha hali ya kiangazi na kitendo cha kupanga kwa pamoja; ni hitimisho linaloungwa mkono na tukio lililotajwa."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "Mandhari katika kazi ya fasihi hurejelea nini?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Mahali, wakati na hali zinazozunguka matukio",
+            "Orodha ya majina ya wahusika pekee",
+            "Jina la mwandishi pekee",
+            "Jibu la mwisho la kila swali"
+          ],
+          "correct_answer": "Mahali, wakati na hali zinazozunguka matukio",
+          "explanation": "Mandhari huweka matukio katika mazingira ya mahali, wakati na hali za kijamii.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Ni ushahidi upi unaofaa zaidi kuthibitisha tafsiri kuhusu dhamira ya ushirikiano?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Wahusika wanagawana kazi ili kufanikisha lengo la pamoja.",
+            "Kazi ina wahusika wengi.",
+            "Jina la sura lina herufi tano.",
+            "Msomaji anapenda mhusika mkuu."
+          ],
+          "correct_answer": "Wahusika wanagawana kazi ili kufanikisha lengo la pamoja.",
+          "explanation": "Kugawana kazi kwa lengo la pamoja ni kitendo cha matini kinachohusiana moja kwa moja na ushirikiano.",
+          "difficulty": "intermediate"
+        },
+        {
+          "prompt": "Ni njia ipi inayofaa zaidi kuandika uchambuzi wa dhamira?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Taja dai, toa ushahidi wa matini na eleza uhusiano wake.",
+            "Taja maoni bila kurejelea kazi.",
+            "Rudia jina la dhamira mara nyingi.",
+            "Dai kuwa tafsiri yako ndiyo pekee inayowezekana."
+          ],
+          "correct_answer": "Taja dai, toa ushahidi wa matini na eleza uhusiano wake.",
+          "explanation": "Ushahidi na ufafanuzi huonyesha kwa nini tafsiri inafaa, huku ukiepuka madai yasiyothibitishwa.",
+          "difficulty": "advanced"
+        }
+      ]
+    },
+    {
+      "slug": "form-4-kiswahili-taswira-na-matokeo-ya-matumizi",
+      "content_version": 1,
+      "sort_order": 2,
+      "title": "Kufasiri taswira katika matini",
+      "description": "Chunguza maana na athari ya lugha ya kitamathali kwa kuzingatia muktadha wa matini.",
+      "content": "Taswira ni matumizi ya maneno yanayochochea hisia au picha akilini mwa msomaji. Ulinganisho, sitiari na urudiaji vinaweza kuonyesha hali ya mhusika, kusisitiza wazo au kujenga hali fulani. Ili kufasiri lugha ya kitamathali, zingatia muktadha, maana ya moja kwa moja na athari inayowezekana; usiichukulie kila kauli kama ukweli halisi.",
+      "learning_objectives": [
+        "Kutambua taswira inayotokana na lugha ya kitamathali.",
+        "Kueleza maana inayodokezwa na taswira kwa kuzingatia muktadha.",
+        "Kufafanua jinsi uchaguzi wa maneno unavyoathiri msomaji au hali ya matini."
+      ],
+      "prerequisites": [
+        "Kutambua maana ya moja kwa moja na maana inayodokezwa ya maneno."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Soma zaidi ya maana ya moja kwa moja",
+          "body": "Kauli kama 'hofu ilimfunga ulimi' haitaji kufungwa kwa ulimi halisi; inadokeza kuwa mhusika alishindwa kuzungumza kwa sababu ya hofu. Linganisha maneno hayo na tukio linalozunguka ili kupata tafsiri inayofaa."
+        },
+        {
+          "title": "Eleza athari ya uchaguzi wa maneno",
+          "body": "Baada ya kutambua maana inayodokezwa, eleza athari yake: inaweza kuimarisha hali ya wasiwasi, kuonyesha furaha au kusisitiza ukubwa wa tatizo. Tumia maneno halisi ya matini kama ushahidi badala ya kusema tu kuwa lugha ni nzuri."
+        },
+        {
+          "title": "Quick recap",
+          "body": "Fasiri taswira kwa kuzingatia muktadha, kisha eleza maana inayodokezwa na athari ya maneno kwa hali ya matini."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "Fasiri kauli 'Habari hiyo ilikuwa jiwe moyoni mwake' baada ya mhusika kupokea taarifa ya kusikitisha.",
+          "solution": "Kauli hiyo inadokeza kuwa habari ilimletea huzuni au uzito mkubwa wa kihisia.",
+          "reasoning": "Jiwe moyoni limetumiwa kisitiari kuonyesha hisia nzito; muktadha wa taarifa ya kusikitisha unaunga mkono tafsiri hiyo."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "Katika kauli 'Hofu ilimfunga ulimi', maneno hayo yanadokeza nini?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Mhusika alishindwa kuzungumza kwa sababu ya hofu.",
+            "Mhusika alifungwa mdomo kwa kamba.",
+            "Mhusika alisahau lugha yake yote.",
+            "Mhusika alikuwa akifundisha kuimba."
+          ],
+          "correct_answer": "Mhusika alishindwa kuzungumza kwa sababu ya hofu.",
+          "explanation": "Kauli ni ya kitamathali na hutumia kufungwa kwa ulimi kuonyesha kutoweza kusema kutokana na woga.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Ili kufasiri vizuri taswira katika kifungu, msomaji anapaswa kufanya nini?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Kuzingatia maneno pamoja na muktadha wa tukio.",
+            "Kuchagua maana yoyote bila kusoma kifungu.",
+            "Kuchukulia kila kauli kuwa ya moja kwa moja.",
+            "Kupuuza hisia na matendo ya wahusika."
+          ],
+          "correct_answer": "Kuzingatia maneno pamoja na muktadha wa tukio.",
+          "explanation": "Muktadha huonyesha kama maneno yanatumika kwa maana ya moja kwa moja au ya kitamathali na ni tafsiri ipi inafaa.",
+          "difficulty": "intermediate"
+        },
+        {
+          "prompt": "Ni jibu lipi linalochambua athari ya taswira kwa kina zaidi?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Linaeleza maana inayodokezwa na jinsi inavyojenga hali, likitoa ushahidi wa maneno.",
+            "Linasema taswira ni nzuri bila maelezo.",
+            "Linataja jina la mhusika pekee.",
+            "Linatoa maoni yasiyohusiana na kifungu."
+          ],
+          "correct_answer": "Linaeleza maana inayodokezwa na jinsi inavyojenga hali, likitoa ushahidi wa maneno.",
+          "explanation": "Uchambuzi huunganisha tafsiri, athari yake katika kazi na ushahidi mahususi wa lugha.",
+          "difficulty": "advanced"
+        }
+      ]
+    }
+  ]
+}

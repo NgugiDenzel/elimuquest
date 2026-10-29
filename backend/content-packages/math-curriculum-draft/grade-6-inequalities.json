@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": false,
+  "is_demo": false,
+  "curriculum_system": "CBC_CBE",
+  "curriculum_level": "Grade 6",
+  "curriculum_version": "KICD-G6-VERSION-UNVERIFIED",
+  "subject_slug": "mathematics-grade-6",
+  "topic_slug": "inequalities",
+  "topic_name": "Inequalities",
+  "topic_source_reference": "ElimuQuest Mathematics Curriculum Draft v1, PDF p. 6",
+  "source_id": "KICD-G6-DESIGNS",
+  "lessons": [
+    {
+      "slug": "grade-6-inequalities",
+      "content_version": 1,
+      "sort_order": 5,
+      "title": "Inequalities",
+      "description": "Inequalities",
+      "content": "",
+      "learning_objectives": [],
+      "prerequisites": [],
+      "explanation_sections": [
+        {
+          "title": "Inequalities",
+          "body": "The symbols >, <, ≥ and ≤ mean greater than, less than, greater than or equal to, and less than or\nequal to. For example, x + 3 < 10 gives x < 7."
+        }
+      ],
+      "worked_examples": [],
+      "source_reference": "ElimuQuest Mathematics Curriculum Draft v1, PDF p. 6",
+      "author": "ElimuQuest",
+      "questions": [
+        {
+          "prompt": "Write an inequality for: a number n is at least 12.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "n ≥ 12.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Solve x + 7 < 19.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "x < 12.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Solve 3y ≤ 24.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "y ≤ 8.",
+          "explanation": ""
+        },
+        {
+          "prompt": "A learner has KSh 500 and books cost KSh 80 each. Write an inequality for the maximum number b of books, ignoring other expenses.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "80b ≤ 500; maximum 6 books.",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}

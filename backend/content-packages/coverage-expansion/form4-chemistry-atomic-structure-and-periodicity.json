@@ -1,0 +1,200 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": true,
+  "is_demo": false,
+  "curriculum_system": "8_4_4",
+  "curriculum_level": "Form 4",
+  "curriculum_version": "KICD-844-VERSION-UNVERIFIED",
+  "subject_slug": "chemistry-form-4",
+  "topic_slug": "atomic-structure-and-periodicity",
+  "topic_name": "Atomic Structure and Periodicity",
+  "topic_source_reference": null,
+  "source_id": null,
+  "lessons": [
+    {
+      "slug": "form-4-chemistry-protons-neutrons-and-electrons",
+      "content_version": 1,
+      "sort_order": 1,
+      "title": "Protons, neutrons and electrons",
+      "description": "Use atomic and mass numbers to describe the particles in a neutral atom.",
+      "content": "An atom contains protons and neutrons in a small nucleus, with electrons around the nucleus. The atomic number is the number of protons. The mass number is the total number of protons and neutrons. A neutral atom has equal numbers of protons and electrons.",
+      "learning_objectives": [
+        "Relate atomic number and mass number to subatomic particles.",
+        "Determine the numbers of protons, neutrons and electrons in a neutral atom."
+      ],
+      "prerequisites": [
+        "Read element symbols and simple whole-number subtraction."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Particle charges and positions",
+          "body": "Protons have positive charge and neutrons have no charge; both are in the nucleus. Electrons have negative charge and occupy regions around the nucleus. Almost all an atom's mass is concentrated in its nucleus."
+        },
+        {
+          "title": "Atomic and mass numbers",
+          "body": "The atomic number Z counts protons and identifies the element. The mass number A counts protons plus neutrons, so neutrons = A − Z. In an electrically neutral atom, electrons = protons. Recap: identify Z first, then subtract it from A to find neutrons."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "A neutral atom has atomic number 17 and mass number 35. Find its protons, neutrons and electrons.",
+          "solution": "17 protons, 18 neutrons and 17 electrons.",
+          "reasoning": "Protons = Z = 17; neutrons = A − Z = 35 − 17 = 18; neutrality means electrons equal the 17 protons."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "An atom has atomic number 12. How many protons does it have?",
+          "question_type": "multiple_choice",
+          "options": ["12", "24", "6", "0"],
+          "correct_answer": "12",
+          "explanation": "The atomic number is defined as the number of protons.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "A neutral atom has mass number 23 and atomic number 11. How many neutrons does it have?",
+          "question_type": "multiple_choice",
+          "options": ["12", "11", "23", "34"],
+          "correct_answer": "12",
+          "explanation": "Neutrons = mass number − atomic number = 23 − 11 = 12.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "How many electrons are in a neutral atom with 9 protons?",
+          "question_type": "multiple_choice",
+          "options": ["9", "18", "0", "10"],
+          "correct_answer": "9",
+          "explanation": "A neutral atom has equal numbers of positive protons and negative electrons.",
+          "difficulty": "foundational"
+        }
+      ]
+    },
+    {
+      "slug": "form-4-chemistry-isotopes-and-relative-isotopic-mass",
+      "content_version": 1,
+      "sort_order": 2,
+      "title": "Isotopes and relative isotopic mass",
+      "description": "Compare isotopes and calculate a weighted relative isotopic mass from abundances.",
+      "content": "Isotopes are atoms of the same element with the same proton number but different neutron numbers. Their chemical behaviour is similar because they have the same number of protons and, when neutral, electrons. The relative atomic mass can be estimated as a weighted mean of isotope masses.",
+      "learning_objectives": [
+        "Identify what remains the same and what differs between isotopes.",
+        "Calculate a weighted mean relative atomic mass from isotope abundances."
+      ],
+      "prerequisites": [
+        "Use atomic number and mass number."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Recognising isotopes",
+          "body": "Isotopes belong to the same element because their proton numbers are equal. Different neutron numbers give different mass numbers. For example, atoms with 6 protons and 6 neutrons and atoms with 6 protons and 8 neutrons are isotopes of the same element."
+        },
+        {
+          "title": "Weighted mean",
+          "body": "Multiply each isotope mass by its fractional abundance, add the products, and divide by the total abundance if it is not already 1. Recap: a more abundant isotope contributes more strongly to the average."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "An element has isotopes of mass 10 (20%) and mass 11 (80%). Find its relative atomic mass.",
+          "solution": "10.8",
+          "reasoning": "(10 × 20 + 11 × 80) ÷ 100 = (200 + 880) ÷ 100 = 10.8."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "Which particles differ in number between isotopes of one element?",
+          "question_type": "multiple_choice",
+          "options": ["Neutrons", "Protons", "Element identity", "Atomic number"],
+          "correct_answer": "Neutrons",
+          "explanation": "Isotopes have the same proton number but different neutron numbers.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "An element has masses 20 (25%) and 22 (75%). What is its weighted relative atomic mass?",
+          "question_type": "multiple_choice",
+          "options": ["21.5", "21", "22", "20.5"],
+          "correct_answer": "21.5",
+          "explanation": "(20 × 0.25) + (22 × 0.75) = 5 + 16.5 = 21.5.",
+          "difficulty": "intermediate"
+        },
+        {
+          "prompt": "Why do isotopes of the same element have similar chemical behaviour?",
+          "question_type": "multiple_choice",
+          "options": [
+            "They have the same proton number and usually the same electron arrangement.",
+            "They always have the same mass number.",
+            "They contain no neutrons.",
+            "They have different atomic numbers."
+          ],
+          "correct_answer": "They have the same proton number and usually the same electron arrangement.",
+          "explanation": "Chemical behaviour is mainly determined by electron arrangement, which is the same for neutral isotopes of the same element.",
+          "difficulty": "intermediate"
+        }
+      ]
+    },
+    {
+      "slug": "form-4-chemistry-electron-arrangement-and-valency",
+      "content_version": 1,
+      "sort_order": 3,
+      "title": "Electron arrangement and valency",
+      "description": "Represent simple electron arrangements and use outer electrons to predict common ion charges.",
+      "content": "Electrons occupy energy levels around the nucleus. For the first 20 elements, school-level shell models commonly fill the first shell with up to 2 electrons and the next two with up to 8 each. Atoms may lose or gain outer electrons to form ions with stable outer shells.",
+      "learning_objectives": [
+        "Write shell arrangements for common atoms with atomic numbers up to 20.",
+        "Use outer-shell electrons to predict simple ion charges."
+      ],
+      "prerequisites": [
+        "Know that a neutral atom has equal proton and electron counts."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Filling shells",
+          "body": "Place electrons starting in the shell nearest the nucleus. For example, sodium has 11 electrons arranged 2,8,1 in this introductory model. The number of outer-shell electrons helps explain how an atom may react."
+        },
+        {
+          "title": "Simple ion formation",
+          "body": "An atom with one outer electron may lose it to form a 1+ ion; an atom with seven outer electrons may gain one to form a 1− ion. This is a simple predictive model, not a complete account of all bonding. Recap: ion charge follows the electron transfer, not a change in proton number."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "Write the shell arrangement of a neutral magnesium atom with atomic number 12.",
+          "solution": "2,8,2",
+          "reasoning": "Place 2 electrons in the first shell, 8 in the second, and the remaining 2 in the third."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "What is the shell arrangement of an atom with 10 electrons in this model?",
+          "question_type": "multiple_choice",
+          "options": ["2,8", "2,6,2", "8,2", "2,2,6"],
+          "correct_answer": "2,8",
+          "explanation": "The first shell holds 2 in this model, leaving 8 for the second shell.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "An atom with one outer electron loses that electron. What charge does the resulting ion have?",
+          "question_type": "multiple_choice",
+          "options": ["1+", "1−", "2+", "No charge"],
+          "correct_answer": "1+",
+          "explanation": "Losing one negative electron leaves one more proton than electrons, giving a 1+ charge.",
+          "difficulty": "intermediate"
+        },
+        {
+          "prompt": "How many electrons are in the outer shell of an atom arranged 2,8,6?",
+          "question_type": "multiple_choice",
+          "options": ["6", "2", "8", "16"],
+          "correct_answer": "6",
+          "explanation": "The final number in the shell arrangement gives the outer-shell electron count.",
+          "difficulty": "foundational"
+        }
+      ]
+    }
+  ]
+}

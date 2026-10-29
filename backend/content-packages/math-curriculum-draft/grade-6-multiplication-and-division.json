@@ -1,0 +1,92 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": false,
+  "is_demo": false,
+  "curriculum_system": "CBC_CBE",
+  "curriculum_level": "Grade 6",
+  "curriculum_version": "KICD-G6-VERSION-UNVERIFIED",
+  "subject_slug": "mathematics-grade-6",
+  "topic_slug": "multiplication-and-division",
+  "topic_name": "Multiplication and Division",
+  "topic_source_reference": "ElimuQuest Mathematics Curriculum Draft v1, PDF pp. 4-5",
+  "source_id": "KICD-G6-DESIGNS",
+  "lessons": [
+    {
+      "slug": "grade-6-multiplication-and-division",
+      "content_version": 1,
+      "sort_order": 2,
+      "title": "Multiplication and Division",
+      "description": "Multiplication and Division",
+      "content": "",
+      "learning_objectives": [],
+      "prerequisites": [],
+      "explanation_sections": [
+        {
+          "title": "Multiplication and Division",
+          "body": "2.1 Multiplication\nMultiplication is repeated addition and is useful for finding totals of equal groups. Example: 24 boxes\nwith 36 pencils each contain 24 × 36 = 864 pencils.\n\n2.2 Division\nDivision separates a quantity into equal groups. Example: 1,248 books shared equally among 24 classes\ngives 1,248 ÷ 24 = 52 books per class."
+        }
+      ],
+      "worked_examples": [],
+      "source_reference": "ElimuQuest Mathematics Curriculum Draft v1, PDF pp. 4-5",
+      "author": "ElimuQuest",
+      "questions": [
+        {
+          "prompt": "Calculate 347 × 26.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "9,022.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Calculate 2,408 × 35.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "84,280.",
+          "explanation": ""
+        },
+        {
+          "prompt": "A farmer plants 128 seedlings in each of 24 rows. How many seedlings are planted?",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "3,072 seedlings.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Estimate 498 × 21 by rounding first.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "Approximately 10,000.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Calculate 4,536 ÷ 18.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "252.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Calculate 8,640 ÷ 36.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "240.",
+          "explanation": ""
+        },
+        {
+          "prompt": "A trader packs 2,475 oranges into crates holding 25 each. How many full crates can be filled?",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "99 crates.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Calculate 120 + 360 ÷ 12. Explain the order of operations.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "150; divide before adding.",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}

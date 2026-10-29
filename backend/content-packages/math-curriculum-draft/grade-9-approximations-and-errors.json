@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": false,
+  "is_demo": false,
+  "curriculum_system": "CBC_CBE",
+  "curriculum_level": "Grade 9",
+  "curriculum_version": "KICD-G9-2024-07",
+  "subject_slug": "mathematics-grade-9",
+  "topic_slug": "approximations-and-errors",
+  "topic_name": "Approximations and Errors",
+  "topic_source_reference": "ElimuQuest Mathematics Curriculum Draft v1, PDF p. 13",
+  "source_id": "KICD-G9-DESIGNS",
+  "lessons": [
+    {
+      "slug": "grade-9-approximations-and-errors",
+      "content_version": 1,
+      "sort_order": 12,
+      "title": "Approximations and Errors",
+      "description": "Approximations and Errors",
+      "content": "",
+      "learning_objectives": [],
+      "prerequisites": [],
+      "explanation_sections": [
+        {
+          "title": "Approximations and Errors",
+          "body": "Approximation replaces a number with a nearby value. Absolute error = |approximate value − exact\nvalue|."
+        }
+      ],
+      "worked_examples": [],
+      "source_reference": "ElimuQuest Mathematics Curriculum Draft v1, PDF p. 13",
+      "author": "ElimuQuest",
+      "questions": [
+        {
+          "prompt": "Round 8.764 to two decimal places.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "8.76.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Estimate 49.8 × 20.2 by rounding each to the nearest whole number.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "Approximately 1,000.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Measured length is 9.8 cm and reference length is 10 cm. Find absolute error.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "0.2 cm.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Find percentage error if absolute error is 0.2 cm and reference length is 10 cm.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "2%.",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}

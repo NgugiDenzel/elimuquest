@@ -1,0 +1,175 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": true,
+  "is_demo": false,
+  "curriculum_system": "CBC_CBE",
+  "curriculum_level": "Grade 6",
+  "curriculum_version": "KICD-G6-VERSION-UNVERIFIED",
+  "subject_slug": "kiswahili-grade-6",
+  "topic_slug": "viwakilishi-na-viunganishi",
+  "topic_name": "Viwakilishi na Viunganishi",
+  "topic_source_reference": null,
+  "source_id": null,
+  "lessons": [
+    {
+      "slug": "grade-6-kiswahili-viwakilishi-katika-sentensi",
+      "content_version": 1,
+      "sort_order": 1,
+      "title": "Viwakilishi katika sentensi",
+      "description": "Tumia viwakilishi badala ya nomino zilizotajwa ili sentensi ziwe wazi na zisijirudie.",
+      "content": "Kiwakilishi ni neno linaloweza kusimama badala ya nomino. Kwa mfano, baada ya kutaja “Amina”, unaweza kusema “yeye” ili kuepuka kurudia jina mara nyingi. Msomaji anapaswa kujua kiwakilishi kinarejelea mtu au kitu gani.",
+      "learning_objectives": [
+        "Kueleza kazi ya kiwakilishi katika sentensi.",
+        "Kutambua kiwakilishi kinachorejelea nomino iliyotajwa.",
+        "Kubadilisha nomino inayojirudia kwa kiwakilishi kinachofaa."
+      ],
+      "prerequisites": [
+        "Kutambua nomino katika sentensi rahisi."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Kiwakilishi huchukua nafasi ya nomino",
+          "body": "Katika “Juma alichukua kitabu. Yeye alikisoma nyumbani,” neno yeye linarejelea Juma. Viwakilishi vingine ni mimi, sisi, wewe, ninyi na wao. Chagua kiwakilishi kinacholingana na mtu au watu unaowazungumzia."
+        },
+        {
+          "title": "Kufanya rejeleo lieleweke",
+          "body": "Kiwakilishi kisipoeleweka, msomaji anaweza asijue kinamrejelea nani. Ikiwa sentensi ina watu wawili, kurudia jina mara moja kunaweza kufanya maana iwe wazi zaidi. Pia, hakikisha kiwakilishi kinaendana na umoja au wingi wa nomino inayorejelewa."
+        },
+        {
+          "title": "Quick recap",
+          "body": "Kiwakilishi huchukua nafasi ya nomino iliyotajwa; chagua umbo linaloafikiana na nomino na hakikisha rejeleo lake liko wazi. Rudia jina inapohitajika ili kuepusha utata."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "Boresha sentensi hizi ili kuepuka kurudia jina: “Zawadi alipanda maua. Zawadi aliyamwagilia.”",
+          "solution": "Zawadi alipanda maua. Yeye aliyamwagilia.",
+          "reasoning": "Yeye inachukua nafasi ya jina Zawadi katika sentensi ya pili na inafanya maana ibaki wazi."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "Katika “Musa anaandika barua. Yeye anaituma leo,” neno “yeye” linamrejelea nani?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Barua",
+            "Musa",
+            "Leo",
+            "Mtu mwingine ambaye hajatajwa"
+          ],
+          "correct_answer": "Musa",
+          "explanation": "Musa ndiye nomino ya mtu iliyotajwa kabla ya kiwakilishi yeye.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Ni sentensi ipi inayotumia kiwakilishi cha wingi kwa usahihi?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Wanafunzi walifika mapema. Wao walikaa darasani.",
+            "Wanafunzi walifika mapema. Yeye walikaa darasani.",
+            "Mwanafunzi alifika mapema. Wao alikaa darasani.",
+            "Vitabu vilifika mapema. Yeye vilikaa darasani."
+          ],
+          "correct_answer": "Wanafunzi walifika mapema. Wao walikaa darasani.",
+          "explanation": "Wao ni kiwakilishi cha wingi kinachorejelea wanafunzi, na walikaa kinaendana na wingi huo.",
+          "difficulty": "intermediate"
+        },
+        {
+          "prompt": "Ni kiwakilishi kipi kinaweza kuchukua nafasi ya “mimi na dada yangu” katika sentensi?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Wewe",
+            "Yeye",
+            "Sisi",
+            "Wao"
+          ],
+          "correct_answer": "Sisi",
+          "explanation": "Sisi hutumiwa na mzungumzaji kujirejelea pamoja na mtu au watu wengine.",
+          "difficulty": "foundational"
+        }
+      ]
+    },
+    {
+      "slug": "grade-6-kiswahili-viunganishi-katika-sentensi",
+      "content_version": 1,
+      "sort_order": 2,
+      "title": "Kuunganisha mawazo kwa viunganishi",
+      "description": "Chagua kiunganishi kinachoonyesha uhusiano sahihi kati ya mawazo mawili.",
+      "content": "Kiunganishi huunganisha maneno, vifungu au mawazo. Viunganishi kama na, lakini, kwa sababu na kwa hiyo huonyesha uhusiano tofauti. Kutumia kiunganishi kinachofaa husaidia msomaji kuelewa kama mawazo yanaongezwa, yanatofautiana au yanaonyesha sababu na matokeo.",
+      "learning_objectives": [
+        "Kutambua viunganishi vinavyotumika katika sentensi.",
+        "Kuchagua kiunganishi kulingana na uhusiano wa mawazo.",
+        "Kuunganisha sentensi mbili kwa kutumia kiunganishi kinachofaa."
+      ],
+      "prerequisites": [
+        "Kusoma sentensi fupi zenye mawazo yanayohusiana."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Kuongeza na kutofautisha mawazo",
+          "body": "Na huongeza jambo lingine: “Asha alileta daftari na kalamu.” Lakini huonyesha tofauti au jambo lisilotarajiwa: “Mvua ilinyesha, lakini mchezo uliendelea.” Chagua kiunganishi kwa kuangalia maana ya sehemu zote mbili."
+        },
+        {
+          "title": "Sababu na matokeo",
+          "body": "Kwa sababu huanzisha sababu, kama “Tulichelewa kwa sababu basi lilifika baadaye.” Kwa hiyo huonyesha matokeo, kama “Basi lilichelewa, kwa hiyo tulifika baadaye.” Kiunganishi kizuri huweka uhusiano wazi badala ya kubadilisha maana ya sentensi."
+        },
+        {
+          "title": "Quick recap",
+          "body": "Chagua kiunganishi kulingana na uhusiano wa mawazo: ongeza, tofautisha, eleza sababu au onyesha matokeo. Hakikisha kiunganishi hakibadili maana iliyokusudiwa."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "Unganisha sentensi hizi kwa kuonyesha sababu: “Mti ulianguka. Upepo ulikuwa mkali.”",
+          "solution": "Mti ulianguka kwa sababu upepo ulikuwa mkali.",
+          "reasoning": "Upepo mkali ndio sababu ya mti kuanguka, kwa hiyo kwa sababu kinaunganisha matokeo na sababu yake."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "Chagua kiunganishi kinachofaa: “Ningependa kucheza nje, ___ mvua inanyesha.”",
+          "question_type": "multiple_choice",
+          "options": [
+            "lakini",
+            "kwa sababu",
+            "kwa hiyo",
+            "kisha"
+          ],
+          "correct_answer": "lakini",
+          "explanation": "Sentensi ya kwanza inaonyesha nia, na ya pili inaonyesha kizuizi kinachotofautiana nayo.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Ni sentensi ipi inaonyesha sababu kwa kutumia “kwa sababu”?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Tulivaa makoti kwa sababu hali ya hewa ilikuwa baridi.",
+            "Tulivaa makoti, lakini hali ya hewa ilikuwa baridi.",
+            "Tulivaa makoti, kwa hiyo hali ya hewa ilikuwa baridi.",
+            "Tulivaa makoti kisha hali ya hewa ilikuwa baridi."
+          ],
+          "correct_answer": "Tulivaa makoti kwa sababu hali ya hewa ilikuwa baridi.",
+          "explanation": "Hali ya hewa kuwa baridi ndiyo sababu ya kuvaa makoti.",
+          "difficulty": "intermediate"
+        },
+        {
+          "prompt": "Unganisha mawazo haya kwa kuonyesha matokeo: “Maji yalikatika. Tulihifadhi maji kwenye ndoo.”",
+          "question_type": "multiple_choice",
+          "options": [
+            "Maji yalikatika, kwa hiyo tulihifadhi maji kwenye ndoo.",
+            "Maji yalikatika, lakini tulihifadhi maji kwenye ndoo kwa sababu.",
+            "Maji yalikatika na kwa sababu tulihifadhi maji.",
+            "Maji yalikatika, kisha lakini tulihifadhi maji."
+          ],
+          "correct_answer": "Maji yalikatika, kwa hiyo tulihifadhi maji kwenye ndoo.",
+          "explanation": "Kuhifadhi maji kwenye ndoo ni matokeo ya maji kukatika, na kwa hiyo huonyesha matokeo.",
+          "difficulty": "intermediate"
+        }
+      ]
+    }
+  ]
+}

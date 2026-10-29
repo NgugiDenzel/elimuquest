@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": false,
+  "is_demo": false,
+  "curriculum_system": "CBC_CBE",
+  "curriculum_level": "Grade 9",
+  "curriculum_version": "KICD-G9-2024-07",
+  "subject_slug": "mathematics-grade-9",
+  "topic_slug": "scale-drawing",
+  "topic_name": "Scale Drawing",
+  "topic_source_reference": "ElimuQuest Mathematics Curriculum Draft v1, PDF p. 14",
+  "source_id": "KICD-G9-DESIGNS",
+  "lessons": [
+    {
+      "slug": "grade-9-scale-drawing",
+      "content_version": 1,
+      "sort_order": 14,
+      "title": "Scale Drawing",
+      "description": "Scale Drawing",
+      "content": "",
+      "learning_objectives": [],
+      "prerequisites": [],
+      "explanation_sections": [
+        {
+          "title": "Scale Drawing",
+          "body": "A scale drawing represents real distances using a consistent ratio. A scale of 1:50,000 means 1 cm on\nthe map represents 50,000 cm or 500 m on the ground."
+        }
+      ],
+      "worked_examples": [],
+      "source_reference": "ElimuQuest Mathematics Curriculum Draft v1, PDF p. 14",
+      "author": "ElimuQuest",
+      "questions": [
+        {
+          "prompt": "On a 1:100,000 map, two towns are 6 cm apart. Find the actual distance in kilometres.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "6 km.",
+          "explanation": ""
+        },
+        {
+          "prompt": "A room is 8 m long. How long is it on a 1:100 drawing?",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "8 cm.",
+          "explanation": ""
+        },
+        {
+          "prompt": "A road is 12 cm on a 1:25,000 map. Find actual distance in kilometres.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "3 km.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Why must units be compatible before using a scale?",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "Ratios require consistent units.",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": true,
+  "is_demo": false,
+  "curriculum_system": "8_4_4",
+  "curriculum_level": "Form 4",
+  "curriculum_version": "KICD-844-VERSION-UNVERIFIED",
+  "subject_slug": "physics-form-4",
+  "topic_slug": "motion-and-electricity",
+  "topic_name": "Motion and Electricity",
+  "topic_source_reference": null,
+  "source_id": null,
+  "lessons": [
+    {
+      "slug": "form-4-physics-speed-acceleration",
+      "content_version": 1,
+      "sort_order": 1,
+      "title": "Speed and acceleration",
+      "description": "Use distance, time and change in velocity to describe motion.",
+      "content": "Average speed is distance travelled divided by time taken. Acceleration is change in velocity divided by time. Velocity includes direction, while speed describes how quickly distance is covered.",
+      "learning_objectives": [
+        "Calculate average speed from distance and time.",
+        "Calculate acceleration from a change in velocity and time.",
+        "Use units consistently in a motion calculation."
+      ],
+      "prerequisites": [
+        "Rearrange a simple equation and convert common metric units."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Average speed",
+          "body": "Use average speed = total distance ÷ total time. If distance is in metres and time in seconds, speed is in metres per second (m/s). Convert minutes to seconds when needed before dividing."
+        },
+        {
+          "title": "Acceleration",
+          "body": "Use acceleration = (final velocity − initial velocity) ÷ time. Its unit is m/s² when velocity is in m/s and time in seconds. A negative result indicates a decrease in velocity in the chosen direction."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "A cyclist travels 150 m in 30 s. Find the average speed.",
+          "solution": "150 ÷ 30 = 5 m/s.",
+          "reasoning": "Average speed is distance divided by time, and the units are metres per second."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "A runner covers 240 m in 40 s. What is the average speed?",
+          "question_type": "multiple_choice",
+          "options": [
+            "6 m/s",
+            "0.17 m/s",
+            "200 m/s",
+            "9,600 m/s"
+          ],
+          "correct_answer": "6 m/s",
+          "explanation": "Average speed = 240 m ÷ 40 s = 6 m/s.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "A vehicle's velocity changes from 4 m/s to 16 m/s in 3 s. What is its acceleration?",
+          "question_type": "multiple_choice",
+          "options": [
+            "4 m/s²",
+            "12 m/s²",
+            "6.7 m/s²",
+            "20 m/s²"
+          ],
+          "correct_answer": "4 m/s²",
+          "explanation": "Acceleration = (16 − 4) ÷ 3 = 12 ÷ 3 = 4 m/s².",
+          "difficulty": "intermediate"
+        },
+        {
+          "prompt": "Which statement correctly distinguishes speed and velocity?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Velocity includes direction; speed does not.",
+            "Speed includes direction; velocity never does.",
+            "They are both measured only in seconds.",
+            "Velocity is distance multiplied by time."
+          ],
+          "correct_answer": "Velocity includes direction; speed does not.",
+          "explanation": "Velocity is a vector quantity with direction; speed is the scalar rate of distance travelled.",
+          "difficulty": "foundational"
+        }
+      ]
+    },
+    {
+      "slug": "form-4-physics-ohms-law-circuits",
+      "content_version": 1,
+      "sort_order": 2,
+      "title": "Current, voltage and resistance",
+      "description": "Apply Ohm's law to simple circuits and interpret current and voltage.",
+      "content": "Electric current is the rate of flow of charge. Potential difference is energy transferred per unit charge. For an ohmic conductor at constant physical conditions, voltage equals current multiplied by resistance: V = IR.",
+      "learning_objectives": [
+        "State Ohm's law and its condition.",
+        "Calculate current, voltage or resistance in a simple circuit.",
+        "Use volts, amperes and ohms correctly."
+      ],
+      "prerequisites": [
+        "Use multiplication and division to rearrange a formula."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Ohm's law",
+          "body": "V = IR, where V is potential difference in volts (V), I is current in amperes (A), and R is resistance in ohms (Ω). Rearranging gives I = V/R and R = V/I. The relationship applies to an ohmic conductor when temperature and other physical conditions remain constant."
+        },
+        {
+          "title": "Series circuit check",
+          "body": "In a simple series circuit, the same current passes through each component. The supply voltage is shared across components. Always label the values and units before substituting into a formula."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "A 6 Ω resistor is connected across 12 V. Find the current.",
+          "solution": "I = V/R = 12/6 = 2 A.",
+          "reasoning": "Use the rearranged form I = V ÷ R and include amperes as the unit."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "What current flows through a 4 Ω resistor connected to 8 V?",
+          "question_type": "multiple_choice",
+          "options": [
+            "2 A",
+            "32 A",
+            "0.5 A",
+            "4 A"
+          ],
+          "correct_answer": "2 A",
+          "explanation": "I = V/R = 8/4 = 2 A.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "A current of 0.5 A flows through a 10 Ω resistor. What is the potential difference?",
+          "question_type": "multiple_choice",
+          "options": [
+            "5 V",
+            "20 V",
+            "10.5 V",
+            "0.05 V"
+          ],
+          "correct_answer": "5 V",
+          "explanation": "V = IR = 0.5 × 10 = 5 V.",
+          "difficulty": "intermediate"
+        },
+        {
+          "prompt": "Under what condition is the simple Ohm's law relationship being applied to an ohmic conductor?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Its temperature and other physical conditions are constant.",
+            "Its resistance changes without limit.",
+            "The circuit has no voltage.",
+            "The conductor is disconnected."
+          ],
+          "correct_answer": "Its temperature and other physical conditions are constant.",
+          "explanation": "The V-I proportionality for an ohmic conductor assumes physical conditions such as temperature remain constant.",
+          "difficulty": "intermediate"
+        }
+      ]
+    }
+  ]
+}

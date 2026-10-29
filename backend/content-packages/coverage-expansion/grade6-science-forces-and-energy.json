@@ -1,0 +1,145 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": true,
+  "is_demo": false,
+  "curriculum_system": "CBC_CBE",
+  "curriculum_level": "Grade 6",
+  "curriculum_version": "KICD-G6-VERSION-UNVERIFIED",
+  "subject_slug": "science-technology-grade-6",
+  "topic_slug": "forces-and-energy",
+  "topic_name": "Forces and Energy",
+  "topic_source_reference": null,
+  "source_id": null,
+  "lessons": [
+    {
+      "slug": "grade-6-science-pushes-pulls-and-motion",
+      "content_version": 1,
+      "sort_order": 1,
+      "title": "Pushes, pulls and motion",
+      "description": "Describe how a force can change an object's movement or shape.",
+      "content": "A force is a push or pull. Forces can start or stop motion, change an object's speed or direction, or change its shape. A force may act through contact or at a distance, such as gravity attracting objects towards Earth.",
+      "learning_objectives": [
+        "Identify pushes and pulls in familiar activities.",
+        "Describe possible effects of a force on an object."
+      ],
+      "prerequisites": [
+        "Observe moving and stationary objects safely."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Effects of a force",
+          "body": "Kicking a stationary ball can set it moving. A hand can slow a rolling toy. Squeezing a soft object can change its shape. These examples show different effects; the result depends on the object and the forces acting on it."
+        },
+        {
+          "title": "Balanced and unbalanced situations",
+          "body": "When forces on an object are balanced, its motion does not change. An unbalanced force can change its motion. Recap: describe the object before and after the force to explain its effect."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "A moving toy car slows when it rolls over a rough mat. What force interaction helps explain the change?",
+          "solution": "Friction between the car and mat opposes the motion.",
+          "reasoning": "Friction acts between touching surfaces and can slow moving objects."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "Which action is a pull?",
+          "question_type": "multiple_choice",
+          "options": ["Drawing a drawer towards you", "Pushing a door closed", "Pressing a button", "Kicking a ball away"],
+          "correct_answer": "Drawing a drawer towards you",
+          "explanation": "A pull brings an object towards the person applying the force.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Which is a possible effect of an unbalanced force?",
+          "question_type": "multiple_choice",
+          "options": ["A change in speed or direction", "An object gaining a new name", "The disappearance of all matter", "A change in colour every time"],
+          "correct_answer": "A change in speed or direction",
+          "explanation": "An unbalanced force can change an object's motion.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Why may a rolling ball slow down on grass?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Friction between the ball and grass opposes its motion.",
+            "The ball has no mass on grass.",
+            "Gravity stops acting.",
+            "The grass pushes it forward without contact."
+          ],
+          "correct_answer": "Friction between the ball and grass opposes its motion.",
+          "explanation": "Friction between contacting surfaces can oppose motion and slow the ball.",
+          "difficulty": "intermediate"
+        }
+      ]
+    },
+    {
+      "slug": "grade-6-science-energy-transfers",
+      "content_version": 1,
+      "sort_order": 2,
+      "title": "Energy changes in everyday devices",
+      "description": "Trace useful energy changes in familiar appliances without saying energy disappears.",
+      "content": "Energy can be transferred and changed from one form to another. A lamp transfers electrical energy mainly into light and thermal energy. A device may also transfer energy to its surroundings as sound or unwanted heating.",
+      "learning_objectives": [
+        "Name common forms of energy in everyday examples.",
+        "Describe a useful energy change in a familiar device."
+      ],
+      "prerequisites": [
+        "Recognise simple household devices and their purposes."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Energy stores and transfers",
+          "body": "A battery stores chemical energy that can be transferred electrically in a circuit. A lamp then transfers energy to light and thermal surroundings. The main useful output depends on the device's purpose."
+        },
+        {
+          "title": "Follow the transfer",
+          "body": "Describe the starting energy and the useful and less useful outputs. Energy is transferred, not destroyed. Recap: for each device, ask what goes in, what useful change occurs, and where other energy is transferred."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "Describe the main useful energy change in a torch when switched on.",
+          "solution": "Chemical energy in the battery is transferred electrically and becomes light energy, with some thermal energy.",
+          "reasoning": "The torch's purpose is to provide light; warming is also an output."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "What is the main useful output of an electric lamp?",
+          "question_type": "multiple_choice",
+          "options": ["Light energy", "Sound energy only", "Chemical energy", "Gravitational energy"],
+          "correct_answer": "Light energy",
+          "explanation": "A lamp is designed mainly to produce light, though it may also warm its surroundings.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "What happens to energy when an appliance becomes warm?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Energy has been transferred into thermal energy.",
+            "Energy has been destroyed.",
+            "Energy has changed into matter.",
+            "Energy stops existing."
+          ],
+          "correct_answer": "Energy has been transferred into thermal energy.",
+          "explanation": "Warming is evidence that energy was transferred to thermal energy in the appliance or surroundings.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Which energy store is present in a charged cell before it powers a torch?",
+          "question_type": "multiple_choice",
+          "options": ["Chemical", "Sound", "Elastic only", "Nuclear only"],
+          "correct_answer": "Chemical",
+          "explanation": "A cell stores chemical energy that can be transferred in an electric circuit.",
+          "difficulty": "intermediate"
+        }
+      ]
+    }
+  ]
+}

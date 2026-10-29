@@ -1,0 +1,210 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": true,
+  "is_demo": false,
+  "curriculum_system": "CBC_CBE",
+  "curriculum_level": "Grade 6",
+  "curriculum_version": "KICD-G6-VERSION-UNVERIFIED",
+  "subject_slug": "science-technology-grade-6",
+  "topic_slug": "materials-and-mixtures",
+  "topic_name": "Materials and Mixtures",
+  "topic_source_reference": null,
+  "source_id": null,
+  "lessons": [
+    {
+      "slug": "grade-6-science-observing-material-properties",
+      "content_version": 1,
+      "sort_order": 1,
+      "title": "Observing properties of materials",
+      "description": "Compare materials by observable properties and choose suitable uses.",
+      "content": "Materials can be compared by properties such as hardness, flexibility, transparency and ability to absorb water. A property helps explain why a material is suitable for a particular use. Careful observation describes what is seen without guessing.",
+      "learning_objectives": [
+        "Describe common observable properties of materials.",
+        "Choose a material for a use by matching its properties to the task."
+      ],
+      "prerequisites": [
+        "Use senses safely to observe classroom objects."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Describe what you observe",
+          "body": "A transparent material lets much light pass through so objects can be seen clearly. A flexible material bends without breaking easily. Hardness describes resistance to scratching or denting. State the observation and the test used."
+        },
+        {
+          "title": "Match properties to purpose",
+          "body": "A clear window needs a transparent material; a raincoat needs a material that resists water. One material may be useful for several reasons. Recap: identify the job, compare relevant properties and explain your choice."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "Choose between clear glass and opaque wood for a classroom window, if the aim is to let in light and see outside.",
+          "solution": "Clear glass.",
+          "reasoning": "Its transparency allows light through and lets people see objects outside."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "Which property describes a material that lets you see objects clearly through it?",
+          "question_type": "multiple_choice",
+          "options": ["Transparency", "Hardness", "Roughness", "Absorbency"],
+          "correct_answer": "Transparency",
+          "explanation": "Transparent materials allow light through so objects can be seen clearly.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Which property is most useful when selecting cloth to soak up a small spill?",
+          "question_type": "multiple_choice",
+          "options": ["Absorbency", "Transparency", "Magnetism", "Shininess"],
+          "correct_answer": "Absorbency",
+          "explanation": "An absorbent material takes in liquid and is useful for soaking up a spill.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "What makes a material suitable for a raincoat?",
+          "question_type": "multiple_choice",
+          "options": [
+            "It resists water passing through.",
+            "It dissolves quickly in water.",
+            "It is always transparent.",
+            "It attracts every metal object."
+          ],
+          "correct_answer": "It resists water passing through.",
+          "explanation": "A raincoat should help keep water from reaching the clothes underneath.",
+          "difficulty": "intermediate"
+        }
+      ]
+    },
+    {
+      "slug": "grade-6-science-solids-liquids-and-gases",
+      "content_version": 1,
+      "sort_order": 2,
+      "title": "Solids, liquids and gases",
+      "description": "Compare the shape and volume of common states of matter.",
+      "content": "Matter is commonly described as solid, liquid or gas. A solid keeps its shape and volume; a liquid keeps its volume but takes the shape of its container; a gas spreads to fill the available space.",
+      "learning_objectives": [
+        "Classify familiar substances by state at room conditions.",
+        "Compare how solids, liquids and gases behave in containers."
+      ],
+      "prerequisites": [
+        "Observe water, ice and air in safe everyday situations."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Shape and volume",
+          "body": "A solid has a fixed shape and volume. A liquid flows and changes shape to fit the container, while its amount has a fixed volume. A gas spreads out and fills the available space."
+        },
+        {
+          "title": "Changes of state",
+          "body": "Heating can melt a solid into a liquid and, with further heating, change a liquid to a gas. Cooling can reverse these changes. Recap: compare whether a substance keeps its shape and whether it fills its container."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "Water is poured from a narrow bottle into a wide bowl. What changes and what stays the same?",
+          "solution": "Its shape changes to fit the bowl; the amount of water stays the same if none is spilled.",
+          "reasoning": "A liquid takes its container's shape while retaining its volume."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "Which state of matter keeps its own shape and volume?",
+          "question_type": "multiple_choice",
+          "options": ["Solid", "Liquid", "Gas", "Water vapour only"],
+          "correct_answer": "Solid",
+          "explanation": "A solid has a fixed shape and volume.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "What does a liquid do when poured into a different container?",
+          "question_type": "multiple_choice",
+          "options": [
+            "Takes the new container's shape but keeps its volume.",
+            "Keeps exactly the same shape.",
+            "Fills all the space like a gas.",
+            "Immediately becomes a solid."
+          ],
+          "correct_answer": "Takes the new container's shape but keeps its volume.",
+          "explanation": "Liquids flow to take the container's shape but have a fixed volume.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "Which state spreads to fill all available space in a closed container?",
+          "question_type": "multiple_choice",
+          "options": ["Gas", "Solid", "Liquid only", "Ice"],
+          "correct_answer": "Gas",
+          "explanation": "A gas spreads out to occupy the available space in its container.",
+          "difficulty": "intermediate"
+        }
+      ]
+    },
+    {
+      "slug": "grade-6-science-separating-simple-mixtures",
+      "content_version": 1,
+      "sort_order": 3,
+      "title": "Separating simple mixtures",
+      "description": "Select a suitable physical method to separate components of a mixture.",
+      "content": "A mixture contains two or more substances together without forming a new substance. Some mixtures can be separated using differences in particle size, magnetic properties or whether a substance dissolves in water.",
+      "learning_objectives": [
+        "Recognise that mixtures can contain visible different materials.",
+        "Choose a simple separation method for a mixture."
+      ],
+      "prerequisites": [
+        "Describe differences between materials."
+      ],
+      "explanation_sections": [
+        {
+          "title": "Match method to property",
+          "body": "A sieve separates larger solid pieces from smaller ones. A magnet can remove magnetic material from a mixture. Filtering can separate an insoluble solid from a liquid by trapping solid particles in filter material."
+        },
+        {
+          "title": "Use safe, fair tests",
+          "body": "Choose a method based on a property that differs between the components. Do not taste unknown mixtures or use heat without adult supervision. Recap: observe the mixture, identify a useful difference and select a safe method."
+        }
+      ],
+      "worked_examples": [
+        {
+          "prompt": "How can small stones be separated from dry sand when the stones are larger?",
+          "solution": "Pass the mixture through a suitable sieve.",
+          "reasoning": "The sieve openings allow sand through while retaining larger stones."
+        }
+      ],
+      "source_reference": null,
+      "author": "ElimuQuest Curriculum Team",
+      "questions": [
+        {
+          "prompt": "Which method can separate an insoluble solid from water?",
+          "question_type": "multiple_choice",
+          "options": ["Filtration", "Magnetising the water", "Freezing every mixture", "Sorting by colour only"],
+          "correct_answer": "Filtration",
+          "explanation": "A filter traps insoluble solid particles while liquid passes through.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "A mixture contains iron filings and sand. Which tool can help remove the iron?",
+          "question_type": "multiple_choice",
+          "options": ["A magnet", "A plastic ruler", "A thermometer", "A glass of water only"],
+          "correct_answer": "A magnet",
+          "explanation": "Iron is attracted to a magnet, while ordinary sand is not.",
+          "difficulty": "foundational"
+        },
+        {
+          "prompt": "What property makes a sieve useful for separating stones from sand?",
+          "question_type": "multiple_choice",
+          "options": [
+            "The components have different particle sizes.",
+            "The stones have different temperatures.",
+            "The sand is magnetic.",
+            "The stones dissolve in air."
+          ],
+          "correct_answer": "The components have different particle sizes.",
+          "explanation": "A sieve separates solid pieces according to whether they fit through its openings.",
+          "difficulty": "intermediate"
+        }
+      ]
+    }
+  ]
+}

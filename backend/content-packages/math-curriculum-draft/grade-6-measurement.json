@@ -1,0 +1,92 @@
+{
+  "schema_version": "1.0",
+  "ai_generated": false,
+  "is_demo": false,
+  "curriculum_system": "CBC_CBE",
+  "curriculum_level": "Grade 6",
+  "curriculum_version": "KICD-G6-VERSION-UNVERIFIED",
+  "subject_slug": "mathematics-grade-6",
+  "topic_slug": "measurement",
+  "topic_name": "Measurement",
+  "topic_source_reference": "ElimuQuest Mathematics Curriculum Draft v1, PDF pp. 6-7",
+  "source_id": "KICD-G6-DESIGNS",
+  "lessons": [
+    {
+      "slug": "grade-6-measurement",
+      "content_version": 1,
+      "sort_order": 6,
+      "title": "Measurement",
+      "description": "Measurement",
+      "content": "",
+      "learning_objectives": [],
+      "prerequisites": [],
+      "explanation_sections": [
+        {
+          "title": "Measurement",
+          "body": "6.1 Length, mass and capacity\nUseful conversions: 1 km = 1,000 m; 1 m = 100 cm; 1 kg = 1,000 g; 1 L = 1,000 mL.\n\n6.2 Perimeter and area\nFor a rectangle, perimeter P = 2(l + w) and area A = l × w. A 12 m by 7 m rectangle has perimeter 38 m\nand area 84 m²."
+        }
+      ],
+      "worked_examples": [],
+      "source_reference": "ElimuQuest Mathematics Curriculum Draft v1, PDF pp. 6-7",
+      "author": "ElimuQuest",
+      "questions": [
+        {
+          "prompt": "Convert 4.75 km into metres.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "4,750 m.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Convert 3,650 g into kilograms and grams.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "3 kg 650 g.",
+          "explanation": ""
+        },
+        {
+          "prompt": "A container holds 2.5 litres. How many millilitres is this?",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "2,500 mL.",
+          "explanation": ""
+        },
+        {
+          "prompt": "A rope is 12.6 m long. If 3.85 m is cut off, how much remains?",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "8.75 m.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Find the perimeter of a rectangle measuring 15 cm by 8 cm.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "46 cm.",
+          "explanation": ""
+        },
+        {
+          "prompt": "Find its area.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "120 cm².",
+          "explanation": ""
+        },
+        {
+          "prompt": "A square has perimeter 48 cm. Find its side length and area.",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "Side 12 cm; area 144 cm².",
+          "explanation": ""
+        },
+        {
+          "prompt": "A garden is 18 m by 11 m. How much fencing is needed to enclose it with no gate?",
+          "question_type": "short_answer",
+          "options": [],
+          "correct_answer": "58 m.",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}
