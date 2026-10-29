@@ -1,13 +1,13 @@
 # ElimuQuest deployment handover
 
-**Status (2026-10-29):** Neon Free project `elimuquest-beta` is in AWS US East 2 (Ohio), and Render Free service `elimuquest-api` is live in Ohio at `https://elimuquest-api.onrender.com`. `/health` and `/readiness` returned HTTP 200; all three Alembic revisions applied; synthetic registration/login, protected access, anonymous 401 behavior, CORS preflight, and login persistence after a service restart were verified. The database contains only synthetic smoke accounts created for these checks; no real learner data was migrated or entered. No frontend has been deployed: the Cloudflare dashboard's Pages creation route fails to load its module scripts, and GitHub Pages is unavailable for this private repository on the current plan.
-**Target:** A synthetic-data technical preview using Cloudflare Pages, Render Free, and Neon Free.
+**Status (2026-10-29):** Neon Free project `elimuquest-beta` is in AWS US East 2 (Ohio). Render Free service `elimuquest-api` is live in Ohio at `https://elimuquest-api.onrender.com`; `/health` and `/readiness` return HTTP 200. The Expo frontend is live at `https://elimuquest-web.onrender.com`. Render's `CORS_ORIGINS` retains `https://elimuquest.pages.dev` and now also allows the frontend's exact origin, `https://elimuquest-web.onrender.com`; the API redeploy succeeded. A `/*` → `/index.html` rewrite is active for Expo Router routes. Synthetic registration, login, authenticated `/me`, invalid-password handling, logout, direct route loads and refresh, and CORS preflight were verified in a browser. No real learner data was entered. The service is technically reachable but the curriculum is empty and the existing Phase Six beta gate is not ready for real learners.
+**Target:** A synthetic-data technical preview using Render Static Site, Render Free Web Service, and Neon Free.
 **Do not invite real learners:** The existing Phase Six beta gate is not ready for real student data.
 
 ## What is already configured
 
 - The Expo web build is `npx expo export --platform web`; the output directory is `dist`.
-- `app.config.js` uses a single-page web export. Leave `EXPO_BASE_PATH` unset on Cloudflare Pages; the Pages site is served from the domain root.
+- `app.config.js` uses a single-page web export. Leave `EXPO_BASE_PATH` unset for the root-hosted Render static site.
 - The frontend reads `EXPO_PUBLIC_API_URL` at build time. Set it to the HTTPS API origin only, without `/api/v1` or a trailing slash. It is public client configuration, not a secret.
 - The FastAPI entry point is `app.main:app` and its readiness endpoint is `/readiness`.
 - `backend/pyproject.toml` includes FastAPI, Uvicorn, SQLAlchemy, Alembic, and psycopg 3. The models and migrations use SQLAlchemy types supported by PostgreSQL.
@@ -45,43 +45,44 @@ Use the same region for Render and the Neon project where practical. Do not copy
    | `JWT_SECRET` | Unique random value, at least 32 characters; secret |
    | `JWT_ISSUER` | `elimuquest-api` |
    | `ACCESS_TOKEN_MINUTES` | `60` |
-   | `CORS_ORIGINS` | The exact Cloudflare Pages origin, e.g. `https://<project>.pages.dev` |
+   | `CORS_ORIGINS` | `https://elimuquest.pages.dev,https://elimuquest-web.onrender.com` |
    | `LOG_LEVEL` | `INFO` |
 
    Generate the JWT secret locally, then enter it directly in Render (for example, in PowerShell: `python -c "import secrets; print(secrets.token_urlsafe(48))"`). Never commit or share the generated value.
 6. Deploy and wait for the service to become healthy. The current service origin is `https://elimuquest-api.onrender.com`.
 
-### 3. Create the Cloudflare Pages frontend
+### 3. Render Static Site frontend
 
-1. In [Cloudflare Pages](https://dash.cloudflare.com/), create a Pages project and connect the existing GitHub repository. Set production branch to `main`. The current authenticated account dashboard's Pages creation route fails with module-script loading errors; no Pages project has been created yet.
-2. Configure the build:
+The existing Render Static Site is named `elimuquest-web`, is connected to `NgugiDenzel/elimuquest` on branch `main`, and is publicly served at `https://elimuquest-web.onrender.com`. Its currently serving deployment uses:
 
-   | Setting | Value |
-   |---|---|
-   | Framework preset | None |
-   | Build command | `npm ci && npx expo export --platform web` |
-   | Build output directory | `dist` |
-   | Root directory | `/` (repository root) |
-   | Node version | `22` |
+| Setting | Value |
+|---|---|
+| Build command | `npm ci && npx expo export --platform web` |
+| Publish directory | `dist` |
+| Root directory | Repository root |
+| Node version | `22` |
 
-3. Add `EXPO_PUBLIC_API_URL` as a **production build environment variable** with the actual Render origin, e.g. `https://<service>.onrender.com`. Do not add credentials or secrets to this variable.
-4. Leave `EXPO_BASE_PATH` unset so Expo assets and routes use the Pages site root.
-5. Redeploy after setting the API variable. Cloudflare's Git integration should deploy subsequent pushes to `main` automatically.
-6. Add the exact Pages origin (scheme and hostname, no path or trailing slash) to Render's `CORS_ORIGINS` and redeploy/restart the API if needed.
+The deployment uses `EXPO_PUBLIC_API_URL=https://elimuquest-api.onrender.com`. Expo embeds this public API base URL during build; it is not a secret. The root page and JS assets have been fetched successfully over HTTPS.
 
-**Alternative:** The existing GitHub Pages workflow is retained. It needs the repository Actions variable `EXPO_PUBLIC_API_URL`, Pages configured to use **GitHub Actions**, and uses the `/elimuquest` base path. GitHub currently reports that Pages requires upgrading the plan or making this private repository public; do not make it public or incur a charge. Cloudflare Pages remains the preferred option because it avoids the GitHub project-site subpath.
+**Applied and verified in the Render Dashboard:**
+
+1. The API's `CORS_ORIGINS` preserves `https://elimuquest.pages.dev` and includes `https://elimuquest-web.onrender.com`. The environment update triggered a deployment, which reached **Live**.
+2. The static site's rewrite is **Rewrite** source `/*` to destination `/index.html`. Direct `/register` and `/login` requests now return the Expo application with HTTP 200.
+
+The existing GitHub Pages workflow is retained but is not used for this deployment. Do not make the private repository public or upgrade a plan to enable it.
 
 ## Verification checklist
 
 Do not treat a successful build as a successful deployment. Use only synthetic accounts and record no passwords, tokens, or private learner data.
 
-1. Confirm `https://<service>.onrender.com/health` returns HTTP 200 with `{"status":"ok"}`.
-2. Confirm `https://<service>.onrender.com/readiness` returns HTTP 200 with `{"status":"ready"}`. This checks database connectivity.
-3. Open the Cloudflare Pages HTTPS URL. Confirm browser Network requests target the Render HTTPS origin and CORS preflight/API calls succeed.
-4. Register a synthetic user, log in, then verify authenticated `GET /api/v1/me` succeeds and an unauthenticated protected request returns 401.
-5. Verify the registration persists by logging in again after the API service restarts. Do not use SQLite on Render; its filesystem is ephemeral.
-6. Open a nested route directly and refresh it to confirm SPA routing and assets work.
-7. Check Render logs, browser console, and Network panel for errors. Do not include secrets or authorization headers in diagnostics.
+1. **Passed:** `https://elimuquest-api.onrender.com/health` returns HTTP 200 with `{"status":"ok"}`.
+2. **Passed:** `https://elimuquest-api.onrender.com/readiness` returns HTTP 200 with `{"status":"ready"}`. This checks database connectivity.
+3. **Passed:** browser CORS preflight from `https://elimuquest-web.onrender.com` returns HTTP 200 with that exact `Access-Control-Allow-Origin`.
+4. **Passed:** synthetic registration, login, authenticated `/api/v1/me` (observed by the app), logout, login again, and invalid-password handling (HTTP 401 with a user-facing error).
+5. **Passed:** `/health` and `/readiness` return HTTP 200; the readiness check verifies database connectivity. The synthetic account remained usable after logout and a subsequent login. Earlier API checks also verified persistence across a service restart. Do not use SQLite on Render; its filesystem is ephemeral.
+6. **Passed:** direct `/register` and `/login` requests return HTTP 200; authenticated `/profile` loads directly and remains on that route after browser refresh.
+7. **Passed:** live browser layout checks found no horizontal overflow on the profile screen at 320×568, 360×800, 390×844, 768×1024, 1024×768, 1366×768, and 1920×1080; login and registration also had no horizontal overflow at 320×568 and 1366×768.
+8. **Passed:** browser resources included the production API origin; no CORS or critical app runtime error appeared during successful registration/login. The 401 recorded during the invalid-password test was expected.
 
 ## Important fresh-database limitation
 
@@ -91,11 +92,11 @@ Therefore, a new hosted database can support health checks and synthetic student
 
 ## Free-plan limitations and real-data warning
 
-Plan details change; confirm them in the provider dashboards before creating resources. As checked against provider documentation on 2026-10-29:
+Plan details change; confirm them in the provider dashboards. The [Render Free instance and static-site docs](https://render.com/docs/free), [Render static-site docs](https://render.com/docs/static-sites), and [Neon plan docs](https://neon.com/docs/introduction/plans) were checked on 2026-10-29:
 
-- **Cloudflare Pages Free:** static frontend hosting; documented limits include 500 builds/month, one concurrent build, 20-minute build timeout, and 20,000 files per site.
-- **Render Free Web Service:** sleeps after 15 minutes without inbound traffic and can take about a minute to wake. Its local filesystem is ephemeral. Free instances are documented for testing/hobby use, not production.
-- **Neon Free:** currently lists 1 GB storage per project, 100 compute-hours per project, 5 GB public network transfer per project, and scale-to-zero after inactivity. Free plan projects have a limited recovery/history window and no scheduled backups.
+- **Render Static Site:** the frontend uses Render's $0 static-site offering, served through a global CDN with HTTPS and Git-based deploys. Static sites use the workspace's included bandwidth and pipeline minutes; exceeding included usage can suspend service/builds without a payment method, or incur overage charges if billing is enabled.
+- **Render Free Web Service:** the API uses the $0 compute plan; it sleeps after 15 minutes without inbound traffic and takes about a minute to wake. Free web services share 750 instance hours per workspace each month. Its local filesystem is ephemeral. Free instances are documented for testing/hobby use, not production. Avoid excess usage and do not upgrade or add payment details without authorization.
+- **Neon Free:** $0/month, with 100 compute-hours per project, 1 GB storage per project (20 GB account total), and 5 GB public network transfer per project. Compute scales to zero after five minutes of inactivity. The Free plan has limited recovery history and no scheduled backups; exceeding included resources may require stopping usage or choosing a paid plan.
 - **Render Free Postgres is not used:** it expires after 30 days, has no backups, and is deleted after its 14-day upgrade grace period.
 
 This arrangement is for a limited technical preview with synthetic data, not a dependable real-student service. The Phase Six beta gate documents outstanding educational review, source-rights evidence, child-data safeguards, rate limiting, backup/recovery, operational readiness, and other blockers. Obtain qualified review and close the beta gate before collecting real student or teacher data.
