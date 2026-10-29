@@ -34,6 +34,14 @@ The FastAPI server must also be running at `http://localhost:8000`; otherwise lo
 
 See [backend setup](./backend/README.md). The backend uses FastAPI, SQLAlchemy, Alembic, and a PostgreSQL deployment target. The current local SQLite database is in `backend/elimuquest.db`; do not rerun seeding or migrations against an existing database as part of ordinary startup. In development, the client discovers the browser or Expo host automatically. Physical devices need LAN access and may need an explicit `EXPO_PUBLIC_API_URL`; see the backend guide for bind and CORS details.
 
+## Web preview on GitHub Pages
+
+The GitHub Actions workflow in `.github/workflows/pages.yml` exports the Expo web app and publishes it at `https://ngugidenzel.github.io/elimuquest/`. Expo Router uses a single-page export with a Pages `404.html` fallback for routes such as lessons. The app config uses `/elimuquest` as its base path only when `EXPO_BASE_PATH` is set by the Pages workflow; local development keeps the root path.
+
+Before enabling Pages, deploy the FastAPI backend to an HTTPS host, set the repository Actions variable `EXPO_PUBLIC_API_URL` to the backend origin (without `/api/v1`), and configure the backend's exact CORS origin as `https://ngugidenzel.github.io`. In GitHub repository **Settings → Pages**, select **GitHub Actions** as the build and deployment source. The workflow skips its build until the API URL variable is configured.
+
+GitHub Pages serves a public website. Do not enter real learner data or invite learners until the outstanding content-rights, educational-review, privacy, security, and operations blockers in [the Phase Six beta gate](./docs/PHASE_SIX_REGRESSION_BETA_GATE.md) are closed. The app is not currently approved for an external learner beta.
+
 ## Current scope
 
 The initial integrated backend provides student registration/login, profile retrieval, dashboard/subjects/learning paths, lesson sessions and server-graded answers, completion with idempotent XP/progress, progress summaries, and a privacy-conscious leaderboard. See [the handover report](./docs/project-handover.md) and [integration map](./docs/frontend-backend-integration-map.md) for verified coverage and remaining work.

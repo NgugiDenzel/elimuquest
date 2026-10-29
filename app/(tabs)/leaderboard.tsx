@@ -46,7 +46,7 @@ const styles = StyleSheet.create({
   playerInfo: { flex: 1 },
   name: { fontSize: 17, color: colors.text, fontWeight: '700' },
   streak: { color: colors.textSoft, marginTop: 4, fontSize: 13 },
-  xp: { fontWeight: '700', color: colors.text },
+  xp: { fontWeight: '700', color: colors.text, flexShrink: 0 },
   empty: { color: colors.textSoft, marginTop: spacing.xl },
   privacy: { color: colors.textSoft, fontSize: 12, marginTop: spacing.lg },
 });

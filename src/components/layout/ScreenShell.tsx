@@ -15,7 +15,7 @@ export function ScreenShell({ children, withBottomNav = false }: ScreenShellProp
         contentContainerStyle={[styles.scrollContent, withBottomNav && styles.withBottomNav]}
         showsVerticalScrollIndicator={false}
       >
-        {children}
+        <View style={styles.content}>{children}</View>
       </ScrollView>
     </SafeAreaView>
   );
@@ -27,7 +27,14 @@ const styles = StyleSheet.create({
     backgroundColor: colors.canvas,
   },
   scrollContent: {
+    flexGrow: 1,
     paddingBottom: 20,
+  },
+  content: {
+    width: '100%',
+    maxWidth: 1120,
+    alignSelf: 'center',
+    flexGrow: 1,
   },
   withBottomNav: {
     paddingBottom: 120,

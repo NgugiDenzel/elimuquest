@@ -7,14 +7,17 @@ type StatCardProps = {
   label: string;
   accent?: string;
   icon?: React.ReactNode;
+  dense?: boolean;
 };
 
-export function StatCard({ value, label, accent = colors.primary, icon }: StatCardProps) {
+export function StatCard({ value, label, accent = colors.primary, icon, dense = false }: StatCardProps) {
   return (
-    <View style={[styles.card, shadow.soft, { borderColor: accent + '20' }]}>
+    <View style={[styles.card, dense && styles.denseCard, shadow.soft, { borderColor: accent + '20' }]}>
       <View style={[styles.iconWrap, { backgroundColor: accent + '15' }]}>{icon}</View>
-      <Text style={styles.value}>{value}</Text>
-      <Text style={styles.label}>{label}</Text>
+      <Text style={[styles.value, dense && styles.denseValue]} numberOfLines={1} adjustsFontSizeToFit>
+        {value}
+      </Text>
+      <Text style={styles.label} numberOfLines={2}>{label}</Text>
     </View>
   );
 }
@@ -22,18 +25,24 @@ export function StatCard({ value, label, accent = colors.primary, icon }: StatCa
 const styles = StyleSheet.create({
   card: {
     flex: 1,
-    minWidth: 94,
+    minWidth: 0,
     backgroundColor: colors.card,
     borderRadius: radii.lg,
     borderWidth: 1,
     padding: spacing.md,
     justifyContent: 'center',
   },
+  denseCard: {
+    padding: spacing.sm,
+  },
   value: {
     fontSize: 22,
     fontWeight: '800',
     color: colors.text,
     marginTop: spacing.sm,
+  },
+  denseValue: {
+    fontSize: 19,
   },
   label: {
     fontSize: 12,

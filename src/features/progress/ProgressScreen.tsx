@@ -9,6 +9,7 @@ import { api } from '../../services/api/client';
 export function ProgressScreen() {
   const { width } = useWindowDimensions();
   const isWide = width >= 900;
+  const isNarrow = width < 560;
   const progress = useQuery({ queryKey: ['progress'], queryFn: api.progress });
 
   if (progress.isPending || progress.isError) {
@@ -85,7 +86,7 @@ export function ProgressScreen() {
           ))}
         </View>
 
-        <View style={styles.topicGrid}>
+        <View style={[styles.topicGrid, isNarrow && styles.narrowTopicGrid]}>
           <View style={[styles.topicCard, shadow.soft]}>
             <Text style={styles.sectionTitle}>Strongest topics</Text>
             {data.strongest_topics.length
@@ -141,6 +142,7 @@ const styles = StyleSheet.create({
   progressFill: { height: '100%', borderRadius: 999 },
   subjectValue: { width: 42, textAlign: 'right', color: colors.text, fontWeight: '700' },
   topicGrid: { flexDirection: 'row', gap: spacing.md },
+  narrowTopicGrid: { flexDirection: 'column' },
   topicCard: { flex: 1, backgroundColor: colors.card, borderRadius: radii.xl, padding: spacing.lg },
   topicItem: { color: colors.textSoft, marginBottom: 8, fontSize: 13 },
   emptyText: { color: colors.textSoft, fontSize: 13, lineHeight: 20 },

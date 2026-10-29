@@ -1,33 +1,40 @@
 import { Link } from 'expo-router';
-import { Pressable, StyleSheet, Text, View } from 'react-native';
+import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { colors, radii, spacing } from '../../src/theme';
 
 export default function WelcomeScreen() {
   return (
-    <View style={styles.container}>
-      <Text style={styles.eyebrow}>ElimuQuest</Text>
-      <Text style={styles.title}>Learn smarter with every step.</Text>
-      <Text style={styles.subtitle}>Master your subjects with quests, streaks, and guided practice.</Text>
-      <Link href="/(auth)/register" asChild>
-        <Pressable style={styles.primaryButton}>
-          <Text style={styles.primaryButtonText}>Get started</Text>
-        </Pressable>
-      </Link>
-      <Link href="/(auth)/login" asChild>
-        <Pressable style={styles.secondaryButton}>
-          <Text style={styles.secondaryButtonText}>Log in</Text>
-        </Pressable>
-      </Link>
-    </View>
+    <ScrollView contentContainerStyle={styles.container}>
+      <View style={styles.content}>
+        <Text style={styles.eyebrow}>ElimuQuest</Text>
+        <Text style={styles.title}>Learn smarter with every step.</Text>
+        <Text style={styles.subtitle}>Master your subjects with quests, streaks, and guided practice.</Text>
+        <Link href="/(auth)/register" asChild>
+          <Pressable style={styles.primaryButton}>
+            <Text style={styles.primaryButtonText}>Get started</Text>
+          </Pressable>
+        </Link>
+        <Link href="/(auth)/login" asChild>
+          <Pressable style={styles.secondaryButton}>
+            <Text style={styles.secondaryButtonText}>Log in</Text>
+          </Pressable>
+        </Link>
+      </View>
+    </ScrollView>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    flexGrow: 1,
     justifyContent: 'center',
-    padding: spacing.xl,
+    padding: spacing.lg,
     backgroundColor: colors.canvas,
+  },
+  content: {
+    width: '100%',
+    maxWidth: 560,
+    alignSelf: 'center',
   },
   eyebrow: {
     color: colors.primary,

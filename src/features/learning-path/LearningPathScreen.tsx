@@ -49,6 +49,9 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: spacing.xl,
+    width: '100%',
+    maxWidth: 760,
+    alignSelf: 'center',
   },
   eyebrow: {
     color: colors.primary,

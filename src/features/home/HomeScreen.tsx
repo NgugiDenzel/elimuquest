@@ -19,6 +19,7 @@ const subjectGradient: Record<string, string> = {
 export function HomeScreen() {
   const { width } = useWindowDimensions();
   const isWide = width >= 900;
+  const isCompact = width < 380;
   const queryClient = useQueryClient();
   const setUser = useAuthStore((state) => state.setUser);
   const dashboard = useQuery({ queryKey: ['dashboard'], queryFn: api.dashboard });
@@ -123,10 +124,10 @@ export function HomeScreen() {
           )}
         </View>
 
-        <View style={[styles.statsRow, isWide && styles.wideStatsRow]}>
-          <StatCard value={String(data.streak_days)} label="Day streak" accent={colors.green} icon={<Flame size={18} color={colors.green} />} />
-          <StatCard value={data.total_xp.toLocaleString()} label="XP" accent={colors.primary} icon={<TrendingUp size={18} color={colors.primary} />} />
-          <StatCard value={data.league_rank ? `#${data.league_rank}` : '—'} label="League" accent={colors.amber} icon={<Medal size={18} color={colors.amber} />} />
+        <View style={[styles.statsRow, isWide && styles.wideStatsRow, isCompact && styles.compactStatsRow]}>
+          <StatCard dense={isCompact} value={String(data.streak_days)} label="Day streak" accent={colors.green} icon={<Flame size={18} color={colors.green} />} />
+          <StatCard dense={isCompact} value={data.total_xp.toLocaleString()} label="XP" accent={colors.primary} icon={<TrendingUp size={18} color={colors.primary} />} />
+          <StatCard dense={isCompact} value={data.league_rank ? `#${data.league_rank}` : '—'} label="League" accent={colors.amber} icon={<Medal size={18} color={colors.amber} />} />
         </View>
 
         <View style={[styles.featureRow, isWide && styles.wideFeatureRow]}>
@@ -330,6 +331,9 @@ const styles = StyleSheet.create({
   wideStatsRow: {
     gap: spacing.md,
     marginBottom: spacing.lg,
+  },
+  compactStatsRow: {
+    gap: spacing.xs,
   },
   featureRow: {
     gap: spacing.md,
@@ -541,14 +545,16 @@ const styles = StyleSheet.create({
     flexWrap: 'nowrap',
   },
   subjectCard: {
-    width: '48%',
+    width: '47%',
     borderRadius: radii.xl,
     padding: spacing.lg,
     minHeight: 170,
     ...shadow.soft,
   },
   wideSubjectCard: {
-    width: '24%',
+    width: undefined,
+    flex: 1,
+    minWidth: 0,
   },
   subjectIconWrap: {
     width: 42,
