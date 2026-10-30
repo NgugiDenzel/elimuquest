@@ -18,6 +18,7 @@ describe('API request errors', () => {
 
   afterEach(() => {
     fetchMock.mockReset();
+    jest.useRealTimers();
   });
 
   afterAll(() => {
@@ -62,8 +63,36 @@ describe('API request errors', () => {
     ).rejects.toMatchObject({
       name: 'ApiError',
       status: 0,
-      message: 'The request timed out. Check the API server and try again.',
+      message: 'The server is taking longer than expected to respond. It may be waking from inactivity; wait a moment and try again.',
     });
+  });
+
+  it('allows a free backend time to wake before aborting the request', async () => {
+    jest.useFakeTimers();
+    fetchMock.mockImplementationOnce((_input, init) => new Promise<Response>((_resolve, reject) => {
+      init?.signal?.addEventListener('abort', () => {
+        reject(Object.assign(new Error('aborted'), { name: 'AbortError' }));
+      });
+    }));
+
+    const request = api.login({ email: 'learner@example.test', password: 'valid-password' });
+    let settled = false;
+    const observed = request.then(
+      () => { settled = true; },
+      () => { settled = true; },
+    );
+    await jest.advanceTimersByTimeAsync(15000);
+    await Promise.resolve();
+    expect(settled).toBe(false);
+    expect(fetchMock).toHaveBeenCalledTimes(1);
+
+    await jest.advanceTimersByTimeAsync(75000);
+    await expect(request).rejects.toMatchObject({
+      name: 'ApiError',
+      status: 0,
+      message: 'The server is taking longer than expected to respond. It may be waking from inactivity; wait a moment and try again.',
+    });
+    await observed;
   });
 
   it('reports malformed successful responses as an API response error', async () => {

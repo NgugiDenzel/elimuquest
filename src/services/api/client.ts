@@ -33,11 +33,13 @@ function developmentApiUrl(): string {
 
 const configuredApiUrl = process.env.EXPO_PUBLIC_API_URL?.trim();
 const baseUrl = (configuredApiUrl || (__DEV__ ? developmentApiUrl() : '')).replace(/\/$/, '');
-const requestTimeoutMs = 15000;
+const requestTimeoutMs = 90000;
+const requestTimeoutMessage =
+  'The server is taking longer than expected to respond. It may be waking from inactivity; wait a moment and try again.';
 
 function transportError(error: unknown): ApiError {
   if (error instanceof Error && error.name === 'AbortError') {
-    return new ApiError('The request timed out. Check the API server and try again.', 0);
+    return new ApiError(requestTimeoutMessage, 0);
   }
   if (error instanceof TypeError) {
     return new ApiError(
@@ -89,7 +91,7 @@ async function request<T>(
   } catch (error) {
     clearTimeout(timeout);
     if (controller.signal.aborted) {
-      throw new ApiError('The request timed out. Check the API server and try again.', 0);
+      throw new ApiError(requestTimeoutMessage, 0);
     }
     throw transportError(error);
   }
@@ -154,7 +156,7 @@ export const api = {
     } catch (error) {
       if (error instanceof ApiError) throw error;
       if (controller.signal.aborted) {
-        throw new ApiError('The request timed out. Check the API server and try again.', 0);
+        throw new ApiError(requestTimeoutMessage, 0);
       }
       throw transportError(error);
     } finally {
