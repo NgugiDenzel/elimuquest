@@ -1,10 +1,9 @@
 # ElimuQuest backend release candidate
 
-**Status: PARTIALLY READY.** The Mathematics API has a narrow backend candidate.
-The reviewed 23-file release allowlist is staged; it has not been committed or
-pushed. No production migration or deployment has occurred. The user selected a
-backend-only release; the currently deployed frontend and its sign-in flow are out
-of scope.
+**Status: BACKEND RELEASE DEPLOYED.** The reviewed 23-file backend allowlist was
+committed as `bef66e7` and pushed to `main`. Render deployed the existing API
+service and the live Mathematics endpoints were verified. The user selected a
+backend-only release; the frontend and its sign-in flow remain unchanged.
 
 ## Release allowlist
 
@@ -62,10 +61,9 @@ revisions included, the candidate's Alembic head is `2c8a47f1d963`.
   guarded manual migration, and advisory-lock behavior.
 - `RELEASE_CANDIDATE_MANIFEST.md` — this allowlist and release checklist.
 
-Do not stage entire dirty files just because they appear above: in particular,
-include only the Mathematics registration hunk from `main.py`. Tests and manifest
-updates are part of the candidate; deployment, production migration, and content
-publication remain separate actions.
+Do not stage entire dirty files just because they appear above: the commit included
+only the Mathematics registration hunk from `main.py`. All unrelated worktree
+changes were left unstaged and uncommitted. No content publication was performed.
 
 ## Excluded from this release
 
@@ -134,21 +132,22 @@ authentication, or learner-activity rows. The migration chain reached `2c8a47f1d
 in a rehearsal on a disposable local PostgreSQL 18 database with synthetic records;
 this was not a rehearsal on a Neon branch.
 
-The Docker startup script runs `alembic upgrade head` before Uvicorn. A Render
-deployment of this exact allowlist will therefore apply both migrations to the
-configured database before the new API starts. This production schema change
-requires explicit approval before pushing/deploying. Confirm the production revision,
-take a current backup/snapshot, and confirm the recovery procedure first. The
-existing snapshot from 2026-11-09 has not been restore-tested. Do not run content
-publication or downgrade migrations as rollback.
+The Docker startup script runs `alembic upgrade head` before Uvicorn. With the
+release allowlist, the Render deployment applied both migrations to production
+before the new API started. The existing snapshot from 2026-11-09 has not been
+restore-tested. Do not run content publication or downgrade migrations as rollback.
 
 A fresh Neon child branch, `pre-mathematics-release-2026-11-10`
 (`br-small-bread-b56supvf`), was created from the production branch on 2026-11-10
 with data and schema through the current point in time and auto-delete set to Never.
 The branch's `alembic_version` table was checked in the Neon console and contains
-`a4c73e6b91d2`. This is a separate copy-on-write recovery point, not a Neon restore
-test or migration rehearsal. Do not apply release migrations to this backup branch;
-use a separate disposable child if a Neon rehearsal is needed.
+`a4c73e6b91d2` before deployment. After deployment, the production branch's
+`alembic_version` was verified in the Neon console at `2c8a47f1d963`; the two
+three expected tables (`content_audit_events`, `mathematics_review_decisions`, and
+`learner_content_feedback`) are present. The backup branch remains at the pre-release
+revision. This is a separate copy-on-write recovery point, not a Neon restore test
+or migration rehearsal. Do not apply release migrations to this backup branch; use
+a separate disposable child for any future Neon rehearsal.
 
 ## Existing Render configuration
 
@@ -168,10 +167,12 @@ No new frontend environment variable is required for this backend-only candidate
 The existing Render frontend remains unchanged. Cloudflare Pages is not a release
 blocker while that frontend remains the selected production host.
 
-The public API previously returned HTTP 200 from `/health`, `/readiness`, and
-`/docs`, but its live OpenAPI had no Mathematics paths and the curriculum route
-returned 404. These production observations must be rechecked after an approved
-deployment; local OpenAPI is not proof of deployment.
+The Render deployment for commit `bef66e7` succeeded in 1m 1s. Its logs show both
+migrations running in order and the Uvicorn server starting. Live verification
+returned HTTP 200 for `/health`, `/readiness`, Mathematics curriculum, and a
+Mathematics lesson. OpenAPI exposes all ten expected paths. The unauthenticated
+administrator review route returns HTTP 401. No authenticated write route or
+content-publication operation was invoked against production.
 
 ## Validation and remaining release gates
 
@@ -182,25 +183,26 @@ deployment; local OpenAPI is not proof of deployment.
   export passed. The frontend is excluded from this backend-only diff.
 - The generated local web export contained no `DATABASE_URL`, `JWT_SECRET`, or
   `postgresql+psycopg://` matches; the export is not part of the release.
-- Docker and Podman are unavailable. WSL 2 is present but has no installed Linux
-  distribution. No Docker image build or container smoke test is claimed.
+- Docker and Podman are unavailable locally; WSL 2 has no installed Linux
+  distribution. Render successfully built and deployed the Docker image, which
+  validates the production build and startup path; no separate local container
+  smoke test was run.
 - Ruff passed on the release-specific Python files. The 15 known findings in the
   unrelated resource registry and its test remain excluded.
 - `git diff --check` and the staged release diff check pass.
-- The live Render API still returns 200 from `/health` and `/readiness`; live
-  OpenAPI currently has zero Mathematics paths.
-- No production deployment, migration, or content publication has occurred.
+- The live Render API returns 200 from `/health` and `/readiness`; OpenAPI exposes
+  ten Mathematics paths.
+- Production migrations through `2c8a47f1d963` occurred during the approved Render
+  deployment. No content publication occurred.
 
-### Release sequence after approval
+### Completed release sequence
 
-1. Review the exact allowlist and the `main.py` registration-only patch; verify the
-   staged diff contains no unrelated paths or hunks.
-2. Confirm Neon is still at `a4c73e6b91d2`, obtain a fresh backup/snapshot, and
-   approve startup migrations through `2c8a47f1d963`.
-3. Approve the exact commit and push to `main`. Render auto-deploy will build the
-   existing API service and run the two migrations before starting the API.
-4. Verify the Render deploy logs, `/health`, `/readiness`, all ten live OpenAPI
-   paths, public Mathematics curriculum/lesson routes, and protected review
-   behavior. Confirm the resulting database revision is `2c8a47f1d963`.
+1. Reviewed and committed only the backend allowlist, leaving unrelated worktree
+   changes untouched.
+2. Created the never-auto-delete Neon pre-release branch and verified its starting
+   revision was `a4c73e6b91d2`.
+3. Pushed commit `bef66e7` to `main`; the existing Render API auto-deployed it.
+4. Verified both production migrations completed, the Neon production revision is
+   `2c8a47f1d963`, and all ten live Mathematics paths respond as expected.
 5. Keep the frontend unchanged in this release. Consider Mathematics UI and any
    frontend changes as a separate, reviewed release.
