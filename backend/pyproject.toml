@@ -9,6 +9,7 @@ description = "ElimuQuest student learning API"
 requires-python = ">=3.12"
 dependencies = [
   "alembic>=1.14,<2",
+  "python-dotenv>=1.0,<2",
   "fastapi>=0.115,<1",
   "email-validator>=2.2,<3",
   "pwdlib[argon2]>=0.2,<1",

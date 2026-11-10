@@ -1,0 +1,4782 @@
+{
+  "schema_version": "1.2",
+  "subject": "Mathematics",
+  "register_version": "2026-11-08.2",
+  "last_updated": "2026-11-08",
+  "assessment_question_target": 8,
+  "review_status": "awaiting_external_educator_review",
+  "completion_policy": {
+    "content_complete": "Requires manually verified or content-verified alignment and all mandatory learning fields: objectives, prerequisites, introduction, explanations, applicable definitions, worked examples, notation where needed, practice, knowledge check and summary.",
+    "assessment_complete": "Requires at least assessment_question_target distinct, aligned questions with validated prompts, correct answers, explanations, learning-objective coverage, non-duplicate items and appropriate difficulty variation. No external quality review is claimed by structural checks.",
+    "overall_complete": "Requires content complete, assessment complete and manually or content-verified lesson alignment. Educator review and publication remain separate statuses.",
+    "review_complete": "Requires an explicitly recorded qualified educator review; no such review is claimed in this baseline.",
+    "published": "Requires an actual published state in the learner CMS; the separate static Mathematics pack is served to learners but is not represented as a CMS-published lesson."
+  },
+  "review_checklist": [
+    "Mathematical accuracy",
+    "Correct terminology",
+    "Logical progression",
+    "Clarity of explanations",
+    "Correctness of worked examples",
+    "Assessment quality",
+    "Appropriate difficulty",
+    "Coverage of learning objectives",
+    "Accessibility",
+    "Potential misconceptions"
+  ],
+  "units": [
+    {
+      "id": "number-systems",
+      "level_id": "beginner",
+      "title": "Number Systems",
+      "subtopics": [
+        "Natural numbers",
+        "Whole numbers",
+        "Integers",
+        "Positive and negative numbers",
+        "Number lines",
+        "Comparing and ordering numbers",
+        "Factors",
+        "Multiples",
+        "Prime numbers",
+        "Composite numbers",
+        "Prime factorization",
+        "Divisibility rules",
+        "Highest common factor (HCF)",
+        "Lowest common multiple (LCM)",
+        "Order of operations",
+        "Exponents and powers",
+        "Roots",
+        "Squares and square roots",
+        "Cubes and cube roots",
+        "Applications of number systems"
+      ]
+    },
+    {
+      "id": "fractions-decimals-percentages",
+      "level_id": "beginner",
+      "title": "Fractions, Decimals, Percentages and Ratio",
+      "subtopics": [
+        "Understanding fractions",
+        "Equivalent fractions",
+        "Simplifying fractions",
+        "Comparing fractions",
+        "Ordering fractions",
+        "Adding and subtracting fractions",
+        "Multiplying and dividing fractions",
+        "Mixed numbers and improper fractions",
+        "Decimal notation and place value",
+        "Decimal operations",
+        "Converting fractions, decimals and percentages",
+        "Percentage increase and decrease",
+        "Percentage change",
+        "Discount applications",
+        "Profit and loss applications",
+        "Ratios",
+        "Proportions",
+        "Rates",
+        "Unit rates",
+        "Direct proportion",
+        "Inverse proportion",
+        "Real-world applications of fractions and ratios"
+      ]
+    },
+    {
+      "id": "algebra",
+      "level_id": "elementary",
+      "title": "Algebra",
+      "subtopics": [
+        "Variables and algebraic notation",
+        "Algebraic expressions",
+        "Simplifying expressions",
+        "Substitution",
+        "Expanding brackets",
+        "Factorization",
+        "Linear equations",
+        "Equations involving brackets",
+        "Equations involving fractions",
+        "Inequalities",
+        "Number-line representation of inequalities",
+        "Simultaneous linear equations",
+        "Graphical methods for simultaneous equations",
+        "Algebraic methods for simultaneous equations",
+        "Quadratic expressions",
+        "Factorizing quadratic expressions",
+        "Solving quadratic equations",
+        "Sequences and patterns",
+        "Arithmetic sequences",
+        "Geometric sequences",
+        "Applications of algebra"
+      ]
+    },
+    {
+      "id": "geometry-measurement",
+      "level_id": "elementary",
+      "title": "Geometry and Measurement",
+      "subtopics": [
+        "Points",
+        "Lines, rays and line segments",
+        "Types of angles",
+        "Angle relationships",
+        "Parallel and perpendicular lines",
+        "Triangles and their properties",
+        "Congruence",
+        "Similarity",
+        "Quadrilaterals",
+        "Polygons",
+        "Perimeter",
+        "Area",
+        "Circle properties",
+        "Circumference",
+        "Area of circles",
+        "Surface area",
+        "Volume",
+        "Units and conversions",
+        "Coordinate geometry",
+        "Gradients",
+        "Transformations",
+        "Reflection",
+        "Rotation",
+        "Translation",
+        "Enlargement",
+        "Geometric reasoning and applications"
+      ]
+    },
+    {
+      "id": "trigonometry",
+      "level_id": "intermediate",
+      "title": "Trigonometry",
+      "subtopics": [
+        "Right-angled triangles",
+        "Pythagoras' theorem",
+        "Sine",
+        "Cosine",
+        "Tangent",
+        "SOH-CAH-TOA",
+        "Finding missing sides",
+        "Finding missing angles",
+        "Angles of elevation and depression",
+        "Bearings and practical applications",
+        "Trigonometric graphs",
+        "Trigonometric identities",
+        "Applications of trigonometry"
+      ]
+    },
+    {
+      "id": "statistics",
+      "level_id": "intermediate",
+      "title": "Statistics",
+      "subtopics": [
+        "Types of data",
+        "Population and sample",
+        "Data collection",
+        "Frequency tables",
+        "Grouped data",
+        "Ungrouped data",
+        "Bar charts",
+        "Pie charts",
+        "Histograms",
+        "Frequency polygons",
+        "Mean",
+        "Median",
+        "Mode",
+        "Range",
+        "Quartiles",
+        "Interquartile range",
+        "Variance",
+        "Standard deviation",
+        "Interpreting distributions",
+        "Comparing datasets",
+        "Outliers",
+        "Misleading data representations",
+        "Introduction to statistical inference"
+      ]
+    },
+    {
+      "id": "probability",
+      "level_id": "intermediate",
+      "title": "Probability",
+      "subtopics": [
+        "Basic probability",
+        "Sample spaces",
+        "Events and outcomes",
+        "Experimental probability",
+        "Theoretical probability",
+        "Complementary events",
+        "Mutually exclusive events",
+        "Independent events",
+        "Dependent events",
+        "Combined events",
+        "Tree diagrams",
+        "Conditional probability",
+        "Venn diagrams",
+        "Real-world probability applications"
+      ]
+    },
+    {
+      "id": "calculus",
+      "level_id": "advanced",
+      "title": "Calculus",
+      "subtopics": [
+        "Functions",
+        "Graphs of functions",
+        "Domain and range",
+        "Limits",
+        "Continuity",
+        "Introduction to differentiation",
+        "First principles of differentiation",
+        "Differentiation rules",
+        "Power rule",
+        "Differentiating polynomial functions",
+        "Gradients",
+        "Rates of change",
+        "Tangents and normals",
+        "Applications of derivatives",
+        "Optimization problems",
+        "Maxima and minima",
+        "Introduction to integration",
+        "Basic integration rules",
+        "Definite integrals",
+        "Indefinite integrals",
+        "Area under curves",
+        "Applications of integration"
+      ]
+    }
+  ],
+  "evidence_tags": {
+    "number-systems/natural-numbers": [
+      "natural numbers"
+    ],
+    "number-systems/whole-numbers": [
+      "whole numbers"
+    ],
+    "number-systems/integers": [
+      "integers",
+      "positive and negative integers"
+    ],
+    "number-systems/positive-and-negative-numbers": [
+      "positive and negative integers"
+    ],
+    "number-systems/number-lines": [
+      "number lines"
+    ],
+    "number-systems/comparing-and-ordering-numbers": [
+      "comparing integers"
+    ],
+    "number-systems/factors": [
+      "factors and multiples"
+    ],
+    "number-systems/multiples": [
+      "factors and multiples"
+    ],
+    "number-systems/prime-numbers": [
+      "prime and composite numbers"
+    ],
+    "number-systems/composite-numbers": [
+      "prime and composite numbers"
+    ],
+    "number-systems/prime-factorization": [
+      "prime factorisation"
+    ],
+    "number-systems/divisibility-rules": [
+      "divisibility rules"
+    ],
+    "number-systems/highest-common-factor-hcf": [
+      "hcf and lcm"
+    ],
+    "number-systems/lowest-common-multiple-lcm": [
+      "hcf and lcm"
+    ],
+    "number-systems/order-of-operations": [
+      "order of operations"
+    ],
+    "number-systems/exponents-and-powers": [
+      "exponents and roots"
+    ],
+    "number-systems/roots": [
+      "exponents and roots"
+    ],
+    "number-systems/squares-and-square-roots": [
+      "exponents and roots"
+    ],
+    "fractions-decimals-percentages/understanding-fractions": [
+      "fraction meaning"
+    ],
+    "fractions-decimals-percentages/equivalent-fractions": [
+      "equivalent fractions"
+    ],
+    "fractions-decimals-percentages/simplifying-fractions": [
+      "simplifying fractions"
+    ],
+    "fractions-decimals-percentages/comparing-fractions": [
+      "comparing fractions"
+    ],
+    "fractions-decimals-percentages/adding-and-subtracting-fractions": [
+      "fraction addition and subtraction"
+    ],
+    "fractions-decimals-percentages/multiplying-and-dividing-fractions": [
+      "fraction multiplication and division"
+    ],
+    "fractions-decimals-percentages/decimal-notation-and-place-value": [
+      "decimal notation and operations"
+    ],
+    "fractions-decimals-percentages/decimal-operations": [
+      "decimal notation and operations"
+    ],
+    "fractions-decimals-percentages/converting-fractions-decimals-and-percentages": [
+      "fraction-decimal-percent conversions"
+    ],
+    "fractions-decimals-percentages/percentage-increase-and-decrease": [
+      "percentage increase and decrease"
+    ],
+    "fractions-decimals-percentages/ratios": [
+      "ratio and proportion"
+    ],
+    "fractions-decimals-percentages/proportions": [
+      "ratio and proportion",
+      "direct proportion"
+    ],
+    "fractions-decimals-percentages/rates": [
+      "rates and unit rates"
+    ],
+    "fractions-decimals-percentages/unit-rates": [
+      "rates and unit rates"
+    ],
+    "fractions-decimals-percentages/direct-proportion": [
+      "direct proportion"
+    ],
+    "algebra/variables-and-algebraic-notation": [
+      "variables and constants"
+    ],
+    "algebra/algebraic-expressions": [
+      "algebraic expressions"
+    ],
+    "algebra/simplifying-expressions": [
+      "simplification"
+    ],
+    "algebra/substitution": [
+      "substitution"
+    ],
+    "algebra/expanding-brackets": [
+      "expanding brackets"
+    ],
+    "algebra/factorization": [
+      "factorisation"
+    ],
+    "algebra/linear-equations": [
+      "linear equations"
+    ],
+    "algebra/equations-involving-brackets": [
+      "equations with brackets"
+    ],
+    "algebra/inequalities": [
+      "inequalities"
+    ],
+    "algebra/sequences-and-patterns": [
+      "sequences and patterns"
+    ],
+    "algebra/arithmetic-sequences": [
+      "sequences and patterns"
+    ],
+    "algebra/simultaneous-linear-equations": [
+      "introduction to simultaneous and quadratic equations"
+    ],
+    "algebra/quadratic-expressions": [
+      "introduction to simultaneous and quadratic equations"
+    ],
+    "algebra/solving-quadratic-equations": [
+      "introduction to simultaneous and quadratic equations"
+    ],
+    "geometry-measurement/lines-rays-and-line-segments": [
+      "points, lines and rays"
+    ],
+    "geometry-measurement/types-of-angles": [
+      "angle types"
+    ],
+    "geometry-measurement/parallel-and-perpendicular-lines": [
+      "parallel and perpendicular lines"
+    ],
+    "geometry-measurement/triangles-and-their-properties": [
+      "triangles"
+    ],
+    "geometry-measurement/quadrilaterals": [
+      "quadrilaterals and polygons"
+    ],
+    "geometry-measurement/polygons": [
+      "quadrilaterals and polygons"
+    ],
+    "geometry-measurement/perimeter": [
+      "perimeter and area"
+    ],
+    "geometry-measurement/area": [
+      "perimeter and area"
+    ],
+    "geometry-measurement/circle-properties": [
+      "circles and circumference"
+    ],
+    "geometry-measurement/circumference": [
+      "circles and circumference"
+    ],
+    "geometry-measurement/area-of-circles": [
+      "circles and circumference"
+    ],
+    "geometry-measurement/surface-area": [
+      "surface area and volume"
+    ],
+    "geometry-measurement/volume": [
+      "surface area and volume"
+    ],
+    "geometry-measurement/units-and-conversions": [
+      "units and conversions"
+    ],
+    "geometry-measurement/coordinate-geometry": [
+      "coordinate geometry"
+    ],
+    "geometry-measurement/transformations": [
+      "transformations"
+    ],
+    "geometry-measurement/translation": [
+      "transformations"
+    ],
+    "geometry-measurement/geometric-reasoning-and-applications": [
+      "geometric reasoning"
+    ],
+    "trigonometry/right-angled-triangles": [
+      "right-angled triangles"
+    ],
+    "trigonometry/sine": [
+      "sine"
+    ],
+    "trigonometry/cosine": [
+      "cosine"
+    ],
+    "trigonometry/tangent": [
+      "tangent"
+    ],
+    "trigonometry/soh-cah-toa": [
+      "soh-cah-toa"
+    ],
+    "trigonometry/finding-missing-sides": [
+      "finding missing sides and angles"
+    ],
+    "trigonometry/finding-missing-angles": [
+      "finding missing sides and angles"
+    ],
+    "trigonometry/angles-of-elevation-and-depression": [
+      "angles of elevation and depression"
+    ],
+    "trigonometry/trigonometric-graphs": [
+      "trigonometric graphs"
+    ],
+    "trigonometry/trigonometric-identities": [
+      "basic trigonometric identities"
+    ],
+    "trigonometry/applications-of-trigonometry": [
+      "trigonometric applications"
+    ],
+    "statistics/types-of-data": [
+      "types of data"
+    ],
+    "statistics/population-and-sample": [
+      "data and samples"
+    ],
+    "statistics/data-collection": [
+      "data collection"
+    ],
+    "statistics/frequency-tables": [
+      "frequency tables"
+    ],
+    "statistics/bar-charts": [
+      "bar charts"
+    ],
+    "statistics/pie-charts": [
+      "pie charts"
+    ],
+    "statistics/histograms": [
+      "histograms"
+    ],
+    "statistics/mean": [
+      "mean"
+    ],
+    "statistics/median": [
+      "median"
+    ],
+    "statistics/mode": [
+      "mode"
+    ],
+    "statistics/range": [
+      "range and measures of spread"
+    ],
+    "statistics/quartiles": [
+      "quartiles"
+    ],
+    "statistics/interquartile-range": [
+      "interquartile range"
+    ],
+    "statistics/variance": [
+      "variance"
+    ],
+    "statistics/standard-deviation": [
+      "standard deviation"
+    ],
+    "statistics/interpreting-distributions": [
+      "interpreting data"
+    ],
+    "statistics/misleading-data-representations": [
+      "misleading representations"
+    ],
+    "probability/basic-probability": [
+      "basic probability"
+    ],
+    "probability/sample-spaces": [
+      "sample spaces"
+    ],
+    "probability/events-and-outcomes": [
+      "events and outcomes"
+    ],
+    "probability/complementary-events": [
+      "complementary events"
+    ],
+    "probability/mutually-exclusive-events": [
+      "mutually exclusive events"
+    ],
+    "probability/independent-events": [
+      "independent events"
+    ],
+    "probability/dependent-events": [
+      "dependent events"
+    ],
+    "probability/combined-events": [
+      "combined events"
+    ],
+    "probability/tree-diagrams": [
+      "tree diagrams"
+    ],
+    "probability/conditional-probability": [
+      "conditional probability"
+    ],
+    "calculus/functions": [
+      "functions and graphs"
+    ],
+    "calculus/graphs-of-functions": [
+      "functions and graphs"
+    ],
+    "calculus/limits": [
+      "limits"
+    ],
+    "calculus/continuity": [
+      "intuitive continuity"
+    ],
+    "calculus/differentiation-rules": [
+      "differentiation rules"
+    ],
+    "calculus/differentiating-polynomial-functions": [
+      "polynomial derivatives"
+    ],
+    "calculus/gradients": [
+      "gradients and rates of change"
+    ],
+    "calculus/rates-of-change": [
+      "gradients and rates of change"
+    ],
+    "calculus/applications-of-derivatives": [
+      "maxima and minima"
+    ],
+    "calculus/maxima-and-minima": [
+      "maxima and minima"
+    ],
+    "calculus/introduction-to-integration": [
+      "basic integration"
+    ],
+    "calculus/basic-integration-rules": [
+      "basic integration"
+    ],
+    "calculus/definite-integrals": [
+      "definite and indefinite integrals"
+    ],
+    "calculus/indefinite-integrals": [
+      "definite and indefinite integrals"
+    ],
+    "calculus/area-under-curves": [
+      "area under curves"
+    ]
+  },
+  "question_tags": {
+    "number-systems/order-of-operations": [
+      "order of operations",
+      "left-to-right multiplication and division"
+    ],
+    "fractions-decimals-percentages/adding-and-subtracting-fractions": [
+      "fraction addition"
+    ],
+    "fractions-decimals-percentages/converting-fractions-decimals-and-percentages": [
+      "percentages"
+    ],
+    "fractions-decimals-percentages/ratios": [
+      "ratio simplification"
+    ],
+    "algebra/simplifying-expressions": [
+      "combining like terms"
+    ],
+    "algebra/expanding-brackets": [
+      "expanding brackets"
+    ],
+    "algebra/linear-equations": [
+      "linear equations"
+    ],
+    "geometry-measurement/triangles-and-their-properties": [
+      "triangle angle sums"
+    ],
+    "geometry-measurement/area": [
+      "triangle area"
+    ],
+    "geometry-measurement/volume": [
+      "volume"
+    ],
+    "trigonometry/sine": [
+      "sine and right-triangle sides"
+    ],
+    "trigonometry/tangent": [
+      "tangent ratio"
+    ],
+    "statistics/mean": [
+      "mean"
+    ],
+    "statistics/median": [
+      "median"
+    ],
+    "statistics/interpreting-distributions": [
+      "resistant measures of centre"
+    ],
+    "probability/basic-probability": [
+      "basic probability"
+    ],
+    "probability/sample-spaces": [
+      "sample spaces and combined events"
+    ],
+    "probability/complementary-events": [
+      "complementary events"
+    ],
+    "calculus/differentiating-polynomial-functions": [
+      "polynomial differentiation"
+    ],
+    "calculus/basic-integration-rules": [
+      "basic integration"
+    ],
+    "calculus/rates-of-change": [
+      "derivatives as rates of change"
+    ]
+  },
+  "prerequisites": {
+    "number-systems/whole-numbers": [
+      "number-systems/natural-numbers"
+    ],
+    "number-systems/integers": [
+      "number-systems/whole-numbers"
+    ],
+    "number-systems/positive-and-negative-numbers": [
+      "number-systems/integers"
+    ],
+    "number-systems/comparing-and-ordering-numbers": [
+      "number-systems/number-lines"
+    ],
+    "number-systems/prime-factorization": [
+      "number-systems/factors",
+      "number-systems/prime-numbers"
+    ],
+    "number-systems/highest-common-factor-hcf": [
+      "number-systems/prime-factorization"
+    ],
+    "number-systems/lowest-common-multiple-lcm": [
+      "number-systems/prime-factorization"
+    ],
+    "number-systems/squares-and-square-roots": [
+      "number-systems/exponents-and-powers"
+    ],
+    "number-systems/cubes-and-cube-roots": [
+      "number-systems/exponents-and-powers"
+    ],
+    "fractions-decimals-percentages/equivalent-fractions": [
+      "fractions-decimals-percentages/understanding-fractions"
+    ],
+    "fractions-decimals-percentages/adding-and-subtracting-fractions": [
+      "fractions-decimals-percentages/equivalent-fractions"
+    ],
+    "fractions-decimals-percentages/multiplying-and-dividing-fractions": [
+      "fractions-decimals-percentages/understanding-fractions"
+    ],
+    "fractions-decimals-percentages/converting-fractions-decimals-and-percentages": [
+      "fractions-decimals-percentages/decimal-notation-and-place-value"
+    ],
+    "fractions-decimals-percentages/percentage-change": [
+      "fractions-decimals-percentages/converting-fractions-decimals-and-percentages"
+    ],
+    "fractions-decimals-percentages/unit-rates": [
+      "fractions-decimals-percentages/rates"
+    ],
+    "algebra/simplifying-expressions": [
+      "algebra/algebraic-expressions"
+    ],
+    "algebra/substitution": [
+      "algebra/variables-and-algebraic-notation"
+    ],
+    "algebra/expanding-brackets": [
+      "algebra/algebraic-expressions"
+    ],
+    "algebra/factorization": [
+      "algebra/expanding-brackets"
+    ],
+    "algebra/linear-equations": [
+      "algebra/simplifying-expressions"
+    ],
+    "algebra/equations-involving-brackets": [
+      "algebra/expanding-brackets",
+      "algebra/linear-equations"
+    ],
+    "algebra/equations-involving-fractions": [
+      "algebra/linear-equations",
+      "fractions-decimals-percentages/multiplying-and-dividing-fractions"
+    ],
+    "algebra/number-line-representation-of-inequalities": [
+      "algebra/inequalities",
+      "number-systems/number-lines"
+    ],
+    "algebra/simultaneous-linear-equations": [
+      "algebra/linear-equations"
+    ],
+    "algebra/quadratic-expressions": [
+      "algebra/expanding-brackets"
+    ],
+    "algebra/factorizing-quadratic-expressions": [
+      "algebra/quadratic-expressions",
+      "algebra/factorization"
+    ],
+    "algebra/solving-quadratic-equations": [
+      "algebra/factorizing-quadratic-expressions"
+    ],
+    "algebra/arithmetic-sequences": [
+      "algebra/sequences-and-patterns"
+    ],
+    "algebra/geometric-sequences": [
+      "algebra/sequences-and-patterns"
+    ],
+    "geometry-measurement/area": [
+      "geometry-measurement/perimeter"
+    ],
+    "geometry-measurement/circumference": [
+      "geometry-measurement/circle-properties"
+    ],
+    "geometry-measurement/area-of-circles": [
+      "geometry-measurement/circle-properties"
+    ],
+    "geometry-measurement/surface-area": [
+      "geometry-measurement/area"
+    ],
+    "geometry-measurement/volume": [
+      "geometry-measurement/units-and-conversions"
+    ],
+    "geometry-measurement/gradients": [
+      "geometry-measurement/coordinate-geometry"
+    ],
+    "geometry-measurement/reflection": [
+      "geometry-measurement/transformations"
+    ],
+    "geometry-measurement/rotation": [
+      "geometry-measurement/transformations"
+    ],
+    "geometry-measurement/translation": [
+      "geometry-measurement/transformations"
+    ],
+    "geometry-measurement/enlargement": [
+      "geometry-measurement/similarity"
+    ],
+    "trigonometry/pythagoras-theorem": [
+      "geometry-measurement/triangles-and-their-properties"
+    ],
+    "trigonometry/soh-cah-toa": [
+      "trigonometry/right-angled-triangles"
+    ],
+    "trigonometry/finding-missing-sides": [
+      "trigonometry/soh-cah-toa"
+    ],
+    "trigonometry/finding-missing-angles": [
+      "trigonometry/soh-cah-toa"
+    ],
+    "trigonometry/angles-of-elevation-and-depression": [
+      "trigonometry/finding-missing-sides",
+      "trigonometry/finding-missing-angles"
+    ],
+    "trigonometry/trigonometric-graphs": [
+      "trigonometry/sine",
+      "trigonometry/cosine"
+    ],
+    "trigonometry/trigonometric-identities": [
+      "trigonometry/sine",
+      "trigonometry/cosine"
+    ],
+    "statistics/median": [
+      "statistics/ungrouped-data"
+    ],
+    "statistics/quartiles": [
+      "statistics/median"
+    ],
+    "statistics/interquartile-range": [
+      "statistics/quartiles"
+    ],
+    "statistics/variance": [
+      "statistics/mean"
+    ],
+    "statistics/standard-deviation": [
+      "statistics/variance"
+    ],
+    "statistics/comparing-datasets": [
+      "statistics/mean",
+      "statistics/standard-deviation"
+    ],
+    "probability/theoretical-probability": [
+      "probability/sample-spaces"
+    ],
+    "probability/complementary-events": [
+      "probability/basic-probability"
+    ],
+    "probability/independent-events": [
+      "probability/basic-probability"
+    ],
+    "probability/dependent-events": [
+      "probability/basic-probability"
+    ],
+    "probability/tree-diagrams": [
+      "probability/combined-events"
+    ],
+    "probability/conditional-probability": [
+      "probability/combined-events"
+    ],
+    "calculus/domain-and-range": [
+      "calculus/functions"
+    ],
+    "calculus/limits": [
+      "calculus/functions"
+    ],
+    "calculus/continuity": [
+      "calculus/limits"
+    ],
+    "calculus/introduction-to-differentiation": [
+      "calculus/limits"
+    ],
+    "calculus/first-principles-of-differentiation": [
+      "calculus/introduction-to-differentiation"
+    ],
+    "calculus/power-rule": [
+      "calculus/differentiation-rules"
+    ],
+    "calculus/differentiating-polynomial-functions": [
+      "calculus/power-rule"
+    ],
+    "calculus/gradients": [
+      "calculus/differentiating-polynomial-functions"
+    ],
+    "calculus/tangents-and-normals": [
+      "calculus/gradients"
+    ],
+    "calculus/maxima-and-minima": [
+      "calculus/differentiating-polynomial-functions"
+    ],
+    "calculus/optimization-problems": [
+      "calculus/maxima-and-minima"
+    ],
+    "calculus/basic-integration-rules": [
+      "calculus/introduction-to-integration"
+    ],
+    "calculus/definite-integrals": [
+      "calculus/basic-integration-rules"
+    ],
+    "calculus/indefinite-integrals": [
+      "calculus/basic-integration-rules"
+    ],
+    "calculus/area-under-curves": [
+      "calculus/definite-integrals"
+    ],
+    "calculus/applications-of-integration": [
+      "calculus/area-under-curves"
+    ]
+  },
+  "lesson_alignments": [
+    {
+      "lesson_id": "math-algebra-intro",
+      "subtopic_id": "algebra/linear-equations",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "linear equations"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-algebra-intro",
+      "subtopic_id": "algebra/simplifying-expressions",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "simplification"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-algebra-intro",
+      "subtopic_id": "algebra/substitution",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "substitution"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-algebra-intro",
+      "subtopic_id": "algebra/variables-and-algebraic-notation",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "variables and constants"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-algebra-notation-substitution",
+      "subtopic_id": "algebra/algebraic-expressions",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "algebraic expressions"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-algebra-notation-substitution",
+      "subtopic_id": "algebra/simplifying-expressions",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "simplification"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-algebra-notation-substitution",
+      "subtopic_id": "algebra/substitution",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "substitution"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-algebra-notation-substitution",
+      "subtopic_id": "algebra/variables-and-algebraic-notation",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "variables and constants"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-angles-triangles-polygons",
+      "subtopic_id": "geometry-measurement/geometric-reasoning-and-applications",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "geometric reasoning"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-angles-triangles-polygons",
+      "subtopic_id": "geometry-measurement/lines-rays-and-line-segments",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "points, lines and rays"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-angles-triangles-polygons",
+      "subtopic_id": "geometry-measurement/parallel-and-perpendicular-lines",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "parallel and perpendicular lines"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-angles-triangles-polygons",
+      "subtopic_id": "geometry-measurement/polygons",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "quadrilaterals and polygons"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-angles-triangles-polygons",
+      "subtopic_id": "geometry-measurement/quadrilaterals",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "quadrilaterals and polygons"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-angles-triangles-polygons",
+      "subtopic_id": "geometry-measurement/triangles-and-their-properties",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "triangles"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-angles-triangles-polygons",
+      "subtopic_id": "geometry-measurement/types-of-angles",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "angle types"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-calculus-derivatives-integrals",
+      "subtopic_id": "calculus/applications-of-derivatives",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "maxima and minima"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-calculus-derivatives-integrals",
+      "subtopic_id": "calculus/area-under-curves",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "area under curves"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-calculus-derivatives-integrals",
+      "subtopic_id": "calculus/basic-integration-rules",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "basic integration"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-calculus-derivatives-integrals",
+      "subtopic_id": "calculus/definite-integrals",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "definite and indefinite integrals"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-calculus-derivatives-integrals",
+      "subtopic_id": "calculus/differentiating-polynomial-functions",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "polynomial derivatives"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-calculus-derivatives-integrals",
+      "subtopic_id": "calculus/differentiation-rules",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "differentiation rules"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-calculus-derivatives-integrals",
+      "subtopic_id": "calculus/gradients",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "gradients and rates of change"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-calculus-derivatives-integrals",
+      "subtopic_id": "calculus/indefinite-integrals",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "definite and indefinite integrals"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-calculus-derivatives-integrals",
+      "subtopic_id": "calculus/introduction-to-integration",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "basic integration"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-calculus-derivatives-integrals",
+      "subtopic_id": "calculus/maxima-and-minima",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "maxima and minima"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-calculus-derivatives-integrals",
+      "subtopic_id": "calculus/rates-of-change",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "gradients and rates of change"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-calculus-functions-limits",
+      "subtopic_id": "calculus/continuity",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "intuitive continuity"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-calculus-functions-limits",
+      "subtopic_id": "calculus/functions",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "functions and graphs"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-calculus-functions-limits",
+      "subtopic_id": "calculus/graphs-of-functions",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "functions and graphs"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-calculus-functions-limits",
+      "subtopic_id": "calculus/limits",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "limits"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-calculus-intro",
+      "subtopic_id": "calculus/limits",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "limits"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-decimals-percentages-rates",
+      "subtopic_id": "fractions-decimals-percentages/converting-fractions-decimals-and-percentages",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "fraction-decimal-percent conversions"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-decimals-percentages-rates",
+      "subtopic_id": "fractions-decimals-percentages/decimal-notation-and-place-value",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "decimal notation and operations"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-decimals-percentages-rates",
+      "subtopic_id": "fractions-decimals-percentages/decimal-operations",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "decimal notation and operations"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-decimals-percentages-rates",
+      "subtopic_id": "fractions-decimals-percentages/direct-proportion",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "direct proportion"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-decimals-percentages-rates",
+      "subtopic_id": "fractions-decimals-percentages/percentage-increase-and-decrease",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "percentage increase and decrease"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-decimals-percentages-rates",
+      "subtopic_id": "fractions-decimals-percentages/proportions",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "direct proportion",
+        "ratio and proportion"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-decimals-percentages-rates",
+      "subtopic_id": "fractions-decimals-percentages/rates",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "rates and unit rates"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-decimals-percentages-rates",
+      "subtopic_id": "fractions-decimals-percentages/ratios",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "ratio and proportion"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-decimals-percentages-rates",
+      "subtopic_id": "fractions-decimals-percentages/unit-rates",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "rates and unit rates"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-equations-inequalities-patterns",
+      "subtopic_id": "algebra/arithmetic-sequences",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "sequences and patterns"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-equations-inequalities-patterns",
+      "subtopic_id": "algebra/equations-involving-brackets",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "equations with brackets"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-equations-inequalities-patterns",
+      "subtopic_id": "algebra/expanding-brackets",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "expanding brackets"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-equations-inequalities-patterns",
+      "subtopic_id": "algebra/factorization",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "factorisation"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-equations-inequalities-patterns",
+      "subtopic_id": "algebra/inequalities",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "inequalities"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-equations-inequalities-patterns",
+      "subtopic_id": "algebra/linear-equations",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "linear equations"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-equations-inequalities-patterns",
+      "subtopic_id": "algebra/quadratic-expressions",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "introduction to simultaneous and quadratic equations"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-equations-inequalities-patterns",
+      "subtopic_id": "algebra/sequences-and-patterns",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "sequences and patterns"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-equations-inequalities-patterns",
+      "subtopic_id": "algebra/simultaneous-linear-equations",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "introduction to simultaneous and quadratic equations"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-equations-inequalities-patterns",
+      "subtopic_id": "algebra/solving-quadratic-equations",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "introduction to simultaneous and quadratic equations"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-factors-primes-powers",
+      "subtopic_id": "number-systems/composite-numbers",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "prime and composite numbers"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-factors-primes-powers",
+      "subtopic_id": "number-systems/divisibility-rules",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "divisibility rules"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-factors-primes-powers",
+      "subtopic_id": "number-systems/exponents-and-powers",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "exponents and roots"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-factors-primes-powers",
+      "subtopic_id": "number-systems/factors",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "factors and multiples"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-factors-primes-powers",
+      "subtopic_id": "number-systems/highest-common-factor-hcf",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "hcf and lcm"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-factors-primes-powers",
+      "subtopic_id": "number-systems/lowest-common-multiple-lcm",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "hcf and lcm"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-factors-primes-powers",
+      "subtopic_id": "number-systems/multiples",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "factors and multiples"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-factors-primes-powers",
+      "subtopic_id": "number-systems/prime-factorization",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "prime factorisation"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-factors-primes-powers",
+      "subtopic_id": "number-systems/prime-numbers",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "prime and composite numbers"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-factors-primes-powers",
+      "subtopic_id": "number-systems/roots",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "exponents and roots"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-factors-primes-powers",
+      "subtopic_id": "number-systems/squares-and-square-roots",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "exponents and roots"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-fractions-equivalence-operations",
+      "subtopic_id": "fractions-decimals-percentages/adding-and-subtracting-fractions",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "fraction addition and subtraction"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-fractions-equivalence-operations",
+      "subtopic_id": "fractions-decimals-percentages/comparing-fractions",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "comparing fractions"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-fractions-equivalence-operations",
+      "subtopic_id": "fractions-decimals-percentages/equivalent-fractions",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "equivalent fractions"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-fractions-equivalence-operations",
+      "subtopic_id": "fractions-decimals-percentages/multiplying-and-dividing-fractions",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "fraction multiplication and division"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-fractions-equivalence-operations",
+      "subtopic_id": "fractions-decimals-percentages/simplifying-fractions",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "simplifying fractions"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-fractions-percentages-intro",
+      "subtopic_id": "fractions-decimals-percentages/equivalent-fractions",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "equivalent fractions"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-fractions-percentages-intro",
+      "subtopic_id": "fractions-decimals-percentages/understanding-fractions",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "fraction meaning"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-geometry-measurement-intro",
+      "subtopic_id": "geometry-measurement/triangles-and-their-properties",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "triangles"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-measurement-circles-coordinates",
+      "subtopic_id": "geometry-measurement/area",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "perimeter and area"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-measurement-circles-coordinates",
+      "subtopic_id": "geometry-measurement/area-of-circles",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "circles and circumference"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-measurement-circles-coordinates",
+      "subtopic_id": "geometry-measurement/circle-properties",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "circles and circumference"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-measurement-circles-coordinates",
+      "subtopic_id": "geometry-measurement/circumference",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "circles and circumference"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-measurement-circles-coordinates",
+      "subtopic_id": "geometry-measurement/coordinate-geometry",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "coordinate geometry"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-measurement-circles-coordinates",
+      "subtopic_id": "geometry-measurement/perimeter",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "perimeter and area"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-measurement-circles-coordinates",
+      "subtopic_id": "geometry-measurement/surface-area",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "surface area and volume"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-measurement-circles-coordinates",
+      "subtopic_id": "geometry-measurement/transformations",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "transformations"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-measurement-circles-coordinates",
+      "subtopic_id": "geometry-measurement/translation",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "transformations"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-measurement-circles-coordinates",
+      "subtopic_id": "geometry-measurement/units-and-conversions",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "units and conversions"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-measurement-circles-coordinates",
+      "subtopic_id": "geometry-measurement/volume",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "surface area and volume"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-number-lines-integers",
+      "subtopic_id": "number-systems/comparing-and-ordering-numbers",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "comparing integers"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-number-lines-integers",
+      "subtopic_id": "number-systems/integers",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "positive and negative integers"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-number-lines-integers",
+      "subtopic_id": "number-systems/number-lines",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "number lines"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-number-lines-integers",
+      "subtopic_id": "number-systems/positive-and-negative-numbers",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "positive and negative integers"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-number-systems-intro",
+      "subtopic_id": "number-systems/integers",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "integers"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-number-systems-intro",
+      "subtopic_id": "number-systems/natural-numbers",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "natural numbers"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-number-systems-intro",
+      "subtopic_id": "number-systems/order-of-operations",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "order of operations"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-number-systems-intro",
+      "subtopic_id": "number-systems/whole-numbers",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "whole numbers"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-probability-combined-conditional",
+      "subtopic_id": "probability/combined-events",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "combined events"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-probability-combined-conditional",
+      "subtopic_id": "probability/conditional-probability",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "conditional probability"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-probability-combined-conditional",
+      "subtopic_id": "probability/dependent-events",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "dependent events"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-probability-combined-conditional",
+      "subtopic_id": "probability/independent-events",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "independent events"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-probability-combined-conditional",
+      "subtopic_id": "probability/tree-diagrams",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "tree diagrams"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-probability-intro",
+      "subtopic_id": "probability/dependent-events",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "dependent events"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-probability-intro",
+      "subtopic_id": "probability/independent-events",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "independent events"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-probability-intro",
+      "subtopic_id": "probability/sample-spaces",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "sample spaces"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-probability-sample-spaces-events",
+      "subtopic_id": "probability/basic-probability",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "basic probability"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-probability-sample-spaces-events",
+      "subtopic_id": "probability/complementary-events",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "complementary events"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-probability-sample-spaces-events",
+      "subtopic_id": "probability/events-and-outcomes",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "events and outcomes"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-probability-sample-spaces-events",
+      "subtopic_id": "probability/mutually-exclusive-events",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "mutually exclusive events"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-probability-sample-spaces-events",
+      "subtopic_id": "probability/sample-spaces",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "sample spaces"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-statistics-data-collection-graphs",
+      "subtopic_id": "statistics/bar-charts",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "bar charts"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-statistics-data-collection-graphs",
+      "subtopic_id": "statistics/data-collection",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "data collection"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-statistics-data-collection-graphs",
+      "subtopic_id": "statistics/frequency-tables",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "frequency tables"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-statistics-data-collection-graphs",
+      "subtopic_id": "statistics/histograms",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "histograms"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-statistics-data-collection-graphs",
+      "subtopic_id": "statistics/interpreting-distributions",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "interpreting data"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-statistics-data-collection-graphs",
+      "subtopic_id": "statistics/pie-charts",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "pie charts"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-statistics-data-collection-graphs",
+      "subtopic_id": "statistics/types-of-data",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "types of data"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-statistics-intro",
+      "subtopic_id": "statistics/mean",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "mean"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-statistics-intro",
+      "subtopic_id": "statistics/median",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "median"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-statistics-intro",
+      "subtopic_id": "statistics/mode",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "mode"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-statistics-intro",
+      "subtopic_id": "statistics/population-and-sample",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "data and samples"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-statistics-intro",
+      "subtopic_id": "statistics/standard-deviation",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "standard deviation"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-statistics-spread-quartiles",
+      "subtopic_id": "statistics/interquartile-range",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "interquartile range"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-statistics-spread-quartiles",
+      "subtopic_id": "statistics/misleading-data-representations",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "misleading representations"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-statistics-spread-quartiles",
+      "subtopic_id": "statistics/quartiles",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "quartiles"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-statistics-spread-quartiles",
+      "subtopic_id": "statistics/range",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "range and measures of spread"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-statistics-spread-quartiles",
+      "subtopic_id": "statistics/standard-deviation",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "standard deviation"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-statistics-spread-quartiles",
+      "subtopic_id": "statistics/variance",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "variance"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-trig-applications-graphs",
+      "subtopic_id": "trigonometry/angles-of-elevation-and-depression",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "angles of elevation and depression"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-trig-applications-graphs",
+      "subtopic_id": "trigonometry/applications-of-trigonometry",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "trigonometric applications"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-trig-applications-graphs",
+      "subtopic_id": "trigonometry/trigonometric-graphs",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "trigonometric graphs"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-trig-applications-graphs",
+      "subtopic_id": "trigonometry/trigonometric-identities",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "basic trigonometric identities"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-trig-missing-sides-angles",
+      "subtopic_id": "trigonometry/cosine",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "cosine"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-trig-missing-sides-angles",
+      "subtopic_id": "trigonometry/finding-missing-angles",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "finding missing sides and angles"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-trig-missing-sides-angles",
+      "subtopic_id": "trigonometry/finding-missing-sides",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "finding missing sides and angles"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-trig-missing-sides-angles",
+      "subtopic_id": "trigonometry/right-angled-triangles",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "right-angled triangles"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-trig-missing-sides-angles",
+      "subtopic_id": "trigonometry/sine",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "sine"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-trig-missing-sides-angles",
+      "subtopic_id": "trigonometry/soh-cah-toa",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "soh-cah-toa"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-trig-missing-sides-angles",
+      "subtopic_id": "trigonometry/tangent",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "tangent"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-trigonometry-intro",
+      "subtopic_id": "trigonometry/cosine",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "cosine"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-trigonometry-intro",
+      "subtopic_id": "trigonometry/right-angled-triangles",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "right-angled triangles"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-trigonometry-intro",
+      "subtopic_id": "trigonometry/sine",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "sine"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "lesson_id": "math-trigonometry-intro",
+      "subtopic_id": "trigonometry/tangent",
+      "evidence_type": "lesson_subtopic_tag",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "tangent"
+      ],
+      "validation_notes": "Tag crosswalk candidate only; instructional relevance requires manual verification.",
+      "last_validated": "2026-11-08"
+    }
+  ],
+  "question_alignments": [
+    {
+      "question_id": "math-algebra-q1",
+      "lesson_id": "math-algebra-intro",
+      "subtopic_id": "algebra/simplifying-expressions",
+      "evidence_type": "question_review_topic",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "combining like terms"
+      ],
+      "validation_notes": "Question tag candidate only; question correctness, relevance and quality have not been independently reviewed.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "question_id": "math-algebra-q2",
+      "lesson_id": "math-algebra-intro",
+      "subtopic_id": "algebra/expanding-brackets",
+      "evidence_type": "question_review_topic",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "expanding brackets"
+      ],
+      "validation_notes": "Question tag candidate only; question correctness, relevance and quality have not been independently reviewed.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "question_id": "math-algebra-q3",
+      "lesson_id": "math-algebra-intro",
+      "subtopic_id": "algebra/linear-equations",
+      "evidence_type": "question_review_topic",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "linear equations"
+      ],
+      "validation_notes": "Question tag candidate only; question correctness, relevance and quality have not been independently reviewed.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "question_id": "math-calculus-q1",
+      "lesson_id": "math-calculus-intro",
+      "subtopic_id": "calculus/differentiating-polynomial-functions",
+      "evidence_type": "question_review_topic",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "polynomial differentiation"
+      ],
+      "validation_notes": "Question tag candidate only; question correctness, relevance and quality have not been independently reviewed.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "question_id": "math-calculus-q2",
+      "lesson_id": "math-calculus-intro",
+      "subtopic_id": "calculus/basic-integration-rules",
+      "evidence_type": "question_review_topic",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "basic integration"
+      ],
+      "validation_notes": "Question tag candidate only; question correctness, relevance and quality have not been independently reviewed.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "question_id": "math-calculus-q3",
+      "lesson_id": "math-calculus-intro",
+      "subtopic_id": "calculus/rates-of-change",
+      "evidence_type": "question_review_topic",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "derivatives as rates of change"
+      ],
+      "validation_notes": "Question tag candidate only; question correctness, relevance and quality have not been independently reviewed.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "question_id": "math-fractions-q1",
+      "lesson_id": "math-fractions-percentages-intro",
+      "subtopic_id": "fractions-decimals-percentages/adding-and-subtracting-fractions",
+      "evidence_type": "question_review_topic",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "fraction addition"
+      ],
+      "validation_notes": "Question tag candidate only; question correctness, relevance and quality have not been independently reviewed.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "question_id": "math-fractions-q2",
+      "lesson_id": "math-fractions-percentages-intro",
+      "subtopic_id": "fractions-decimals-percentages/converting-fractions-decimals-and-percentages",
+      "evidence_type": "question_review_topic",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "percentages"
+      ],
+      "validation_notes": "Question tag candidate only; question correctness, relevance and quality have not been independently reviewed.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "question_id": "math-fractions-q3",
+      "lesson_id": "math-fractions-percentages-intro",
+      "subtopic_id": "fractions-decimals-percentages/ratios",
+      "evidence_type": "question_review_topic",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "ratio simplification"
+      ],
+      "validation_notes": "Question tag candidate only; question correctness, relevance and quality have not been independently reviewed.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "question_id": "math-geometry-q1",
+      "lesson_id": "math-geometry-measurement-intro",
+      "subtopic_id": "geometry-measurement/triangles-and-their-properties",
+      "evidence_type": "question_review_topic",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "triangle angle sums"
+      ],
+      "validation_notes": "Question tag candidate only; question correctness, relevance and quality have not been independently reviewed.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "question_id": "math-geometry-q2",
+      "lesson_id": "math-geometry-measurement-intro",
+      "subtopic_id": "geometry-measurement/area",
+      "evidence_type": "question_review_topic",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "triangle area"
+      ],
+      "validation_notes": "Question tag candidate only; question correctness, relevance and quality have not been independently reviewed.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "question_id": "math-geometry-q3",
+      "lesson_id": "math-geometry-measurement-intro",
+      "subtopic_id": "geometry-measurement/volume",
+      "evidence_type": "question_review_topic",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "volume"
+      ],
+      "validation_notes": "Question tag candidate only; question correctness, relevance and quality have not been independently reviewed.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "question_id": "math-numbers-q2",
+      "lesson_id": "math-number-systems-intro",
+      "subtopic_id": "number-systems/order-of-operations",
+      "evidence_type": "question_review_topic",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "order of operations"
+      ],
+      "validation_notes": "Question tag candidate only; question correctness, relevance and quality have not been independently reviewed.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "question_id": "math-numbers-q3",
+      "lesson_id": "math-number-systems-intro",
+      "subtopic_id": "number-systems/order-of-operations",
+      "evidence_type": "question_review_topic",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "left-to-right multiplication and division"
+      ],
+      "validation_notes": "Question tag candidate only; question correctness, relevance and quality have not been independently reviewed.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "question_id": "math-probability-q1",
+      "lesson_id": "math-probability-intro",
+      "subtopic_id": "probability/basic-probability",
+      "evidence_type": "question_review_topic",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "basic probability"
+      ],
+      "validation_notes": "Question tag candidate only; question correctness, relevance and quality have not been independently reviewed.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "question_id": "math-probability-q2",
+      "lesson_id": "math-probability-intro",
+      "subtopic_id": "probability/sample-spaces",
+      "evidence_type": "question_review_topic",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "sample spaces and combined events"
+      ],
+      "validation_notes": "Question tag candidate only; question correctness, relevance and quality have not been independently reviewed.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "question_id": "math-probability-q3",
+      "lesson_id": "math-probability-intro",
+      "subtopic_id": "probability/complementary-events",
+      "evidence_type": "question_review_topic",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "complementary events"
+      ],
+      "validation_notes": "Question tag candidate only; question correctness, relevance and quality have not been independently reviewed.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "question_id": "math-statistics-q1",
+      "lesson_id": "math-statistics-intro",
+      "subtopic_id": "statistics/mean",
+      "evidence_type": "question_review_topic",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "mean"
+      ],
+      "validation_notes": "Question tag candidate only; question correctness, relevance and quality have not been independently reviewed.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "question_id": "math-statistics-q2",
+      "lesson_id": "math-statistics-intro",
+      "subtopic_id": "statistics/median",
+      "evidence_type": "question_review_topic",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "median"
+      ],
+      "validation_notes": "Question tag candidate only; question correctness, relevance and quality have not been independently reviewed.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "question_id": "math-statistics-q3",
+      "lesson_id": "math-statistics-intro",
+      "subtopic_id": "statistics/interpreting-distributions",
+      "evidence_type": "question_review_topic",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "resistant measures of centre"
+      ],
+      "validation_notes": "Question tag candidate only; question correctness, relevance and quality have not been independently reviewed.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "question_id": "math-trig-q1",
+      "lesson_id": "math-trigonometry-intro",
+      "subtopic_id": "trigonometry/sine",
+      "evidence_type": "question_review_topic",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "sine and right-triangle sides"
+      ],
+      "validation_notes": "Question tag candidate only; question correctness, relevance and quality have not been independently reviewed.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "question_id": "math-trig-q2",
+      "lesson_id": "math-trigonometry-intro",
+      "subtopic_id": "trigonometry/tangent",
+      "evidence_type": "question_review_topic",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "tangent ratio"
+      ],
+      "validation_notes": "Question tag candidate only; question correctness, relevance and quality have not been independently reviewed.",
+      "last_validated": "2026-11-08"
+    },
+    {
+      "question_id": "math-trig-q3",
+      "lesson_id": "math-trigonometry-intro",
+      "subtopic_id": "trigonometry/sine",
+      "evidence_type": "question_review_topic",
+      "alignment_status": "candidate_tag",
+      "source_tags": [
+        "sine and right-triangle sides"
+      ],
+      "validation_notes": "Question tag candidate only; question correctness, relevance and quality have not been independently reviewed.",
+      "last_validated": "2026-11-08"
+    }
+  ],
+  "inventory_notes": [
+    {
+      "subtopic_ids": [
+        "geometry-measurement/gradients",
+        "calculus/gradients"
+      ],
+      "decision": "retain_separately",
+      "reason": "The repeated display title refers to distinct concepts: coordinate-plane line gradient in geometry and derivative/function gradient in calculus. No inventory merge is justified."
+    },
+    {
+      "subtopic_ids": [
+        "geometry-measurement/transformations",
+        "geometry-measurement/reflection",
+        "geometry-measurement/rotation",
+        "geometry-measurement/translation",
+        "geometry-measurement/enlargement"
+      ],
+      "decision": "retain_parent_and_specific_outcomes",
+      "reason": "Transformations is the umbrella topic; reflection, rotation, translation and enlargement are distinct operations, not duplicates."
+    },
+    {
+      "subtopic_ids": [
+        "number-systems/prime-factorization",
+        "algebra/factorization"
+      ],
+      "decision": "retain_separately",
+      "reason": "Prime factorization of integers and algebraic expression factorization are different mathematical procedures."
+    }
+  ],
+  "lesson_alignment_audit": [
+    {
+      "lesson_id": "math-number-systems-intro",
+      "candidate_topic_ids": ["number-systems/natural-numbers", "number-systems/whole-numbers", "number-systems/integers", "number-systems/order-of-operations"],
+      "section_titles": ["Number sets", "Order of operations"],
+      "instructional_evidence": ["Classify common numbers as rational or irrational.", "Explain relationships among whole numbers, integers, rational numbers and real numbers.", "Evaluate expressions using grouping, powers and left-to-right operation rules."],
+      "alignment_status": "candidate_tag",
+      "validation_notes": "The lesson has broad set and operation objectives, but the reviewed lesson outline does not demonstrate full teaching of each candidate topic's defined scope.",
+      "missing_instructional_content": ["Explicit natural-versus-whole-number classification and boundary cases.", "Topic-specific worked examples, guided practice and a topic summary."]
+    },
+    {
+      "lesson_id": "math-number-lines-integers",
+      "candidate_topic_ids": ["number-systems/integers", "number-systems/positive-and-negative-numbers", "number-systems/number-lines", "number-systems/comparing-and-ordering-numbers"],
+      "section_titles": ["Direction and value", "Absolute value"],
+      "instructional_evidence": ["Place positive and negative integers on a number line.", "Compare integers using their positions.", "Explain absolute value as distance from zero."],
+      "alignment_status": "candidate_tag",
+      "validation_notes": "The objectives directly name integer positions, comparison and distance, but no topic relationship has been independently verified.",
+      "missing_instructional_content": ["Detailed scale interpretation, directed movement, subtraction of negatives and error-analysis evidence."]
+    },
+    {
+      "lesson_id": "math-factors-primes-powers",
+      "candidate_topic_ids": ["number-systems/factors", "number-systems/multiples", "number-systems/prime-numbers", "number-systems/composite-numbers", "number-systems/prime-factorization", "number-systems/highest-common-factor-hcf", "number-systems/lowest-common-multiple-lcm", "number-systems/exponents-and-powers", "number-systems/roots", "number-systems/squares-and-square-roots"],
+      "section_titles": ["Factors and prime numbers", "HCF, LCM and powers"],
+      "instructional_evidence": ["Distinguish factors from multiples.", "Express composite numbers as prime factors.", "Use prime factors to find HCF or LCM.", "Interpret a square and square root."],
+      "alignment_status": "candidate_tag",
+      "validation_notes": "The lesson combines several distinct topics; title/objective presence does not establish depth or complete topic coverage.",
+      "missing_instructional_content": ["Separate definitions, varied worked examples and outcomes for factors, multiples, prime/composite classification, prime factorization, HCF, LCM, indices and roots."]
+    },
+    {
+      "lesson_id": "math-number-natural-whole-foundations",
+      "candidate_topic_ids": ["number-systems/natural-numbers", "number-systems/whole-numbers", "number-systems/integers", "number-systems/positive-and-negative-numbers", "number-systems/number-lines", "number-systems/comparing-and-ordering-numbers"],
+      "section_titles": ["Natural, whole and integer sets", "Order, opposites and distance"],
+      "instructional_evidence": ["Distinguish natural numbers, whole numbers and integers.", "Locate integers and opposites on a number line.", "Compare signed integers by position.", "Explain absolute value as distance from zero."],
+      "alignment_status": "candidate_tag",
+      "validation_notes": "The lesson objectives and section titles offer relevant candidate evidence, but six topics are bundled and none has a separately approved alignment.",
+      "missing_instructional_content": ["More practice and an independent knowledge check for each topic; natural-number convention boundary; contextual signed changes."]
+    },
+    {
+      "lesson_id": "math-number-integer-operations",
+      "candidate_topic_ids": ["number-systems/integers", "number-systems/positive-and-negative-numbers", "number-systems/number-lines", "number-systems/comparing-and-ordering-numbers", "number-systems/applications-of-number-systems"],
+      "section_titles": ["Adding and subtracting as movement", "Multiplication and division signs", "Interpret the answer in its situation"],
+      "instructional_evidence": ["Represent signed changes with integers.", "Add and subtract integers using direction and distance.", "Use sign rules to multiply and divide.", "Check contextual answers for reasonable sign and size."],
+      "alignment_status": "candidate_tag",
+      "validation_notes": "The objectives support candidate links to signed operations and contexts; scope-level teaching and outcomes remain unverified.",
+      "missing_instructional_content": ["Worked examples and guided practice for each objective, including explicit subtracting-a-negative reasoning."]
+    },
+    {
+      "lesson_id": "math-number-divisibility-factorisation",
+      "candidate_topic_ids": ["number-systems/factors", "number-systems/multiples", "number-systems/prime-numbers", "number-systems/composite-numbers", "number-systems/prime-factorization", "number-systems/divisibility-rules"],
+      "section_titles": ["Factors and multiples are related but different", "Prime and composite numbers", "Factor trees and uniqueness"],
+      "instructional_evidence": ["Distinguish factors from multiples.", "Classify whole numbers greater than one as prime or composite.", "Use divisibility tests for 2, 3, 5, 9 and 10.", "Write composite numbers as products of prime factors."],
+      "alignment_status": "candidate_tag",
+      "validation_notes": "Section headings and objectives are topic-relevant candidate evidence; no instructional relationship has been approved.",
+      "missing_instructional_content": ["Varied divisibility applications, explicit prime/composite edge cases and outcome-specific independent assessment."]
+    },
+    {
+      "lesson_id": "math-number-hcf-lcm-applications",
+      "candidate_topic_ids": ["number-systems/highest-common-factor-hcf", "number-systems/lowest-common-multiple-lcm", "number-systems/applications-of-number-systems"],
+      "section_titles": ["Choose the operation from the situation", "Use prime powers"],
+      "instructional_evidence": ["Find HCF and LCM from prime factorisations.", "Choose HCF for equal grouping and LCM for repeating events.", "Explain why the selected result fits a word problem."],
+      "alignment_status": "candidate_tag",
+      "validation_notes": "Objectives correspond to candidate HCF/LCM/context outcomes, but alignment and completeness remain unreviewed.",
+      "missing_instructional_content": ["Separate HCF and LCM outcome checks and additional worked examples for list and prime-power methods."]
+    },
+    {
+      "lesson_id": "math-number-powers-indices",
+      "candidate_topic_ids": ["number-systems/exponents-and-powers"],
+      "section_titles": ["Base and index", "Index laws and their limits", "Standard form"],
+      "instructional_evidence": ["Interpret a power as repeated multiplication.", "Apply product and quotient laws for equal bases.", "Explain zero and negative integer indices for non-zero bases.", "Write positive numbers in standard form."],
+      "alignment_status": "candidate_tag",
+      "validation_notes": "The stated objectives span the profile scope but have not been independently reviewed for mathematical level or completeness.",
+      "missing_instructional_content": ["Additional worked examples and topic-specific practice covering every stated outcome."]
+    },
+    {
+      "lesson_id": "math-number-roots",
+      "candidate_topic_ids": ["number-systems/roots", "number-systems/squares-and-square-roots", "number-systems/cubes-and-cube-roots"],
+      "section_titles": ["Square and cube roots undo powers", "Perfect powers and estimation"],
+      "instructional_evidence": ["Relate square and cube roots to inverse powers.", "Recognise perfect squares and cubes.", "Estimate non-perfect roots between consecutive integer powers.", "Check roots by reversing the operation."],
+      "alignment_status": "candidate_tag",
+      "validation_notes": "Three distinct profiles share this lesson; headings and objectives are evidence candidates only.",
+      "missing_instructional_content": ["Separate square-root and cube-root practice, principal-root distinctions, signed cube-root examples and application checks."]
+    },
+    {
+      "lesson_id": "math-number-order-estimation",
+      "candidate_topic_ids": ["number-systems/order-of-operations", "number-systems/applications-of-number-systems"],
+      "section_titles": ["BODMAS is a grouping guide", "Estimate, calculate, check"],
+      "instructional_evidence": ["Apply grouping, powers and operation precedence.", "Evaluate multiplication and division left to right.", "Use estimation and inverse operations to check calculations."],
+      "alignment_status": "candidate_tag",
+      "validation_notes": "The lesson objectives provide candidate evidence; the application topic also depends on contextual outcomes not demonstrated by the order-of-operations lesson alone.",
+      "missing_instructional_content": ["Topic-specific assessment across all precedence cases and real-world number-system applications."]
+    }
+  ],
+  "topic_profiles": {
+    "number-systems/natural-numbers": {
+      "definition": "Counting numbers used to represent a count; conventions differ on whether zero is included.",
+      "learning_scope": "Use positive counting numbers for finite counts, state the convention for zero, and distinguish count from position or measurement.",
+      "expected_learning_outcomes": ["Classify positive counting numbers under a stated convention.", "Explain how including or excluding zero changes the natural-number set.", "Use a natural number to represent a count in a simple context."],
+      "prerequisite_knowledge": ["Count objects one-to-one.", "Recognize zero as an empty count."],
+      "concepts_to_teach": ["The positive counting sequence.", "The zero-included and positive-only conventions.", "Natural numbers as counts rather than signed changes."],
+      "skills": ["Classify values using a declared convention.", "Explain a boundary case such as zero.", "Translate a count context into a natural number."],
+      "misconceptions": ["Every text includes zero in the natural numbers.", "Zero represents a positive count."],
+      "assessment_objectives": ["classify-natural-numbers", "state-natural-number-convention", "interpret-natural-number-count", "reason-about-zero-boundary"],
+      "blueprint": {"practice": 2, "knowledge_check": 2, "application": 2, "higher_reasoning": 2}
+    },
+    "number-systems/whole-numbers": {
+      "definition": "The non-negative integers: zero and the positive counting numbers.",
+      "learning_scope": "Classify whole numbers, interpret zero in count contexts, and distinguish whole numbers from integers and non-integer values.",
+      "expected_learning_outcomes": ["Identify whole numbers in a mixed list.", "Explain why zero is a whole number.", "Distinguish a negative integer and a fraction from a whole number.", "Represent a whole-number count in a context."],
+      "prerequisite_knowledge": ["Count positive quantities.", "Recognize zero and negative signs."],
+      "concepts_to_teach": ["Whole-number set includes zero.", "Negative values and non-integers are outside the set.", "Whole numbers are a subset of integers."],
+      "skills": ["Classify a value by set membership.", "Use set inclusion to explain classification.", "Interpret zero as none in a count context."],
+      "misconceptions": ["Zero is not a number.", "All integers are whole numbers.", "A positive fraction is a whole number."],
+      "assessment_objectives": ["classify-whole-numbers", "explain-zero-membership", "distinguish-whole-from-integer", "model-whole-number-count"],
+      "blueprint": {"practice": 2, "knowledge_check": 2, "application": 2, "higher_reasoning": 2}
+    },
+    "number-systems/integers": {
+      "definition": "The set containing zero, positive whole numbers, and their negative opposites.",
+      "learning_scope": "Classify integers and use them in signed arithmetic, including addition, subtraction, multiplication, and division by non-zero integers.",
+      "expected_learning_outcomes": ["Identify integers and non-integers in a set.", "Add and subtract signed integers using direction or additive inverses.", "Multiply and divide non-zero integers using sign and magnitude.", "Explain why division by zero is undefined."],
+      "prerequisite_knowledge": ["Whole-number addition, subtraction, multiplication and division.", "Number-line direction and opposites."],
+      "concepts_to_teach": ["Integer membership.", "Additive inverse.", "Signed operation rules and division by zero."],
+      "skills": ["Classify signed values.", "Compute and justify integer operations.", "Check results using inverse operations."],
+      "misconceptions": ["A negative integer is not an integer.", "Subtracting always makes a number smaller.", "A negative times a negative is negative.", "Division by zero equals zero."],
+      "assessment_objectives": ["classify-integers", "add-subtract-integers", "multiply-divide-integers", "justify-integer-sign-rules", "identify-division-by-zero"],
+      "blueprint": {"practice": 2, "knowledge_check": 2, "application": 2, "higher_reasoning": 2}
+    },
+    "number-systems/positive-and-negative-numbers": {
+      "definition": "Signed numbers that indicate direction or position relative to a chosen reference value.",
+      "learning_scope": "Interpret signs in contexts, identify opposites and absolute value as distance, and calculate signed changes.",
+      "expected_learning_outcomes": ["Assign positive or negative values relative to a stated reference.", "Find the opposite and absolute value of an integer.", "Explain why subtracting a negative changes direction.", "Calculate a sequence of signed changes and interpret the result."],
+      "prerequisite_knowledge": ["Understand zero as a reference.", "Compare whole-number magnitudes."],
+      "concepts_to_teach": ["Reference points and direction.", "Opposites and additive inverse.", "Absolute value as distance.", "Subtraction as adding the opposite."],
+      "skills": ["Model signed quantities.", "Use absolute value and opposites.", "Compute and interpret signed changes."],
+      "misconceptions": ["A negative value is always less useful or smaller in magnitude.", "Absolute value retains the negative sign.", "Subtracting a negative moves left."],
+      "assessment_objectives": ["interpret-signed-context", "identify-opposites", "interpret-absolute-value", "subtract-negative-integer"],
+      "blueprint": {"practice": 2, "knowledge_check": 2, "application": 2, "higher_reasoning": 2}
+    },
+    "number-systems/number-lines": {
+      "definition": "A scale with equally spaced positions representing ordered numbers around a reference point.",
+      "learning_scope": "Read, label and use a number line to represent signed integers, opposites, distance, and arithmetic movement.",
+      "expected_learning_outcomes": ["Place zero and signed integers on an equally spaced line.", "Show an addition or subtraction as directed movement.", "Use equal spacing to locate opposites.", "Infer and explain an unknown point from labeled intervals.", "Distinguish a signed position from non-negative distance traveled."],
+      "prerequisite_knowledge": ["Count in equal steps.", "Read left-to-right order.", "Recognize zero as a reference."],
+      "concepts_to_teach": ["Equal intervals and scale.", "Direction and position.", "Distance versus signed displacement."],
+      "skills": ["Label and interpret a scale.", "Represent an operation as movement.", "Distinguish displacement from distance."],
+      "misconceptions": ["Tick marks can have unequal values without a changed scale.", "Moving left is always a negative final coordinate.", "Distance is signed."],
+      "assessment_objectives": ["read-integer-number-line", "represent-integer-movement", "locate-opposites", "infer-number-line-scale", "distinguish-position-and-distance"],
+      "blueprint": {"practice": 2, "knowledge_check": 2, "application": 2, "higher_reasoning": 2}
+    },
+    "number-systems/comparing-and-ordering-numbers": {
+      "definition": "Determining relative size and arranging values from least to greatest or greatest to least.",
+      "learning_scope": "Compare integers by number-line position and order signed values without confusing magnitude with value.",
+      "expected_learning_outcomes": ["Use <, >, and = correctly for signed integers.", "Order a mixed list of negative, zero and positive integers.", "Explain comparisons using position or distance from zero.", "Identify and correct an ordering error."],
+      "prerequisite_knowledge": ["Number-line positions.", "Positive and negative integer meanings."],
+      "concepts_to_teach": ["Rightward position means greater value.", "Negative values reverse the magnitude intuition.", "Zero separates negative and positive values."],
+      "skills": ["Compare and order signed integers.", "Justify a comparison.", "Diagnose magnitude-based errors."],
+      "misconceptions": ["-9 is greater than -2 because 9 > 2.", "Zero is positive or negative.", "The inequality symbol points toward the larger value."],
+      "assessment_objectives": ["compare-signed-integers", "order-signed-integers", "justify-integer-comparison", "diagnose-ordering-error"],
+      "blueprint": {"practice": 2, "knowledge_check": 2, "application": 2, "higher_reasoning": 2}
+    },
+    "number-systems/factors": {
+      "definition": "A positive whole number that divides another whole number exactly.",
+      "learning_scope": "Find and verify factor pairs, distinguish factors from multiples, and apply common factors to equal grouping.",
+      "expected_learning_outcomes": ["List all positive factors of a whole number.", "Verify a factor using exact division.", "Use factor pairs to identify a missing factor.", "Select a common factor to describe equal grouping."],
+      "prerequisite_knowledge": ["Multiplication and division facts.", "Interpret remainders."],
+      "concepts_to_teach": ["Exact divisibility.", "Finite positive factor sets.", "Factor pairs and common factors."],
+      "skills": ["Enumerate factor pairs systematically.", "Check completeness.", "Apply factors to grouping."],
+      "misconceptions": ["A number's multiples are its factors.", "A factor larger than the number is possible among positive factors.", "A remainder can be ignored."],
+      "assessment_objectives": ["list-positive-factors", "verify-factor-divisibility", "find-factor-pairs", "apply-factor-grouping"],
+      "blueprint": {"practice": 2, "knowledge_check": 2, "application": 2, "higher_reasoning": 2}
+    },
+    "number-systems/multiples": {
+      "definition": "Products of a number and an integer multiplier; positive multiples arise from positive whole-number multipliers.",
+      "learning_scope": "Generate multiples, test divisibility, and find common and least common multiples in repeated-event contexts.",
+      "expected_learning_outcomes": ["Generate positive multiples in sequence.", "Determine whether a value is a multiple by division or multiplication.", "Find a common multiple of two values.", "Explain why a selected common multiple is or is not the least."],
+      "prerequisite_knowledge": ["Multiplication facts.", "Recognize equal intervals and repeated cycles."],
+      "concepts_to_teach": ["Multiples continue without bound.", "Common multiples.", "Least common multiple."],
+      "skills": ["Generate and test multiples.", "Compare lists of multiples.", "Interpret repeated intervals."],
+      "misconceptions": ["A multiple is always smaller than its factor.", "Any common multiple is the LCM.", "Zero is the least positive multiple."],
+      "assessment_objectives": ["generate-multiples", "test-multiple-membership", "find-common-multiple", "justify-least-common-multiple"],
+      "blueprint": {"practice": 2, "knowledge_check": 2, "application": 2, "higher_reasoning": 2}
+    },
+    "number-systems/prime-numbers": {
+      "definition": "A whole number greater than one with exactly two positive factors: one and itself.",
+      "learning_scope": "Classify primes, explain the boundary cases zero and one, and use divisibility tests to check candidate factors.",
+      "expected_learning_outcomes": ["Classify a whole number greater than one as prime or composite.", "Explain why one is not prime.", "Check prime candidates using divisors up to the square root.", "Use primes as factors in a prime factorisation."],
+      "prerequisite_knowledge": ["Factors and exact division.", "Square numbers and approximate square roots."],
+      "concepts_to_teach": ["Exactly two positive factors.", "One is neither prime nor composite.", "Prime testing and prime building blocks."],
+      "skills": ["Test divisors efficiently.", "Explain classification.", "Recognize primes in factor trees."],
+      "misconceptions": ["One is prime.", "Every odd number is prime.", "A number is prime if no small divisor was tried."],
+      "assessment_objectives": ["classify-primes", "explain-one-not-prime", "test-prime-candidate", "identify-prime-factors"],
+      "blueprint": {"practice": 2, "knowledge_check": 2, "application": 2, "higher_reasoning": 2}
+    },
+    "number-systems/composite-numbers": {
+      "definition": "A whole number greater than one with more than two positive factors.",
+      "learning_scope": "Identify a non-trivial factor pair as evidence of compositeness and distinguish composite values from one and primes.",
+      "expected_learning_outcomes": ["Classify composite values using a non-trivial factor pair.", "Explain why one is not composite.", "Find a divisor that disproves a prime claim.", "Relate composite values to products of primes."],
+      "prerequisite_knowledge": ["Factor pairs.", "Prime-number definition."],
+      "concepts_to_teach": ["More than two positive factors.", "Counterexample by divisor.", "Prime factor decomposition."],
+      "skills": ["Find a witness factor.", "Explain classification boundaries.", "Build a factorisation."],
+      "misconceptions": ["One is composite.", "All even numbers are composite including 2.", "Odd means prime."],
+      "assessment_objectives": ["classify-composites", "justify-composite-witness", "distinguish-one-and-composite", "factor-composite-number"],
+      "blueprint": {"practice": 2, "knowledge_check": 2, "application": 2, "higher_reasoning": 2}
+    },
+    "number-systems/prime-factorization": {
+      "definition": "A representation of a composite positive integer as a product of prime factors.",
+      "learning_scope": "Construct, check and use prime factorisations, including index notation for repeated primes.",
+      "expected_learning_outcomes": ["Build a factor tree until all leaves are prime.", "Write repeated prime factors using powers.", "Verify a factorisation by multiplication.", "Use prime powers to compare factor structures."],
+      "prerequisite_knowledge": ["Factors, primes and multiplication.", "Exponents as repeated factors."],
+      "concepts_to_teach": ["Factor trees.", "Prime leaves.", "Uniqueness up to order.", "Index notation."],
+      "skills": ["Factor systematically.", "Collect repeated primes.", "Check reconstruction."],
+      "misconceptions": ["Stop at a composite leaf.", "Different tree shapes imply different prime factorisations.", "Forget multiplicity when listing primes."],
+      "assessment_objectives": ["construct-prime-factorisation", "use-prime-index-notation", "verify-prime-factorisation", "compare-prime-factor-structures"],
+      "blueprint": {"practice": 2, "knowledge_check": 2, "application": 2, "higher_reasoning": 2}
+    },
+    "number-systems/divisibility-rules": {
+      "definition": "Tests that determine exact divisibility by using digit structure or place value.",
+      "learning_scope": "Apply and justify divisibility rules for 2, 3, 5, 9 and 10; use tests to identify factors and simplify calculations.",
+      "expected_learning_outcomes": ["Apply the last-digit tests for 2, 5 and 10.", "Apply digit-sum tests for 3 and 9.", "Determine divisibility by more than one divisor.", "Explain a divisibility result using the relevant rule."],
+      "prerequisite_knowledge": ["Place value and digit sums.", "Factors and remainders."],
+      "concepts_to_teach": ["Even last digit.", "Final digit 0 or 5.", "Digit-sum divisibility.", "Combined conditions."],
+      "skills": ["Select an appropriate test.", "Check multiple conditions.", "Explain why a test applies."],
+      "misconceptions": ["Digit-sum rule checks only the last digit.", "Divisibility by 3 implies divisibility by 9.", "A test gives the quotient."],
+      "assessment_objectives": ["test-divisibility-2-5-10", "test-divisibility-3-9", "combine-divisibility-tests", "justify-divisibility-rule"],
+      "blueprint": {"practice": 2, "knowledge_check": 2, "application": 2, "higher_reasoning": 2}
+    },
+    "number-systems/highest-common-factor-hcf": {
+      "definition": "The greatest positive integer that divides each number in a specified set exactly.",
+      "learning_scope": "Find HCFs by factor lists or prime powers, verify the result, and apply it to largest equal groups or pieces.",
+      "expected_learning_outcomes": ["Find common factors and select the greatest.", "Find HCF using prime factorisations.", "Verify that the HCF divides every input.", "Model a largest-equal-group context using HCF."],
+      "prerequisite_knowledge": ["Factors and prime factorisation.", "Interpret equal groups and no remainders."],
+      "concepts_to_teach": ["Common divisors.", "Largest common divisor.", "Minimum shared prime powers."],
+      "skills": ["Compute HCF.", "Check divisibility.", "Choose HCF from a context."],
+      "misconceptions": ["HCF is the largest input.", "Use maximum prime powers for HCF.", "Confuse HCF with LCM."],
+      "assessment_objectives": ["find-hcf-by-factors", "find-hcf-by-prime-powers", "verify-hcf", "apply-hcf-grouping"],
+      "blueprint": {"practice": 2, "knowledge_check": 2, "application": 2, "higher_reasoning": 2}
+    },
+    "number-systems/lowest-common-multiple-lcm": {
+      "definition": "The least positive integer that is a multiple of each number in a specified set.",
+      "learning_scope": "Find LCMs by listing multiples or prime powers, verify the result, and apply it to repeating intervals.",
+      "expected_learning_outcomes": ["Identify a shared positive multiple.", "Find the least common multiple using prime powers.", "Verify the LCM is divisible by each input.", "Model the first coincidence of repeating events."],
+      "prerequisite_knowledge": ["Multiples and prime factorisation.", "Interpret repeated intervals."],
+      "concepts_to_teach": ["Common multiples.", "Least positive shared value.", "Maximum prime powers."],
+      "skills": ["Compute and verify LCM.", "Distinguish least from any shared multiple.", "Choose LCM in a cycle context."],
+      "misconceptions": ["Any common multiple is the LCM.", "LCM uses only shared primes.", "HCF and LCM use the same prime powers."],
+      "assessment_objectives": ["find-lcm-by-lists", "find-lcm-by-prime-powers", "verify-lcm", "apply-lcm-repeating-events"],
+      "blueprint": {"practice": 2, "knowledge_check": 2, "application": 2, "higher_reasoning": 2}
+    },
+    "number-systems/order-of-operations": {
+      "definition": "A convention for evaluating grouped numerical expressions consistently.",
+      "learning_scope": "Evaluate expressions with grouping, powers, roots and the four operations, respecting shared precedence and left-to-right order.",
+      "expected_learning_outcomes": ["Evaluate nested brackets from the inside outward.", "Apply powers and roots before multiplication or division.", "Evaluate multiplication/division left to right.", "Evaluate addition/subtraction left to right and check by estimation."],
+      "prerequisite_knowledge": ["Four operations with integers.", "Powers and grouping symbols."],
+      "concepts_to_teach": ["Grouping first.", "Orders next.", "Shared precedence for multiplication/division and addition/subtraction.", "Estimation as reasonableness check."],
+      "skills": ["Show ordered steps.", "Identify and repair precedence errors.", "Estimate and verify results."],
+      "misconceptions": ["BODMAS means multiplication always precedes division.", "Addition always precedes subtraction.", "An estimate is the exact answer."],
+      "assessment_objectives": ["evaluate-nested-expression", "apply-shared-precedence", "diagnose-order-error", "estimate-and-check-expression"],
+      "blueprint": {"practice": 2, "knowledge_check": 2, "application": 2, "higher_reasoning": 2}
+    },
+    "number-systems/exponents-and-powers": {
+      "definition": "A power represents repeated multiplication of equal bases, with index laws extending the notation for non-zero bases.",
+      "learning_scope": "Interpret bases and indices; evaluate powers; apply product, quotient, zero and negative-index laws; express positive quantities in standard form.",
+      "expected_learning_outcomes": ["Identify the base and index in a power.", "Evaluate integer powers and apply equal-base index laws.", "Explain zero and negative indices for non-zero bases.", "Convert large and small positive quantities to standard form."],
+      "prerequisite_knowledge": ["Repeated multiplication and division.", "Place value and powers of ten."],
+      "concepts_to_teach": ["Base/index meaning.", "Product and quotient laws.", "Zero and negative indices.", "Standard form A×10ⁿ with 1≤A<10."],
+      "skills": ["Simplify powers.", "State law conditions.", "Normalize standard form and check exponent sign."],
+      "misconceptions": ["aⁿ means a×n.", "Index laws apply across different bases.", "a⁰=0.", "Negative index means a negative value."],
+      "assessment_objectives": ["identify-base-and-index", "evaluate-integer-powers", "apply-index-laws", "interpret-zero-negative-index", "convert-standard-form"],
+      "blueprint": {"practice": 2, "knowledge_check": 2, "application": 2, "higher_reasoning": 2}
+    },
+    "number-systems/roots": {
+      "definition": "A root is an inverse-power value; the principal square root is non-negative while odd roots preserve sign.",
+      "learning_scope": "Evaluate square and cube roots, distinguish principal roots from equation solutions, and estimate non-perfect roots by neighboring powers.",
+      "expected_learning_outcomes": ["Evaluate exact square and cube roots.", "Distinguish √a from solutions of x²=a.", "Bracket a non-perfect root between consecutive integer powers.", "Refine and verify a decimal root estimate."],
+      "prerequisite_knowledge": ["Integer squares and cubes.", "Compare and round decimal values."],
+      "concepts_to_teach": ["Inverse operations.", "Principal square root.", "Odd-root sign.", "Root estimates and approximation."],
+      "skills": ["Evaluate and check roots.", "Bracket roots.", "Round estimates without claiming exactness."],
+      "misconceptions": ["√25 equals ±5.", "A negative number has a real square root.", "All roots are integers.", "Approximation uses an equals sign."],
+      "assessment_objectives": ["evaluate-square-cube-roots", "distinguish-principal-root", "bracket-root", "estimate-and-check-root"],
+      "blueprint": {"practice": 2, "knowledge_check": 2, "application": 2, "higher_reasoning": 2}
+    },
+    "number-systems/squares-and-square-roots": {
+      "definition": "A square is n²; a perfect square has an integer square root, and √x denotes the non-negative principal root for x≥0.",
+      "learning_scope": "Relate square arrays and areas to squares, recognize perfect squares, evaluate principal roots and solve simple square equations.",
+      "expected_learning_outcomes": ["Generate and recognize perfect squares.", "Evaluate principal square roots.", "Explain the two solutions of x²=a for positive perfect squares.", "Use area to determine a square's side length."],
+      "prerequisite_knowledge": ["Multiplication facts.", "Area of a square as side×side."],
+      "concepts_to_teach": ["Square as repeated multiplication/area.", "Perfect-square sequence.", "Principal root versus equation roots."],
+      "skills": ["Calculate squares and roots.", "Use adjacent squares to estimate.", "Interpret square area."],
+      "misconceptions": ["The square root symbol returns both signs.", "A square number must look like an even number.", "Side length and area have the same unit."],
+      "assessment_objectives": ["recognize-perfect-squares", "evaluate-principal-square-root", "solve-square-equation", "apply-square-area"],
+      "blueprint": {"practice": 2, "knowledge_check": 2, "application": 2, "higher_reasoning": 2}
+    },
+    "number-systems/cubes-and-cube-roots": {
+      "definition": "A cube is n³; a perfect cube has an integer cube root, which may be negative for a negative input.",
+      "learning_scope": "Evaluate cubes and cube roots, recognize perfect cubes and model cubic volume with equal unit cubes.",
+      "expected_learning_outcomes": ["Calculate integer cubes including negative bases.", "Recognize perfect cubes and evaluate their roots.", "Explain why the cube root of a negative number is negative.", "Find a cube's edge from its volume."],
+      "prerequisite_knowledge": ["Multiplication and square-number facts.", "Volume of a cube as side³."],
+      "concepts_to_teach": ["Three repeated factors.", "Signed cube behavior.", "Perfect-cube sequence.", "Volume and edge length."],
+      "skills": ["Evaluate cubes and roots.", "Check by cubing.", "Apply cube volume."],
+      "misconceptions": ["(-a)³ is positive.", "Cube root discards the sign.", "Square and cube roots behave identically for negative inputs."],
+      "assessment_objectives": ["evaluate-integer-cubes", "identify-perfect-cubes", "evaluate-signed-cube-roots", "apply-cube-volume"],
+      "blueprint": {"practice": 2, "knowledge_check": 2, "application": 2, "higher_reasoning": 2}
+    },
+    "number-systems/applications-of-number-systems": {
+      "definition": "Using number sets and operations to represent and solve quantitative situations.",
+      "learning_scope": "Model temperature, financial change, elevation, repeated schedules, equal grouping and multi-step calculations with suitable number concepts.",
+      "expected_learning_outcomes": ["Choose signed values relative to a reference in context.", "Solve and interpret a multi-step signed change.", "Select HCF or LCM for a grouping or repeating-event problem.", "Estimate and check a contextual numerical answer with units."],
+      "prerequisite_knowledge": ["Integer operations.", "Factors, multiples, HCF and LCM.", "Estimation and units."],
+      "concepts_to_teach": ["Reference values and signed changes.", "Equal grouping versus recurring cycles.", "Operation order and reasonableness."],
+      "skills": ["Translate contexts into expressions.", "Select an appropriate operation/model.", "Interpret units and check results."],
+      "misconceptions": ["The sign of a change is the final sign.", "Use LCM for equal grouping.", "Ignore units or order of operations."],
+      "assessment_objectives": ["model-signed-context", "solve-multistep-context", "choose-hcf-lcm-context", "estimate-and-interpret-result"],
+      "blueprint": {"practice": 2, "knowledge_check": 2, "application": 2, "higher_reasoning": 2}
+    }
+  },
+  "subtopic_records": [
+    {
+      "id": "number-systems/natural-numbers",
+      "subject": "Mathematics",
+      "level_id": "beginner",
+      "unit_id": "number-systems",
+      "title": "Natural numbers",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "number-systems/whole-numbers",
+      "subject": "Mathematics",
+      "level_id": "beginner",
+      "unit_id": "number-systems",
+      "title": "Whole numbers",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "number-systems/integers",
+      "subject": "Mathematics",
+      "level_id": "beginner",
+      "unit_id": "number-systems",
+      "title": "Integers",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "number-systems/positive-and-negative-numbers",
+      "subject": "Mathematics",
+      "level_id": "beginner",
+      "unit_id": "number-systems",
+      "title": "Positive and negative numbers",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "number-systems/number-lines",
+      "subject": "Mathematics",
+      "level_id": "beginner",
+      "unit_id": "number-systems",
+      "title": "Number lines",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "number-systems/comparing-and-ordering-numbers",
+      "subject": "Mathematics",
+      "level_id": "beginner",
+      "unit_id": "number-systems",
+      "title": "Comparing and ordering numbers",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "number-systems/factors",
+      "subject": "Mathematics",
+      "level_id": "beginner",
+      "unit_id": "number-systems",
+      "title": "Factors",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "number-systems/multiples",
+      "subject": "Mathematics",
+      "level_id": "beginner",
+      "unit_id": "number-systems",
+      "title": "Multiples",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "number-systems/prime-numbers",
+      "subject": "Mathematics",
+      "level_id": "beginner",
+      "unit_id": "number-systems",
+      "title": "Prime numbers",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "number-systems/composite-numbers",
+      "subject": "Mathematics",
+      "level_id": "beginner",
+      "unit_id": "number-systems",
+      "title": "Composite numbers",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "number-systems/prime-factorization",
+      "subject": "Mathematics",
+      "level_id": "beginner",
+      "unit_id": "number-systems",
+      "title": "Prime factorization",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "number-systems/divisibility-rules",
+      "subject": "Mathematics",
+      "level_id": "beginner",
+      "unit_id": "number-systems",
+      "title": "Divisibility rules",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "number-systems/highest-common-factor-hcf",
+      "subject": "Mathematics",
+      "level_id": "beginner",
+      "unit_id": "number-systems",
+      "title": "Highest common factor (HCF)",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "number-systems/lowest-common-multiple-lcm",
+      "subject": "Mathematics",
+      "level_id": "beginner",
+      "unit_id": "number-systems",
+      "title": "Lowest common multiple (LCM)",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "number-systems/order-of-operations",
+      "subject": "Mathematics",
+      "level_id": "beginner",
+      "unit_id": "number-systems",
+      "title": "Order of operations",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "number-systems/exponents-and-powers",
+      "subject": "Mathematics",
+      "level_id": "beginner",
+      "unit_id": "number-systems",
+      "title": "Exponents and powers",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "number-systems/roots",
+      "subject": "Mathematics",
+      "level_id": "beginner",
+      "unit_id": "number-systems",
+      "title": "Roots",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "number-systems/squares-and-square-roots",
+      "subject": "Mathematics",
+      "level_id": "beginner",
+      "unit_id": "number-systems",
+      "title": "Squares and square roots",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "number-systems/cubes-and-cube-roots",
+      "subject": "Mathematics",
+      "level_id": "beginner",
+      "unit_id": "number-systems",
+      "title": "Cubes and cube roots",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "number-systems/applications-of-number-systems",
+      "subject": "Mathematics",
+      "level_id": "beginner",
+      "unit_id": "number-systems",
+      "title": "Applications of number systems",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "fractions-decimals-percentages/understanding-fractions",
+      "subject": "Mathematics",
+      "level_id": "beginner",
+      "unit_id": "fractions-decimals-percentages",
+      "title": "Understanding fractions",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "fractions-decimals-percentages/equivalent-fractions",
+      "subject": "Mathematics",
+      "level_id": "beginner",
+      "unit_id": "fractions-decimals-percentages",
+      "title": "Equivalent fractions",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "fractions-decimals-percentages/simplifying-fractions",
+      "subject": "Mathematics",
+      "level_id": "beginner",
+      "unit_id": "fractions-decimals-percentages",
+      "title": "Simplifying fractions",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "fractions-decimals-percentages/comparing-fractions",
+      "subject": "Mathematics",
+      "level_id": "beginner",
+      "unit_id": "fractions-decimals-percentages",
+      "title": "Comparing fractions",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "fractions-decimals-percentages/ordering-fractions",
+      "subject": "Mathematics",
+      "level_id": "beginner",
+      "unit_id": "fractions-decimals-percentages",
+      "title": "Ordering fractions",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "fractions-decimals-percentages/adding-and-subtracting-fractions",
+      "subject": "Mathematics",
+      "level_id": "beginner",
+      "unit_id": "fractions-decimals-percentages",
+      "title": "Adding and subtracting fractions",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "fractions-decimals-percentages/multiplying-and-dividing-fractions",
+      "subject": "Mathematics",
+      "level_id": "beginner",
+      "unit_id": "fractions-decimals-percentages",
+      "title": "Multiplying and dividing fractions",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "fractions-decimals-percentages/mixed-numbers-and-improper-fractions",
+      "subject": "Mathematics",
+      "level_id": "beginner",
+      "unit_id": "fractions-decimals-percentages",
+      "title": "Mixed numbers and improper fractions",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "fractions-decimals-percentages/decimal-notation-and-place-value",
+      "subject": "Mathematics",
+      "level_id": "beginner",
+      "unit_id": "fractions-decimals-percentages",
+      "title": "Decimal notation and place value",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "fractions-decimals-percentages/decimal-operations",
+      "subject": "Mathematics",
+      "level_id": "beginner",
+      "unit_id": "fractions-decimals-percentages",
+      "title": "Decimal operations",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "fractions-decimals-percentages/converting-fractions-decimals-and-percentages",
+      "subject": "Mathematics",
+      "level_id": "beginner",
+      "unit_id": "fractions-decimals-percentages",
+      "title": "Converting fractions, decimals and percentages",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "fractions-decimals-percentages/percentage-increase-and-decrease",
+      "subject": "Mathematics",
+      "level_id": "beginner",
+      "unit_id": "fractions-decimals-percentages",
+      "title": "Percentage increase and decrease",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "fractions-decimals-percentages/percentage-change",
+      "subject": "Mathematics",
+      "level_id": "beginner",
+      "unit_id": "fractions-decimals-percentages",
+      "title": "Percentage change",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "fractions-decimals-percentages/discount-applications",
+      "subject": "Mathematics",
+      "level_id": "beginner",
+      "unit_id": "fractions-decimals-percentages",
+      "title": "Discount applications",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "fractions-decimals-percentages/profit-and-loss-applications",
+      "subject": "Mathematics",
+      "level_id": "beginner",
+      "unit_id": "fractions-decimals-percentages",
+      "title": "Profit and loss applications",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "fractions-decimals-percentages/ratios",
+      "subject": "Mathematics",
+      "level_id": "beginner",
+      "unit_id": "fractions-decimals-percentages",
+      "title": "Ratios",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "fractions-decimals-percentages/proportions",
+      "subject": "Mathematics",
+      "level_id": "beginner",
+      "unit_id": "fractions-decimals-percentages",
+      "title": "Proportions",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "fractions-decimals-percentages/rates",
+      "subject": "Mathematics",
+      "level_id": "beginner",
+      "unit_id": "fractions-decimals-percentages",
+      "title": "Rates",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "fractions-decimals-percentages/unit-rates",
+      "subject": "Mathematics",
+      "level_id": "beginner",
+      "unit_id": "fractions-decimals-percentages",
+      "title": "Unit rates",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "fractions-decimals-percentages/direct-proportion",
+      "subject": "Mathematics",
+      "level_id": "beginner",
+      "unit_id": "fractions-decimals-percentages",
+      "title": "Direct proportion",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "fractions-decimals-percentages/inverse-proportion",
+      "subject": "Mathematics",
+      "level_id": "beginner",
+      "unit_id": "fractions-decimals-percentages",
+      "title": "Inverse proportion",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "fractions-decimals-percentages/real-world-applications-of-fractions-and-ratios",
+      "subject": "Mathematics",
+      "level_id": "beginner",
+      "unit_id": "fractions-decimals-percentages",
+      "title": "Real-world applications of fractions and ratios",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "algebra/variables-and-algebraic-notation",
+      "subject": "Mathematics",
+      "level_id": "elementary",
+      "unit_id": "algebra",
+      "title": "Variables and algebraic notation",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "algebra/algebraic-expressions",
+      "subject": "Mathematics",
+      "level_id": "elementary",
+      "unit_id": "algebra",
+      "title": "Algebraic expressions",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "algebra/simplifying-expressions",
+      "subject": "Mathematics",
+      "level_id": "elementary",
+      "unit_id": "algebra",
+      "title": "Simplifying expressions",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "algebra/substitution",
+      "subject": "Mathematics",
+      "level_id": "elementary",
+      "unit_id": "algebra",
+      "title": "Substitution",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "algebra/expanding-brackets",
+      "subject": "Mathematics",
+      "level_id": "elementary",
+      "unit_id": "algebra",
+      "title": "Expanding brackets",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "algebra/factorization",
+      "subject": "Mathematics",
+      "level_id": "elementary",
+      "unit_id": "algebra",
+      "title": "Factorization",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "algebra/linear-equations",
+      "subject": "Mathematics",
+      "level_id": "elementary",
+      "unit_id": "algebra",
+      "title": "Linear equations",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "algebra/equations-involving-brackets",
+      "subject": "Mathematics",
+      "level_id": "elementary",
+      "unit_id": "algebra",
+      "title": "Equations involving brackets",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "algebra/equations-involving-fractions",
+      "subject": "Mathematics",
+      "level_id": "elementary",
+      "unit_id": "algebra",
+      "title": "Equations involving fractions",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "algebra/inequalities",
+      "subject": "Mathematics",
+      "level_id": "elementary",
+      "unit_id": "algebra",
+      "title": "Inequalities",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "algebra/number-line-representation-of-inequalities",
+      "subject": "Mathematics",
+      "level_id": "elementary",
+      "unit_id": "algebra",
+      "title": "Number-line representation of inequalities",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "algebra/simultaneous-linear-equations",
+      "subject": "Mathematics",
+      "level_id": "elementary",
+      "unit_id": "algebra",
+      "title": "Simultaneous linear equations",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "algebra/graphical-methods-for-simultaneous-equations",
+      "subject": "Mathematics",
+      "level_id": "elementary",
+      "unit_id": "algebra",
+      "title": "Graphical methods for simultaneous equations",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "algebra/algebraic-methods-for-simultaneous-equations",
+      "subject": "Mathematics",
+      "level_id": "elementary",
+      "unit_id": "algebra",
+      "title": "Algebraic methods for simultaneous equations",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "algebra/quadratic-expressions",
+      "subject": "Mathematics",
+      "level_id": "elementary",
+      "unit_id": "algebra",
+      "title": "Quadratic expressions",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "algebra/factorizing-quadratic-expressions",
+      "subject": "Mathematics",
+      "level_id": "elementary",
+      "unit_id": "algebra",
+      "title": "Factorizing quadratic expressions",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "algebra/solving-quadratic-equations",
+      "subject": "Mathematics",
+      "level_id": "elementary",
+      "unit_id": "algebra",
+      "title": "Solving quadratic equations",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "algebra/sequences-and-patterns",
+      "subject": "Mathematics",
+      "level_id": "elementary",
+      "unit_id": "algebra",
+      "title": "Sequences and patterns",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "algebra/arithmetic-sequences",
+      "subject": "Mathematics",
+      "level_id": "elementary",
+      "unit_id": "algebra",
+      "title": "Arithmetic sequences",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "algebra/geometric-sequences",
+      "subject": "Mathematics",
+      "level_id": "elementary",
+      "unit_id": "algebra",
+      "title": "Geometric sequences",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "algebra/applications-of-algebra",
+      "subject": "Mathematics",
+      "level_id": "elementary",
+      "unit_id": "algebra",
+      "title": "Applications of algebra",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "geometry-measurement/points",
+      "subject": "Mathematics",
+      "level_id": "elementary",
+      "unit_id": "geometry-measurement",
+      "title": "Points",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "geometry-measurement/lines-rays-and-line-segments",
+      "subject": "Mathematics",
+      "level_id": "elementary",
+      "unit_id": "geometry-measurement",
+      "title": "Lines, rays and line segments",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "geometry-measurement/types-of-angles",
+      "subject": "Mathematics",
+      "level_id": "elementary",
+      "unit_id": "geometry-measurement",
+      "title": "Types of angles",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "geometry-measurement/angle-relationships",
+      "subject": "Mathematics",
+      "level_id": "elementary",
+      "unit_id": "geometry-measurement",
+      "title": "Angle relationships",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "geometry-measurement/parallel-and-perpendicular-lines",
+      "subject": "Mathematics",
+      "level_id": "elementary",
+      "unit_id": "geometry-measurement",
+      "title": "Parallel and perpendicular lines",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "geometry-measurement/triangles-and-their-properties",
+      "subject": "Mathematics",
+      "level_id": "elementary",
+      "unit_id": "geometry-measurement",
+      "title": "Triangles and their properties",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "geometry-measurement/congruence",
+      "subject": "Mathematics",
+      "level_id": "elementary",
+      "unit_id": "geometry-measurement",
+      "title": "Congruence",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "geometry-measurement/similarity",
+      "subject": "Mathematics",
+      "level_id": "elementary",
+      "unit_id": "geometry-measurement",
+      "title": "Similarity",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "geometry-measurement/quadrilaterals",
+      "subject": "Mathematics",
+      "level_id": "elementary",
+      "unit_id": "geometry-measurement",
+      "title": "Quadrilaterals",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "geometry-measurement/polygons",
+      "subject": "Mathematics",
+      "level_id": "elementary",
+      "unit_id": "geometry-measurement",
+      "title": "Polygons",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "geometry-measurement/perimeter",
+      "subject": "Mathematics",
+      "level_id": "elementary",
+      "unit_id": "geometry-measurement",
+      "title": "Perimeter",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "geometry-measurement/area",
+      "subject": "Mathematics",
+      "level_id": "elementary",
+      "unit_id": "geometry-measurement",
+      "title": "Area",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "geometry-measurement/circle-properties",
+      "subject": "Mathematics",
+      "level_id": "elementary",
+      "unit_id": "geometry-measurement",
+      "title": "Circle properties",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "geometry-measurement/circumference",
+      "subject": "Mathematics",
+      "level_id": "elementary",
+      "unit_id": "geometry-measurement",
+      "title": "Circumference",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "geometry-measurement/area-of-circles",
+      "subject": "Mathematics",
+      "level_id": "elementary",
+      "unit_id": "geometry-measurement",
+      "title": "Area of circles",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "geometry-measurement/surface-area",
+      "subject": "Mathematics",
+      "level_id": "elementary",
+      "unit_id": "geometry-measurement",
+      "title": "Surface area",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "geometry-measurement/volume",
+      "subject": "Mathematics",
+      "level_id": "elementary",
+      "unit_id": "geometry-measurement",
+      "title": "Volume",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "geometry-measurement/units-and-conversions",
+      "subject": "Mathematics",
+      "level_id": "elementary",
+      "unit_id": "geometry-measurement",
+      "title": "Units and conversions",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "geometry-measurement/coordinate-geometry",
+      "subject": "Mathematics",
+      "level_id": "elementary",
+      "unit_id": "geometry-measurement",
+      "title": "Coordinate geometry",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "geometry-measurement/gradients",
+      "subject": "Mathematics",
+      "level_id": "elementary",
+      "unit_id": "geometry-measurement",
+      "title": "Gradients",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "geometry-measurement/transformations",
+      "subject": "Mathematics",
+      "level_id": "elementary",
+      "unit_id": "geometry-measurement",
+      "title": "Transformations",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "geometry-measurement/reflection",
+      "subject": "Mathematics",
+      "level_id": "elementary",
+      "unit_id": "geometry-measurement",
+      "title": "Reflection",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "geometry-measurement/rotation",
+      "subject": "Mathematics",
+      "level_id": "elementary",
+      "unit_id": "geometry-measurement",
+      "title": "Rotation",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "geometry-measurement/translation",
+      "subject": "Mathematics",
+      "level_id": "elementary",
+      "unit_id": "geometry-measurement",
+      "title": "Translation",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "geometry-measurement/enlargement",
+      "subject": "Mathematics",
+      "level_id": "elementary",
+      "unit_id": "geometry-measurement",
+      "title": "Enlargement",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "geometry-measurement/geometric-reasoning-and-applications",
+      "subject": "Mathematics",
+      "level_id": "elementary",
+      "unit_id": "geometry-measurement",
+      "title": "Geometric reasoning and applications",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "trigonometry/right-angled-triangles",
+      "subject": "Mathematics",
+      "level_id": "intermediate",
+      "unit_id": "trigonometry",
+      "title": "Right-angled triangles",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "trigonometry/pythagoras-theorem",
+      "subject": "Mathematics",
+      "level_id": "intermediate",
+      "unit_id": "trigonometry",
+      "title": "Pythagoras' theorem",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "trigonometry/sine",
+      "subject": "Mathematics",
+      "level_id": "intermediate",
+      "unit_id": "trigonometry",
+      "title": "Sine",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "trigonometry/cosine",
+      "subject": "Mathematics",
+      "level_id": "intermediate",
+      "unit_id": "trigonometry",
+      "title": "Cosine",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "trigonometry/tangent",
+      "subject": "Mathematics",
+      "level_id": "intermediate",
+      "unit_id": "trigonometry",
+      "title": "Tangent",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "trigonometry/soh-cah-toa",
+      "subject": "Mathematics",
+      "level_id": "intermediate",
+      "unit_id": "trigonometry",
+      "title": "SOH-CAH-TOA",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "trigonometry/finding-missing-sides",
+      "subject": "Mathematics",
+      "level_id": "intermediate",
+      "unit_id": "trigonometry",
+      "title": "Finding missing sides",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "trigonometry/finding-missing-angles",
+      "subject": "Mathematics",
+      "level_id": "intermediate",
+      "unit_id": "trigonometry",
+      "title": "Finding missing angles",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "trigonometry/angles-of-elevation-and-depression",
+      "subject": "Mathematics",
+      "level_id": "intermediate",
+      "unit_id": "trigonometry",
+      "title": "Angles of elevation and depression",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "trigonometry/bearings-and-practical-applications",
+      "subject": "Mathematics",
+      "level_id": "intermediate",
+      "unit_id": "trigonometry",
+      "title": "Bearings and practical applications",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "trigonometry/trigonometric-graphs",
+      "subject": "Mathematics",
+      "level_id": "intermediate",
+      "unit_id": "trigonometry",
+      "title": "Trigonometric graphs",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "trigonometry/trigonometric-identities",
+      "subject": "Mathematics",
+      "level_id": "intermediate",
+      "unit_id": "trigonometry",
+      "title": "Trigonometric identities",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "trigonometry/applications-of-trigonometry",
+      "subject": "Mathematics",
+      "level_id": "intermediate",
+      "unit_id": "trigonometry",
+      "title": "Applications of trigonometry",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "statistics/types-of-data",
+      "subject": "Mathematics",
+      "level_id": "intermediate",
+      "unit_id": "statistics",
+      "title": "Types of data",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "statistics/population-and-sample",
+      "subject": "Mathematics",
+      "level_id": "intermediate",
+      "unit_id": "statistics",
+      "title": "Population and sample",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "statistics/data-collection",
+      "subject": "Mathematics",
+      "level_id": "intermediate",
+      "unit_id": "statistics",
+      "title": "Data collection",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "statistics/frequency-tables",
+      "subject": "Mathematics",
+      "level_id": "intermediate",
+      "unit_id": "statistics",
+      "title": "Frequency tables",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "statistics/grouped-data",
+      "subject": "Mathematics",
+      "level_id": "intermediate",
+      "unit_id": "statistics",
+      "title": "Grouped data",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "statistics/ungrouped-data",
+      "subject": "Mathematics",
+      "level_id": "intermediate",
+      "unit_id": "statistics",
+      "title": "Ungrouped data",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "statistics/bar-charts",
+      "subject": "Mathematics",
+      "level_id": "intermediate",
+      "unit_id": "statistics",
+      "title": "Bar charts",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "statistics/pie-charts",
+      "subject": "Mathematics",
+      "level_id": "intermediate",
+      "unit_id": "statistics",
+      "title": "Pie charts",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "statistics/histograms",
+      "subject": "Mathematics",
+      "level_id": "intermediate",
+      "unit_id": "statistics",
+      "title": "Histograms",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "statistics/frequency-polygons",
+      "subject": "Mathematics",
+      "level_id": "intermediate",
+      "unit_id": "statistics",
+      "title": "Frequency polygons",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "statistics/mean",
+      "subject": "Mathematics",
+      "level_id": "intermediate",
+      "unit_id": "statistics",
+      "title": "Mean",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "statistics/median",
+      "subject": "Mathematics",
+      "level_id": "intermediate",
+      "unit_id": "statistics",
+      "title": "Median",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "statistics/mode",
+      "subject": "Mathematics",
+      "level_id": "intermediate",
+      "unit_id": "statistics",
+      "title": "Mode",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "statistics/range",
+      "subject": "Mathematics",
+      "level_id": "intermediate",
+      "unit_id": "statistics",
+      "title": "Range",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "statistics/quartiles",
+      "subject": "Mathematics",
+      "level_id": "intermediate",
+      "unit_id": "statistics",
+      "title": "Quartiles",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "statistics/interquartile-range",
+      "subject": "Mathematics",
+      "level_id": "intermediate",
+      "unit_id": "statistics",
+      "title": "Interquartile range",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "statistics/variance",
+      "subject": "Mathematics",
+      "level_id": "intermediate",
+      "unit_id": "statistics",
+      "title": "Variance",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "statistics/standard-deviation",
+      "subject": "Mathematics",
+      "level_id": "intermediate",
+      "unit_id": "statistics",
+      "title": "Standard deviation",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "statistics/interpreting-distributions",
+      "subject": "Mathematics",
+      "level_id": "intermediate",
+      "unit_id": "statistics",
+      "title": "Interpreting distributions",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "statistics/comparing-datasets",
+      "subject": "Mathematics",
+      "level_id": "intermediate",
+      "unit_id": "statistics",
+      "title": "Comparing datasets",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "statistics/outliers",
+      "subject": "Mathematics",
+      "level_id": "intermediate",
+      "unit_id": "statistics",
+      "title": "Outliers",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "statistics/misleading-data-representations",
+      "subject": "Mathematics",
+      "level_id": "intermediate",
+      "unit_id": "statistics",
+      "title": "Misleading data representations",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "statistics/introduction-to-statistical-inference",
+      "subject": "Mathematics",
+      "level_id": "intermediate",
+      "unit_id": "statistics",
+      "title": "Introduction to statistical inference",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "probability/basic-probability",
+      "subject": "Mathematics",
+      "level_id": "intermediate",
+      "unit_id": "probability",
+      "title": "Basic probability",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "probability/sample-spaces",
+      "subject": "Mathematics",
+      "level_id": "intermediate",
+      "unit_id": "probability",
+      "title": "Sample spaces",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "probability/events-and-outcomes",
+      "subject": "Mathematics",
+      "level_id": "intermediate",
+      "unit_id": "probability",
+      "title": "Events and outcomes",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "probability/experimental-probability",
+      "subject": "Mathematics",
+      "level_id": "intermediate",
+      "unit_id": "probability",
+      "title": "Experimental probability",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "probability/theoretical-probability",
+      "subject": "Mathematics",
+      "level_id": "intermediate",
+      "unit_id": "probability",
+      "title": "Theoretical probability",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "probability/complementary-events",
+      "subject": "Mathematics",
+      "level_id": "intermediate",
+      "unit_id": "probability",
+      "title": "Complementary events",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "probability/mutually-exclusive-events",
+      "subject": "Mathematics",
+      "level_id": "intermediate",
+      "unit_id": "probability",
+      "title": "Mutually exclusive events",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "probability/independent-events",
+      "subject": "Mathematics",
+      "level_id": "intermediate",
+      "unit_id": "probability",
+      "title": "Independent events",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "probability/dependent-events",
+      "subject": "Mathematics",
+      "level_id": "intermediate",
+      "unit_id": "probability",
+      "title": "Dependent events",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "probability/combined-events",
+      "subject": "Mathematics",
+      "level_id": "intermediate",
+      "unit_id": "probability",
+      "title": "Combined events",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "probability/tree-diagrams",
+      "subject": "Mathematics",
+      "level_id": "intermediate",
+      "unit_id": "probability",
+      "title": "Tree diagrams",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "probability/conditional-probability",
+      "subject": "Mathematics",
+      "level_id": "intermediate",
+      "unit_id": "probability",
+      "title": "Conditional probability",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "probability/venn-diagrams",
+      "subject": "Mathematics",
+      "level_id": "intermediate",
+      "unit_id": "probability",
+      "title": "Venn diagrams",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "probability/real-world-probability-applications",
+      "subject": "Mathematics",
+      "level_id": "intermediate",
+      "unit_id": "probability",
+      "title": "Real-world probability applications",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "calculus/functions",
+      "subject": "Mathematics",
+      "level_id": "advanced",
+      "unit_id": "calculus",
+      "title": "Functions",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "calculus/graphs-of-functions",
+      "subject": "Mathematics",
+      "level_id": "advanced",
+      "unit_id": "calculus",
+      "title": "Graphs of functions",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "calculus/domain-and-range",
+      "subject": "Mathematics",
+      "level_id": "advanced",
+      "unit_id": "calculus",
+      "title": "Domain and range",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "calculus/limits",
+      "subject": "Mathematics",
+      "level_id": "advanced",
+      "unit_id": "calculus",
+      "title": "Limits",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "calculus/continuity",
+      "subject": "Mathematics",
+      "level_id": "advanced",
+      "unit_id": "calculus",
+      "title": "Continuity",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "calculus/introduction-to-differentiation",
+      "subject": "Mathematics",
+      "level_id": "advanced",
+      "unit_id": "calculus",
+      "title": "Introduction to differentiation",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "calculus/first-principles-of-differentiation",
+      "subject": "Mathematics",
+      "level_id": "advanced",
+      "unit_id": "calculus",
+      "title": "First principles of differentiation",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "calculus/differentiation-rules",
+      "subject": "Mathematics",
+      "level_id": "advanced",
+      "unit_id": "calculus",
+      "title": "Differentiation rules",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "calculus/power-rule",
+      "subject": "Mathematics",
+      "level_id": "advanced",
+      "unit_id": "calculus",
+      "title": "Power rule",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "calculus/differentiating-polynomial-functions",
+      "subject": "Mathematics",
+      "level_id": "advanced",
+      "unit_id": "calculus",
+      "title": "Differentiating polynomial functions",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "calculus/gradients",
+      "subject": "Mathematics",
+      "level_id": "advanced",
+      "unit_id": "calculus",
+      "title": "Gradients",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "calculus/rates-of-change",
+      "subject": "Mathematics",
+      "level_id": "advanced",
+      "unit_id": "calculus",
+      "title": "Rates of change",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "calculus/tangents-and-normals",
+      "subject": "Mathematics",
+      "level_id": "advanced",
+      "unit_id": "calculus",
+      "title": "Tangents and normals",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "calculus/applications-of-derivatives",
+      "subject": "Mathematics",
+      "level_id": "advanced",
+      "unit_id": "calculus",
+      "title": "Applications of derivatives",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "calculus/optimization-problems",
+      "subject": "Mathematics",
+      "level_id": "advanced",
+      "unit_id": "calculus",
+      "title": "Optimization problems",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "calculus/maxima-and-minima",
+      "subject": "Mathematics",
+      "level_id": "advanced",
+      "unit_id": "calculus",
+      "title": "Maxima and minima",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "calculus/introduction-to-integration",
+      "subject": "Mathematics",
+      "level_id": "advanced",
+      "unit_id": "calculus",
+      "title": "Introduction to integration",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "calculus/basic-integration-rules",
+      "subject": "Mathematics",
+      "level_id": "advanced",
+      "unit_id": "calculus",
+      "title": "Basic integration rules",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "calculus/definite-integrals",
+      "subject": "Mathematics",
+      "level_id": "advanced",
+      "unit_id": "calculus",
+      "title": "Definite integrals",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "calculus/indefinite-integrals",
+      "subject": "Mathematics",
+      "level_id": "advanced",
+      "unit_id": "calculus",
+      "title": "Indefinite integrals",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "calculus/area-under-curves",
+      "subject": "Mathematics",
+      "level_id": "advanced",
+      "unit_id": "calculus",
+      "title": "Area under curves",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    },
+    {
+      "id": "calculus/applications-of-integration",
+      "subject": "Mathematics",
+      "level_id": "advanced",
+      "unit_id": "calculus",
+      "title": "Applications of integration",
+      "description": null,
+      "learning_scope": null,
+      "expected_learning_outcomes": [],
+      "last_updated": "2026-11-08"
+    }
+  ],
+  "data_corrections": [
+    {
+      "field": "lesson candidate crosswalk",
+      "previous_reported_count": 113,
+      "corrected_count": 118,
+      "reason": "Five existing crosswalk entries used unmatched labels. The stable-ID audit maps Natural numbers and Whole numbers to existing lesson tags, Arithmetic sequences to the existing sequences-and-patterns tag, Population and sample to data-and-samples, and Translation to the existing transformations tag. These are candidate links only, not verified coverage. No lessons or question associations were added."
+    }
+  ]
+}

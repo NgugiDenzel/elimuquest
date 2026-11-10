@@ -6,6 +6,7 @@ from sqlalchemy import select, text
 from sqlalchemy.orm import Session, joinedload, selectinload
 
 from app.api.dependencies import admin_user
+from app.api.v1.mathematics import router as mathematics_router
 from app.api.v1.router import router as v1_router
 from app.content.schema import validate_source_locator
 from app.core.config import settings
@@ -55,6 +56,7 @@ app.add_middleware(
     allow_headers=["Authorization", "Content-Type"],
 )
 app.include_router(v1_router, prefix="/api/v1")
+app.include_router(mathematics_router, prefix="/api/v1")
 
 
 @app.get("/health")

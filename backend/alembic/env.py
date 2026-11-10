@@ -5,6 +5,7 @@ from sqlalchemy import engine_from_config, pool
 from alembic import context
 from app import models  # noqa: F401
 from app.core.config import settings
+from app.db.migration_lock import acquire_migration_lock, release_migration_lock
 from app.db.session import Base
 
 config = context.config
@@ -34,9 +35,16 @@ def run_migrations_online() -> None:
         poolclass=pool.NullPool,
     )
     with connectable.connect() as connection:
-        context.configure(connection=connection, target_metadata=target_metadata, compare_type=True)
-        with context.begin_transaction():
-            context.run_migrations()
+        has_advisory_lock = acquire_migration_lock(connection)
+        try:
+            context.configure(
+                connection=connection, target_metadata=target_metadata, compare_type=True
+            )
+            with context.begin_transaction():
+                context.run_migrations()
+        finally:
+            if has_advisory_lock:
+                release_migration_lock(connection)
 
 
 if context.is_offline_mode():

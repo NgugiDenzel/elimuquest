@@ -1,0 +1,669 @@
+{
+  "schema_version": "1.0",
+  "subject": "Mathematics",
+  "title": "Mathematics Learning Adventure",
+  "content_status": "introductory",
+  "review_status": "subject_review_recommended",
+  "source": {
+    "title": "ElimuQuest Mathematics Learning Pack",
+    "edition": "Production edition 1.0",
+    "date": "2026-11-08",
+    "attribution": "Original instructional material prepared for ElimuQuest. Worked examples and answer keys are adapted from the user-provided pack; additional question prompts are original ElimuQuest material."
+  },
+  "coverage_note": "This is an introductory pathway with multiple lessons across each of the eight requested units. It is not a complete Mathematics curriculum; additional depth, varied assessments and independent subject-expert review remain necessary.",
+  "levels": [
+    {
+      "id": "beginner",
+      "title": "Beginner",
+      "order": 1,
+      "description": "Build confidence with number sense, fractions and proportional reasoning.",
+      "units": [
+        {
+          "id": "number-systems",
+          "title": "Number Systems",
+          "order": 1,
+          "lessons": [
+            {
+              "id": "math-number-systems-intro",
+              "title": "Number Sets and Order of Operations",
+              "duration_minutes": 12,
+              "intro": "Numbers can be grouped by the properties they share. Recognising those groups and following a consistent calculation order helps you reason accurately.",
+              "objectives": [
+                "Classify common numbers as rational or irrational.",
+                "Explain how whole numbers, integers, rational numbers and real numbers are related.",
+                "Evaluate expressions using grouping, powers and left-to-right operation rules."
+              ],
+              "sections": [
+                {
+                  "title": "Number sets",
+                  "body": "Natural numbers are counting numbers; conventions differ on whether they include zero. Whole numbers include zero and positive integers. Integers also include negative whole numbers. A rational number can be written as a/b for integers a and b with b not zero; its decimal terminates or repeats. An irrational number cannot be written as such a fraction. Real numbers include both rational and irrational numbers."
+                },
+                {
+                  "title": "Order of operations",
+                  "body": "Evaluate grouping symbols first, then powers and roots, then multiplication and division from left to right, then addition and subtraction from left to right. Multiplication does not automatically take priority over division."
+                }
+              ],
+              "definitions": [
+                { "term": "Natural number", "meaning": "A counting number; whether zero is included depends on the stated convention." },
+                { "term": "Whole number", "meaning": "Zero or a positive integer." },
+                { "term": "Integer", "meaning": "Zero, a positive whole number, or its negative opposite." },
+                { "term": "Rational number", "meaning": "A number expressible as a/b where a and b are integers and b is not zero." },
+                { "term": "Irrational number", "meaning": "A real number that cannot be expressed as a ratio of two integers." },
+                { "term": "Real number", "meaning": "Any rational or irrational number on the number line." }
+              ],
+              "worked_examples": [
+                {
+                  "prompt": "Evaluate 18 - 2 × (3 + 4)² ÷ 7.",
+                  "steps": [
+                    "Evaluate the brackets: 3 + 4 = 7.",
+                    "Evaluate the power: 7² = 49.",
+                    "Multiply and divide from left to right: 2 × 49 ÷ 7 = 14.",
+                    "Subtract: 18 - 14 = 4."
+                  ],
+                  "answer": "4"
+                },
+                {
+                  "prompt": "Using N={1,2,3,...}, classify 0, 4 and -2 as natural, whole or integer.",
+                  "steps": [
+                    "The stated natural-number convention begins at 1, so 0 and -2 are not natural; 4 is natural.",
+                    "Whole numbers include 0 and positive integers, so 0 and 4 are whole but -2 is not.",
+                    "Integers include negative whole numbers, zero and positive whole numbers, so all three are integers."
+                  ],
+                  "answer": "0: whole and integer; 4: natural, whole and integer; -2: integer only."
+                }
+              ],
+              "real_world_application": "Integers describe temperatures below zero, bank balances, elevation and changes in inventory.",
+              "common_mistakes": [
+                "Treating every decimal as irrational; for example, 0.333… = 1/3.",
+                "Performing addition before multiplication.",
+                "Assuming there is only one convention for whether zero is a natural number."
+              ],
+              "questions": [
+                {
+                  "id": "math-numbers-q1",
+                  "type": "multiple_choice",
+                  "prompt": "Which statement about 0.121212… is correct?",
+                  "options": ["It is irrational because it never ends.", "It is rational because the decimal repeats.", "It is not a real number."],
+                  "correct_answer": "It is rational because the decimal repeats.",
+                  "explanation": "A repeating decimal is rational. Here 0.121212… = 12/99 = 4/33."
+                },
+                {
+                  "id": "math-numbers-q2",
+                  "type": "numerical",
+                  "prompt": "Evaluate 18 - 2 × (3 + 4)² ÷ 7.",
+                  "correct_answer": "4",
+                  "tolerance": 0,
+                  "explanation": "Brackets first give 7, then 7² = 49. Next 2 × 49 ÷ 7 = 14, and 18 - 14 = 4."
+                },
+                {
+                  "id": "math-numbers-q3",
+                  "type": "numerical",
+                  "prompt": "Evaluate 24 ÷ 3 × 2.",
+                  "correct_answer": "16",
+                  "tolerance": 0,
+                  "explanation": "Division and multiplication have equal precedence, so work left to right: 24 ÷ 3 = 8, then 8 × 2 = 16."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "fractions-decimals-percentages",
+          "title": "Fractions, Decimals and Percentages",
+          "order": 2,
+          "lessons": [
+            {
+              "id": "math-fractions-percentages-intro",
+              "title": "Fractions, Percentages and Ratio",
+              "duration_minutes": 14,
+              "intro": "Fractions, decimals and percentages are different ways to represent quantities. Choose the form that makes a comparison or calculation clear.",
+              "objectives": [
+                "Add fractions using a common denominator.",
+                "Convert a percentage to a decimal multiplier.",
+                "Simplify a ratio and solve a direct scale problem."
+              ],
+              "sections": [
+                {
+                  "title": "Fraction operations",
+                  "body": "A fraction a/b represents a parts of size 1/b, where b is not zero. To add fractions, rewrite them with a common denominator. To multiply fractions, multiply numerators and denominators. To divide by a fraction, multiply by its reciprocal."
+                },
+                {
+                  "title": "Percentages and ratios",
+                  "body": "A percentage means per hundred, so 18% = 18/100 = 0.18. For an increase of p%, multiply by 1 + p/100; for a decrease, multiply by 1 - p/100. A ratio compares quantities and is simplified by dividing each part by the same common factor."
+                }
+              ],
+              "definitions": [
+                { "term": "Equivalent fractions", "meaning": "Fractions with different numerators and denominators that represent the same value." },
+                { "term": "Percentage", "meaning": "A rate or proportion expressed per hundred." },
+                { "term": "Ratio", "meaning": "An ordered comparison of quantities, written for example as a:b." }
+              ],
+              "worked_examples": [
+                {
+                  "prompt": "A jacket costs 80 units and is discounted by 15%. Find its sale price.",
+                  "steps": [
+                    "Write 15% as 0.15.",
+                    "Find the discount: 0.15 × 80 = 12 units.",
+                    "Subtract the discount: 80 - 12 = 68 units."
+                  ],
+                  "answer": "68 units"
+                }
+              ],
+              "real_world_application": "Percentages describe discounts, taxes, interest and survey results. Ratios describe recipes, maps, mixtures and scale models.",
+              "common_mistakes": [
+                "Adding denominators when adding fractions.",
+                "Confusing a percentage change with the final amount.",
+                "Comparing ratio quantities before making their units consistent."
+              ],
+              "questions": [
+                {
+                  "id": "math-fractions-q1",
+                  "type": "multiple_choice",
+                  "prompt": "What is 3/4 + 2/3?",
+                  "options": ["5/7", "17/12", "13/12"],
+                  "correct_answer": "17/12",
+                  "explanation": "A common denominator is 12: 3/4 = 9/12 and 2/3 = 8/12, so the sum is 17/12 or 1 5/12."
+                },
+                {
+                  "id": "math-fractions-q2",
+                  "type": "numerical",
+                  "prompt": "Find 18% of 250.",
+                  "correct_answer": "45",
+                  "tolerance": 0,
+                  "explanation": "18% = 0.18, and 0.18 × 250 = 45."
+                },
+                {
+                  "id": "math-fractions-q3",
+                  "type": "short_answer",
+                  "prompt": "Simplify the ratio 24:36.",
+                  "accepted_answers": ["2:3", "2 to 3"],
+                  "correct_answer": "2:3",
+                  "explanation": "Divide both parts by their greatest common factor, 12: 24:36 = 2:3."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "elementary",
+      "title": "Elementary",
+      "order": 2,
+      "description": "Use symbols to describe relationships and apply geometry to measurable spaces.",
+      "units": [
+        {
+          "id": "algebra",
+          "title": "Algebra",
+          "order": 3,
+          "lessons": [
+            {
+              "id": "math-algebra-intro",
+              "title": "Expressions and Linear Equations",
+              "duration_minutes": 14,
+              "intro": "Algebra gives us a compact way to describe unknown values and relationships that change.",
+              "objectives": [
+                "Distinguish variables, expressions and equations.",
+                "Simplify like terms and expand a bracket.",
+                "Solve and check a linear equation."
+              ],
+              "sections": [
+                {
+                  "title": "Expressions and equations",
+                  "body": "A variable represents a value that may be unknown or may vary. An expression combines numbers, variables and operations. An equation states that two expressions are equal. Like terms have the same variable part, so 4a + 3a = 7a but 2a and 3 are unlike terms."
+                },
+                {
+                  "title": "Equivalent transformations",
+                  "body": "The distributive law is a(b + c) = ab + ac. To solve an equation, perform the same operation on both sides so equality is preserved."
+                }
+              ],
+              "definitions": [
+                { "term": "Variable", "meaning": "A symbol representing an unknown or changing value." },
+                { "term": "Expression", "meaning": "A mathematical phrase made from numbers, variables and operations, without an equality sign." },
+                { "term": "Equation", "meaning": "A statement that two expressions have equal values." }
+              ],
+              "worked_examples": [
+                {
+                  "prompt": "Solve 3x + 5 = 20.",
+                  "steps": [
+                    "Subtract 5 from both sides: 3x = 15.",
+                    "Divide both sides by 3: x = 5.",
+                    "Check: 3(5) + 5 = 20."
+                  ],
+                  "answer": "x = 5"
+                }
+              ],
+              "real_world_application": "A taxi fare with a fixed charge of 60 units and 25 units per kilometre can be modelled by C(d) = 60 + 25d.",
+              "common_mistakes": [
+                "Changing only one side of an equation.",
+                "Combining unlike terms such as 2x + 3.",
+                "Reading 3x as 3 + x instead of 3 × x."
+              ],
+              "questions": [
+                {
+                  "id": "math-algebra-q1",
+                  "type": "short_answer",
+                  "prompt": "Simplify 4a + 3a - 2.",
+                  "accepted_answers": ["7a-2", "7a - 2"],
+                  "correct_answer": "7a - 2",
+                  "explanation": "Combine the like terms 4a and 3a. The constant -2 remains separate."
+                },
+                {
+                  "id": "math-algebra-q2",
+                  "type": "multiple_choice",
+                  "prompt": "Expand 3(x - 4).",
+                  "options": ["3x - 4", "3x - 12", "3x + 12"],
+                  "correct_answer": "3x - 12",
+                  "explanation": "Multiply each term inside the brackets by 3: 3 × x and 3 × (-4)."
+                },
+                {
+                  "id": "math-algebra-q3",
+                  "type": "numerical",
+                  "prompt": "Solve 5x - 7 = 18. Enter the value of x.",
+                  "correct_answer": "5",
+                  "tolerance": 0,
+                  "explanation": "Add 7 to both sides to get 5x = 25, then divide both sides by 5."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "geometry-measurement",
+          "title": "Geometry and Measurement",
+          "order": 4,
+          "lessons": [
+            {
+              "id": "math-geometry-measurement-intro",
+              "title": "Angles, Area and Volume",
+              "duration_minutes": 14,
+              "intro": "Geometry helps describe shape, space and measurement. Always connect the formula you choose to the quantity being asked for.",
+              "objectives": [
+                "Use angle sums for straight lines and triangles.",
+                "Calculate perimeter and area of rectangles and area of triangles.",
+                "Calculate the volume of a cube and use the correct units."
+              ],
+              "sections": [
+                {
+                  "title": "Angle facts",
+                  "body": "Angles on a straight line sum to 180°. Angles around a point sum to 360°. The interior angles of a triangle sum to 180°."
+                },
+                {
+                  "title": "Perimeter, area and volume",
+                  "body": "Perimeter measures a boundary length. Area measures two-dimensional coverage and uses square units. Volume measures three-dimensional space and uses cubic units. Rectangle area is length × width; triangle area is 1/2 × base × perpendicular height."
+                }
+              ],
+              "definitions": [
+                { "term": "Perimeter", "meaning": "The total distance around a two-dimensional shape." },
+                { "term": "Area", "meaning": "The amount of two-dimensional surface covered by a shape." },
+                { "term": "Volume", "meaning": "The amount of three-dimensional space occupied by a solid." }
+              ],
+              "worked_examples": [
+                {
+                  "prompt": "A rectangle is 8 cm long and 3 cm wide. Find its perimeter and area.",
+                  "steps": [
+                    "Perimeter = 2(length + width) = 2(8 + 3) = 22 cm.",
+                    "Area = length × width = 8 × 3 = 24 cm²."
+                  ],
+                  "answer": "Perimeter 22 cm; area 24 cm²"
+                }
+              ],
+              "real_world_application": "Geometry supports construction, packaging, navigation, design, land measurement and computer graphics.",
+              "common_mistakes": [
+                "Writing area in linear units instead of square units.",
+                "Using a sloping side instead of perpendicular height in the triangle area formula.",
+                "Confusing a circle's radius with its diameter."
+              ],
+              "questions": [
+                {
+                  "id": "math-geometry-q1",
+                  "type": "numerical",
+                  "prompt": "A triangle has angles 48° and 67°. Find its third angle in degrees.",
+                  "correct_answer": "65",
+                  "tolerance": 0,
+                  "explanation": "The angles in a triangle sum to 180°, so 180 - 48 - 67 = 65°."
+                },
+                {
+                  "id": "math-geometry-q2",
+                  "type": "numerical",
+                  "prompt": "Find the area of a triangle with base 10 cm and perpendicular height 6 cm. Enter the number of square centimetres.",
+                  "correct_answer": "30",
+                  "tolerance": 0,
+                  "explanation": "Area = 1/2 × base × height = 1/2 × 10 × 6 = 30 cm²."
+                },
+                {
+                  "id": "math-geometry-q3",
+                  "type": "numerical",
+                  "prompt": "Find the volume of a cube with side length 4 cm. Enter the number of cubic centimetres.",
+                  "correct_answer": "64",
+                  "tolerance": 0,
+                  "explanation": "A cube's volume is side³, so 4³ = 64 cm³."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "intermediate",
+      "title": "Intermediate",
+      "order": 3,
+      "description": "Model problems with trigonometry, interpret data and reason about uncertainty.",
+      "units": [
+        {
+          "id": "trigonometry",
+          "title": "Trigonometry",
+          "order": 5,
+          "lessons": [
+            {
+              "id": "math-trigonometry-intro",
+              "title": "Trigonometric Ratios in Right Triangles",
+              "duration_minutes": 13,
+              "intro": "Trigonometric ratios connect an acute angle in a right-angled triangle to ratios of its side lengths.",
+              "objectives": [
+                "Label the opposite, adjacent and hypotenuse sides relative to an angle.",
+                "Choose sine, cosine or tangent for a right-triangle calculation.",
+                "Check whether a calculator is in degree or radian mode."
+              ],
+              "sections": [
+                {
+                  "title": "SOH-CAH-TOA",
+                  "body": "For an acute angle θ in a right triangle: sin θ = opposite/hypotenuse, cos θ = adjacent/hypotenuse, and tan θ = opposite/adjacent. The hypotenuse is opposite the right angle and is the longest side."
+                },
+                {
+                  "title": "Choosing a ratio",
+                  "body": "Identify the sides you know and the side you need relative to the marked angle. Select the ratio containing those sides, substitute the values, and keep units in the final answer."
+                }
+              ],
+              "definitions": [
+                { "term": "Hypotenuse", "meaning": "The longest side of a right-angled triangle, opposite its right angle." },
+                { "term": "Opposite side", "meaning": "The side directly across from the reference angle." },
+                { "term": "Adjacent side", "meaning": "The side next to the reference angle that is not the hypotenuse." }
+              ],
+              "worked_examples": [
+                {
+                  "prompt": "A right triangle has a hypotenuse of 10 cm and an acute angle of 30°. Find the opposite side.",
+                  "steps": [
+                    "The known sides are the hypotenuse and the required opposite side, so use sine.",
+                    "sin 30° = opposite/10.",
+                    "opposite = 10 sin 30° = 10 × 0.5 = 5 cm."
+                  ],
+                  "answer": "5 cm"
+                }
+              ],
+              "real_world_application": "Trigonometry supports surveying, architecture, engineering, astronomy and navigation.",
+              "common_mistakes": [
+                "Labelling sides without reference to the chosen angle.",
+                "Using a calculator in radian mode when the angle is given in degrees.",
+                "Applying these right-triangle ratios to a non-right triangle without additional methods."
+              ],
+              "questions": [
+                {
+                  "id": "math-trig-q1",
+                  "type": "numerical",
+                  "prompt": "A 5 m ladder makes a 60° angle with level ground. Approximately how high does it reach? Enter metres to 2 decimal places.",
+                  "correct_answer": "4.33",
+                  "tolerance": 0.02,
+                  "explanation": "The ladder is the hypotenuse and the height is opposite 60°. Height = 5 sin 60° ≈ 4.33 m."
+                },
+                {
+                  "id": "math-trig-q2",
+                  "type": "numerical",
+                  "prompt": "In a right triangle, the opposite side is 6 and the adjacent side is 8. Find tan θ.",
+                  "correct_answer": "0.75",
+                  "tolerance": 0,
+                  "explanation": "tan θ = opposite/adjacent = 6/8 = 0.75."
+                },
+                {
+                  "id": "math-trig-q3",
+                  "type": "multiple_choice",
+                  "prompt": "A right triangle has hypotenuse 10 cm and an acute angle of 30°. What is the opposite side?",
+                  "options": ["5 cm", "5√3 cm", "10 cm"],
+                  "correct_answer": "5 cm",
+                  "explanation": "Use sine: opposite = 10 sin 30° = 10 × 0.5 = 5 cm."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "statistics",
+          "title": "Statistics",
+          "order": 6,
+          "lessons": [
+            {
+              "id": "math-statistics-intro",
+              "title": "Summarising and Interpreting Data",
+              "duration_minutes": 14,
+              "intro": "Statistics turns observations into evidence. A useful summary describes the data while keeping its limitations visible.",
+              "objectives": [
+                "Calculate mean, median, mode and range.",
+                "Explain why data must be sorted before finding the median.",
+                "Recognise that population and sample variance use different denominators."
+              ],
+              "sections": [
+                {
+                  "title": "Measures of centre",
+                  "body": "The mean is the sum of observations divided by their count. The median is the middle value after sorting, or the mean of the two middle values when there is an even number of observations. The mode is the most frequent value."
+                },
+                {
+                  "title": "Measures of spread",
+                  "body": "Range = maximum - minimum. Population variance is the mean squared deviation from the population mean; population standard deviation is the square root of that variance. State whether a variance is for a population or a sample."
+                }
+              ],
+              "definitions": [
+                { "term": "Median", "meaning": "The middle value of an ordered data set, or the mean of the two middle values for an even-sized set." },
+                { "term": "Range", "meaning": "The difference between the maximum and minimum data values." },
+                { "term": "Population variance", "meaning": "The mean of squared deviations from the population mean." }
+              ],
+              "worked_examples": [
+                {
+                  "prompt": "Summarise the data 2, 3, 3, 7, 10.",
+                  "steps": [
+                    "Mean = (2 + 3 + 3 + 7 + 10) ÷ 5 = 25 ÷ 5 = 5.",
+                    "The middle value is 3, so median = 3.",
+                    "The most frequent value is 3, so mode = 3.",
+                    "Range = 10 - 2 = 8."
+                  ],
+                  "answer": "Mean 5; median 3; mode 3; range 8"
+                }
+              ],
+              "real_world_application": "Statistics is used in health research, business, sport, public policy and quality control.",
+              "common_mistakes": [
+                "Finding a median before sorting the data.",
+                "Treating mean and median as interchangeable.",
+                "Reporting variance without stating whether it is population or sample variance."
+              ],
+              "questions": [
+                {
+                  "id": "math-statistics-q1",
+                  "type": "numerical",
+                  "prompt": "Find the mean of 4, 6, 6, 8 and 11.",
+                  "correct_answer": "7",
+                  "tolerance": 0,
+                  "explanation": "The sum is 35 and there are 5 values, so the mean is 35 ÷ 5 = 7."
+                },
+                {
+                  "id": "math-statistics-q2",
+                  "type": "numerical",
+                  "prompt": "Find the median of 4, 6, 6, 8 and 11.",
+                  "correct_answer": "6",
+                  "tolerance": 0,
+                  "explanation": "The values are already in order and the third of five values is 6."
+                },
+                {
+                  "id": "math-statistics-q3",
+                  "type": "multiple_choice",
+                  "prompt": "Which measure is generally more resistant to one very extreme value?",
+                  "options": ["Mean", "Median", "Range"],
+                  "correct_answer": "Median",
+                  "explanation": "The median depends on the middle position rather than the magnitude of every value, so it is generally less affected by an extreme value."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "probability",
+          "title": "Probability",
+          "order": 7,
+          "lessons": [
+            {
+              "id": "math-probability-intro",
+              "title": "Outcomes, Events and Simple Probability",
+              "duration_minutes": 12,
+              "intro": "Probability describes uncertainty on a scale from 0, impossible, to 1, certain. Start by identifying the possible outcomes.",
+              "objectives": [
+                "Find simple probabilities for equally likely outcomes.",
+                "Use a sample space to count outcomes.",
+                "Distinguish independent events from events whose probabilities change."
+              ],
+              "sections": [
+                {
+                  "title": "Equally likely outcomes",
+                  "body": "When all outcomes are equally likely, P(A) = favourable outcomes ÷ total outcomes. The complement rule is P(not A) = 1 - P(A)."
+                },
+                {
+                  "title": "Independent and dependent events",
+                  "body": "For independent events, P(A and B) = P(A)P(B). For dependent events, the second probability changes after the first event; drawing without replacement is a common example."
+                }
+              ],
+              "definitions": [
+                { "term": "Sample space", "meaning": "The set of all possible outcomes of an experiment." },
+                { "term": "Event", "meaning": "A set of one or more outcomes of an experiment." },
+                { "term": "Complement", "meaning": "The event that a specified event does not occur." }
+              ],
+              "worked_examples": [
+                {
+                  "prompt": "A fair six-sided die is rolled. Find the probability of an even result.",
+                  "steps": [
+                    "The possible outcomes are 1, 2, 3, 4, 5 and 6.",
+                    "The favourable outcomes are 2, 4 and 6: three outcomes.",
+                    "P(even) = 3/6 = 1/2."
+                  ],
+                  "answer": "1/2"
+                }
+              ],
+              "real_world_application": "Probability informs risk analysis, games, insurance, forecasting and scientific inference.",
+              "common_mistakes": [
+                "Assuming outcomes are equally likely without evidence.",
+                "Treating draws without replacement as independent.",
+                "Interpreting a probability as a guarantee for one trial."
+              ],
+              "questions": [
+                {
+                  "id": "math-probability-q1",
+                  "type": "short_answer",
+                  "prompt": "A bag contains 3 red and 2 blue counters. What is the probability of drawing a blue counter?",
+                  "accepted_answers": ["2/5", "0.4"],
+                  "correct_answer": "2/5",
+                  "explanation": "There are 2 blue counters out of 5 counters in total, so the probability is 2/5."
+                },
+                {
+                  "id": "math-probability-q2",
+                  "type": "multiple_choice",
+                  "prompt": "A fair coin is tossed twice. What is the probability of getting exactly one head?",
+                  "options": ["1/4", "1/2", "3/4"],
+                  "correct_answer": "1/2",
+                  "explanation": "The equally likely outcomes are HH, HT, TH and TT. Two of four outcomes have exactly one head, so the probability is 2/4 = 1/2."
+                },
+                {
+                  "id": "math-probability-q3",
+                  "type": "short_answer",
+                  "prompt": "A fair die is rolled. What is the probability that the result is not even?",
+                  "accepted_answers": ["1/2", "0.5"],
+                  "correct_answer": "1/2",
+                  "explanation": "The complement of an even result is an odd result. There are three odd outcomes out of six, so the probability is 3/6 = 1/2."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "advanced",
+      "title": "Advanced",
+      "order": 4,
+      "description": "Explore limits, instantaneous change and accumulated quantities.",
+      "units": [
+        {
+          "id": "calculus",
+          "title": "Calculus",
+          "order": 8,
+          "lessons": [
+            {
+              "id": "math-calculus-intro",
+              "title": "Limits, Derivatives and Integrals",
+              "duration_minutes": 16,
+              "intro": "Calculus studies change and accumulation. This introductory lesson builds intuition and uses the basic power rules.",
+              "objectives": [
+                "Describe a limit as a value a function approaches.",
+                "Interpret a derivative as an instantaneous rate of change.",
+                "Use the power rules to differentiate or integrate a simple polynomial term."
+              ],
+              "sections": [
+                {
+                  "title": "Limits and derivatives",
+                  "body": "A limit describes the value a function approaches as its input approaches a specified value. A derivative measures instantaneous rate of change and can be interpreted as the slope of a tangent."
+                },
+                {
+                  "title": "Integrals",
+                  "body": "An integral can represent accumulated change. A definite integral often represents signed area between a curve and the horizontal axis. For n not equal to -1, the power rules are d(xⁿ)/dx = nxⁿ⁻¹ and ∫xⁿ dx = xⁿ⁺¹/(n+1) + C."
+                }
+              ],
+              "definitions": [
+                { "term": "Limit", "meaning": "The value a function approaches as its input approaches a specified value." },
+                { "term": "Derivative", "meaning": "A measure of instantaneous rate of change or tangent slope." },
+                { "term": "Antiderivative", "meaning": "A function whose derivative is the given function." }
+              ],
+              "worked_examples": [
+                {
+                  "prompt": "If position is s(t) = t² metres, find the average velocity from t = 2 to t = 3 and the instantaneous velocity at t = 3.",
+                  "steps": [
+                    "Average velocity = [s(3) - s(2)] ÷ (3 - 2) = (9 - 4) ÷ 1 = 5 m/s.",
+                    "Differentiate s(t) = t² to get s'(t) = 2t.",
+                    "At t = 3, instantaneous velocity = 2 × 3 = 6 m/s."
+                  ],
+                  "answer": "Average velocity 5 m/s; instantaneous velocity 6 m/s"
+                }
+              ],
+              "real_world_application": "Calculus underpins motion modelling, optimisation, economics, engineering, population models and physical sciences.",
+              "common_mistakes": [
+                "Confusing instantaneous rate with average rate over an interval.",
+                "Omitting the constant of integration for an indefinite integral.",
+                "Ignoring units when differentiating a position function with respect to time."
+              ],
+              "questions": [
+                {
+                  "id": "math-calculus-q1",
+                  "type": "multiple_choice",
+                  "prompt": "Differentiate f(x) = 3x² + 4x - 7.",
+                  "options": ["6x + 4", "3x + 4", "6x² + 4"],
+                  "correct_answer": "6x + 4",
+                  "explanation": "Differentiate each term: d(3x²)/dx = 6x, d(4x)/dx = 4, and the derivative of a constant is zero."
+                },
+                {
+                  "id": "math-calculus-q2",
+                  "type": "multiple_choice",
+                  "prompt": "Which is an antiderivative of 4x³?",
+                  "options": ["12x² + C", "x⁴ + C", "4x⁴ + C"],
+                  "correct_answer": "x⁴ + C",
+                  "explanation": "By the power rule, ∫4x³ dx = 4 × x⁴/4 + C = x⁴ + C."
+                },
+                {
+                  "id": "math-calculus-q3",
+                  "type": "multiple_choice",
+                  "prompt": "What does the derivative of position with respect to time represent?",
+                  "options": ["Instantaneous velocity", "Total distance only", "Elapsed time"],
+                  "correct_answer": "Instantaneous velocity",
+                  "explanation": "The rate of change of position with respect to time is instantaneous velocity."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

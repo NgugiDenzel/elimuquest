@@ -40,6 +40,37 @@ def current_user(
     return user
 
 
+def optional_current_user(
+    credentials: HTTPAuthorizationCredentials | None = Depends(bearer),
+    db: Session = Depends(get_db),
+) -> User | None:
+    if credentials is None:
+        return None
+    try:
+        payload = jwt.decode(
+            credentials.credentials,
+            settings.jwt_secret,
+            algorithms=["HS256"],
+            issuer=settings.jwt_issuer,
+            options={"require": ["sub", "exp", "iss"]},
+        )
+        user_id = UUID(payload["sub"])
+    except (jwt.InvalidTokenError, ValueError, KeyError):
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="Invalid authentication credentials",
+            headers={"WWW-Authenticate": "Bearer"},
+        ) from None
+    user = db.get(User, user_id)
+    if user is None or not user.is_active:
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="Invalid authentication credentials",
+            headers={"WWW-Authenticate": "Bearer"},
+        )
+    return user
+
+
 def admin_user(user: User = Depends(current_user)) -> User:
     if user.role != "admin":
         raise HTTPException(status_code=403, detail="Administrator access required")

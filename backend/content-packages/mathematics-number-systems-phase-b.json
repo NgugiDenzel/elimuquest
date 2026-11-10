@@ -1,0 +1,379 @@
+{
+  "schema_version": "1.0",
+  "pack_id": "mathematics-number-systems-phase-b",
+  "status": "draft",
+  "publication_status": "unpublished",
+  "authoring_assistance": "Original ElimuQuest instructional draft",
+  "mapping": {
+    "conceptual_level_id": "beginner",
+    "official_kenyan_grade": null,
+    "status": "provisional",
+    "confidence": 0.55,
+    "note": "The topics extend the existing conceptual Number Systems unit. No Kenyan grade or official learning-outcome mapping is claimed."
+  },
+  "source_references": [
+    {
+      "title": "Prealgebra 2e",
+      "publisher": "OpenStax, Rice University",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/preface",
+      "license": "CC BY-NC-SA 4.0",
+      "use": "Topic-scope reference only. The explanations, examples, questions and visual resources in this draft are original ElimuQuest material."
+    }
+  ],
+  "lessons": [
+    {
+      "id": "math-number-natural-whole-foundations",
+      "title": "Natural Numbers, Whole Numbers and Opposites",
+      "subtopics": ["natural numbers", "whole numbers", "integers", "positive and negative numbers", "number lines", "comparing and ordering numbers"],
+      "notation_review_status": "checked",
+      "duration_minutes": 14,
+      "objectives": ["Distinguish natural numbers, whole numbers and integers.", "Locate integers and their opposites on a number line.", "Compare signed integers by their positions.", "Explain absolute value as distance from zero."],
+      "prerequisites": ["Count objects and compare positive whole numbers.", "Recognise zero as a reference point."],
+      "intro": "Number sets grow as we include zero and then negative values. A number line shows how these sets are ordered and how opposites relate.",
+      "sections": [
+        {"title": "Natural, whole and integer sets", "body": "Natural numbers are counting numbers; some conventions include zero and others begin at one, so check the convention being used. Whole numbers include zero and positive counting numbers. Integers include the whole numbers and their negative opposites. Every whole number is an integer, but a negative integer is not a whole number."},
+        {"title": "Order, opposites and distance", "body": "Numbers farther right on a number line are greater. Thus -2 > -5 even though 5 is the larger positive magnitude. Opposites are equal distances from zero in opposite directions and add to zero. Absolute value |n| is the distance from n to zero, so it is never negative."}
+      ],
+      "definitions": [
+        {"term": "Whole number", "meaning": "Zero or a positive counting number."},
+        {"term": "Opposite", "meaning": "The number the same distance from zero in the other direction; n and -n sum to zero."},
+        {"term": "Absolute value", "meaning": "The non-negative distance of a number from zero."}
+      ],
+      "worked_examples": [
+        {"prompt": "Classify -4, 0 and 6 as whole numbers or integers, and compare -4 with -1.", "steps": ["-4 is an integer but not a whole number.", "0 and 6 are both whole numbers and integers.", "On a number line -1 is to the right of -4, so -1 > -4."], "answer": "-4: integer only; 0 and 6: whole numbers and integers; -1 is greater than -4"},
+        {"prompt": "Find the opposite and absolute value of -8.", "steps": ["The opposite is the same distance on the other side of zero: 8.", "The distance from -8 to zero is 8, so |-8| = 8."], "answer": "Opposite = 8; absolute value = 8"}
+      ],
+      "visual": {"type": "number_line", "description": "Zero separates negative and positive integers; -4 and 4 are opposites.", "min": -6, "max": 6, "points": [-4, 0, 4], "labels": ["-4", "zero", "opposite 4"]},
+      "visual_topic_ids": ["number-systems/positive-and-negative-numbers", "number-systems/number-lines", "number-systems/comparing-and-ordering-numbers"],
+      "visual_hint": "The equal spacing on both sides of zero shows why opposite numbers have equal absolute values.",
+      "real_world_application": "Use negative and positive integers to record below/above-zero temperatures, debts/assets, or depth/elevation relative to a reference.",
+      "common_mistakes": ["Assuming every textbook uses the same convention for whether zero is natural.", "Calling a negative integer a whole number.", "Thinking -8 is greater than -2 because 8 is greater than 2.", "Treating absolute value as a sign-change trick rather than distance."],
+      "guided_practice": [
+        {
+          "prompt": "Classify 0, -6 and 14, then order them from least to greatest.",
+          "hints": ["Whole numbers include zero and positive counting numbers.", "Integers also include negative whole numbers.", "On a number line, values increase from left to right."],
+          "steps": ["Zero and 14 are whole numbers and integers; -6 is an integer but not a whole number.", "The positions from left to right are -6, 0 and 14."],
+          "answer": "-6 < 0 < 14"
+        }
+      ],
+      "summary": "Whole numbers include zero and positive counting numbers; integers also include their negatives. Number-line position determines order, opposites cancel, and absolute value measures distance from zero.",
+      "revision_points": ["Natural-number conventions differ, so state the convention.", "Whole numbers are zero and positive integers; integers also include negatives.", "A number farther right is greater; absolute value is distance from zero.", "Opposites have equal absolute values and sum to zero."],
+      "phase_b_status": "draft_not_reviewed",
+      "source_reference_ids": ["prealgebra-2e"],
+      "coverage_subtopic_ids": ["number-systems/natural-numbers", "number-systems/whole-numbers", "number-systems/integers", "number-systems/positive-and-negative-numbers", "number-systems/number-lines", "number-systems/comparing-and-ordering-numbers"],
+      "questions": [
+        {"id": "math-number-foundations-q1", "type": "multiple_choice", "prompt": "Which set always includes zero and all positive counting numbers?", "options": ["Whole numbers", "Negative integers only", "Fractions only"], "correct_answer": "Whole numbers", "explanation": "Whole numbers consist of zero and positive counting numbers.", "review_topic": "whole numbers", "topic_id": "number-systems/whole-numbers", "learning_objective_id": "classify-whole-numbers", "difficulty": "easy", "purpose": "practice"},
+        {"id": "math-number-foundations-q2", "type": "multiple_choice", "prompt": "Which statement about natural numbers is safest when a convention has not been specified?", "options": ["Every definition includes zero.", "Some conventions include zero and some begin at one.", "Natural numbers include all negative integers."], "correct_answer": "Some conventions include zero and some begin at one.", "explanation": "Textbooks use more than one convention for whether zero is natural, so the convention should be stated.", "review_topic": "natural numbers", "topic_id": "number-systems/natural-numbers", "learning_objective_id": "state-natural-number-convention", "difficulty": "moderate", "purpose": "practice"},
+        {"id": "math-number-foundations-q3", "type": "multiple_choice", "prompt": "Which number is an integer but not a whole number?", "options": ["0", "7", "-3"], "correct_answer": "-3", "explanation": "Integers include negative whole numbers; whole numbers do not include negative values.", "review_topic": "distinguish whole numbers from integers", "topic_id": "number-systems/whole-numbers", "learning_objective_id": "distinguish-whole-from-integer", "difficulty": "easy", "purpose": "knowledge_check"},
+        {"id": "math-number-foundations-q4", "type": "numerical", "prompt": "What is the opposite of -12?", "correct_answer": "12", "tolerance": 0, "explanation": "The opposite is the same distance from zero on the other side of the number line: 12.", "review_topic": "positive and negative numbers", "topic_id": "number-systems/positive-and-negative-numbers", "learning_objective_id": "identify-opposites", "difficulty": "easy", "purpose": "practice"},
+        {"id": "math-number-foundations-q5", "type": "numerical", "prompt": "Evaluate the absolute value |-9|.", "correct_answer": "9", "tolerance": 0, "explanation": "Absolute value is distance from zero, so |-9| = 9.", "review_topic": "positive and negative numbers", "topic_id": "number-systems/positive-and-negative-numbers", "learning_objective_id": "interpret-absolute-value", "difficulty": "easy", "purpose": "practice"},
+        {"id": "math-number-foundations-q6", "type": "multiple_choice", "prompt": "Which comparison is correct?", "options": ["-6 > -2", "-6 < -2", "-6 = -2"], "correct_answer": "-6 < -2", "explanation": "-6 lies to the left of -2 on the number line, so it is the smaller number.", "review_topic": "comparing and ordering numbers", "topic_id": "number-systems/comparing-and-ordering-numbers", "learning_objective_id": "compare-signed-integers", "difficulty": "moderate", "purpose": "knowledge_check"}
+      ]
+    },
+    {
+      "id": "math-number-integer-operations",
+      "title": "Integer Operations in Context",
+      "subtopics": ["integers", "positive and negative numbers", "addition and subtraction of integers", "multiplication and division of integers", "applications of number systems"],
+      "notation_review_status": "checked",
+      "duration_minutes": 16,
+      "objectives": ["Represent a signed change with an integer.", "Add and subtract integers using direction and distance.", "Use sign rules to multiply and divide integers.", "Check a contextual answer for a reasonable sign and size."],
+      "prerequisites": ["Locate positive and negative integers on a number line.", "Recall multiplication and division facts."],
+      "intro": "A signed number records both size and direction. It can describe a temperature relative to zero, a deposit or withdrawal from a starting balance, or a change in elevation.",
+      "sections": [
+        {"title": "Adding and subtracting as movement", "body": "On a number line, adding a positive number moves right and adding a negative number moves left. Subtracting a number means adding its opposite: 5 - (-3) = 5 + 3. When signs differ, compare magnitudes and keep the sign of the larger magnitude; when signs match, add magnitudes and keep that sign."},
+        {"title": "Multiplication and division signs", "body": "A product or quotient with two factors of the same sign is positive; with opposite signs it is negative. The sign rule follows from preserving patterns such as 3 × 2, 3 × 1, 3 × 0, 3 × (-1), 3 × (-2). Division follows the inverse relationship to multiplication. Division by zero is undefined."},
+        {"title": "Interpret the answer in its situation", "body": "Choose a reference level and represent gains and increases as positive and losses or decreases as negative. The sign of a change is not always the same as the sign of the final amount. State units and check that the result matches the context."}
+      ],
+      "definitions": [
+        {"term": "Opposite numbers", "meaning": "Numbers the same distance from zero in opposite directions; their sum is zero."},
+        {"term": "Integer", "meaning": "A positive whole number, a negative whole number, or zero."}
+      ],
+      "worked_examples": [
+        {"prompt": "At dawn the temperature is -4 °C. It rises by 9 °C and then falls by 6 °C. What is the final temperature?", "steps": ["Start at -4 °C.", "A rise of 9 gives -4 + 9 = 5 °C.", "A fall of 6 gives 5 - 6 = -1 °C.", "Check the net change: +9 - 6 = +3, and -4 + 3 = -1 °C."], "answer": "-1 °C"},
+        {"prompt": "Evaluate (-7) × 4 and explain the sign.", "steps": ["The magnitudes multiply: 7 × 4 = 28.", "The signs differ, so the product is negative."], "answer": "-28"}
+      ],
+      "visual": {"type": "number_line", "description": "Integer movement from -4 to 5 and then back to -1.", "min": -6, "max": 6, "points": [-4, 5, -1], "labels": ["start", "after rise", "finish"]},
+      "visual_topic_ids": ["number-systems/positive-and-negative-numbers", "number-systems/number-lines", "number-systems/applications-of-number-systems"],
+      "visual_hint": "Follow each temperature change as a move along the number line, using right for an increase and left for a decrease.",
+      "real_world_application": "Track temperature change, money added to or removed from a balance, or movement above and below sea level.",
+      "common_mistakes": ["Treating subtraction as a sign-only rule; rewrite subtraction as adding the opposite.", "Assuming a negative times a negative is negative.", "Confusing a negative change with a negative final amount."],
+      "guided_practice": [
+        {
+          "prompt": "A store balance is -KES 18. A KES 7 fee is charged, then KES 25 is deposited. Find the final balance.",
+          "hints": ["Represent the fee as a negative change and the deposit as a positive change.", "Apply each change to the current balance in order."],
+          "steps": ["After the fee: -18 - 7 = -25.", "After the deposit: -25 + 25 = 0.", "A zero balance means neither a debt nor a credit remains."],
+          "answer": "KES 0"
+        }
+      ],
+      "summary": "Use direction for addition and subtraction, compare magnitudes when signs differ, and use same-sign/opposite-sign rules for multiplication and division. Interpret the sign in context and check the final value.",
+      "revision_points": ["Subtraction is addition of the opposite.", "For unlike signs, subtract magnitudes and keep the sign of the greater magnitude.", "Same signs multiply/divide to a positive; unlike signs to a negative.", "Division by zero is undefined; interpret signed results in context."],
+      "phase_b_status": "draft_not_reviewed",
+      "source_reference_ids": ["prealgebra-2e"],
+      "coverage_subtopic_ids": ["number-systems/integers", "number-systems/positive-and-negative-numbers", "number-systems/number-lines", "number-systems/comparing-and-ordering-numbers", "number-systems/applications-of-number-systems"],
+      "questions": [
+        {"id": "math-integer-ops-q1", "type": "numerical", "prompt": "Evaluate -8 + 13.", "correct_answer": "5", "tolerance": 0, "explanation": "Starting at -8 and moving 13 units right gives 5. Equivalently, 13 - 8 = 5.", "review_topic": "integers", "topic_id": "number-systems/integers", "learning_objective_id": "add-subtract-integers", "difficulty": "easy", "purpose": "practice"},
+        {"id": "math-integer-ops-q2", "type": "numerical", "prompt": "Evaluate 6 - 14.", "correct_answer": "-8", "tolerance": 0, "explanation": "Subtracting 14 from 6 moves 14 units left: 6 - 14 = -8.", "review_topic": "addition and subtraction of integers", "topic_id": "number-systems/integers", "learning_objective_id": "add-subtract-integers", "difficulty": "easy", "purpose": "practice"},
+        {"id": "math-integer-ops-q3", "type": "numerical", "prompt": "Evaluate (-7) × (-5).", "correct_answer": "35", "tolerance": 0, "explanation": "The signs match, so the result is positive; 7 × 5 = 35.", "review_topic": "multiplication and division of integers", "topic_id": "number-systems/integers", "difficulty": "easy", "purpose": "practice", "learning_objective_id": "multiply-divide-integers"},
+        {"id": "math-integer-ops-q4", "type": "numerical", "prompt": "Evaluate 48 ÷ (-6).", "correct_answer": "-8", "tolerance": 0, "explanation": "The signs differ, so the quotient is negative; 48 ÷ 6 = 8.", "review_topic": "multiplication and division of integers", "topic_id": "number-systems/integers", "difficulty": "moderate", "purpose": "practice", "learning_objective_id": "multiply-divide-integers"},
+        {"id": "math-integer-ops-q5", "type": "numerical", "prompt": "A diver is at -12 m and rises 7 m. What is the diver's new elevation in metres?", "correct_answer": "-5", "tolerance": 0, "explanation": "Rising 7 m adds 7 to -12: -12 + 7 = -5 m. The diver remains below sea level.", "review_topic": "integers", "topic_id": "number-systems/integers", "learning_objective_id": "add-subtract-integers", "difficulty": "moderate", "purpose": "application"},
+        {"id": "math-integer-ops-q6", "type": "multiple_choice", "prompt": "A balance is -KES 250. A deposit of KES 400 is made. Which expression and result describe the new balance?", "options": ["-250 - 400 = -650", "-250 + 400 = 150", "250 + 400 = 650"], "correct_answer": "-250 + 400 = 150", "explanation": "The deposit is a positive change. Adding 400 to -250 leaves a positive balance of KES 150.", "review_topic": "applications of number systems", "topic_id": "number-systems/applications-of-number-systems", "learning_objective_id": "model-signed-context", "difficulty": "moderate", "purpose": "knowledge_check"}
+      ]
+    },
+    {
+      "id": "math-number-divisibility-factorisation",
+      "title": "Divisibility and Prime Factorisation",
+      "subtopics": ["factors", "multiples", "prime numbers", "composite numbers", "prime factorisation", "divisibility rules"],
+      "notation_review_status": "checked",
+      "duration_minutes": 17,
+      "objectives": ["Distinguish factors from multiples.", "Classify whole numbers greater than one as prime or composite.", "Use divisibility tests for 2, 3, 5, 9 and 10.", "Write a composite number as a product of prime factors."],
+      "prerequisites": ["Multiply and divide whole numbers.", "Recognise remainders and place value."],
+      "intro": "Factors, multiples and primes describe how whole numbers are built. Prime factorisation breaks a composite number into indivisible multiplicative building blocks.",
+      "sections": [
+        {"title": "Factors and multiples are related but different", "body": "A factor divides a number exactly: 4 is a factor of 20 because 20 ÷ 4 = 5. A multiple is formed by multiplying a number by a whole number: 20 is a multiple of 4. Factors of a positive whole number are finite; its positive multiples continue without end."},
+        {"title": "Prime and composite numbers", "body": "A prime number is greater than 1 and has exactly two positive factors: 1 and itself. A composite number is greater than 1 and has more than two positive factors. One is neither prime nor composite. Divisibility tests can narrow down factors: a whole number divisible by 2 ends in an even digit; by 5 it ends in 0 or 5; by 10 it ends in 0; by 3 or 9 its digit sum is divisible by 3 or 9."},
+        {"title": "Factor trees and uniqueness", "body": "Split a composite number into factor pairs until every branch ends in a prime. Multiplying the prime leaves reconstructs the original number. The order of the leaves can differ, but the prime factorisation is unique apart from order."}
+      ],
+      "definitions": [
+        {"term": "Factor", "meaning": "A whole number that divides another whole number with no remainder."},
+        {"term": "Multiple", "meaning": "A number obtained by multiplying a given number by a whole number."},
+        {"term": "Prime number", "meaning": "A whole number greater than 1 with exactly two positive factors."},
+        {"term": "Prime factorisation", "meaning": "Writing a composite number as a product of prime numbers."}
+      ],
+      "worked_examples": [
+        {"prompt": "Write 84 as a product of prime factors.", "steps": ["Split 84 as 2 × 42.", "Split 42 as 2 × 21.", "Split 21 as 3 × 7; both 3 and 7 are prime.", "Collect the prime factors: 84 = 2 × 2 × 3 × 7 = 2² × 3 × 7.", "Check by multiplication: 4 × 3 × 7 = 84."], "answer": "84 = 2² × 3 × 7"},
+        {"prompt": "Is 1,245 divisible by 3 and by 5?", "steps": ["Digit sum: 1 + 2 + 4 + 5 = 12, which is divisible by 3.", "The final digit is 5, so the number is divisible by 5."], "answer": "Yes to both"}
+      ],
+      "visual": {"type": "factor_tree", "description": "A factor tree for 84 ending in prime factors 2, 2, 3 and 7.", "root": {"value": 84, "children": [{"value": 2}, {"value": 42, "children": [{"value": 2}, {"value": 21, "children": [{"value": 3}, {"value": 7}]}]}]}},
+      "visual_topic_ids": ["number-systems/factors", "number-systems/prime-factorization"],
+      "visual_hint": "Read the leaves of the factor tree; every leaf must be prime and their product must return to 84.",
+      "real_world_application": "Prime factors help simplify fractions, find common factors and plan equal-sized groups.",
+      "common_mistakes": ["Calling 1 a prime number.", "Calling a multiple a factor; reverse the relationship carefully.", "Stopping a factor tree at a composite number such as 21.", "Applying the digit-sum test for 3 to the last digit only."],
+      "guided_practice": [
+        {
+          "prompt": "Use a factor tree to write 90 as a product of primes, then check whether 90 is divisible by 9.",
+          "hints": ["Split 90 into convenient factors and keep splitting composite branches.", "Use the digit-sum test for divisibility by 9."],
+          "steps": ["90 = 9 × 10 = 3 × 3 × 2 × 5.", "All the factors 2, 3 and 5 are prime, so 90 = 2 × 3² × 5.", "The digit sum is 9, so 90 is divisible by 9; indeed 90 ÷ 9 = 10."],
+          "answer": "90 = 2 × 3² × 5; yes, it is divisible by 9."
+        }
+      ],
+      "summary": "Factors divide exactly; multiples are products. One is neither prime nor composite. Use divisibility tests and continue factor trees until only primes remain.",
+      "revision_points": ["Factors divide a number; multiples are produced by multiplying it.", "A prime has exactly two positive factors; one is neither prime nor composite.", "Use digit sums for 3 and 9, and last digits for 2, 5 and 10.", "A prime factorisation ends only when every factor is prime; multiply the leaves to check."],
+      "phase_b_status": "draft_not_reviewed",
+      "source_reference_ids": ["prealgebra-2e"],
+      "coverage_subtopic_ids": ["number-systems/factors", "number-systems/multiples", "number-systems/prime-numbers", "number-systems/composite-numbers", "number-systems/prime-factorization", "number-systems/divisibility-rules"],
+      "questions": [
+        {"id": "math-divisibility-q1", "type": "multiple_choice", "prompt": "Which list contains all positive factors of 12?", "options": ["1, 2, 3, 4, 6, 12", "1, 2, 4, 8, 12", "2, 3, 4, 6"], "correct_answer": "1, 2, 3, 4, 6, 12", "explanation": "Each listed number divides 12 exactly; the other options omit factors or include 8, which does not divide 12 exactly.", "review_topic": "factors", "topic_id": "number-systems/factors", "learning_objective_id": "list-positive-factors", "difficulty": "easy", "purpose": "practice"},
+        {"id": "math-divisibility-q2", "type": "numerical", "prompt": "What is the smallest positive multiple of 9 greater than 50?", "correct_answer": "54", "tolerance": 0, "explanation": "The multiples around 50 are 9 × 5 = 45 and 9 × 6 = 54; 54 is the first greater than 50.", "review_topic": "multiples", "topic_id": "number-systems/multiples", "learning_objective_id": "generate-multiples", "difficulty": "easy", "purpose": "practice"},
+        {"id": "math-divisibility-q3", "type": "multiple_choice", "prompt": "Which statement about 1 is correct?", "options": ["1 is prime.", "1 is composite.", "1 is neither prime nor composite."], "correct_answer": "1 is neither prime nor composite.", "explanation": "A prime has exactly two positive factors and a composite has more than two. One has exactly one positive factor.", "review_topic": "prime numbers", "topic_id": "number-systems/prime-numbers", "learning_objective_id": "classify-primes", "difficulty": "easy", "purpose": "practice"},
+        {"id": "math-divisibility-q4", "type": "multiple_choice", "prompt": "Which number is composite?", "options": ["29", "31", "39"], "correct_answer": "39", "explanation": "39 is divisible by 3 because 3 + 9 = 12, and 39 = 3 × 13. The other two have no prime divisor up to their square roots.", "review_topic": "composite numbers", "topic_id": "number-systems/composite-numbers", "learning_objective_id": "classify-composites", "difficulty": "moderate", "purpose": "practice"},
+        {"id": "math-divisibility-q5", "type": "short_answer", "prompt": "Write 60 as a product of prime factors using index notation.", "accepted_answers": ["2^2*3*5", "2^2 x 3 x 5", "2² × 3 × 5", "2^2×3×5"], "correct_answer": "2² × 3 × 5", "explanation": "60 = 6 × 10 = 2 × 3 × 2 × 5. Collecting equal prime factors gives 2² × 3 × 5.", "review_topic": "prime factorisation", "topic_id": "number-systems/prime-factorization", "learning_objective_id": "construct-prime-factorisation", "difficulty": "moderate", "purpose": "knowledge_check"},
+        {"id": "math-divisibility-q6", "type": "multiple_choice", "prompt": "Which number is divisible by both 3 and 5?", "options": ["1,245", "1,242", "1,250"], "correct_answer": "1,245", "explanation": "1,245 ends in 5, so it is divisible by 5. Its digit sum is 12, divisible by 3.", "review_topic": "divisibility rules", "topic_id": "number-systems/divisibility-rules", "learning_objective_id": "combine-divisibility-tests", "difficulty": "moderate", "purpose": "knowledge_check"}
+      ]
+    },
+    {
+      "id": "math-number-hcf-lcm-applications",
+      "title": "HCF and LCM in Grouping and Repeating Events",
+      "subtopics": ["highest common factor (HCF)", "lowest common multiple (LCM)", "applications of number systems"],
+      "notation_review_status": "checked",
+      "duration_minutes": 15,
+      "objectives": ["Find an HCF from prime factorisations.", "Find an LCM from prime factorisations.", "Choose HCF for equal grouping and LCM for repeating events.", "Explain why the selected result fits a word problem."],
+      "prerequisites": ["Find factors and multiples.", "Write a number as a product of primes."],
+      "intro": "HCF and LCM both compare whole numbers, but answer different questions. HCF is useful for the largest equal groups; LCM is useful for the first shared repeat.",
+      "sections": [
+        {"title": "Choose the operation from the situation", "body": "Use the HCF when splitting quantities into the greatest number of equal groups or the largest equal pieces with no leftovers. Use the LCM when repeated cycles must happen together again, such as two alarms or buses that recur at different intervals."},
+        {"title": "Use prime powers", "body": "For the HCF, take only primes shared by every number and use the smallest exponent. For the LCM, include every prime that appears and use the largest exponent. Then check divisibility: the HCF must divide each input, and the LCM must be a multiple of each."}
+      ],
+      "definitions": [
+        {"term": "Highest common factor (HCF)", "meaning": "The greatest positive whole number that divides every number in a set."},
+        {"term": "Lowest common multiple (LCM)", "meaning": "The least positive whole number that is a multiple of every number in a set."}
+      ],
+      "worked_examples": [
+        {"prompt": "A club has 36 red beads and 48 blue beads. What is the greatest number of identical bags that can be made with no beads left over?", "steps": ["The number of bags must divide both 36 and 48.", "36 = 2² × 3² and 48 = 2⁴ × 3.", "The HCF is 2² × 3 = 12.", "Each bag receives 36 ÷ 12 = 3 red and 48 ÷ 12 = 4 blue beads."], "answer": "12 bags"},
+        {"prompt": "Two lights flash every 8 seconds and every 12 seconds. If they flash together now, when will they next flash together?", "steps": ["A shared flash time must be a multiple of 8 and 12.", "8 = 2³ and 12 = 2² × 3.", "The LCM is 2³ × 3 = 24."], "answer": "After 24 seconds"}
+      ],
+      "visual_hint": "Compare the lists of multiples for a small example and circle the first shared one; for larger numbers, use prime powers.",
+      "real_world_application": "Plan equal gift bags, cut material into the longest equal pieces, or find when recurring transport and event schedules coincide.",
+      "common_mistakes": ["Using HCF for a repeated-event question instead of the first shared multiple.", "Using every prime's largest power for HCF.", "Giving a shared multiple that is not the least one."],
+      "guided_practice": [
+        {
+          "prompt": "Two school clubs meet every 9 days and every 12 days. They meet today. After how many days will they next meet on the same day?",
+          "hints": ["A shared meeting day must be a multiple of both intervals.", "Choose the least positive shared multiple, not just any common multiple."],
+          "steps": ["9 = 3² and 12 = 2² × 3.", "The LCM uses the greatest power of every prime: 2² × 3² = 36.", "Check that 36 ÷ 9 = 4 and 36 ÷ 12 = 3."],
+          "answer": "36 days"
+        }
+      ],
+      "summary": "HCF answers largest equal-group questions; LCM answers first shared-repeat questions. Prime factorisation gives HCF by common minimum powers and LCM by all maximum powers.",
+      "revision_points": ["Use HCF for the largest equal size or number of groups with no remainder.", "Use LCM for the first time repeating cycles coincide.", "HCF takes shared primes at the smallest powers; LCM takes all primes at the largest powers.", "Check that an HCF divides each value and an LCM is a multiple of each."],
+      "phase_b_status": "draft_not_reviewed",
+      "source_reference_ids": ["prealgebra-2e"],
+      "coverage_subtopic_ids": ["number-systems/highest-common-factor-hcf", "number-systems/lowest-common-multiple-lcm", "number-systems/applications-of-number-systems"],
+      "questions": [
+        {"id": "math-hcf-lcm-q1", "type": "numerical", "prompt": "Find the HCF of 36 and 48.", "correct_answer": "12", "tolerance": 0, "explanation": "36 = 2² × 3² and 48 = 2⁴ × 3. The common prime powers with the smaller exponents give 2² × 3 = 12.", "review_topic": "highest common factor (HCF)", "topic_id": "number-systems/highest-common-factor-hcf", "learning_objective_id": "find-hcf-by-factors", "difficulty": "easy", "purpose": "practice"},
+        {"id": "math-hcf-lcm-q2", "type": "numerical", "prompt": "Find the LCM of 12 and 18.", "correct_answer": "36", "tolerance": 0, "explanation": "12 = 2² × 3 and 18 = 2 × 3². Use the largest powers: 2² × 3² = 36.", "review_topic": "lowest common multiple (LCM)", "topic_id": "number-systems/lowest-common-multiple-lcm", "learning_objective_id": "find-lcm-by-lists", "difficulty": "easy", "purpose": "practice"},
+        {"id": "math-hcf-lcm-q3", "type": "numerical", "prompt": "What is the greatest number of equal groups that can be made from 42 mangoes and 56 oranges if no fruit is left over?", "correct_answer": "14", "tolerance": 0, "explanation": "The number of groups must divide both quantities. HCF(42, 56) = 14, giving 3 mangoes and 4 oranges in each group.", "review_topic": "applications of number systems", "topic_id": "number-systems/applications-of-number-systems", "learning_objective_id": "choose-hcf-lcm-context", "difficulty": "moderate", "purpose": "practice"},
+        {"id": "math-hcf-lcm-q4", "type": "numerical", "prompt": "A bell rings every 6 minutes and another every 10 minutes. After how many minutes will they next ring together?", "correct_answer": "30", "tolerance": 0, "explanation": "The first shared time is LCM(6, 10) = 30 minutes.", "review_topic": "applications of number systems", "topic_id": "number-systems/applications-of-number-systems", "learning_objective_id": "choose-hcf-lcm-context", "difficulty": "moderate", "purpose": "practice"},
+        {"id": "math-hcf-lcm-q5", "type": "multiple_choice", "prompt": "For the largest possible equal-length pieces cut from 30 cm and 45 cm ribbons, which value should be found?", "options": ["HCF of 30 and 45", "LCM of 30 and 45", "Sum of 30 and 45"], "correct_answer": "HCF of 30 and 45", "explanation": "The piece length must divide both ribbon lengths. The greatest such length is their HCF.", "review_topic": "highest common factor (HCF)", "topic_id": "number-systems/highest-common-factor-hcf", "learning_objective_id": "apply-hcf-grouping", "difficulty": "moderate", "purpose": "knowledge_check"},
+        {"id": "math-hcf-lcm-q6", "type": "multiple_choice", "prompt": "Which check confirms that 24 could be the LCM of 8 and 12?", "options": ["24 is a multiple of both 8 and 12, and no smaller positive common multiple exists.", "24 divides both 8 and 12.", "24 is the sum of 8 and 12."], "correct_answer": "24 is a multiple of both 8 and 12, and no smaller positive common multiple exists.", "explanation": "An LCM must be a common multiple and the least positive one. The multiples show 24 is the first shared value.", "review_topic": "lowest common multiple (LCM)", "topic_id": "number-systems/lowest-common-multiple-lcm", "learning_objective_id": "verify-lcm", "difficulty": "moderate", "purpose": "knowledge_check"}
+      ]
+    },
+    {
+      "id": "math-number-powers-indices",
+      "title": "Powers, Index Laws and Standard Form",
+      "subtopics": ["exponents and powers", "base and index", "laws of indices", "zero and negative indices", "scientific notation and standard form"],
+      "notation_review_status": "checked",
+      "duration_minutes": 17,
+      "objectives": ["Interpret a power as repeated multiplication.", "Apply product and quotient laws for equal bases.", "Explain zero and negative integer indices for non-zero bases.", "Write a positive number in standard form."],
+      "prerequisites": ["Multiply whole numbers.", "Recognise place value and powers of ten."],
+      "intro": "Powers provide a compact way to represent repeated multiplication and very large or very small quantities.",
+      "sections": [
+        {"title": "Base and index", "body": "In aⁿ, a is the base and n is the index (exponent). For a positive integer n, aⁿ means n factors of a multiplied together. It does not mean a × n: 3⁴ = 3 × 3 × 3 × 3 = 81."},
+        {"title": "Index laws and their limits", "body": "For the same non-zero base, aᵐ × aⁿ = aᵐ⁺ⁿ and aᵐ ÷ aⁿ = aᵐ⁻ⁿ when the quotient is defined. A non-zero base to the zero power is 1. A negative index means reciprocal: a⁻ⁿ = 1/aⁿ, with a not equal to zero. These rules do not allow adding exponents when bases differ."},
+        {"title": "Standard form", "body": "Standard form writes a number as A × 10ⁿ, where 1 ≤ A < 10 and n is an integer. Moving the decimal point left to make A usually gives a positive exponent for a large number; moving it right gives a negative exponent for a small positive number. Count the moves and check by expanding the power of ten."}
+      ],
+      "definitions": [
+        {"term": "Base", "meaning": "The repeated factor in a power."},
+        {"term": "Index (exponent)", "meaning": "The number of equal factors represented by a positive whole-number power."},
+        {"term": "Standard form", "meaning": "A number written A × 10ⁿ with 1 ≤ A < 10."}
+      ],
+      "worked_examples": [
+        {"prompt": "Simplify 2³ × 2⁴ and evaluate the result.", "steps": ["Write the factors: (2 × 2 × 2)(2 × 2 × 2 × 2).", "There are seven factors of 2, so 2³ × 2⁴ = 2⁷.", "Evaluate 2⁷ = 128."], "answer": "2⁷ = 128"},
+        {"prompt": "Write 0.00056 in standard form.", "steps": ["Move the decimal four places right to get 5.6.", "Because the original number is less than 1, use a negative exponent.", "Therefore 0.00056 = 5.6 × 10⁻⁴.", "Check: 5.6 × 0.0001 = 0.00056."], "answer": "5.6 × 10⁻⁴"}
+      ],
+      "visual": {"type": "power_model", "description": "A 3 by 3 array represents 3 squared as nine equal units.", "base": 3, "exponent": 2},
+      "visual_topic_ids": ["number-systems/exponents-and-powers", "number-systems/squares-and-square-roots"],
+      "visual_hint": "Count equal factors for a power; for standard form, count each decimal-place move and record its direction in the exponent sign.",
+      "real_world_application": "Powers and standard form describe repeated growth, data storage, distances in space and very small measurements.",
+      "common_mistakes": ["Reading 3⁴ as 3 × 4 instead of four factors of 3.", "Adding indices when multiplying different bases.", "Using a⁰ = 0; for a non-zero base, a⁰ = 1.", "Using a positive exponent for a small decimal written in standard form."],
+      "guided_practice": [
+        {
+          "prompt": "Simplify 3⁴ ÷ 3², then write 0.000072 in standard form.",
+          "hints": ["For division with the same non-zero base, subtract the indices.", "The standard-form leading number must be at least 1 and less than 10."],
+          "steps": ["3⁴ ÷ 3² = 3⁽⁴⁻²⁾ = 3² = 9.", "Move the decimal five places right to obtain 7.2.", "The original number is less than 1, so the exponent is negative: 0.000072 = 7.2 × 10⁻⁵."],
+          "answer": "9; 7.2 × 10⁻⁵"
+        }
+      ],
+      "summary": "An index counts repeated factors. For equal bases, multiplication adds indices and division subtracts them; zero and negative indices require a non-zero base. Standard form keeps the leading number from 1 inclusive to 10 exclusive.",
+      "revision_points": ["In aⁿ, a is the base and n is the index.", "For the same non-zero base, multiplication adds indices and division subtracts them.", "a⁰ = 1 and a⁻ⁿ = 1/aⁿ for a ≠ 0.", "Standard form is A × 10ⁿ with 1 ≤ A < 10; check the decimal shift and exponent sign."],
+      "phase_b_status": "draft_not_reviewed",
+      "source_reference_ids": ["prealgebra-2e"],
+      "coverage_subtopic_ids": ["number-systems/exponents-and-powers"],
+      "questions": [
+        {"id": "math-indices-q1", "type": "numerical", "prompt": "Evaluate 3⁴.", "correct_answer": "81", "tolerance": 0, "explanation": "3⁴ has four factors of 3: 3 × 3 × 3 × 3 = 81.", "review_topic": "exponents and powers", "topic_id": "number-systems/exponents-and-powers", "learning_objective_id": "evaluate-integer-powers", "difficulty": "easy", "purpose": "practice"},
+        {"id": "math-indices-q2", "type": "numerical", "prompt": "What is the index of the single power equivalent to 5² × 5³?", "correct_answer": "5", "tolerance": 0, "explanation": "The bases are both 5, so add the indices: 5² × 5³ = 5⁽²⁺³⁾ = 5⁵. The index is 5.", "review_topic": "laws of indices", "topic_id": "number-systems/exponents-and-powers", "learning_objective_id": "apply-index-laws", "difficulty": "moderate", "purpose": "practice"},
+        {"id": "math-indices-q3", "type": "numerical", "prompt": "Evaluate 7⁰.", "correct_answer": "1", "tolerance": 0, "explanation": "Any non-zero base to the zero power equals 1.", "review_topic": "zero and negative indices", "topic_id": "number-systems/exponents-and-powers", "learning_objective_id": "interpret-zero-negative-index", "difficulty": "easy", "purpose": "practice"},
+        {"id": "math-indices-q4", "type": "short_answer", "prompt": "Write 2⁻³ as a fraction in simplest form.", "accepted_answers": ["1/8"], "correct_answer": "1/8", "explanation": "A negative index means reciprocal: 2⁻³ = 1/(2³) = 1/8.", "review_topic": "zero and negative indices", "topic_id": "number-systems/exponents-and-powers", "learning_objective_id": "interpret-zero-negative-index", "difficulty": "moderate", "purpose": "practice"},
+        {"id": "math-indices-q5", "type": "multiple_choice", "prompt": "Which is the standard form of 6,300,000?", "options": ["6.3 × 10⁶", "63 × 10⁵", "0.63 × 10⁷"], "correct_answer": "6.3 × 10⁶", "explanation": "The leading value 6.3 lies in the interval 1 ≤ A < 10; moving the decimal six places gives 6,300,000.", "review_topic": "scientific notation and standard form", "topic_id": "number-systems/exponents-and-powers", "learning_objective_id": "convert-standard-form", "difficulty": "moderate", "purpose": "knowledge_check"},
+        {"id": "math-indices-q6", "type": "multiple_choice", "prompt": "Which statement is valid for non-zero a?", "options": ["a³ × a² = a⁶", "a³ × a² = a⁵", "a³ × a² = 2a⁵"], "correct_answer": "a³ × a² = a⁵", "explanation": "When multiplying powers with the same base, add the indices: 3 + 2 = 5.", "review_topic": "laws of indices", "topic_id": "number-systems/exponents-and-powers", "learning_objective_id": "apply-index-laws", "difficulty": "moderate", "purpose": "knowledge_check"}
+      ]
+    },
+    {
+      "id": "math-number-roots",
+      "title": "Squares, Cubes and Estimating Roots",
+      "subtopics": ["roots", "squares and square roots", "cubes and cube roots", "perfect squares and perfect cubes", "estimating roots"],
+      "notation_review_status": "checked",
+      "duration_minutes": 16,
+      "objectives": ["Relate a square root and cube root to the inverse power.", "Recognise perfect squares and cubes.", "Estimate a non-perfect root by locating it between consecutive integer powers.", "Check a root by reversing the operation."],
+      "prerequisites": ["Evaluate small squares and cubes.", "Compare whole numbers on a number line."],
+      "intro": "A root asks which equal factors produced a number. When the number is not a perfect power, nearby powers help us estimate its root.",
+      "sections": [
+        {"title": "Square and cube roots undo powers", "body": "The principal square root √n is the non-negative number whose square is n. The cube root ∛n is the number whose cube is n and may be negative when n is negative. For example, √49 = 7, while the equation x² = 49 has two solutions, x = -7 and x = 7."},
+        {"title": "Perfect powers and estimation", "body": "A perfect square has an integer square root; a perfect cube has an integer cube root. If 6² < 40 < 7², then 6 < √40 < 7. A decimal estimate can be refined by testing values between 6 and 7 and squaring them. Always distinguish an exact root from an approximation."}
+      ],
+      "definitions": [
+        {"term": "Perfect square", "meaning": "A whole number that is the square of a whole number."},
+        {"term": "Perfect cube", "meaning": "A whole number that is the cube of a whole number."},
+        {"term": "Principal square root", "meaning": "The non-negative number whose square equals the given non-negative number."}
+      ],
+      "worked_examples": [
+        {"prompt": "Estimate √40 to one decimal place.", "steps": ["Since 6² = 36 and 7² = 49, √40 lies between 6 and 7.", "Test 6.3: 6.3² = 39.69, slightly below 40.", "Test 6.4: 6.4² = 40.96, above 40.", "So √40 is about 6.3 to one decimal place."], "answer": "√40 ≈ 6.3"},
+        {"prompt": "Find ∛(-125).", "steps": ["Find the number that multiplied by itself three times gives -125.", "(-5) × (-5) × (-5) = -125."], "answer": "-5"}
+      ],
+      "visuals": [
+        {
+          "type": "number_line",
+          "description": "The square root of 40 lies between 6 and 7, close to 6.3.",
+          "min": 5,
+          "max": 8,
+          "points": [6, 6.3, 7],
+          "labels": ["6² = 36", "√40 ≈ 6.3", "7² = 49"]
+        },
+        {
+          "type": "power_model",
+          "description": "Three layers of five by five unit cubes make 125 cubes, so the cube root of 125 is 5.",
+          "base": 5,
+          "exponent": 3
+        }
+      ],
+      "visual_topic_ids": ["number-systems/roots", "number-systems/squares-and-square-roots", "number-systems/cubes-and-cube-roots"],
+      "visual_hint": "Bracket a root between consecutive integer powers before estimating its decimal value.",
+      "real_world_application": "Roots help recover the side length of a square from its area or the edge of a cube from its volume.",
+      "common_mistakes": ["Confusing √49 = 7 with the two solutions of x² = 49.", "Assuming every root is an integer.", "Writing an approximate root as an exact equality.", "Claiming the real square root of a negative number is an integer."],
+      "guided_practice": [
+        {
+          "prompt": "Estimate √52 to the nearest tenth and evaluate ∛2197.",
+          "hints": ["Bracket 52 between consecutive perfect squares before refining.", "For a cube root, look for a number whose cube is the given value."],
+          "steps": ["7² = 49 and 8² = 64, so √52 lies between 7 and 8.", "7.2² = 51.84 and 7.3² = 53.29, so √52 rounds to 7.2 to the nearest tenth.", "13³ = 13 × 13 × 13 = 2197, so ∛2197 = 13."],
+          "answer": "√52 ≈ 7.2; ∛2197 = 13"
+        }
+      ],
+      "summary": "Square and cube roots reverse powers. Use nearby perfect powers to locate and estimate a non-perfect root, then verify by raising the estimate to the required power.",
+      "revision_points": ["√n denotes the non-negative principal square root; x² = n may have two solutions.", "Cube roots preserve the sign of negative inputs.", "Perfect squares/cubes have integer roots; otherwise bracket between consecutive powers.", "Mark estimates with ≈ and check by squaring or cubing."],
+      "phase_b_status": "draft_not_reviewed",
+      "source_reference_ids": ["prealgebra-2e"],
+      "coverage_subtopic_ids": ["number-systems/roots", "number-systems/squares-and-square-roots", "number-systems/cubes-and-cube-roots"],
+      "questions": [
+        {"id": "math-roots-q1", "type": "numerical", "prompt": "Evaluate the principal square root √169.", "correct_answer": "13", "tolerance": 0, "explanation": "13 × 13 = 169, and the principal square root is non-negative.", "review_topic": "squares and square roots", "topic_id": "number-systems/squares-and-square-roots", "learning_objective_id": "evaluate-principal-square-root", "difficulty": "easy", "purpose": "practice"},
+        {"id": "math-roots-q2", "type": "numerical", "prompt": "Evaluate ∛(-64).", "correct_answer": "-4", "tolerance": 0, "explanation": "(-4)³ = (-4)(-4)(-4) = -64.", "review_topic": "cubes and cube roots", "topic_id": "number-systems/cubes-and-cube-roots", "learning_objective_id": "evaluate-signed-cube-roots", "difficulty": "moderate", "purpose": "practice"},
+        {"id": "math-roots-q3", "type": "multiple_choice", "prompt": "Which number is a perfect square but not a perfect cube?", "options": ["36", "64", "125"], "correct_answer": "36", "explanation": "36 = 6² and is not an integer cube. 64 = 4³ as well as 8²; 125 = 5³.", "review_topic": "perfect squares and perfect cubes", "topic_id": "number-systems/squares-and-square-roots", "learning_objective_id": "recognize-perfect-squares", "difficulty": "moderate", "purpose": "practice"},
+        {"id": "math-roots-q4", "type": "multiple_choice", "prompt": "Between which consecutive whole numbers does √70 lie?", "options": ["7 and 8", "8 and 9", "9 and 10"], "correct_answer": "8 and 9", "explanation": "8² = 64 and 9² = 81, so 64 < 70 < 81 and 8 < √70 < 9.", "review_topic": "estimating roots", "topic_id": "number-systems/roots", "learning_objective_id": "bracket-root", "difficulty": "moderate", "purpose": "practice"},
+        {"id": "math-roots-q5", "type": "numerical", "prompt": "Evaluate 5³.", "correct_answer": "125", "tolerance": 0, "explanation": "5³ = 5 × 5 × 5 = 125.", "review_topic": "cubes and cube roots", "topic_id": "number-systems/cubes-and-cube-roots", "learning_objective_id": "evaluate-integer-cubes", "difficulty": "easy", "purpose": "practice"},
+        {"id": "math-roots-q6", "type": "multiple_choice", "prompt": "Which statement is correct?", "options": ["√25 = -5 only", "The principal √25 is 5; the equation x² = 25 has solutions -5 and 5.", "√25 has no real value."], "correct_answer": "The principal √25 is 5; the equation x² = 25 has solutions -5 and 5.", "explanation": "The radical symbol denotes the non-negative principal root, while solving x² = 25 asks for both numbers whose square is 25.", "review_topic": "roots", "topic_id": "number-systems/roots", "learning_objective_id": "distinguish-principal-root", "difficulty": "moderate", "purpose": "knowledge_check"}
+      ]
+    },
+    {
+      "id": "math-number-order-estimation",
+      "title": "Order of Operations, Estimation and Checking",
+      "subtopics": ["order of operations", "mixed arithmetic operations", "brackets and nested expressions", "mental arithmetic", "estimation and checking answers", "applications of number systems"],
+      "notation_review_status": "checked",
+      "duration_minutes": 15,
+      "objectives": ["Apply grouping, powers, multiplication/division and addition/subtraction in the correct order.", "Evaluate multiplication and division left to right when they share precedence.", "Use estimation to judge the size of an answer.", "Check a calculation with an inverse operation or a second representation."],
+      "prerequisites": ["Use the four arithmetic operations with whole numbers.", "Evaluate simple powers and expressions in brackets."],
+      "intro": "A consistent order of operations makes an expression unambiguous. Estimation and inverse operations help catch mistakes before they become final answers.",
+      "sections": [
+        {"title": "BODMAS is a grouping guide", "body": "Evaluate brackets and other grouping symbols first, then orders (powers and roots), then multiplication and division from left to right, and finally addition and subtraction from left to right. Multiplication does not outrank division, and addition does not outrank subtraction; each pair shares precedence."},
+        {"title": "Estimate, calculate, check", "body": "Round values to convenient nearby numbers to predict an approximate result. Then calculate exactly and compare. Check with an inverse operation, substitute the result back into the context, or use a different equivalent method. An estimate is a reasonableness check, not a replacement for an exact answer when exactness is required."}
+      ],
+      "definitions": [
+        {"term": "Order of operations", "meaning": "The agreed sequence for evaluating parts of an expression."},
+        {"term": "Estimate", "meaning": "A useful approximation that helps predict or check the size of a result."}
+      ],
+      "worked_examples": [
+        {"prompt": "Evaluate 30 - 2 × (3 + 2)² ÷ 5.", "steps": ["Brackets: 3 + 2 = 5.", "Power: 5² = 25.", "Multiplication and division left to right: 2 × 25 ÷ 5 = 10.", "Subtraction: 30 - 10 = 20."], "answer": "20"},
+        {"prompt": "Estimate 198 × 51, then find the exact product.", "steps": ["Estimate using 200 × 50 = 10,000.", "Calculate exactly: 198 × 51 = 198 × (50 + 1) = 9,900 + 198 = 10,098.", "The exact result is close to the estimate, so its size is reasonable."], "answer": "10,098"}
+      ],
+      "visual_hint": "Use a vertical checklist: grouping → powers/roots → multiplication/division left to right → addition/subtraction left to right.",
+      "real_world_application": "Estimate travel costs, quantities and totals before calculating precisely so a misplaced operation is easier to notice.",
+      "common_mistakes": ["Multiplying before division even when division appears first.", "Adding before subtracting even when subtraction appears first.", "Ignoring brackets or treating BODMAS as a rule that gives multiplication automatic priority over division.", "Reporting an estimate as an exact result."],
+      "guided_practice": [
+        {
+          "prompt": "Evaluate 60 ÷ [2 × (2 + 3)] + 4. Then estimate 49 × 21 and compare with its exact value.",
+          "hints": ["Work from the innermost grouping outward.", "For an estimate, round 49 and 21 to nearby convenient values."],
+          "steps": ["Inside the parentheses, 2 + 3 = 5; then 2 × 5 = 10.", "Evaluate the division before the addition: 60 ÷ 10 + 4 = 6 + 4 = 10.", "Estimate 49 × 21 by 50 × 20 = 1,000.", "The exact product is 49 × (20 + 1) = 980 + 49 = 1,029, close to the estimate."],
+          "answer": "10; estimate 1,000 and exact product 1,029"
+        }
+      ],
+      "summary": "Evaluate grouping first, powers and roots next, then multiplication/division left to right, then addition/subtraction left to right. Estimate first and check the exact answer independently.",
+      "revision_points": ["BODMAS gives precedence, not a requirement to multiply before division.", "Multiplication/division are evaluated left to right; addition/subtraction are also left to right.", "Resolve nested grouping from the inside outward.", "Estimate with convenient values and use inverse operations or a second method to check."],
+      "phase_b_status": "draft_not_reviewed",
+      "source_reference_ids": ["prealgebra-2e"],
+      "questions": [
+        {"id": "math-order-check-q1", "type": "numerical", "prompt": "Evaluate 36 ÷ 3 × 2.", "correct_answer": "24", "tolerance": 0, "explanation": "Division and multiplication share precedence, so work left to right: 36 ÷ 3 = 12, then 12 × 2 = 24.", "review_topic": "order of operations", "topic_id": "number-systems/order-of-operations", "learning_objective_id": "apply-shared-precedence", "difficulty": "easy", "purpose": "practice"},
+        {"id": "math-order-check-q2", "type": "numerical", "prompt": "Evaluate 5 + 2 × (8 - 3).", "correct_answer": "15", "tolerance": 0, "explanation": "First 8 - 3 = 5, then 2 × 5 = 10, and finally 5 + 10 = 15.", "review_topic": "brackets and nested expressions", "topic_id": "number-systems/order-of-operations", "learning_objective_id": "evaluate-nested-expression", "difficulty": "easy", "purpose": "practice"},
+        {"id": "math-order-check-q3", "type": "numerical", "prompt": "Evaluate 48 ÷ (2 × (3 + 5)).", "correct_answer": "3", "tolerance": 0, "explanation": "The inner brackets give 8, then 2 × 8 = 16, and 48 ÷ 16 = 3.", "review_topic": "brackets and nested expressions", "topic_id": "number-systems/order-of-operations", "learning_objective_id": "evaluate-nested-expression", "difficulty": "moderate", "purpose": "practice"},
+        {"id": "math-order-check-q4", "type": "numerical", "prompt": "A display has 25 rows with 16 tiles in each row. How many tiles are there? Use 25 × 16 = 25 × (4 × 4) to calculate.", "correct_answer": "400", "tolerance": 0, "explanation": "Regroup using friendly factors: 25 × 4 = 100, then 100 × 4 = 400 tiles.", "review_topic": "mental arithmetic", "topic_id": "number-systems/order-of-operations", "learning_objective_id": "evaluate-nested-expression", "difficulty": "easy", "purpose": "application"},
+        {"id": "math-order-check-q5", "type": "multiple_choice", "prompt": "Which pair gives a quick estimate and the exact product for 198 × 51?", "options": ["About 10,000; exactly 10,098", "About 1,000; exactly 1,098", "About 100,000; exactly 100,098"], "correct_answer": "About 10,000; exactly 10,098", "explanation": "Round 198 × 51 to 200 × 50 = 10,000. The exact product is 198 × (50 + 1) = 9,900 + 198 = 10,098, close to the estimate.", "review_topic": "estimation and checking answers", "topic_id": "number-systems/order-of-operations", "difficulty": "moderate", "purpose": "knowledge_check", "learning_objective_id": "estimate-and-check-expression"},
+        {"id": "math-order-check-q6", "type": "numerical", "prompt": "Evaluate 42 - 18 ÷ 3 × 2.", "correct_answer": "30", "tolerance": 0, "explanation": "Work division and multiplication from left to right: 18 ÷ 3 = 6, then 6 × 2 = 12. Finally 42 - 12 = 30.", "review_topic": "mixed arithmetic operations", "topic_id": "number-systems/order-of-operations", "learning_objective_id": "apply-shared-precedence", "difficulty": "moderate", "purpose": "knowledge_check"}
+      ]
+    }
+  ]
+}

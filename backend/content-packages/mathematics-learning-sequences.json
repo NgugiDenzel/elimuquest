@@ -1,0 +1,610 @@
+{
+  "source_note": "Original ElimuQuest instructional expansions based on the scope of the user-provided Mathematics Learning Pack and its coverage report. They are introductory drafts and require independent subject-expert review.",
+  "lesson_metadata": {
+    "math-number-systems-intro": {
+      "subtopics": ["natural numbers", "whole numbers", "integers", "rational and irrational numbers", "real numbers", "order of operations"],
+      "prerequisites": ["Recognise counting numbers and basic arithmetic operations."],
+      "summary": "Number sets describe shared properties; rational decimals terminate or repeat. Follow grouping, powers, and left-to-right multiplication/division and addition/subtraction.",
+      "guided_practice": [{
+        "prompt": "Evaluate 24 ÷ 3 × 2 and explain which operation comes first.",
+        "hints": ["Division and multiplication have equal precedence.", "When operations share precedence, work from left to right."],
+        "steps": ["Start with the leftmost operation: 24 ÷ 3 = 8.", "Then multiply: 8 × 2 = 16."],
+        "answer": "16"
+      }],
+      "revision_points": ["State the convention used when classifying natural numbers.", "Whole numbers include zero; integers also include negative whole numbers.", "Evaluate brackets before powers, then use left-to-right order within equal-precedence operations."]
+    },
+    "math-fractions-percentages-intro": {
+      "subtopics": ["fraction meaning", "equivalent fractions", "fraction operations", "decimal conversion", "percentages", "percentage change", "ratio", "proportion"],
+      "prerequisites": ["Multiply and divide whole numbers; recognise equal parts."],
+      "summary": "Use equivalent fractions and common denominators for addition. Percentages are per hundred; ratios compare quantities in consistent units."
+    },
+    "math-algebra-intro": {
+      "subtopics": ["variables and constants", "expressions", "simplification", "expansion", "linear equations", "substitution", "functions", "applications"],
+      "prerequisites": ["Use inverse operations and the four arithmetic operations."],
+      "summary": "Variables represent values, expressions describe calculations, and equations assert equality. Preserve equality by applying the same operation to both sides."
+    },
+    "math-geometry-measurement-intro": {
+      "subtopics": ["angles", "triangles", "perimeter", "area", "volume", "measurement"],
+      "prerequisites": ["Multiply whole numbers and identify basic two-dimensional shapes."],
+      "summary": "Use angle sums and select formulas based on whether the question asks for boundary length, area, or volume; include the appropriate units."
+    },
+    "math-trigonometry-intro": {
+      "subtopics": ["right-angled triangles", "sine", "cosine", "tangent"],
+      "prerequisites": ["Recognise right angles and identify sides of a triangle."],
+      "summary": "For an acute angle in a right triangle, sine, cosine and tangent relate pairs of sides. Label each side relative to the angle."
+    },
+    "math-statistics-intro": {
+      "subtopics": ["data and samples", "mean", "median", "mode", "range", "population variance", "standard deviation"],
+      "prerequisites": ["Add values and arrange numbers in order."],
+      "summary": "Mean, median and mode describe centre; range and variance describe spread. Distinguish population from sample calculations."
+    },
+    "math-probability-intro": {
+      "subtopics": ["probability", "outcomes", "events", "sample spaces", "independent events", "dependent events"],
+      "prerequisites": ["Count outcomes and simplify fractions."],
+      "summary": "For equally likely outcomes, probability is favourable outcomes divided by total outcomes. Check whether events are independent before multiplying."
+    },
+    "math-calculus-intro": {
+      "subtopics": ["limits", "differentiation", "derivatives", "rates of change", "integration", "accumulation"],
+      "prerequisites": ["Use powers and substitute values into functions."],
+      "summary": "A derivative describes instantaneous change; an integral describes accumulation. Include the constant of integration for an indefinite integral."
+    }
+  },
+  "question_metadata": {
+    "math-numbers-q1": {"review_topic": "rational and irrational numbers", "mathematical_validation_status": "author_checked", "answer_verified": true, "validation_working": "0.121212… = 12/99 because the repeating block has two digits; reduce 12/99 by 3 to get 4/33. This checks rational-number content, which is not one of the 20 registered Number Systems topics, so no topic link is assigned."},
+    "math-numbers-q2": {"review_topic": "order of operations", "topic_id": "number-systems/order-of-operations", "learning_objective_ids": ["evaluate-nested-expression"], "purpose": "practice", "difficulty": "moderate", "mathematical_validation_status": "author_checked", "answer_verified": true, "validation_working": "3 + 4 = 7; 7² = 49; 2 × 49 ÷ 7 = 98 ÷ 7 = 14; 18 - 14 = 4."},
+    "math-numbers-q3": {"review_topic": "left-to-right multiplication and division", "topic_id": "number-systems/order-of-operations", "learning_objective_ids": ["apply-shared-precedence"], "purpose": "knowledge_check", "difficulty": "easy", "mathematical_validation_status": "author_checked", "answer_verified": true, "validation_working": "Multiplication and division share precedence; evaluate left to right: 24 ÷ 3 = 8, then 8 × 2 = 16."},
+    "math-integers-q1": {"review_topic": "compare signed integers", "topic_id": "number-systems/comparing-and-ordering-numbers", "learning_objective_ids": ["compare-signed-integers"], "purpose": "practice", "difficulty": "easy", "mathematical_validation_status": "author_checked", "answer_verified": true, "validation_working": "-2 lies to the right of -8 on an increasing number line, therefore -2 > -8."},
+    "math-integers-q2": {"review_topic": "distance on a number line", "topic_id": "number-systems/number-lines", "learning_objective_ids": ["read-integer-number-line"], "purpose": "practice", "difficulty": "easy", "mathematical_validation_status": "author_checked", "answer_verified": true, "validation_working": "Distance is non-negative: |-7 - (-3)| = |-4| = 4 units."},
+    "math-integers-q3": {"review_topic": "add signed integers", "topic_id": "number-systems/integers", "learning_objective_ids": ["add-subtract-integers"], "purpose": "practice", "difficulty": "easy", "mathematical_validation_status": "author_checked", "answer_verified": true, "validation_working": "Starting at -4 and adding 9 gives -4 + 9 = 5."},
+    "math-factors-q1": {"review_topic": "classify prime numbers", "topic_id": "number-systems/prime-numbers", "learning_objective_ids": ["classify-primes"], "purpose": "knowledge_check", "difficulty": "easy", "mathematical_validation_status": "author_checked", "answer_verified": true, "validation_working": "23 has exactly two positive factors, 1 and 23; 1 is not prime; 21 has factors 3 and 7 as well as 1 and itself."},
+    "math-factors-q2": {"review_topic": "highest common factor", "topic_id": "number-systems/highest-common-factor-hcf", "learning_objective_ids": ["find-hcf-by-prime-powers"], "purpose": "practice", "difficulty": "moderate", "mathematical_validation_status": "author_checked", "answer_verified": true, "validation_working": "18 = 2 × 3² and 24 = 2³ × 3. Shared prime factors at their minimum exponents give HCF = 2 × 3 = 6."},
+    "math-factors-q3": {"review_topic": "principal square root", "topic_id": "number-systems/squares-and-square-roots", "learning_objective_ids": ["evaluate-principal-square-root"], "purpose": "practice", "difficulty": "easy", "mathematical_validation_status": "author_checked", "answer_verified": true, "validation_working": "The principal square root is non-negative; 12² = 144, so √144 = 12."},
+    "math-fractions-q1": {"review_topic": "fraction addition"},
+    "math-fractions-q2": {"review_topic": "percentages"},
+    "math-fractions-q3": {"review_topic": "ratio simplification"},
+    "math-algebra-q1": {"review_topic": "combining like terms"},
+    "math-algebra-q2": {"review_topic": "expanding brackets"},
+    "math-algebra-q3": {"review_topic": "linear equations"},
+    "math-geometry-q1": {"review_topic": "triangle angle sums"},
+    "math-geometry-q2": {"review_topic": "triangle area"},
+    "math-geometry-q3": {"review_topic": "volume"},
+    "math-trig-q1": {"review_topic": "sine and right-triangle sides"},
+    "math-trig-q2": {"review_topic": "tangent ratio"},
+    "math-trig-q3": {"review_topic": "sine and right-triangle sides"},
+    "math-statistics-q1": {"review_topic": "mean"},
+    "math-statistics-q2": {"review_topic": "median"},
+    "math-statistics-q3": {"review_topic": "resistant measures of centre"},
+    "math-probability-q1": {"review_topic": "basic probability"},
+    "math-probability-q2": {"review_topic": "sample spaces and combined events"},
+    "math-probability-q3": {"review_topic": "complementary events"},
+    "math-calculus-q1": {"review_topic": "polynomial differentiation"},
+    "math-calculus-q2": {"review_topic": "basic integration"},
+    "math-calculus-q3": {"review_topic": "derivatives as rates of change"}
+  },
+  "units": [
+    {
+      "unit_id": "number-systems",
+      "lessons": [
+        {
+          "id": "math-number-lines-integers",
+          "title": "Integers and the Number Line",
+          "subtopics": ["positive and negative integers", "comparing integers", "number lines"],
+          "duration_minutes": 12,
+          "intro": "A number line gives every real number a position. Moving right increases value; moving left decreases it.",
+          "objectives": ["Place positive and negative integers on a number line.", "Compare integers using their positions.", "Explain absolute value as distance from zero."],
+          "prerequisites": ["Recognise zero and positive counting numbers."],
+          "sections": [
+            {"title": "Direction and value", "body": "Zero is the reference point. Positive integers lie to its right and negative integers to its left. A number farther right is greater: for example, -2 > -5 because -2 is to the right of -5."},
+            {"title": "Absolute value", "body": "The absolute value |a| is the distance from a to zero, so it is never negative. For example, |-6| = 6 and |4| = 4. Distance between two number-line points is the absolute value of their difference."}
+          ],
+          "definitions": [
+            {"term": "Integer", "meaning": "A whole number, its negative, or zero."},
+            {"term": "Absolute value", "meaning": "The non-negative distance of a number from zero."}
+          ],
+          "worked_examples": [
+            {"prompt": "Compare -7 and -3, then find the distance between them.", "steps": ["On a number line, -3 is to the right of -7, so -3 > -7.", "Distance = |-7 - (-3)| = |-4| = 4."], "answer": "-3 is greater; the distance is 4"},
+            {"prompt": "Show -3 + 5 as movement on a number line.", "steps": ["Start at -3.", "Adding 5 means move five equal units to the right.", "The endpoint is 2."], "answer": "2"}
+          ],
+          "visual_hint": "Draw a horizontal line with equal spacing and mark -6, -3, 0, 3 and 6. Use arrows to show that values increase to the right.",
+          "real_world_application": "A bank balance of -7 units is lower than a balance of -3 units; the difference between them is 4 units.",
+          "common_mistakes": ["Thinking a larger negative digit means a greater number: -8 is less than -2.", "Treating absolute value as a sign-changing rule instead of a distance."],
+          "summary": "Integers are ordered by position: farther right means greater. Absolute value measures distance from zero.",
+          "guided_practice": [{
+            "prompt": "Compare -8 and -2, then find the distance between them.",
+            "hints": ["The number farther right is greater.", "Distance is non-negative; subtract the positions and take the absolute value."],
+            "steps": ["-2 is to the right of -8, so -2 > -8.", "The distance is |-8 - (-2)| = |-6| = 6 units."],
+            "answer": "-2 is greater; the distance is 6 units."
+          }],
+          "revision_points": ["Negative integers lie to the left of zero.", "A number farther right is greater, even when both values are negative.", "Absolute value measures distance and is never negative."],
+          "questions": [
+            {"id": "math-integers-q1", "type": "multiple_choice", "prompt": "Which number is greater?", "options": ["-8", "-2", "They are equal"], "correct_answer": "-2", "explanation": "-2 lies to the right of -8 on the number line, so it is greater."},
+            {"id": "math-integers-q2", "type": "numerical", "prompt": "What is the distance between -7 and -3 on a number line?", "correct_answer": "4", "tolerance": 0, "explanation": "The distance is |-7 - (-3)| = |-4| = 4."},
+            {"id": "math-integers-q3", "type": "numerical", "prompt": "Evaluate -4 + 9.", "correct_answer": "5", "tolerance": 0, "explanation": "Starting at -4 and moving 9 places right gives 5."}
+          ]
+        },
+        {
+          "id": "math-factors-primes-powers",
+          "title": "Factors, Primes, HCF, LCM and Powers",
+          "subtopics": ["factors and multiples", "prime and composite numbers", "prime factorisation", "divisibility rules", "HCF and LCM", "exponents and roots"],
+          "duration_minutes": 16,
+          "intro": "Factors build numbers through multiplication. Prime factors and powers reveal useful structure in whole numbers.",
+          "objectives": ["Distinguish factors from multiples.", "Express a composite number as prime factors.", "Use prime factors to find an HCF or LCM.", "Interpret a square and square root."],
+          "prerequisites": ["Multiply and divide whole numbers."],
+          "sections": [
+            {"title": "Factors and prime numbers", "body": "A factor divides a number exactly; a positive multiple is formed by multiplying by a positive whole number. A prime number has exactly two positive factors, 1 and itself. The number 1 is neither prime nor composite. Every integer greater than 1 has a unique prime factorisation, apart from the order of factors."},
+            {"title": "HCF, LCM and powers", "body": "For the HCF, use shared prime factors with the smallest exponents. For the LCM, include every prime factor with the largest exponent. An exponent records repeated multiplication: 3² = 3 × 3 = 9, so √9 = 3."}
+          ],
+          "definitions": [
+            {"term": "Factor", "meaning": "A whole number that divides another whole number with no remainder."},
+            {"term": "Multiple", "meaning": "A product of a given number and a whole-number multiplier."},
+            {"term": "Prime number", "meaning": "A whole number greater than 1 with exactly two positive factors."},
+            {"term": "Prime factorisation", "meaning": "Writing a composite number as a product of prime numbers."},
+            {"term": "HCF", "meaning": "The greatest positive integer that divides each of the given integers."},
+            {"term": "LCM", "meaning": "The least positive integer that is a multiple of each of the given integers."}
+          ],
+          "worked_examples": [
+            {"prompt": "Find the HCF and LCM of 18 and 24.", "steps": ["Prime factorise: 18 = 2 × 3² and 24 = 2³ × 3.", "HCF uses shared primes with smaller powers: 2 × 3 = 6.", "LCM uses each prime with larger powers: 2³ × 3² = 72."], "answer": "HCF = 6; LCM = 72"},
+            {"prompt": "Write 84 as a product of prime factors and verify it.", "steps": ["Split 84 as 2 × 42, then 42 as 2 × 21, and 21 as 3 × 7.", "All factors 2, 2, 3 and 7 are prime, so 84 = 2² × 3 × 7.", "Check: 2² × 3 × 7 = 4 × 3 × 7 = 84."], "answer": "84 = 2² × 3 × 7"}
+          ],
+          "visual_hint": "Use a factor tree for 24: split 24 into 3 × 8, then 8 into 2 × 4, then 4 into 2 × 2.",
+          "real_world_application": "The LCM can find when repeating schedules coincide; the HCF can split items into the largest equal groups.",
+          "common_mistakes": ["Calling 1 a prime number.", "Using the largest powers for an HCF or the smallest powers for an LCM.", "Confusing 3² with 3 × 2."],
+          "summary": "Prime factorisation supports HCF and LCM calculations. Exponents shorten repeated multiplication, and roots reverse powers.",
+          "guided_practice": [{
+            "prompt": "Find the HCF of 18 and 24, then explain why it is a common factor.",
+            "hints": ["Write both numbers as prime products.", "Use only shared primes at their smallest powers."],
+            "steps": ["18 = 2 × 3² and 24 = 2³ × 3.", "The shared primes are 2 and 3; use the smaller exponent of each: 2 × 3 = 6.", "Check: 18 ÷ 6 = 3 and 24 ÷ 6 = 4."],
+            "answer": "HCF = 6"
+          }],
+          "revision_points": ["A factor divides exactly; a multiple is a product of the given number and a whole-number multiplier.", "One is neither prime nor composite.", "HCF uses shared primes at minimum powers; LCM uses all primes at maximum powers.", "A square root is the non-negative principal value whose square gives the radicand."],
+          "questions": [
+            {"id": "math-factors-q1", "type": "multiple_choice", "prompt": "Which number is prime?", "options": ["1", "21", "23"], "correct_answer": "23", "explanation": "23 has exactly two positive factors, 1 and 23. One is not prime, and 21 = 3 × 7."},
+            {"id": "math-factors-q2", "type": "numerical", "prompt": "Find the HCF of 18 and 24.", "correct_answer": "6", "tolerance": 0, "explanation": "18 = 2 × 3² and 24 = 2³ × 3. The common prime factors with the smaller powers give 2 × 3 = 6."},
+            {"id": "math-factors-q3", "type": "numerical", "prompt": "Evaluate √144.", "correct_answer": "12", "tolerance": 0, "explanation": "The principal square root is non-negative, and 12 × 12 = 144."}
+          ]
+        }
+      ]
+    },
+    {
+      "unit_id": "fractions-decimals-percentages",
+      "lessons": [
+        {
+          "id": "math-fractions-equivalence-operations",
+          "title": "Equivalent Fractions and Fraction Operations",
+          "subtopics": ["equivalent fractions", "simplifying fractions", "comparing fractions", "fraction addition and subtraction", "fraction multiplication and division"],
+          "duration_minutes": 15,
+          "intro": "A fraction is a number, not two separate whole numbers. Equivalent forms let us compare and calculate without changing its value.",
+          "objectives": ["Generate equivalent fractions and simplify them.", "Compare fractions using common denominators.", "Add, subtract, multiply and divide fractions."],
+          "prerequisites": ["Know multiplication facts and factors."],
+          "sections": [
+            {"title": "Equivalent fractions", "body": "Multiplying or dividing both numerator and denominator by the same non-zero number preserves a fraction's value. To compare fractions, rewrite them with a common denominator or compare their positions relative to familiar values such as 0, 1/2 and 1."},
+            {"title": "Operations", "body": "Addition and subtraction require a common denominator. For multiplication, multiply across. For division, multiply by the reciprocal of the divisor. Simplify the result by dividing numerator and denominator by a common factor."}
+          ],
+          "definitions": [
+            {"term": "Numerator", "meaning": "The number of fractional parts being counted, written above the fraction bar."},
+            {"term": "Denominator", "meaning": "The number of equal parts in one whole, written below the fraction bar; it cannot be zero."}
+          ],
+          "worked_examples": [
+            {"prompt": "Calculate 3/4 + 2/3.", "steps": ["A common denominator is 12.", "Rewrite 3/4 as 9/12 and 2/3 as 8/12.", "Add the numerators: 9/12 + 8/12 = 17/12 = 1 5/12."], "answer": "17/12 or 1 5/12"}
+          ],
+          "visual_hint": "Shade three of four equal parts on one bar and two of three on a second bar; subdivide both bars into twelfths to compare.",
+          "real_world_application": "Fraction operations help combine recipe quantities, measure materials and split costs.",
+          "common_mistakes": ["Adding denominators when adding fractions.", "Forgetting to multiply by the reciprocal when dividing.", "Cancelling terms across addition rather than factors."],
+          "summary": "Keep values equivalent when changing a fraction's form. Use common denominators for addition and the reciprocal for division.",
+          "questions": [
+            {"id": "math-fraction-ops-q1", "type": "numerical", "prompt": "Calculate 3/4 + 2/3. Enter a fraction or mixed number.", "accepted_answers": ["17/12", "1 5/12", "1+5/12"], "correct_answer": "17/12", "explanation": "Use denominator 12: 9/12 + 8/12 = 17/12 = 1 5/12."},
+            {"id": "math-fraction-ops-q2", "type": "numerical", "prompt": "Calculate 2/3 × 3/5. Give a simplified fraction.", "accepted_answers": ["2/5"], "correct_answer": "2/5", "explanation": "Multiply numerators and denominators: 6/15. Divide by 3 to simplify to 2/5."},
+            {"id": "math-fraction-ops-q3", "type": "numerical", "prompt": "Calculate 3/4 ÷ 1/2.", "accepted_answers": ["3/2", "1 1/2", "1.5"], "correct_answer": "3/2", "explanation": "Divide by 1/2 by multiplying by 2/1: 3/4 × 2 = 6/4 = 3/2."}
+          ]
+        },
+        {
+          "id": "math-decimals-percentages-rates",
+          "title": "Decimals, Percentage Change and Unit Rates",
+          "subtopics": ["decimal notation and operations", "fraction-decimal-percent conversions", "percentage increase and decrease", "ratio and proportion", "rates and unit rates", "direct proportion"],
+          "duration_minutes": 16,
+          "intro": "Decimals and percentages make it easy to compare parts of a whole. Ratios and rates compare quantities, often with different units.",
+          "objectives": ["Convert between a fraction, decimal and percentage.", "Calculate percentage increase and decrease.", "Simplify a ratio and find a unit rate.", "Recognise direct proportion."],
+          "prerequisites": ["Understand place value and equivalent fractions."],
+          "sections": [
+            {"title": "Conversions and change", "body": "To convert a decimal to a percentage, multiply by 100 and attach %. To convert a percentage to a decimal, divide by 100. A p% increase multiplies an original amount by 1 + p/100; a p% decrease multiplies by 1 - p/100."},
+            {"title": "Ratios and rates", "body": "Simplify a ratio by dividing all parts by the same common factor. A unit rate compares an amount with one unit, such as kilometres per hour. In direct proportion, y = kx for a constant k; doubling x doubles y."}
+          ],
+          "definitions": [
+            {"term": "Unit rate", "meaning": "A rate expressed per one unit of the second quantity."},
+            {"term": "Direct proportion", "meaning": "A relationship where one quantity is a constant multiple of another."}
+          ],
+          "worked_examples": [
+            {"prompt": "A 250-unit item increases in price by 12%. Find the new price.", "steps": ["Convert 12% to 0.12.", "The increase is 0.12 × 250 = 30 units.", "Add the increase: 250 + 30 = 280 units."], "answer": "280 units"}
+          ],
+          "visual_hint": "Use a double number line to show that 0.25, 1/4 and 25% represent the same amount.",
+          "real_world_application": "Unit rates compare fuel efficiency, shopping prices and travel speeds; percentages describe price changes.",
+          "common_mistakes": ["Adding 12 to a price rather than finding 12% of it.", "Treating 20% off followed by 20% on as no change.", "Comparing ratios whose quantities use different units."],
+          "summary": "Choose a representation that fits the question. Percentage change uses a multiplier, while a unit rate compares quantities per one unit.",
+          "questions": [
+            {"id": "math-decimal-rate-q1", "type": "multiple_choice", "prompt": "Which is equivalent to 0.375?", "options": ["3/8", "3/5", "37.5"], "correct_answer": "3/8", "explanation": "0.375 = 375/1000; divide numerator and denominator by 125 to get 3/8."},
+            {"id": "math-decimal-rate-q2", "type": "numerical", "prompt": "A 250-unit price increases by 12%. What is the new price?", "correct_answer": "280", "tolerance": 0, "explanation": "The increase is 0.12 × 250 = 30, so the new price is 250 + 30 = 280."},
+            {"id": "math-decimal-rate-q3", "type": "numerical", "prompt": "A cyclist travels 90 km in 3 hours. What is the average speed in km/h?", "correct_answer": "30", "tolerance": 0, "explanation": "Average speed = distance ÷ time = 90 ÷ 3 = 30 km/h."}
+          ]
+        }
+      ]
+    },
+    {
+      "unit_id": "algebra",
+      "lessons": [
+        {
+          "id": "math-algebra-notation-substitution",
+          "title": "Algebraic Notation and Substitution",
+          "subtopics": ["variables and constants", "algebraic expressions", "simplification", "substitution", "functions"],
+          "duration_minutes": 13,
+          "intro": "A letter can stand for a value. Algebra lets us describe a calculation once and evaluate it for many different values.",
+          "objectives": ["Translate simple phrases into expressions.", "Collect like terms.", "Substitute values into an expression or function."],
+          "prerequisites": ["Use the four operations with integers."],
+          "sections": [
+            {"title": "Writing and simplifying expressions", "body": "In 4x + 3, x is a variable, 4 is its coefficient and 3 is a constant. The notation 4x means 4 × x. Like terms have the same variable part, so 4x + 3x = 7x, but 4x + 3 cannot be combined."},
+            {"title": "Substitution and functions", "body": "To evaluate an expression, replace each variable with its value and follow operation rules. For f(x) = 2x + 1, substituting x = 4 gives f(4) = 2(4) + 1 = 9."}
+          ],
+          "definitions": [
+            {"term": "Coefficient", "meaning": "The numerical factor multiplying a variable."},
+            {"term": "Function", "meaning": "A rule that assigns an output to each allowed input."}
+          ],
+          "worked_examples": [
+            {"prompt": "Simplify 5a - 2 + 3a, then evaluate it when a = 2.", "steps": ["Combine the like terms: 5a + 3a - 2 = 8a - 2.", "Substitute a = 2: 8(2) - 2 = 16 - 2 = 14."], "answer": "Expression 8a - 2; value 14"}
+          ],
+          "visual_hint": "Use a balance-of-like-terms picture: group objects marked a together and keep unlabelled unit counters separate.",
+          "real_world_application": "A fixed delivery fee plus a charge per kilometre can be written as an expression and evaluated for different journeys.",
+          "common_mistakes": ["Combining unlike terms.", "Forgetting multiplication in 4x.", "Substituting a negative number without using brackets."],
+          "summary": "Algebraic notation describes general relationships. Simplify like terms first, then substitute carefully.",
+          "questions": [
+            {"id": "math-algebra-notation-q1", "type": "multiple_choice", "prompt": "Simplify 4x + 3x - 2.", "options": ["7x - 2", "7x - 2x", "7x + 2"], "correct_answer": "7x - 2", "explanation": "Combine only the like x-terms: 4x + 3x = 7x. The constant -2 stays separate."},
+            {"id": "math-algebra-notation-q2", "type": "numerical", "prompt": "Evaluate 2x + 1 when x = 4.", "correct_answer": "9", "tolerance": 0, "explanation": "Substitute x = 4: 2(4) + 1 = 9."},
+            {"id": "math-algebra-notation-q3", "type": "short_answer", "prompt": "Write an expression for a taxi fare with a fixed fee of 60 units and a charge of 25 units per kilometre d.", "accepted_answers": ["60+25d", "25d+60", "60+25*d", "25*d+60"], "correct_answer": "60 + 25d", "explanation": "The total is the fixed 60-unit fee plus 25 units for each of d kilometres."}
+          ]
+        },
+        {
+          "id": "math-equations-inequalities-patterns",
+          "title": "Equations, Inequalities and Patterns",
+          "subtopics": ["expanding brackets", "factorisation", "linear equations", "equations with brackets", "inequalities", "sequences and patterns", "introduction to simultaneous and quadratic equations"],
+          "duration_minutes": 17,
+          "intro": "Equations describe equality; inequalities describe an order relationship. Undo operations carefully to find values that make a statement true.",
+          "objectives": ["Expand and factorise a simple expression.", "Solve and check a linear equation.", "Solve a simple inequality.", "Describe a linear sequence rule."],
+          "prerequisites": ["Collect like terms and use inverse operations."],
+          "sections": [
+            {"title": "Equivalent steps", "body": "The distributive law expands a(x + b) into ax + ab; factorisation reverses this by taking out a common factor. Preserve equality by applying the same operation to both sides. For an inequality, multiplying or dividing by a negative number reverses its direction."},
+            {"title": "Patterns and systems", "body": "A linear sequence has a constant difference between consecutive terms. Its nth term can often be written as an expression in n. Simultaneous equations must be true together and can be approached by substitution or elimination. A quadratic includes a squared variable; these ideas need later practice beyond this introduction."}
+          ],
+          "definitions": [
+            {"term": "Inequality", "meaning": "A statement comparing values using <, >, ≤ or ≥."},
+            {"term": "Common factor", "meaning": "A factor that divides every term in an expression."}
+          ],
+          "worked_examples": [
+            {"prompt": "Solve 2(x + 3) = 14 and check the result.", "steps": ["Expand: 2x + 6 = 14.", "Subtract 6 from both sides: 2x = 8.", "Divide by 2: x = 4.", "Check: 2(4 + 3) = 14."], "answer": "x = 4"}
+          ],
+          "visual_hint": "Show an equation as a balanced scale: doing the same operation to both sides preserves balance.",
+          "real_world_application": "Inequalities can represent a budget limit, such as spending no more than a fixed amount.",
+          "common_mistakes": ["Changing only one side of an equation.", "Forgetting to reverse an inequality after multiplying by a negative.", "Assuming a sequence rule is linear without checking its differences."],
+          "summary": "Use inverse operations while preserving equality. Check solutions in the original statement, and use constant differences to recognise linear patterns.",
+          "questions": [
+            {"id": "math-equations-q1", "type": "numerical", "prompt": "Solve 2(x + 3) = 14. Enter x.", "correct_answer": "4", "tolerance": 0, "explanation": "Expand to 2x + 6 = 14; subtract 6, then divide by 2 to get x = 4."},
+            {"id": "math-equations-q2", "type": "multiple_choice", "prompt": "Which expression is equivalent to 3(x - 4)?", "options": ["3x - 12", "3x - 4", "3x + 12"], "correct_answer": "3x - 12", "explanation": "Multiply both terms inside the brackets by 3: 3x and -12."},
+            {"id": "math-equations-q3", "type": "numerical", "prompt": "The sequence is 4, 7, 10, 13, ... What is its next term?", "correct_answer": "16", "tolerance": 0, "explanation": "The constant difference is 3, so add 3 to 13 to get 16."}
+          ]
+        }
+      ]
+    },
+    {
+      "unit_id": "geometry-measurement",
+      "lessons": [
+        {
+          "id": "math-angles-triangles-polygons",
+          "title": "Lines, Angles, Triangles and Polygons",
+          "subtopics": ["points, lines and rays", "angle types", "parallel and perpendicular lines", "triangles", "quadrilaterals and polygons", "geometric reasoning"],
+          "duration_minutes": 15,
+          "intro": "Geometry uses definitions and angle relationships to reason about shapes, not just memorise diagrams.",
+          "objectives": ["Identify acute, right, obtuse and straight angles.", "Use angle sums on a line and in a triangle.", "Recognise parallel and perpendicular lines."],
+          "prerequisites": ["Measure and compare angles in degrees."],
+          "sections": [
+            {"title": "Lines and angles", "body": "A line extends in both directions; a ray has one endpoint; a line segment has two. Acute angles are less than 90°, right angles equal 90°, obtuse angles are between 90° and 180°, and a straight angle equals 180°. Parallel lines never meet; perpendicular lines meet at 90°."},
+            {"title": "Angle sums", "body": "Angles on a straight line sum to 180°. The interior angles of any triangle sum to 180°. A quadrilateral's interior angles sum to 360°. Mark equal angles and parallel lines on a diagram before calculating."}
+          ],
+          "definitions": [
+            {"term": "Polygon", "meaning": "A closed plane figure formed from straight line segments."},
+            {"term": "Perpendicular lines", "meaning": "Lines that intersect at a right angle."}
+          ],
+          "worked_examples": [
+            {"prompt": "A triangle has angles 48° and 67°. Find its third angle.", "steps": ["Triangle angles total 180°.", "Subtract the known angles: 180° - 48° - 67° = 65°."], "answer": "65°"}
+          ],
+          "visual_hint": "Sketch a triangle with two labelled interior angles and an unknown third angle. Add a straight-line angle as a separate 180° example.",
+          "real_world_application": "Angle and parallel-line reasoning helps check roof frames, road layouts and building corners.",
+          "common_mistakes": ["Assuming a diagram is drawn to scale.", "Adding triangle angles to 360°.", "Confusing perpendicular lines with parallel lines."],
+          "summary": "Use exact angle facts and labelled relationships to find unknown angles; do not rely on how a sketch looks.",
+          "questions": [
+            {"id": "math-angles-q1", "type": "numerical", "prompt": "Two angles on a straight line are 118° and x°. Find x.", "correct_answer": "62", "tolerance": 0, "explanation": "A straight angle is 180°, so x = 180° - 118° = 62°."},
+            {"id": "math-angles-q2", "type": "numerical", "prompt": "A triangle has angles 48° and 67°. Find its third angle.", "correct_answer": "65", "tolerance": 0, "explanation": "180° - 48° - 67° = 65°."},
+            {"id": "math-angles-q3", "type": "multiple_choice", "prompt": "What is the defining angle between perpendicular lines?", "options": ["45°", "90°", "180°"], "correct_answer": "90°", "explanation": "Perpendicular lines meet at a right angle, which measures 90°."}
+          ]
+        },
+        {
+          "id": "math-measurement-circles-coordinates",
+          "title": "Perimeter, Circles, Volume and Coordinates",
+          "subtopics": ["units and conversions", "perimeter and area", "circles and circumference", "surface area and volume", "coordinate geometry", "transformations"],
+          "duration_minutes": 17,
+          "intro": "Choose a measurement formula based on what is being measured: boundary, surface, or three-dimensional space.",
+          "objectives": ["Calculate rectangle and circle measures.", "Find the volume of a cuboid.", "Plot and interpret coordinates.", "Describe a simple translation."],
+          "prerequisites": ["Multiply whole numbers and interpret squared units."],
+          "sections": [
+            {"title": "Perimeter, area and circle measures", "body": "A rectangle has perimeter P = 2(l + w) and area A = lw. A circle with radius r has circumference 2πr and area πr². Perimeter and circumference use linear units; area uses square units."},
+            {"title": "Volume and coordinates", "body": "A cuboid's volume is lwh and uses cubic units. Coordinates (x, y) give horizontal then vertical position from the origin. A translation adds the same displacement to every point; it preserves shape, size and orientation."}
+          ],
+          "definitions": [
+            {"term": "Circumference", "meaning": "The distance around the boundary of a circle."},
+            {"term": "Translation", "meaning": "A transformation that moves every point the same distance in the same direction."}
+          ],
+          "worked_examples": [
+            {"prompt": "A circle has radius 3 cm. Find its exact area and circumference.", "steps": ["Area = πr² = π × 3² = 9π cm².", "Circumference = 2πr = 2π × 3 = 6π cm."], "answer": "Area 9π cm²; circumference 6π cm"}
+          ],
+          "visual_hint": "Draw a coordinate grid and translate point (2, 1) by vector (3, -2); show the image at (5, -1).",
+          "real_world_application": "Measurement supports flooring estimates, packaging, tank capacity and map coordinates.",
+          "common_mistakes": ["Using diameter instead of radius in πr².", "Writing volume in square units.", "Reversing x and y in an ordered pair."],
+          "summary": "Match formulas and units to the measurement. Coordinates are ordered (horizontal, vertical), and translations preserve shape and size.",
+          "questions": [
+            {"id": "math-measure-q1", "type": "numerical", "prompt": "A rectangle is 8 cm by 3 cm. Find its perimeter in centimetres.", "correct_answer": "22", "tolerance": 0, "explanation": "P = 2(8 + 3) = 22 cm."},
+            {"id": "math-measure-q2", "type": "multiple_choice", "prompt": "What is the exact area of a circle with radius 3 cm?", "options": ["6π cm²", "9π cm²", "3π cm²"], "correct_answer": "9π cm²", "explanation": "Area = πr² = π × 3² = 9π cm²."},
+            {"id": "math-measure-q3", "type": "short_answer", "prompt": "Translate point (2, 1) by vector (3, -2). Give the new coordinates.", "accepted_answers": ["(5,-1)", "5,-1", "5 -1"], "correct_answer": "(5, -1)", "explanation": "Add the vector components: (2 + 3, 1 - 2) = (5, -1)."}
+          ]
+        }
+      ]
+    },
+    {
+      "unit_id": "trigonometry",
+      "lessons": [
+        {
+          "id": "math-trig-missing-sides-angles",
+          "title": "Finding Missing Sides and Angles",
+          "subtopics": ["right-angled triangles", "sine", "cosine", "tangent", "SOH-CAH-TOA", "finding missing sides and angles"],
+          "duration_minutes": 15,
+          "intro": "Trigonometric ratios let us calculate an unknown side or angle from measurements in a right-angled triangle.",
+          "objectives": ["Select sine, cosine or tangent from the sides involved.", "Find a missing side.", "Use an inverse ratio to find an acute angle."],
+          "prerequisites": ["Identify the hypotenuse and calculate with fractions or decimals."],
+          "sections": [
+            {"title": "Choose the ratio", "body": "Relative to angle θ: sin θ = opposite/hypotenuse, cos θ = adjacent/hypotenuse and tan θ = opposite/adjacent. Identify the reference angle before naming opposite and adjacent."},
+            {"title": "Solve for an angle", "body": "When a side ratio is known, use the inverse function: θ = sin⁻¹(ratio), cos⁻¹(ratio) or tan⁻¹(ratio). Check calculator mode and round only at the end."}
+          ],
+          "definitions": [
+            {"term": "Inverse trigonometric function", "meaning": "A function such as sin⁻¹ that returns an angle from a trigonometric ratio."},
+            {"term": "Reference angle", "meaning": "The acute angle used to identify opposite and adjacent sides."}
+          ],
+          "worked_examples": [
+            {"prompt": "A right triangle has hypotenuse 10 cm and an angle of 30°. Find the opposite side.", "steps": ["Use sine because opposite and hypotenuse are involved.", "sin 30° = opposite/10.", "opposite = 10 sin 30° = 10 × 0.5 = 5 cm."], "answer": "5 cm"}
+          ],
+          "visual_hint": "Draw a right triangle, mark θ, then label opposite, adjacent and hypotenuse relative to θ.",
+          "real_world_application": "Surveyors use measured angles and distances to estimate inaccessible heights.",
+          "common_mistakes": ["Choosing sides relative to the wrong angle.", "Using sin instead of sin⁻¹ when solving for an angle.", "Rounding intermediate values too early."],
+          "summary": "Label sides relative to the chosen angle, select the ratio containing the known and unknown values, and check degree/radian mode.",
+          "questions": [
+            {"id": "math-trig-sides-q1", "type": "numerical", "prompt": "A right triangle has hypotenuse 10 cm and acute angle 30°. Find the opposite side in cm.", "correct_answer": "5", "tolerance": 0, "explanation": "Opposite = 10 sin 30° = 10 × 0.5 = 5 cm."},
+            {"id": "math-trig-sides-q2", "type": "numerical", "prompt": "A right triangle has opposite side 6 and adjacent side 8. Find tan θ.", "accepted_answers": ["3/4", "0.75"], "correct_answer": "0.75", "tolerance": 0, "explanation": "tan θ = opposite/adjacent = 6/8 = 3/4 = 0.75."},
+            {"id": "math-trig-sides-q3", "type": "numerical", "prompt": "In a right triangle, opposite = 3 and hypotenuse = 5. Find the acute angle in degrees to the nearest whole degree.", "correct_answer": "37", "tolerance": 1, "explanation": "sin θ = 3/5, so θ = sin⁻¹(0.6) ≈ 36.87°, which rounds to 37°."}
+          ]
+        },
+        {
+          "id": "math-trig-applications-graphs",
+          "title": "Trigonometry in Context and on Graphs",
+          "subtopics": ["angles of elevation and depression", "trigonometric applications", "trigonometric graphs", "basic trigonometric identities"],
+          "duration_minutes": 16,
+          "intro": "Trigonometry can model heights, distances and repeating patterns. Start by drawing and labelling a triangle or graph.",
+          "objectives": ["Model an angle of elevation with a right triangle.", "Use a trigonometric ratio in an applied problem.", "Recognise the period and range of the basic sine graph.", "Use sin²θ + cos²θ = 1 for a simple check."],
+          "prerequisites": ["Use right-triangle ratios and evaluate squares."],
+          "sections": [
+            {"title": "Elevation and depression", "body": "An angle of elevation is measured upward from a horizontal line; an angle of depression is measured downward. The horizontal and line of sight form a right triangle with a vertical height or depth."},
+            {"title": "Graphs and identity", "body": "The sine graph repeats every 360° (2π radians) and ranges from -1 to 1. Sine and cosine satisfy sin²θ + cos²θ = 1. These are introductory observations; transformations, identities and non-right-triangle methods need further study."}
+          ],
+          "definitions": [
+            {"term": "Angle of elevation", "meaning": "The angle measured upward from a horizontal line of sight."},
+            {"term": "Period", "meaning": "The horizontal interval after which a repeating graph or function repeats."}
+          ],
+          "worked_examples": [
+            {"prompt": "A person stands 20 m from a tree. The angle of elevation to its top is 35°. Estimate the height above the person's eye level.", "steps": ["Draw a right triangle: horizontal distance is adjacent and height is opposite.", "tan 35° = height/20.", "height = 20 tan 35° ≈ 14.0 m."], "answer": "Approximately 14.0 m"}
+          ],
+          "visual_hint": "Sketch a horizontal baseline, a vertical object, and the line of sight; label the angle at the observer and the horizontal distance.",
+          "real_world_application": "A clinometer and a measured ground distance can estimate a tree or building height.",
+          "common_mistakes": ["Using the sloping line of sight as the horizontal distance.", "Forgetting the eye-height adjustment in a real measurement.", "Assuming the sine graph's range is all real numbers."],
+          "summary": "Translate a context into a labelled triangle before choosing a ratio. Basic sine repeats every full turn and stays between -1 and 1.",
+          "questions": [
+            {"id": "math-trig-context-q1", "type": "numerical", "prompt": "A point is 20 m from a tree. The angle of elevation is 35°. Estimate the height above eye level to 1 decimal place.", "correct_answer": "14.0", "tolerance": 0.1, "explanation": "tan 35° = h/20, so h = 20 tan 35° ≈ 14.0 m."},
+            {"id": "math-trig-context-q2", "type": "multiple_choice", "prompt": "What is the range of y = sin x?", "options": ["All real numbers", "From -1 to 1 inclusive", "From 0 to 360"], "correct_answer": "From -1 to 1 inclusive", "explanation": "The sine function's values never go below -1 or above 1."},
+            {"id": "math-trig-context-q3", "type": "numerical", "prompt": "If sin θ = 0.6 and θ is acute, find cos θ.", "accepted_answers": ["0.8", "4/5"], "correct_answer": "0.8", "tolerance": 0, "explanation": "Using sin²θ + cos²θ = 1 gives cos²θ = 1 - 0.36 = 0.64. Since θ is acute, cos θ is positive, so cos θ = 0.8."}
+          ]
+        }
+      ]
+    },
+    {
+      "unit_id": "statistics",
+      "lessons": [
+        {
+          "id": "math-statistics-data-collection-graphs",
+          "title": "Collecting, Organising and Displaying Data",
+          "subtopics": ["types of data", "data collection", "frequency tables", "bar charts", "pie charts", "histograms", "interpreting data"],
+          "duration_minutes": 15,
+          "intro": "Good statistical reasoning begins before drawing a graph: decide what question to answer and collect data fairly.",
+          "objectives": ["Distinguish categorical and numerical data.", "Organise observations in a frequency table.", "Choose a suitable graph for a data type.", "Spot a potentially misleading display."],
+          "prerequisites": ["Count and compare whole numbers."],
+          "sections": [
+            {"title": "Types and collection", "body": "Categorical data describe groups; numerical data are counts or measurements. A sample is a subset of a population. Biased questions, missing groups or an unrepresentative sample can distort conclusions."},
+            {"title": "Tables and graphs", "body": "Frequency tables count each category or interval. Bar charts compare categories with separated bars; histograms represent grouped continuous data with touching bars; pie charts show parts of a whole. Check labels, scale, units and whether a graph starts at zero when appropriate."}
+          ],
+          "definitions": [
+            {"term": "Population", "meaning": "The complete group a study aims to describe."},
+            {"term": "Sample", "meaning": "The subset of a population from which observations are collected."}
+          ],
+          "worked_examples": [
+            {"prompt": "A survey records favourite fruit: mango, orange, mango, banana, orange, mango. Organise the frequencies.", "steps": ["List the distinct categories: mango, orange, banana.", "Count each category: mango 3, orange 2, banana 1.", "Check the total frequency: 3 + 2 + 1 = 6 observations."], "answer": "Mango 3; orange 2; banana 1"}
+          ],
+          "visual_hint": "Make a frequency table from the fruit observations, then draw a labelled bar chart with equal-width bars and a zero baseline.",
+          "real_world_application": "A fair sample can help a school understand learner transport or study habits without surveying everyone.",
+          "common_mistakes": ["Calling a biased convenience sample representative.", "Using separated bars for continuous grouped intervals without explanation.", "Ignoring a truncated axis that exaggerates differences."],
+          "summary": "Collect data to match a clear question, organise counts, choose a graph that fits the data, and inspect its scale and labels.",
+          "questions": [
+            {"id": "math-stats-data-q1", "type": "multiple_choice", "prompt": "Which graph is generally suitable for grouped continuous data?", "options": ["Histogram", "Pictogram with unrelated symbols", "Number line only"], "correct_answer": "Histogram", "explanation": "A histogram displays grouped continuous data with touching bars representing intervals."},
+            {"id": "math-stats-data-q2", "type": "numerical", "prompt": "In the data mango, orange, mango, banana, orange, mango, how many observations are mango?", "correct_answer": "3", "tolerance": 0, "explanation": "Mango occurs three times in the list."},
+            {"id": "math-stats-data-q3", "type": "multiple_choice", "prompt": "What is a common risk of asking only friends to estimate all learners' study time?", "options": ["The sample may be biased", "The mean becomes impossible", "The data become categorical automatically"], "correct_answer": "The sample may be biased", "explanation": "Friends may not represent the full population, so the sample can bias the conclusion."}
+          ]
+        },
+        {
+          "id": "math-statistics-spread-quartiles",
+          "title": "Quartiles, Spread and Statistical Claims",
+          "subtopics": ["range and measures of spread", "quartiles", "interquartile range", "variance", "standard deviation", "misleading representations"],
+          "duration_minutes": 17,
+          "intro": "Averages do not tell the whole story. Measures of spread help describe how much values vary.",
+          "objectives": ["Find the range and median of ordered data.", "Interpret quartiles and interquartile range.", "Explain the meaning of variance and standard deviation.", "Evaluate a statistical claim carefully."],
+          "prerequisites": ["Order data and calculate mean, median and mode."],
+          "sections": [
+            {"title": "Quartiles and spread", "body": "The lower quartile Q1 and upper quartile Q3 divide ordered data into approximate quarters; IQR = Q3 - Q1. Conventions for quartiles in small data sets can differ, so state the method. Range is maximum minus minimum and is sensitive to extreme values."},
+            {"title": "Variance and interpretation", "body": "Population variance is the mean squared distance from the population mean; standard deviation is its square root and is expressed in the original units. Sample variance usually divides the squared-deviation sum by n - 1. Always identify which convention is used and inspect the graph's scale."}
+          ],
+          "definitions": [
+            {"term": "Interquartile range", "meaning": "The difference between the upper and lower quartiles, Q3 - Q1."},
+            {"term": "Standard deviation", "meaning": "A measure of typical spread around the mean, in the same units as the data."}
+          ],
+          "worked_examples": [
+            {"prompt": "For 2, 3, 3, 7, 10, find the range and population variance.", "steps": ["Mean = 25/5 = 5; range = 10 - 2 = 8.", "Squared deviations are 9, 4, 4, 4 and 25; their sum is 46.", "Population variance = 46/5 = 9.2; standard deviation is √9.2 ≈ 3.03."], "answer": "Range 8; population variance 9.2; population standard deviation approximately 3.03"}
+          ],
+          "visual_hint": "Use a box-and-whisker plot to show the minimum, Q1, median, Q3 and maximum on one number line.",
+          "real_world_application": "Comparing spread can show whether two classes with the same average have similar consistency.",
+          "common_mistakes": ["Using n instead of n - 1 for a sample variance when the sample formula is required.", "Reporting variance in the original units rather than squared units.", "Ignoring how a graph scale can make a small change appear dramatic."],
+          "summary": "Use spread measures alongside a centre. State population or sample conventions, and check whether visual scales fairly represent differences.",
+          "questions": [
+            {"id": "math-stats-spread-q1", "type": "numerical", "prompt": "Find the range of 2, 3, 3, 7, 10.", "correct_answer": "8", "tolerance": 0, "explanation": "Range = maximum - minimum = 10 - 2 = 8."},
+            {"id": "math-stats-spread-q2", "type": "numerical", "prompt": "For population data 2, 3, 3, 7, 10 with mean 5, find the population variance.", "correct_answer": "9.2", "tolerance": 0, "explanation": "The squared deviations sum to 46; divide by population size 5 to get 9.2."},
+            {"id": "math-stats-spread-q3", "type": "multiple_choice", "prompt": "What does the interquartile range measure?", "options": ["The middle half's spread", "The total number of observations", "The mean value"], "correct_answer": "The middle half's spread", "explanation": "IQR = Q3 - Q1 and describes the spread of the central 50% of ordered observations."}
+          ]
+        }
+      ]
+    },
+    {
+      "unit_id": "probability",
+      "lessons": [
+        {
+          "id": "math-probability-sample-spaces-events",
+          "title": "Sample Spaces, Complements and Events",
+          "subtopics": ["basic probability", "sample spaces", "events and outcomes", "complementary events", "mutually exclusive events"],
+          "duration_minutes": 13,
+          "intro": "A probability model lists outcomes and explains how likely each one is. Count carefully and state any equal-likelihood assumption.",
+          "objectives": ["List a sample space for a simple experiment.", "Calculate an event probability for equally likely outcomes.", "Use complements and identify mutually exclusive events."],
+          "prerequisites": ["Count outcomes and simplify fractions."],
+          "sections": [
+            {"title": "Events and outcomes", "body": "The sample space contains all possible outcomes. An event is a set of outcomes. For equally likely outcomes, P(A) = favourable outcomes / total outcomes, and probabilities lie from 0 to 1."},
+            {"title": "Complements and exclusivity", "body": "The complement A' means A does not occur, so P(A') = 1 - P(A). Mutually exclusive events cannot happen together in one trial; for such events, P(A or B) = P(A) + P(B)."}
+          ],
+          "definitions": [
+            {"term": "Outcome", "meaning": "One possible result of a random experiment."},
+            {"term": "Mutually exclusive events", "meaning": "Events that cannot occur together in the same trial."}
+          ],
+          "worked_examples": [
+            {"prompt": "A fair six-sided die is rolled. Find the probability of not rolling an even number.", "steps": ["Even outcomes are 2, 4 and 6, so P(even) = 3/6 = 1/2.", "Use the complement: P(not even) = 1 - 1/2 = 1/2.", "Equivalently, odd outcomes are 1, 3 and 5."], "answer": "1/2"}
+          ],
+          "visual_hint": "List the outcomes 1 through 6 in a sample-space row and circle the odd results.",
+          "real_world_application": "Complement probabilities can be easier when counting all outcomes except one complicated event.",
+          "common_mistakes": ["Assuming equally likely outcomes without checking the experiment.", "Adding probabilities for events that overlap.", "Reporting a probability outside 0 to 1."],
+          "summary": "Define the sample space, count favourable outcomes under a justified model, and use complements to simplify calculations.",
+          "questions": [
+            {"id": "math-prob-events-q1", "type": "numerical", "prompt": "A bag contains 3 red and 2 blue counters. Find the probability of blue.", "accepted_answers": ["2/5", "0.4"], "correct_answer": "2/5", "explanation": "There are 2 blue outcomes among 5 equally likely counters, so P(blue) = 2/5."},
+            {"id": "math-prob-events-q2", "type": "numerical", "prompt": "A fair die is rolled. Find the probability of not rolling a 6.", "accepted_answers": ["5/6"], "correct_answer": "5/6", "explanation": "The complement of rolling a 6 has five outcomes, so the probability is 5/6."},
+            {"id": "math-prob-events-q3", "type": "multiple_choice", "prompt": "On one die roll, are rolling an even number and rolling an odd number mutually exclusive?", "options": ["Yes", "No"], "correct_answer": "Yes", "explanation": "A single result cannot be both even and odd, so the events cannot happen together."}
+          ]
+        },
+        {
+          "id": "math-probability-combined-conditional",
+          "title": "Combined Events and Conditional Probability",
+          "subtopics": ["independent events", "dependent events", "combined events", "tree diagrams", "conditional probability"],
+          "duration_minutes": 16,
+          "intro": "For more than one event, ask whether the first result changes the chances of the next. That determines how probabilities combine.",
+          "objectives": ["Calculate probabilities for independent events.", "Recognise dependence when sampling without replacement.", "Read a simple tree diagram.", "Interpret conditional probability."],
+          "prerequisites": ["Calculate simple event probabilities and multiply fractions."],
+          "sections": [
+            {"title": "Independent and dependent events", "body": "For independent events, one result does not change the probability of another, so P(A and B) = P(A)P(B). For dependent events, use the updated conditional probability after the first event."},
+            {"title": "Tree diagrams", "body": "A tree branches for each possible outcome. Label each branch with its probability; multiply along a path for a sequence and add probabilities for mutually exclusive paths that meet the event condition. Conditional probability is P(A given B) = P(A and B)/P(B), when P(B) > 0."}
+          ],
+          "definitions": [
+            {"term": "Independent events", "meaning": "Events where knowing one outcome does not change the probability of the other."},
+            {"term": "Conditional probability", "meaning": "The probability of an event when another event is known to have occurred."}
+          ],
+          "worked_examples": [
+            {"prompt": "A fair coin is tossed twice. Find the probability of exactly one head.", "steps": ["The equally likely outcomes are HH, HT, TH and TT.", "Exactly one head occurs in HT and TH.", "Probability = 2/4 = 1/2. Alternatively, add the two path probabilities 1/4 + 1/4."], "answer": "1/2"}
+          ],
+          "visual_hint": "Draw a two-stage tree with H and T branches on each fair coin toss; multiply along each two-letter path.",
+          "real_world_application": "Conditional probabilities help update risk estimates when new test or inspection information becomes available.",
+          "common_mistakes": ["Treating draws without replacement as independent.", "Adding probabilities along a single path instead of multiplying.", "Using a conditional probability without checking the conditioning event has non-zero probability."],
+          "summary": "Check independence before multiplying. For a tree, multiply along paths and add disjoint paths that satisfy the event.",
+          "questions": [
+            {"id": "math-prob-combined-q1", "type": "numerical", "prompt": "A fair coin is tossed twice. What is the probability of two heads?", "accepted_answers": ["1/4", "0.25"], "correct_answer": "1/4", "explanation": "The tosses are independent: 1/2 × 1/2 = 1/4."},
+            {"id": "math-prob-combined-q2", "type": "multiple_choice", "prompt": "A counter is drawn and not replaced before the next draw. Are the draws independent?", "options": ["Yes, the first draw changes nothing", "No, the first draw changes the remaining contents"], "correct_answer": "No, the first draw changes the remaining contents", "explanation": "Without replacement, the first draw changes the number and types of counters left, so the next probability changes."},
+            {"id": "math-prob-combined-q3", "type": "numerical", "prompt": "Events A and B are independent with P(A)=1/2 and P(B)=1/3. Find P(A and B).", "accepted_answers": ["1/6"], "correct_answer": "1/6", "explanation": "For independent events, multiply: 1/2 × 1/3 = 1/6."}
+          ]
+        }
+      ]
+    },
+    {
+      "unit_id": "calculus",
+      "lessons": [
+        {
+          "id": "math-calculus-functions-limits",
+          "title": "Functions, Graphs and Limits",
+          "subtopics": ["functions and graphs", "limits", "intuitive continuity"],
+          "duration_minutes": 15,
+          "intro": "A function turns an input into an output. A graph helps us see how outputs behave as inputs change.",
+          "objectives": ["Evaluate a function at a given input.", "Interpret a limit informally from nearby values.", "Describe continuity at a point in an intuitive way."],
+          "prerequisites": ["Substitute values into algebraic expressions and plot ordered pairs."],
+          "sections": [
+            {"title": "Functions and graphs", "body": "A function assigns exactly one output to each allowed input. For f(x) = x², f(3) = 9. A graph plots input-output pairs (x, f(x)); a vertical line should intersect a function graph at most once."},
+            {"title": "Limits and continuity", "body": "A limit describes the value a function approaches as x approaches a point, even if the function's value at that point differs or is undefined. Informally, a function is continuous at a point when its graph has no break there and the limiting value agrees with the function value."}
+          ],
+          "definitions": [
+            {"term": "Domain", "meaning": "The set of allowed input values for a function."},
+            {"term": "Limit", "meaning": "The value a function approaches as its input approaches a specified value."}
+          ],
+          "worked_examples": [
+            {"prompt": "For f(x) = 2x + 1, find f(4), and describe the limit as x approaches 4.", "steps": ["Substitute x = 4: f(4) = 2(4) + 1 = 9.", "As x approaches 4, 2x + 1 approaches 9.", "The function is a straight line and is continuous there, so the limit equals f(4)."], "answer": "f(4) = 9 and the limit is 9"}
+          ],
+          "visual_hint": "Plot y = 2x + 1 near x = 4 and mark the point (4, 9); nearby points approach the same height.",
+          "real_world_application": "Functions model how quantities such as distance, cost or temperature depend on an input.",
+          "common_mistakes": ["Assuming every relation is a function.", "Treating a limit as automatically equal to a function value without checking the graph.", "Confusing input x with output f(x)."],
+          "summary": "Functions map allowed inputs to outputs. A limit describes nearby behaviour; continuity means the local graph has no break.",
+          "questions": [
+            {"id": "math-calculus-functions-q1", "type": "numerical", "prompt": "For f(x) = 2x + 1, find f(4).", "correct_answer": "9", "tolerance": 0, "explanation": "Substitute x = 4: f(4) = 2(4) + 1 = 9."},
+            {"id": "math-calculus-functions-q2", "type": "multiple_choice", "prompt": "What does a limit describe?", "options": ["A value a function approaches near an input", "Only the largest input", "The total number of graph points"], "correct_answer": "A value a function approaches near an input", "explanation": "A limit describes the value approached as the input gets close to a specified point."},
+            {"id": "math-calculus-functions-q3", "type": "multiple_choice", "prompt": "Informally, what is a sign that a graph is continuous at a point?", "options": ["There is no break there and the limit matches the function value", "The graph has no y-values", "The function is always increasing"], "correct_answer": "There is no break there and the limit matches the function value", "explanation": "At a point of continuity, the function value exists and agrees with the value approached nearby."}
+          ]
+        },
+        {
+          "id": "math-calculus-derivatives-integrals",
+          "title": "Differentiation, Integration and Applications",
+          "subtopics": ["differentiation rules", "polynomial derivatives", "gradients and rates of change", "maxima and minima", "basic integration", "definite and indefinite integrals", "area under curves"],
+          "duration_minutes": 18,
+          "intro": "Differentiation measures changing rates; integration accumulates quantities. The basic power rules connect the two processes.",
+          "objectives": ["Differentiate a simple polynomial.", "Interpret a derivative as gradient or rate.", "Integrate a power term and include the constant.", "Identify an introductory use of maxima or area."],
+          "prerequisites": ["Use exponents and simplify polynomial expressions."],
+          "sections": [
+            {"title": "Differentiation", "body": "For a term axⁿ, the power rule gives d(axⁿ)/dx = anxⁿ⁻¹. Differentiate each term separately; the derivative of a constant is zero. A derivative can represent the gradient of a tangent or an instantaneous rate such as velocity."},
+            {"title": "Integration and applications", "body": "For n not equal to -1, ∫axⁿ dx = axⁿ⁺¹/(n+1) + C. An indefinite integral includes the constant C because many functions share the same derivative. A definite integral accumulates signed area; derivatives can locate stationary points that may be maxima or minima, which require checking."}
+          ],
+          "definitions": [
+            {"term": "Stationary point", "meaning": "A point where the derivative is zero, so the tangent is horizontal."},
+            {"term": "Definite integral", "meaning": "An integral evaluated over limits, representing accumulated signed area in suitable contexts."}
+          ],
+          "worked_examples": [
+            {"prompt": "Differentiate 3x² + 4x - 7 and integrate 4x³.", "steps": ["Differentiate term by term: d(3x²)/dx = 6x, d(4x)/dx = 4, and d(-7)/dx = 0.", "Thus the derivative is 6x + 4.", "Integrate 4x³: 4 × x⁴/4 + C = x⁴ + C."], "answer": "Derivative 6x + 4; antiderivative x⁴ + C"}
+          ],
+          "visual_hint": "Sketch a smooth curve and its tangent at one point; shade the area between the curve and x-axis over a marked interval.",
+          "real_world_application": "Derivatives model instantaneous speed and help optimise designs; integrals model accumulated distance, area or total quantity.",
+          "common_mistakes": ["Reducing the exponent but forgetting to multiply by the original exponent.", "Omitting C in an indefinite integral.", "Assuming every stationary point is a maximum."],
+          "summary": "The power rule lowers exponents for derivatives and raises them for integrals. Interpret units and check what a stationary point represents.",
+          "questions": [
+            {"id": "math-calculus-rules-q1", "type": "multiple_choice", "prompt": "Differentiate 3x² + 4x - 7.", "options": ["6x + 4", "3x + 4", "6x² + 4"], "correct_answer": "6x + 4", "explanation": "Differentiate termwise: 3x² becomes 6x, 4x becomes 4 and a constant becomes zero."},
+            {"id": "math-calculus-rules-q2", "type": "multiple_choice", "prompt": "Differentiate x⁴ + C. Which expression is the derivative?", "options": ["4x³", "x⁵/5 + C", "4x⁴ + C"], "correct_answer": "4x³", "explanation": "The derivative power rule gives d(x⁴)/dx = 4x³; the derivative of a constant C is zero. This checks an antiderivative by reversing integration."},
+            {"id": "math-calculus-rules-q3", "type": "numerical", "prompt": "For s(t)=t² metres, find the instantaneous velocity at t=3 seconds in m/s.", "correct_answer": "6", "tolerance": 0, "explanation": "Differentiate s(t) to get ds/dt = 2t; at t=3, velocity is 6 m/s."}
+          ]
+        }
+      ]
+    }
+  ]
+}
